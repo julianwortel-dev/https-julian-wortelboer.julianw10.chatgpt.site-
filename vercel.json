@@ -1,6 +1,16 @@
 {
   "rewrites": [
     { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/insights", "destination": "/insights.html" }
+    { "source": "/insights", "destination": "/insights.html" },
+    { "source": "/insights/before-you-fix-the-shot-find-the-problem", "destination": "/article-diagnosis.html" },
+    { "source": "/insights/why-padel-shots-disappear-in-matches", "destination": "/article-practice.html" },
+    { "source": "/insights/what-should-you-get-from-a-padel-lesson", "destination": "/article-lesson.html" },
+    { "source": "/insights/give-young-padel-players-a-reason-to-come-back", "destination": "/article-juniors.html" },
+    { "source": "/insights/small-habits-that-build-a-padel-club-community", "destination": "/article-community.html" },
+    { "source": "/insights/real-business-model-behind-a-profitable-padel-club", "destination": "/article-revenue.html" },
+    { "source": "/insights/what-to-look-for-in-a-padel-club-general-manager", "destination": "/article-gm.html" },
+    { "source": "/insights/people-process-service-padel-club-philosophy", "destination": "/article-pps.html" },
+    { "source": "/insights/when-to-open-your-second-padel-club", "destination": "/article-scaling.html" },
+    { "source": "/insights/52-shots-of-padel-complete-coaching-system", "destination": "/article-52-shots.html" }
   ]
 }

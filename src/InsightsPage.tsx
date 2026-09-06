@@ -1,22 +1,26 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { articles } from './articleData';
 
 const categories = [
   {
     id: 'club-strategy',
     number: '01',
     title: <>Club Strategy<br />& Operations</>,
+    category: 'Club Strategy & Operations',
     description: 'Practical guidance for investors and operators—from positioning, planning and opening a club to programming, member experience and sustainable performance.',
   },
   {
     id: 'coaching',
     number: '02',
     title: <>Coaching & Player<br />Development</>,
+    category: 'Coaching & Player Development',
     description: 'Methods, teaching principles and on-court ideas that help coaches communicate better, develop stronger players and create more meaningful learning experiences.',
   },
   {
     id: 'industry',
     number: '03',
     title: <>Padel Industry<br />& Leadership</>,
+    category: 'Padel Industry & Leadership',
     description: 'Perspectives on where padel is going, what the sport needs next and how thoughtful leadership can build stronger clubs, teams and communities.',
   },
 ];
@@ -33,7 +37,8 @@ export default function InsightsPage() {
       <section className="insights-intro">
         <p className="eyebrow"><span /> Insights by Julian Wortelboer</p>
         <h1>Ideas to move padel <em>forward.</em></h1>
-        <p>Lessons from decades on the court and inside the business—created for club owners, operators, coaches and people building the future of padel.</p>
+        <p className="insights-lead">Lessons from decades on the court and inside the business—created for club owners, operators, coaches and people building the future of padel.</p>
+        <p className="experience-note">Drawing on more than 25 years of experience running padel and racquet clubs—and creator of the Padel Club Blueprint, a practical manual for operational success.</p>
       </section>
 
       <section className="insights-list" aria-label="Insight categories">
@@ -41,7 +46,17 @@ export default function InsightsPage() {
           <article className="insights-category" id={category.id} key={category.id}>
             <span className="insights-number">{category.number}</span>
             <h2>{category.title}</h2>
-            <div className="insights-category-copy"><p>{category.description}</p><span className="insights-coming">Articles coming soon</span></div>
+            <div className="insights-category-copy">
+              <p>{category.description}</p>
+              <div className="article-links">
+                {articles.filter((article) => article.category === category.category).map((article) => (
+                  <a href={`/insights/${article.slug}`} key={article.slug}>
+                    <span><small>{article.readTime}</small>{article.title}</span><ArrowRight size={18} />
+                  </a>
+                ))}
+                {!articles.some((article) => article.category === category.category) && <span className="insights-coming">Articles coming soon</span>}
+              </div>
+            </div>
           </article>
         ))}
       </section>
