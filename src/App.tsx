@@ -3,9 +3,10 @@ import type { CSSProperties } from 'react';
 
 const projects = [
   { name: 'ICON Padel Club', place: 'Miami, Florida', number: '01', note: 'Luxury club operations & development', url: 'https://iconpadelclub.com/' },
-  { name: 'Ultra Padel Club', place: 'Miami, Florida', number: '02', note: 'Chief Padel Officer · Club & Program Developer', url: 'https://ultrapadelclub.com/' },
-  { name: 'Park Padel', place: 'San Francisco, California', number: '03', note: 'Club strategy & operating model', url: 'https://parkpadel.com/' },
-  { name: 'Wynwood Padel Club', place: 'Miami, Florida', number: '04', note: 'Program Director & Academy Developer', url: '#contact' },
+  { name: 'Unico Club', place: 'Weston, Florida', number: '02', note: 'Club Consultant & Developer', url: 'https://www.unico.club/' },
+  { name: 'Ultra Padel Club', place: 'Miami, Florida', number: '03', note: 'Chief Padel Officer · Club & Program Developer', url: 'https://ultrapadelclub.com/' },
+  { name: 'Park Padel', place: 'San Francisco, California', number: '04', note: 'Club strategy & operating model', url: 'https://parkpadel.com/' },
+  { name: 'Wynwood Padel Club', place: 'Miami, Florida', number: '05', note: 'Program Director & Academy Developer', url: '#contact' },
 ];
 
 const services = [
