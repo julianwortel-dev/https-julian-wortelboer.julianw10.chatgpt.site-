@@ -32,7 +32,7 @@ export default function Home() {
       <header className="site-header">
         <a href="#top" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
         <nav aria-label="Primary navigation">
-          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#about">About</a>
+          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#about">About</a><a href="/insights">Insights</a>
           <a className="nav-cta" href="#contact">Work with Julian <ArrowDownRight size={16} /></a>
         </nav>
         <a className="mobile-contact" href="#contact" aria-label="Contact Julian"><Menu size={22} /></a>
@@ -118,6 +118,19 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section insights-preview">
+        <div className="section-label">Ideas for a stronger padel business</div>
+        <div className="section-heading">
+          <h2>Insights from the court<br />and <em>beyond it.</em></h2>
+          <div><p>Practical guidance for building better clubs, developing better coaches and growing the sport with purpose.</p><a className="text-link" href="/insights">Explore all insights <ArrowRight size={17} /></a></div>
+        </div>
+        <div className="insight-category-row">
+          <a href="/insights#club-strategy"><span>01</span><h3>Club Strategy<br />& Operations</h3><ArrowDownRight size={24} /></a>
+          <a href="/insights#coaching"><span>02</span><h3>Coaching & Player<br />Development</h3><ArrowDownRight size={24} /></a>
+          <a href="/insights#industry"><span>03</span><h3>Padel Industry<br />& Leadership</h3><ArrowDownRight size={24} /></a>
+        </div>
+      </section>
+
       <section className="contact" id="contact">
         <p className="eyebrow"><span /> Miami · Available for select projects worldwide</p>
         <h2>Ready to build a club<br />people talk about?</h2>
@@ -127,7 +140,7 @@ export default function Home() {
 
       <footer>
         <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.png" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
-        <div><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
+        <div><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>
   );
