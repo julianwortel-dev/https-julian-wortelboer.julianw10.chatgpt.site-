@@ -122,7 +122,7 @@ export default function Home() {
         <p className="eyebrow"><span /> Miami · Available for select projects worldwide</p>
         <h2>Ready to build a club<br />people talk about?</h2>
         <p>Whether you are validating an idea, preparing to launch or improving an existing operation, let’s discuss where I can create the most value.</p>
-        <a className="button button-light" href="https://www.julianwortelboer.com/contact" target="_blank" rel="noreferrer">Start a conversation <ArrowRight size={19} /></a>
+        <a className="button button-light" href="/contact">Start a conversation <ArrowRight size={19} /></a>
       </section>
 
       <footer>

@@ -100,6 +100,25 @@ footer .footer-wordmark img.wordmark { width:180px; height:66px; }
 footer>p { text-align:center; margin:0; color:var(--muted); text-transform:uppercase; font-size:10px; letter-spacing:.12em; }
 footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-size:12px; }
 
+.contact-page { min-height:100vh; display:flex; flex-direction:column; }
+.contact-page .site-header { position:relative; }
+.contact-page .site-header nav { gap:0; }
+.contact-back { display:inline-flex; align-items:center; gap:10px; font-size:13px; font-weight:700; }
+.contact-back:hover { color:var(--red); }
+.contact-hero { flex:1; display:grid; grid-template-columns:56% 44%; min-height:calc(100vh - 214px); }
+.contact-hero-copy { padding:clamp(70px,9vw,145px) clamp(30px,7vw,110px); display:flex; flex-direction:column; justify-content:center; }
+.contact-hero h1 { max-width:900px; margin-bottom:32px; }
+.contact-lead { max-width:670px; color:var(--muted); font-size:clamp(19px,1.7vw,25px); line-height:1.5; }
+.contact-card { margin-top:42px; padding-top:30px; border-top:1px solid var(--line); max-width:670px; }
+.contact-card-label { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.16em; font-weight:700; margin-bottom:12px; }
+.contact-email { display:inline-flex; align-items:center; gap:14px; font-size:clamp(21px,2.1vw,32px); font-weight:700; letter-spacing:-.03em; border-bottom:2px solid var(--ink); padding:5px 0 10px; }
+.contact-email:hover { color:var(--red); border-color:var(--red); }
+.contact-card>p:last-child { color:var(--muted); font-size:14px; line-height:1.6; margin:18px 0 0; }
+.contact-visual { position:relative; min-height:620px; overflow:hidden; background:var(--forest); }
+.contact-visual img { width:100%; height:100%; object-fit:cover; object-position:center; filter:saturate(.82) contrast(1.03); }
+.contact-visual::after { content:""; position:absolute; inset:8%; border:1px solid rgba(255,198,56,.85); border-left:0; pointer-events:none; }
+.contact-location { position:absolute; left:0; bottom:0; z-index:2; background:var(--acid); padding:20px 28px; text-transform:uppercase; font-size:11px; letter-spacing:.12em; font-weight:700; }
+
 @media (max-width:900px) {
   .site-header nav { display:none; } .mobile-contact { display:block; }
   .hero { grid-template-columns:1fr; } .hero-copy { min-height:620px; } .hero-visual { min-height:72vh; } .hero-index { display:none; }
@@ -112,6 +131,7 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
   .project { grid-template-columns:12% 1fr auto; } .project>p { display:none; }
   .about { gap:65px; } .media { grid-template-columns:1fr; } .media-image { min-height:460px; }
   footer { grid-template-columns:1fr; gap:30px; text-align:center; } footer .brand,footer>div:last-child { justify-content:center; }
+  .contact-hero { grid-template-columns:1fr; } .contact-visual { min-height:520px; }
 }
 
 @media (max-width:560px) {
@@ -124,6 +144,8 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
   .project { grid-template-columns:15% 1fr auto; } .project h3 { font-size:25px; }
   .checks { grid-template-columns:1fr; } .media-image { min-height:340px; } .media-copy { padding:65px 28px; }
   .contact h2 { font-size:52px; } footer>div:last-child { flex-wrap:wrap; }
+  .contact-hero-copy { min-height:620px; padding:70px 28px; } .contact-hero h1 { font-size:clamp(50px,15vw,70px); }
+  .contact-email { font-size:20px; } .contact-visual { min-height:440px; }
 }
 
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } .photo-carousel img { animation:none; opacity:0; } .photo-carousel img:first-child { opacity:1; } }
