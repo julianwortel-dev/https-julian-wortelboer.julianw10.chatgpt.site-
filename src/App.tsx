@@ -7,6 +7,8 @@ const projects = [
   { name: 'Ultra Padel Club', place: 'Miami, Florida', number: '03', note: 'Chief Padel Officer · Club & Program Developer', url: 'https://ultrapadelclub.com/' },
   { name: 'Park Padel', place: 'San Francisco, California', number: '04', note: 'Club strategy & operating model', url: 'https://parkpadel.com/' },
   { name: 'Wynwood Padel Club', place: 'Miami, Florida', number: '05', note: 'Program Director & Academy Developer', url: '#contact' },
+  { name: 'Padel Club Maracaibo', place: 'Maracaibo, Venezuela', number: '06', note: 'Club Consultant & Program Developer', url: 'https://www.padelclubmcbo.com/' },
+  { name: 'The Ocean Club', place: 'Key Biscayne, Florida', number: '07', note: 'Director of Racquet Sports', url: '#contact' },
 ];
 
 const services = [
