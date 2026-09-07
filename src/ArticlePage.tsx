@@ -69,12 +69,12 @@ export default function ArticlePage() {
             </div>
             {promoteBlueprint ? (
               <div className="article-resource-cta">
-                <a className="article-resource-cover" href="/contact"><img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint cover" /></a>
+                <a className="article-resource-cover" href="/contact"><img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" /></a>
                 <div><p className="article-resource-label">For club owners and operators</p><h2>The Complete Padel Club Blueprint</h2><p className="article-resource-description">A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-light" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
               </div>
             ) : (
               <div className="article-resource-cta">
-                <a className="article-resource-cover" href={bookUrl} target="_blank" rel="noreferrer"><img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book cover" /></a>
+                <a className="article-resource-cover" href={bookUrl} target="_blank" rel="noreferrer"><img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" /></a>
                 <div><p className="article-resource-label">Take your coaching skills to the next level</p><h2>Master the Art of Coaching Padel</h2><p className="article-resource-description">A global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-light" href={bookUrl} target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
               </div>
             )}

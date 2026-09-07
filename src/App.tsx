@@ -127,13 +127,13 @@ export default function Home() {
         <div className="resource-grid">
           <article className="resource-card resource-card-book">
             <a className="resource-cover" href="https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/" target="_blank" rel="noreferrer" aria-label="Purchase Mastering the Art of Coaching Padel">
-              <img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book cover" />
+              <img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" />
             </a>
             <div className="resource-copy"><span>For coaches</span><h3>Take your coaching skills to the next level.</h3><p>Master the Art of Coaching Padel with a global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-primary" href="https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/" target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
           </article>
           <article className="resource-card resource-card-blueprint">
             <a className="resource-cover" href="/contact" aria-label="Work with PSA and Julian to access The Complete Padel Club Blueprint">
-              <img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint cover" />
+              <img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" />
             </a>
             <div className="resource-copy"><span>For club owners and operators</span><h3>The Complete Padel Club Blueprint.</h3><p>A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-primary" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
           </article>
