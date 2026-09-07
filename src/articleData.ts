@@ -471,29 +471,39 @@ export const articles: Article[] = [
     category: 'Padel Industry & Leadership',
     date: 'September 6, 2026',
     readTime: '5 min read',
+    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
     intro: [
-      'I have watched US padel growth from the ground floor. I helped build Ultra Padel Club into the largest padel club in the country, and I am now building Icon Padel Club in Miami, seven courts at a time.',
-      'The numbers are real—but so is the warning that comes with them.',
-      'America now has millions of padel players, thousands of courts and strong year-over-year growth. The 2026 Global Padel Report from Playtomic and Strategy& by PwC calls a market like ours a “Diamond in the Rough”: fragmented, early and full of upside.',
+      'The US padel market has explosive potential—but there is a ceiling coming, and it is not the one most people are watching for.',
+      'I have watched this growth from the ground floor. I helped build Ultra Padel Club into the largest padel club in the country, and today I am building Icon Padel Club here in Miami—the first-ever rooftop padel club in the United States, seven courts in the sky.',
+      'I have been a player, a coach, and now an operator building something that did not exist yet in this country. So when I tell you where I think this is really headed, I am not guessing from a spreadsheet.',
+      'The US is closing in on a million padel players, and that number is growing by the day. Numbers like that usually mean one thing to club owners and investors: keep building, keep opening doors, ride the wave. I do not think that is the real story anymore.',
     ],
     sections: [
-      { heading: 'Read the label as a warning', paragraphs: [
-        'Some markets built courts on the assumption that demand would always keep pace. Sweden, Chile and Finland now illustrate the difficult post-boom adjustment that can follow. The lesson is simple: the challenge is no longer merely to build courts, but to fill them sustainably.',
-        'In the United States, we are building and filling at the same time, in a country where many people still do not know what padel is. That honest reality should change what growth means to anyone opening a club in the next twenty-four months.',
+      { heading: 'The ceiling nobody is talking about', paragraphs: [
+        'We do not have enough qualified coaches in this country who actually know how to teach padel. Not enough who can take someone who has never held a racket and turn them into a player who comes back next week, and the week after that, and eventually brings three friends onto the court.',
+        'This is not just a US problem. The same shortage is showing up in every emerging padel market on earth. Wherever courts are going up fast, qualified coaches are not increasing nearly as quickly behind them.',
+        'Without good coaches, growth does not slow down gently. It stalls. A new player’s first lesson decides whether they come back at all. Get that experience wrong often enough, across enough clubs, and the sport hits a ceiling that has nothing to do with real estate or court count.',
+        'We can build a million courts in this country. Without enough good coaches turning curious beginners into committed players, most of those courts will sit empty. Courts do not grow this sport. Coaches do.',
       ]},
-      { heading: 'What I tell owners and investors', paragraphs: [
-        'The strongest opportunity belongs to operators who measure demand and build community with the same discipline they bring to construction.',
+      { heading: 'Build a real coaching pathway', paragraphs: [
+        'That is exactly why, through Padel Smash Academy, we built a real coaching certification journey—not a weekend workshop, but a full pathway that takes someone with potential and, through our proven methodology, develops them into a genuinely great padel coach.',
+        'The golden rule I want every club owner and manager to remember is this: not all great padel players are great coaches, and not all great coaches are great padel players.',
+        'Do not hire—or judge—a potential coach by how well they play. Watch how they teach. Watch how they communicate. Watch whether they can explain the game in a way that turns a nervous beginner into someone who wants to come back.',
+      ]},
+      { heading: 'What I tell club owners and investors now', paragraphs: [
+        'Treat the people who teach the sport as seriously as the courts on which it is played.',
       ], bullets: [
-        'Count players, not courts. A court without a community is a depreciating asset with a scoreboard.',
-        'Study second-tier metropolitan markets as carefully as today’s hot zones, because hot zones saturate first.',
-        'Treat membership as a relationship, not a rental. Durable clubs create reasons to belong and return.',
+        'Hire on teaching ability, not playing ranking. Watch how a candidate teaches a total beginner, not how they hit a bandeja.',
+        'Certify your coaching staff before you build your ninth court. A club running eight courts with two great coaches will outgrow a club running eight courts with none.',
+        'Treat coach development as core infrastructure, not a line item. It is the actual growth engine of this sport in the US and everywhere else it is taking off.',
       ]},
-      { heading: 'Earn the growth', paragraphs: [
-        'Before breaking ground on another court, run the numbers on absorption—not only construction cost. Booking utilization per court tells you more than the court count alone.',
-        'The US market is not overbuilt yet. But growth is not guaranteed. It is earned court by court, member by member.',
+      { heading: 'What you can do tomorrow', paragraphs: [
+        'Sit in on one lesson from every coach on your staff this week, and watch how they communicate with a beginner—not how well they play.',
+        'The US padel market is still a diamond in the rough, and that potential is real. But courts will not decide whether this sport keeps growing here or anywhere else. The deciding factor will be whether we have enough good coaches ready to meet all these new players at the door.',
+        'Metric to watch: the percentage of new players who take a second lesson within 30 days of their first. That number lives or dies on coaching quality, not court count—and it is the real leading indicator of whether your club, and this sport, keeps growing.',
       ]},
     ],
-    source: 'Part 1 of 3 — The Market. Informed by the 2026 Global Padel Report from Playtomic and Strategy& by PwC.',
+    source: 'Part 1 of 3 — The Market. Written by Julian Wortelboer.',
   },
   {
     slug: 'courts-dont-make-padel-coaches',

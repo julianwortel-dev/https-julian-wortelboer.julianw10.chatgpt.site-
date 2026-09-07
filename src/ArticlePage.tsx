@@ -18,9 +18,29 @@ export default function ArticlePage() {
 
   const related = articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
+  const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${articleUrl}#article`,
+    headline: article.title,
+    description: article.intro[0],
+    articleSection: article.category,
+    datePublished: '2026-09-06',
+    dateModified: '2026-09-06',
+    inLanguage: 'en-US',
+    image: 'https://www.julianwortelboer.com/assets/julian-hero.jpg',
+    mainEntityOfPage: articleUrl,
+    isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
+    author: article.author
+      ? article.author.split(' & ').map((name) => ({ '@type': 'Person', name }))
+      : { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
+    publisher: { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
+  };
 
   return (
     <main className="article-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
         <nav aria-label="Article navigation"><a href="/insights"><ArrowLeft size={16} /> All insights</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
@@ -31,7 +51,7 @@ export default function ArticlePage() {
         <header className="article-header">
           <a className="article-category" href={`/insights#${categoryAnchor}`}>{article.category}</a>
           <h1>{article.title}</h1>
-          <div className="article-meta"><span>By {article.author || 'Julian Wortelboer'}</span><span>{article.date}</span><span>{article.readTime}</span></div>
+          <div className="article-meta"><span>By {article.author || 'Julian Wortelboer'}</span><time dateTime="2026-09-06">{article.date}</time><span>{article.readTime}</span></div>
         </header>
 
         <div className="article-layout">

@@ -26,8 +26,29 @@ const categories = [
 ];
 
 export default function InsightsPage() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': 'https://www.julianwortelboer.com/insights#collection',
+    name: 'Padel Insights by Julian Wortelboer',
+    url: 'https://www.julianwortelboer.com/insights',
+    inLanguage: 'en-US',
+    author: { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: articles.length,
+      itemListElement: articles.map((article, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: article.title,
+        url: `https://www.julianwortelboer.com/insights/${article.slug}`,
+      })),
+    },
+  };
+
   return (
     <main className="insights-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
         <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>

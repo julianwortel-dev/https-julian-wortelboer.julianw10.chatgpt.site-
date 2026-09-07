@@ -1,8 +1,22 @@
 import { ArrowLeft, ArrowRight, Mail } from 'lucide-react';
 
 export default function ContactPage() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    '@id': 'https://www.julianwortelboer.com/contact#contact-page',
+    url: 'https://www.julianwortelboer.com/contact',
+    name: 'Contact Julian Wortelboer',
+    description: 'Contact Julian Wortelboer about padel club strategy, development, operations, programming and coach education.',
+    inLanguage: 'en-US',
+    mainEntity: {
+      '@id': 'https://www.julianwortelboer.com/#julian-wortelboer',
+    },
+  };
+
   return (
     <main className="contact-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home">
           <img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" />
