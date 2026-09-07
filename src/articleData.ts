@@ -13,6 +13,56 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: 'the-coachs-eye-observe-before-you-correct',
+    title: 'The Coach’s Eye: Observe Before You Correct',
+    category: 'Coaching & Player Development',
+    date: 'September 7, 2026',
+    readTime: '6 min read',
+    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    intro: [
+      'A player misses a volley and the correction comes immediately: “Keep the racket up.” The next ball goes into the net, so the coach changes the instruction. “Move your feet.”',
+      'Both corrections may be useful. Neither may address what actually caused the mistake.',
+      'The problem may have started two or three seconds before contact—with poor court position, late recognition, the wrong distance from the ball, weak partner communication, or a tactical decision that left the player with no good option.',
+      'That is why one of the most valuable skills a coach can develop is the Coach’s Eye: the ability to observe the complete sequence before trying to correct the final result.',
+    ],
+    sections: [
+      { heading: 'A missed shot is the symptom', paragraphs: [
+        'Coaches naturally look at the moment the ball is struck. It is the most visible part of the action. But contact is only one frame in a much longer picture.',
+        'Before I correct a shot, I want to understand what happened before it, during it, and immediately after it. The goal is not to collect as many mistakes as possible. The goal is to identify the root cause that will give the player the greatest improvement.',
+        'Let’s apply that approach to one of the most important—and most frequently used—shots in padel: the volley.',
+      ]},
+      { heading: 'Seven things to observe before correcting a volley', paragraphs: [
+        'Starting position. Where was the player before the opponent struck the ball? Were they too close to the net or too far away? Were they protecting the open space? Did they move with the trajectory of the ball? If the ball was played cross-court, did they close the middle? Was their partner positioned correctly beside them? A player who begins in the wrong place is forced to solve an avoidable problem before the ball even reaches the racket.',
+        'Recognition. Did the player read the direction, speed, height, and available time early enough? A fast ball may call for a compact block volley. A slower ball may give the player time to use backspin and create more pressure. The opponent’s racket face also provides information: a racket facing forward may invite the player to hold closer to the net, while an open face should alert them to the possibility of a lob. Great preparation begins with good information.',
+        'Movement and spacing. Did the player create the right distance from the incoming ball? Physical, technical, and tactical development are always connected in padel. On a fast, low ball, the player must lower their body and move to where the contact point will be—not wait where the ball is currently travelling. Many errors that look like racket problems are really spacing problems.',
+        'Preparation. Was the racket prepared before the ball arrived? Preparation is the key to clean execution. As soon as the player reads the ball’s trajectory, the racket should be ready. Late preparation steals time, affects balance, and forces the player to rush everything that follows.',
+        'Contact. Was the contact balanced, controlled, and appropriate for the tactical objective? Two common errors are contacting the ball too far in front or allowing it to travel too far behind. The ideal contact is slightly in front and comfortably beside the body, where the player can control direction without reaching or collapsing.',
+        'Recovery. What happened immediately after contact? A good shot is not complete until the player recovers their position. In padel, players are continually moving between the defensive red zone behind the baseline and the offensive green zone at the net. The transition area—the yellow zone—is necessary to cross, but dangerous to occupy for too long. The player’s recovery should prepare them and their partner for the next ball.',
+        'Decision. Was the volley the right choice in the first place? This may be the most important question. Every shot in padel sets up the next shot. A technically beautiful, aggressive volley played at the wrong moment is still the wrong shot. Technique and tactics cannot be coached as separate games.',
+      ]},
+      { heading: 'Observe, diagnose, correct, apply', paragraphs: [
+        'The Padel Smash Academy coaching methodology—and the foundation of my book, Mastering the Art of Coaching Padel—follows a clear learning sequence: WHAT → WHY → WHEN → HOW → WATCH → DIAGNOSE → CORRECT → APPLY.',
+        'The Coach’s Eye makes one step even more explicit: OBSERVE → DIAGNOSE → CORRECT → APPLY.',
+        'In simple language: See it. Understand it. Fix it. Test it.',
+        'That cycle is easy enough for a new coach to remember and deep enough for an experienced coach to refine throughout a career. It also protects us from correcting the first visible symptom instead of the real problem.',
+      ]},
+      { heading: 'Try this in your next coaching session', paragraphs: [
+        'Choose one recurring error and resist the urge to interrupt after the first miss. Watch several repetitions and write down:',
+      ], bullets: [
+        'Three common symptoms.',
+        'Three possible root causes.',
+        'One corrective exercise.',
+        'One game-based test to see whether the correction transfers into live play.',
+      ]},
+      { heading: 'Test what transfers', paragraphs: [
+        'Evaluate the whole sequence again. Did the player improve only during the controlled exercise, or did the change remain when they had to read, decide, move, strike, and recover?',
+        'That final test is where coaching becomes player development.',
+        'The next time you step onto the court, do not begin by asking, “What should I correct?” Begin with a better question: What do I need to observe?',
+      ]},
+    ],
+    source: 'Developed from Julian Wortelboer’s Coach’s Eye methodology and the coaching cycle in Mastering the Art of Coaching Padel.',
+  },
+  {
     slug: 'before-you-fix-the-shot-find-the-problem',
     title: 'Before You Fix the Shot, Find the Problem',
     category: 'Coaching & Player Development',
