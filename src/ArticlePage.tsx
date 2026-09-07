@@ -18,6 +18,7 @@ export default function ArticlePage() {
 
   const related = articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
+  const promoteBlueprint = article.category === 'Club Strategy & Operations';
   const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
   const structuredData = {
     '@context': 'https://schema.org',
@@ -66,7 +67,17 @@ export default function ArticlePage() {
               <a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram <ArrowRight size={15} /></a>
               <a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube <ArrowRight size={15} /></a>
             </div>
-            <div className="article-book-cta"><p>Continue learning with Julian’s book</p><a className="book-title-link" href={bookUrl} target="_blank" rel="noreferrer"><h2>Mastering the Art<br />of Coaching Padel</h2></a><a className="button button-light" href={bookUrl} target="_blank" rel="noreferrer">View the book <ArrowRight size={18} /></a></div>
+            {promoteBlueprint ? (
+              <div className="article-resource-cta">
+                <a className="article-resource-cover" href="/contact"><img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint cover" /></a>
+                <div><p className="article-resource-label">For club owners and operators</p><h2>The Complete Padel Club Blueprint</h2><p className="article-resource-description">A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-light" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
+              </div>
+            ) : (
+              <div className="article-resource-cta">
+                <a className="article-resource-cover" href={bookUrl} target="_blank" rel="noreferrer"><img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book cover" /></a>
+                <div><p className="article-resource-label">Take your coaching skills to the next level</p><h2>Master the Art of Coaching Padel</h2><p className="article-resource-description">A global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-light" href={bookUrl} target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
+              </div>
+            )}
           </div>
         </div>
       </article>
