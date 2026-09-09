@@ -10,8 +10,8 @@ function BookLinkedText({ text }: { text: string }) {
   return <>{parts.map((part, index) => <span key={`${part}-${index}`}>{part}{index < parts.length - 1 && <a className="inline-book-link" href={bookUrl} target="_blank" rel="noreferrer">{bookTitle}</a>}</span>)}</>;
 }
 
-export default function ArticlePage() {
-  const slug = window.location.pathname.split('/').filter(Boolean).pop() || '';
+export default function ArticlePage({ pathname = typeof window === 'undefined' ? '' : window.location.pathname }: { pathname?: string } = {}) {
+  const slug = pathname.split('/').filter(Boolean).pop() || '';
   const article = articleBySlug[slug];
 
   if (!article) return <main className="article-not-found"><h1>Insight not found.</h1><a href="/insights">Return to Insights</a></main>;
@@ -20,6 +20,7 @@ export default function ArticlePage() {
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
   const promoteBlueprint = article.category === 'Club Strategy & Operations';
   const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
+  const published = new Date(article.date + ' 12:00:00 UTC').toISOString().slice(0, 10);
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -27,16 +28,16 @@ export default function ArticlePage() {
     headline: article.title,
     description: article.intro[0],
     articleSection: article.category,
-    datePublished: '2026-09-06',
-    dateModified: '2026-09-06',
+    datePublished: published,
+    dateModified: published,
     inLanguage: 'en-US',
     image: 'https://www.julianwortelboer.com/assets/julian-hero.jpg',
     mainEntityOfPage: articleUrl,
     isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
     author: article.author
-      ? article.author.split(' & ').map((name) => ({ '@type': 'Person', name }))
-      : { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
-    publisher: { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
+      ? article.author.split(' & ').map((name) => ({ '@type': 'Person', name, ...(name === 'Julian Wortelboer' ? { url: 'https://www.julianwortelboer.com/about-julian-wortelboer' } : {}) }))
+      : { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/about-julian-wortelboer' },
+    publisher: { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/' },
   };
 
   return (
@@ -52,7 +53,7 @@ export default function ArticlePage() {
         <header className="article-header">
           <a className="article-category" href={`/insights#${categoryAnchor}`}>{article.category}</a>
           <h1>{article.title}</h1>
-          <div className="article-meta"><span>By {article.author || 'Julian Wortelboer'}</span><time dateTime="2026-09-06">{article.date}</time><span>{article.readTime}</span></div>
+          <div className="article-meta"><span>By {article.author || 'Julian Wortelboer'} · <a href="/about-julian-wortelboer">About Julian</a></span><time dateTime={published}>{article.date}</time><span>{article.readTime}</span></div>
         </header>
 
         <div className="article-layout">

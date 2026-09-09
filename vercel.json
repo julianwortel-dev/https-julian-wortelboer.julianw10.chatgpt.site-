@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/insights", "destination": "/insights.html" },
     { "source": "/insights/the-coachs-eye-observe-before-you-correct", "destination": "/article-coachs-eye.html" },
