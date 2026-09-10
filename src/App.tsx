@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual">
-            <video autoPlay muted loop playsInline preload="metadata" poster="/assets/julian-hero.jpg" aria-label="Julian Wortelboer at Ultra Padel">
+            <video autoPlay muted loop playsInline controls preload="metadata" poster="/assets/julian-hero.jpg" aria-label="Julian Wortelboer at Ultra Padel">
               <source src="/assets/ultra-padel-hero.mp4" type="video/mp4" />
             </video>
           <div className="court-line" aria-hidden="true" />
