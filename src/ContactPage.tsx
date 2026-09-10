@@ -19,7 +19,7 @@ export default function ContactPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home">
-          <img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" />
+          <img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" />
         </a>
         <nav aria-label="Contact navigation">
           <a className="contact-back" href="/"><ArrowLeft size={17} /> Back to homepage</a>
@@ -41,13 +41,13 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="contact-visual">
-          <img src="/assets/carousel/julian-pointing.jpg" alt="Julian Wortelboer coaching on a padel court" />
+          <img src="/assets/carousel/julian-pointing.webp" alt="Julian Wortelboer coaching on a padel court" />
           <div className="contact-location">Miami · Available worldwide</div>
         </div>
       </section>
 
       <footer>
-        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.png" alt="Julian Wortelboer" /></div>
+        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div>
         <p>Padel strategy · Operations · Leadership</p>
         <div><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="/">Homepage</a></div>
       </footer>

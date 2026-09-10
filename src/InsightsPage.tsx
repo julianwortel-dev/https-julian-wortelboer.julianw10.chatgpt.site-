@@ -50,7 +50,7 @@ export default function InsightsPage() {
     <main className="insights-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
-        <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
+        <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
         <a className="mobile-contact contact-back" href="/" aria-label="Back to homepage"><ArrowLeft size={22} /></a>
       </header>
@@ -88,7 +88,7 @@ export default function InsightsPage() {
       </section>
 
       <footer>
-        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.png" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
+        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
         <div><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="/">Homepage</a></div>
       </footer>
     </main>

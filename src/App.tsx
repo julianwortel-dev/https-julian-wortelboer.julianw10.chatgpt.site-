@@ -18,19 +18,19 @@ const services = [
 ];
 
 const carouselPhotos = [
-  ['/assets/carousel/coaching-wide.jpg', 'Julian coaching on a padel court'],
-  ['/assets/carousel/julian-pointing.jpg', 'Julian Wortelboer with a padel racket'],
-  ['/assets/carousel/ball-on-racket.jpg', 'A padel ball balanced on Julian’s racket'],
-  ['/assets/carousel/action-volley.jpg', 'Julian demonstrating a controlled volley'],
-  ['/assets/carousel/backhand.jpg', 'Julian preparing a two-handed backhand'],
-  ['/assets/carousel/forehand.jpg', 'Julian moving into a forehand shot'],
+  ['/assets/carousel/coaching-wide.webp', 'Julian coaching on a padel court'],
+  ['/assets/carousel/julian-pointing.webp', 'Julian Wortelboer with a padel racket'],
+  ['/assets/carousel/ball-on-racket.webp', 'A padel ball balanced on Julian’s racket'],
+  ['/assets/carousel/action-volley.webp', 'Julian demonstrating a controlled volley'],
+  ['/assets/carousel/backhand.webp', 'Julian preparing a two-handed backhand'],
+  ['/assets/carousel/forehand.webp', 'Julian moving into a forehand shot'],
 ];
 
 export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a href="#top" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
+        <a href="#top" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Primary navigation">
           <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#about">About</a><a href="/insights">Insights</a>
           <a className="nav-cta" href="#contact">Work with Julian <ArrowDownRight size={16} /></a>
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual">
-            <video autoPlay muted loop playsInline controls preload="metadata" poster="/assets/julian-hero.jpg" aria-label="Julian Wortelboer at Ultra Padel">
+            <video autoPlay muted loop playsInline controls preload="metadata" poster="/assets/julian-hero.webp" aria-label="Julian Wortelboer at Ultra Padel">
               <source src="/assets/ultra-padel-hero.mp4" type="video/mp4" />
             </video>
           <div className="court-line" aria-hidden="true" />
@@ -91,7 +91,7 @@ export default function Home() {
 
       <section className="section about" id="about">
         <div className="about-photo">
-          <img src="/assets/julian-portrait.jpg" alt="Julian Wortelboer demonstrating padel technique with a player" />
+          <img src="/assets/julian-portrait.webp" loading="lazy" decoding="async" alt="Julian Wortelboer demonstrating padel technique with a player" />
           <div className="photo-tag">Master coach<br />Club operator<br />Global advisor</div>
         </div>
         <div className="about-copy">
@@ -109,7 +109,7 @@ export default function Home() {
 
       <section className="media">
         <div className="media-image photo-carousel" aria-label="Julian Wortelboer padel photo gallery">
-          {carouselPhotos.map(([src, alt], index) => <img key={src} src={src} alt={alt} style={{ '--slide': index } as CSSProperties} />)}
+          {carouselPhotos.map(([src, alt], index) => <img key={src} src={src} alt={alt} loading="lazy" decoding="async" style={{ '--slide': index } as CSSProperties} />)}
           <div className="carousel-count" aria-hidden="true">01 — 06</div>
         </div>
         <div className="media-copy">
@@ -128,13 +128,13 @@ export default function Home() {
         <div className="resource-grid">
           <article className="resource-card resource-card-book">
             <a className="resource-cover" href="https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/" target="_blank" rel="noreferrer" aria-label="Purchase Mastering the Art of Coaching Padel">
-              <img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" />
+              <img src="/assets/resources/mastering-coaching-padel-cover.webp" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" />
             </a>
             <div className="resource-copy"><span>For coaches</span><h3>Take your coaching skills to the next level.</h3><p>Master the Art of Coaching Padel with a global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-primary" href="https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/" target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
           </article>
           <article className="resource-card resource-card-blueprint">
             <a className="resource-cover" href="/contact" aria-label="Work with PSA and Julian to access The Complete Padel Club Blueprint">
-              <img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" />
+              <img src="/assets/resources/padel-club-blueprint-cover.webp" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" />
             </a>
             <div className="resource-copy"><span>For club owners and operators</span><h3>The Complete Padel Club Blueprint.</h3><p>A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-primary" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
           </article>
@@ -162,7 +162,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.png" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
+        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
         <div><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>

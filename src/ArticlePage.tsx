@@ -31,7 +31,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     datePublished: published,
     dateModified: published,
     inLanguage: 'en-US',
-    image: 'https://www.julianwortelboer.com/assets/julian-hero.jpg',
+    image: 'https://www.julianwortelboer.com/assets/julian-hero.webp',
     mainEntityOfPage: articleUrl,
     isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
     author: article.author
@@ -44,7 +44,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     <main className="article-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
-        <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.jpg" alt="Julian Wortelboer" /></a>
+        <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Article navigation"><a href="/insights"><ArrowLeft size={16} /> All insights</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
         <a className="mobile-contact contact-back" href="/insights" aria-label="Back to Insights"><ArrowLeft size={22} /></a>
       </header>
@@ -70,12 +70,12 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
             </div>
             {promoteBlueprint ? (
               <div className="article-resource-cta">
-                <a className="article-resource-cover" href="/contact"><img src="/assets/resources/padel-club-blueprint-cover.jpg" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" /></a>
+                <a className="article-resource-cover" href="/contact"><img src="/assets/resources/padel-club-blueprint-cover.webp" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" /></a>
                 <div><p className="article-resource-label">For club owners and operators</p><h2>The Complete Padel Club Blueprint</h2><p className="article-resource-description">A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-light" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
               </div>
             ) : (
               <div className="article-resource-cta">
-                <a className="article-resource-cover" href={bookUrl} target="_blank" rel="noreferrer"><img src="/assets/resources/mastering-coaching-padel-cover.jpg" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" /></a>
+                <a className="article-resource-cover" href={bookUrl} target="_blank" rel="noreferrer"><img src="/assets/resources/mastering-coaching-padel-cover.webp" alt="Mastering the Art of Coaching Padel book by Julian Wortelboer" width="1066" height="1600" loading="lazy" /></a>
                 <div><p className="article-resource-label">Take your coaching skills to the next level</p><h2>Master the Art of Coaching Padel</h2><p className="article-resource-description">A global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-light" href={bookUrl} target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
               </div>
             )}
@@ -86,7 +86,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
       {related.length > 0 && <section className="related-insights"><div className="section-label">Continue reading</div>{related.map((item) => <a href={`/insights/${item.slug}`} key={item.slug}><span>{item.title}</span><ArrowRight size={20} /></a>)}</section>}
 
       <footer>
-        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.png" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
+        <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
         <div><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a></div>
       </footer>
     </main>

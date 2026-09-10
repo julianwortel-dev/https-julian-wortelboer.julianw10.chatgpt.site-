@@ -30,8 +30,8 @@ h1 em,h2 em { font-family:Georgia,'Times New Roman',serif; font-weight:400; }
 .text-link { display:inline-flex; align-items:center; gap:10px; border-bottom:1px solid var(--ink); padding:10px 0; font-size:14px; font-weight:700; }
 .hero-visual { min-height:620px; position:relative; overflow:hidden; background:var(--forest); }
 .hero-visual img, .hero-visual video { width:100%; height:100%; object-fit:cover; object-position:49% center; filter:saturate(.82) contrast(1.03); }
-.court-line { position:absolute; inset:8% 8% 8% auto; width:37%; border:1px solid rgba(223,32,41,.82); border-left:0; }
-.hero-note { position:absolute; bottom:0; left:0; background:var(--acid); display:flex; align-items:center; gap:16px; padding:20px 28px; }
+.court-line { position:absolute; inset:8% 8% 8% auto; width:37%; border:1px solid rgba(223,32,41,.82); border-left:0; pointer-events:none; }
+.hero-note { position:absolute; bottom:64px; left:0; background:var(--acid); display:flex; align-items:center; gap:16px; padding:20px 28px; pointer-events:none; }
 .hero-note strong { font-family:Georgia,serif; font-size:46px; line-height:1; }
 .hero-note span { font-size:11px; text-transform:uppercase; letter-spacing:.1em; line-height:1.5; font-weight:700; }
 .hero-index { position:absolute; bottom:25px; left:45%; color:rgba(17,38,29,.45); font:11px monospace; }
