@@ -1,4 +1,10 @@
 {
+  "redirects": [
+    { "source": "/about", "destination": "/about-julian-wortelboer", "permanent": true },
+    { "source": "/onthemedia", "destination": "/#media", "permanent": true },
+    { "source": "/videos", "destination": "/#media", "permanent": true },
+    { "source": "/general-8", "destination": "/#resources", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },

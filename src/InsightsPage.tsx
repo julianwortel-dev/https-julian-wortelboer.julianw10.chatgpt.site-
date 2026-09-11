@@ -32,6 +32,7 @@ export default function InsightsPage() {
     '@id': 'https://www.julianwortelboer.com/insights#collection',
     name: 'Padel Insights by Julian Wortelboer',
     url: 'https://www.julianwortelboer.com/insights',
+    description: 'Practical insights on padel club strategy, operations, coaching, player development and leadership.',
     inLanguage: 'en-US',
     author: { '@id': 'https://www.julianwortelboer.com/#julian-wortelboer' },
     mainEntity: {

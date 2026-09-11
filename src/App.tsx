@@ -107,7 +107,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="media">
+      <section className="media" id="media">
         <div className="media-image photo-carousel" aria-label="Julian Wortelboer padel photo gallery">
           {carouselPhotos.map(([src, alt], index) => <img key={src} src={src} alt={alt} loading="lazy" decoding="async" style={{ '--slide': index } as CSSProperties} />)}
           <div className="carousel-count" aria-hidden="true">01 — 06</div>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section resources" aria-labelledby="resources-title">
+      <section className="section resources" id="resources" aria-labelledby="resources-title">
         <div className="section-label">Frameworks built from experience</div>
         <div className="section-heading">
           <h2 id="resources-title">Tools for better coaches.<br /><em>Systems for stronger clubs.</em></h2>
