@@ -13,6 +13,56 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: 'if-you-build-it-they-might-not-come',
+    title: 'If You Build It, They Might Not Come',
+    category: 'Club Strategy & Operations',
+    date: 'September 13, 2026',
+    readTime: '5 min read',
+    intro: [
+      'Padel clubs are closing all over the world right now—and it is not because the sport is dying. It is because too many owners are running the wrong business.',
+      'I will be the first to tell you what you already know. In fact, I would bet you have heard this many times before, and even believe it yourself: the padel club world is growing. But just saying it is growing is not enough anymore. It is changing faster than ever, and too many clubs are playing catch-up when they should be the ones driving the change.',
+      'At club after club, membership is dropping—not because people fell out of love with padel, but because members do not see the value in their dues anymore. They want more for their money. A club stopped being just a place to play padel a while ago, whether the owner has noticed yet or not.',
+      'This is not only a US problem. It is a worldwide problem showing up in emerging padel markets from India and Indonesia to the Middle East—and here in the United States too.',
+    ],
+    sections: [
+      { heading: 'More players do not guarantee a stronger club', paragraphs: [
+        'That should sound like a contradiction. More people than ever are joining clubs and wanting to spend their time there. The best clubs still fill up almost entirely by word of mouth, and rightfully so. And yet I have heard peers say the wave has already peaked—that the padel club business is struggling, even dying. Clubs are being bought out, sold off, or simply going under. Why?',
+        'The simplest answer is that many club owners are very successful in other businesses but have no experience running a padel club. They believe it is simple: build the courts, hire a coach, and start making money. It is not.',
+        'Players have more options every week, and with those options comes the freedom to choose. They will go where they receive the most value for their money. That is rarely because something suddenly changed at the club they are leaving. It is often the direct result of nothing changing at all.',
+        'If you are paying $300 a month, are you staying at the club that offers nothing but a padel court when the one down the road offers a pristine facility and meaningful amenities? It is 2026. People have options. Clubs that do not rise to meet that expectation will keep losing members to the ones that do.',
+      ]},
+      { heading: 'The Copy/Paste Mistake', paragraphs: [
+        'When a club goes out of business, it is usually not because ownership did one thing wrong. It is because the ownership never had the experience, vision, or ability to grow alongside the market. You can put a bandage on that problem for only so long before it grows beyond your control.',
+        'I receive calls every week from padel club owners who are struggling and losing thousands of dollars a month.',
+        'I have spent my career in this sport—running padel facilities and racquet clubs, consulting, and speaking across the country about padel—and I hear owners making the same mistakes at club after club. I call it the Copy/Paste Mistake: the blueprint for a failing padel club is remarkably similar whether you are in Kuala Lumpur, Dubai, or Los Angeles.',
+        'Sir Francis Bacon said, “Knowledge is power.” In this business, I would put it more bluntly: knowledge is survival. Without the right knowledge of how to run a padel club, it may be only a matter of time before the operation fails.',
+      ]},
+      { heading: 'The warning from Sweden', paragraphs: [
+        'Sweden’s padel bust turned a pandemic-era boom into one of the sport’s most brutal market corrections: more than 100 facilities closed, roughly 90 padel companies filed for bankruptcy, and the sector destroyed an estimated €500 million in capital.',
+        'What went wrong in Sweden—and what goes wrong everywhere this pattern repeats?',
+      ], bullets: [
+        'Weak business models. Many operators treated padel as an industrial real-estate play—cheap suburban square footage with nets in it—instead of investing in real management, community, coaching, and local leagues.',
+        'Heavy leverage. Rapid expansion funded with borrowed money looks fine until demand softens or costs rise. Then a slow season can become a bankruptcy filing.',
+      ]},
+      { heading: 'You are in the hospitality business', paragraphs: [
+        'Remember this, club owner: being successful in your core business and loving padel yourself does not mean you know how to run a padel club.',
+        'My recommendation is always the same, and I say it as someone who has built these clubs from the ground up—not watched from the sidelines. Before you open a padel club, get advice from someone who has actually run one. Do it before opening, not six months later when you are already losing money.',
+        'That is why club consulting exists: to be the call before the mistakes become expensive, not after. Invest first in learning how this business actually operates and which metrics you need to watch.',
+        'You are in the hospitality business—not merely the padel business. Players come to your club for an unforgettable experience, not just to hit a ball.',
+      ]},
+      { heading: 'Learn before the business teaches you the hard way', paragraphs: [
+        'Ask yourself honestly: would you rather invest in club consulting now or make the mistakes yourself and lose thousands of dollars every month later?',
+        'If you are old enough, you will remember the line from the 1989 film Field of Dreams: “If you build it, they will come.” A man builds a baseball field in the middle of a cornfield, convinced everyone will simply show up.',
+        'Do not make that mistake with your padel club. You can build what looks, in your own eyes, like the best club in the world—but without the right people running it alongside you, you will lose every time.',
+        'Learn how the business actually runs before it teaches you the hard way.',
+      ]},
+      { heading: 'The metric to watch', paragraphs: [
+        'Measure your member renewal rate 90 days after any dues increase. If renewals begin slipping while court bookings remain steady, that is an early signal that members no longer see the value they are paying for.',
+      ]},
+    ],
+    source: 'Written by Julian Wortelboer as an industry wake-up call for padel club owners, investors, and operators.',
+  },
+  {
     slug: 'the-coachs-eye-observe-before-you-correct',
     title: 'The Coach’s Eye: Observe Before You Correct',
     category: 'Coaching & Player Development',
