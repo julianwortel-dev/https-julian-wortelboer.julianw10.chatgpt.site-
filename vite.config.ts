@@ -10,6 +10,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         contact: resolve(__dirname, 'contact.html'),
         insights: resolve(__dirname, 'insights.html'),
+        articleAiOperations: resolve(__dirname, 'article-ai-operations.html'),
         articleBuildIt: resolve(__dirname, 'article-build-it.html'),
         articleCoachsEye: resolve(__dirname, 'article-coachs-eye.html'),
         articleDiagnosis: resolve(__dirname, 'article-diagnosis.html'),

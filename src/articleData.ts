@@ -13,6 +13,65 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: 'ai-operations-layer-icon-padel-club',
+    title: 'The AI Operations Layer: How We’re Running Every Department at Icon Padel Club',
+    category: 'Club Strategy & Operations',
+    date: 'September 14, 2026',
+    readTime: '7 min read',
+    intro: [
+      'We are in the hospitality business. The courts, the coaching, and the design of the building all matter. But what actually determines whether a member stays or leaves is often smaller and less glamorous: how fast, and how well, you respond when they need something.',
+      'I can tell you exactly what that failure looks like because I have heard about it directly from members more times than I would like to admit. A call rings out. A WhatsApp message sits unread for hours. An email gets answered a day late. Or the front desk runs out of toilet paper because the cleaning staff never reported it, turning an inventory failure into a member’s problem.',
+      'None of those are padel problems. They are response-speed problems. For the past several months, we have been building an AI operations layer at Icon Padel Club to close that gap across customer service, supply ordering, vendor communication, and every channel a member might use to reach us.',
+    ],
+    sections: [
+      { heading: 'Why this is not a tech upgrade - it is a retention strategy', paragraphs: [
+        'Every member interaction is a moment that either builds trust or erodes it. The club that wins is the one where nothing falls through the cracks. AI does not replace that philosophy. It helps us execute it at scale, on every channel and at every hour - not only during the shifts when our best front-desk person happens to be working.',
+        'The honest truth is that no front desk, no matter how good, can be everywhere at once. A human team covering five inbound channels, walk-in members, and phone calls will always have gaps. That is not necessarily a training problem. It is a staffing-math problem, and AI can help close it.',
+      ]},
+      { heading: 'Think of AI as your newest operational team', paragraphs: [
+        'Here is the mental shift that made this click for me: stop thinking of Claude, ChatGPT, Grok, and Kimi as software subscriptions and start thinking about the roles they can perform inside the operation.',
+        'They can provide coverage 24 hours a day, 365 days a year. That changes the practical math of serving members across multiple channels. You are no longer trying to schedule a person to be awake and available at 11 p.m. on a Tuesday just in case a member has a routine question.',
+        'This is not a case against your human team. It is the opposite. AI can provide coverage your payroll could never realistically buy, freeing your staff to spend their time on moments that genuinely need a person.',
+      ]},
+      { heading: 'Where we started: the member-facing channels', paragraphs: [
+        'The first place to deploy AI is wherever a member is trying to reach your club right now and might not receive an answer quickly enough. For us, that meant:',
+      ], bullets: [
+        'WhatsApp and Instagram DMs. Members expect an almost-instant reply, and a slow response can feel like indifference even when it is not.',
+        'Text and email. Routine questions about court availability, memberships, and program schedules do not need a person unless the conversation escalates.',
+        'Phone calls. Members often call when something feels urgent, making an unanswered ring one of the worst experiences a club can deliver.',
+      ]},
+      { heading: 'What surprised me', paragraphs: [
+        'I mean genuinely surprised, not marketing-speak: once these systems are set up properly, the speed and accuracy of the response can change a member’s perception of the club before a human ever becomes involved.',
+        'The objective is not to pretend a machine is a person. It is to answer routine questions clearly, acknowledge the member immediately, and move anything sensitive or unusual to the right team member without delay.',
+      ]},
+      { heading: 'Where it goes next: the parts members never see', paragraphs: [
+        'Member-facing channels are the obvious starting point. But the operational side is where AI compounds the most value over time because it can prevent problems before they ever become member complaints.',
+      ], bullets: [
+        'Supply and inventory ordering. The toilet-paper problem is not really about toilet paper. It is a reporting gap between staff and management. A system that tracks consumption and triggers timely reorders removes an entire category of “someone forgot to mention it” failures.',
+        'Vendor communication. Routine questions about order confirmations, delivery timing, and pricing checks often need a fast, accurate answer rather than a manager’s judgment.',
+        'Internal reporting and escalation routing. When a complaint, safety issue, or billing dispute genuinely needs a person, the system should route it to the right person immediately - not attempt to resolve it alone.',
+      ]},
+      { heading: 'What stays human, on purpose', paragraphs: [
+        'This is not a case for removing people from the club. AI should absorb repetitive, time-sensitive, low-judgment work so the team’s actual hours go toward the moments that require a human: a service-recovery conversation, a member who needs to be heard, or the culture-building interactions that make someone feel they belong.',
+        'Handing routine work to a well-designed system is what makes it possible to serve those human moments well, every time, instead of only when the front desk is not underwater.',
+      ]},
+      { heading: 'What to measure', paragraphs: [
+        'Do not roll this out on faith. Track it the way you would track any other operational system:',
+      ], bullets: [
+        'Average response time by channel, before and after implementation.',
+        'Percentage of inquiries fully resolved without human intervention.',
+        'Stockout or supply-failure incidents per month.',
+        'Member complaints specifically citing “no response” or “nobody picked up.” That number should trend toward zero.',
+      ]},
+      { heading: 'What you can do tomorrow', paragraphs: [
+        'Pick your five busiest inbound channels - phone, WhatsApp, Instagram, text, and email - and audit the actual response times on each for one week. Be honest about what you find.',
+        'Wherever you see the biggest gap between “a member reached out” and “a member received an answer,” that is where your first AI deployment should go.',
+        'This is not a trend to wait out, and it is not table stakes yet. The clubs that build this operational discipline early will not simply run more efficiently. They will set a service standard against which the rest of the market is judged.',
+      ]},
+    ],
+    source: 'Written by Julian Wortelboer from the AI operations system currently being implemented at Icon Padel Club across customer service, supply ordering, and vendor communication.',
+  },
+  {
     slug: 'if-you-build-it-they-might-not-come',
     title: 'If You Build It, They Might Not Come',
     category: 'Club Strategy & Operations',
