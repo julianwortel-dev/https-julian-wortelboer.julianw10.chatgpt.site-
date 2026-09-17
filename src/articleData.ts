@@ -13,6 +13,72 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    slug: 'premium-vs-chinese-padel-courts',
+    title: 'Premium vs. Chinese Padel Courts: What Actually Makes the Difference (and What Doesn’t)',
+    category: 'Club Strategy & Operations',
+    date: 'September 17, 2026',
+    readTime: '7 min read',
+    intro: [
+      'Every club owner eventually ends up in one of two camps. One buys the premium Spanish brand because it feels like the safe, prestigious choice. The other buys Chinese or Pakistani courts because the price can be half and the specifications look nearly identical on paper.',
+      'Both camps ask me the same question: is there actually a difference?',
+    ],
+    sections: [
+      { heading: 'The honest answer nobody wants to hear', paragraphs: [
+        'The honest answer is that 99.9% of the players who walk onto your courts will never be able to tell which camp you are in.',
+        'I can tell the difference. After 25 years on padel courts—and now building and consulting on them—I can spot it in the finishes, the structure, and even the bolts holding the panels together. Premium courts generally look and feel sturdier and more solid. That difference is real.',
+        'Does it change the playing experience? Usually, no. That is the part many club owners misunderstand when deciding where to spend their budget.',
+      ]},
+      { heading: 'The real difference is underneath your feet', paragraphs: [
+        'The secret is not the frame. It is the turf. Turf quality is what actually determines whether players enjoy themselves on your courts, and it generally comes in two types:',
+      ], bullets: [
+        'Monofilament was the original padel turf, dating back to when the sport moved away from cement. You will still find it in Spain and Argentina. The silica sand underneath is visible, which can give the court a dirty, uneven appearance, and it must be brushed frequently to remain playable.',
+        'Texturized turf uses a curled fiber that hides and holds the sand. The court looks cleaner and requires less visible surface maintenance. Watch a professional tournament on television or YouTube and that is what you will usually see.',
+      ]},
+      { heading: 'The non-negotiable turf question', paragraphs: [
+        'When you speak with a manufacturer, ask for texturized turf rather than monofilament. That is the modern standard, and there is little reason to install older turf technology in a new club.',
+        'If you want to understand where texturized technology came from, look at Mondo. Its synthetic-grass systems helped set the industry benchmark, and Mondo turf was the first to earn type approval from the Spanish Padel Federation.',
+        'The STX Supercourt system introduced a textured, single-fiber structure engineered to encapsulate the quartz-sand filler. It is also among the most expensive turf options—the Ferrari of padel turf: the benchmark others follow, and priced accordingly.',
+        'You do not need Mondo to build a good court. Other texturized options now come close for noticeably less money, and Chinese manufacturers have made significant progress with the same kind of single-fiber, sand-encapsulating approach. The most important comparison is no longer Mondo versus everyone else. It is texturized versus monofilament.',
+      ]},
+      { heading: 'Choose slower turf, not faster', paragraphs: [
+        'Texturized turf still comes in different specifications, including indoor and outdoor versions and faster or slower playing speeds based partly on the fiber and pile construction.',
+        'For most clubs, I recommend asking for the slower option. Most of the players walking into your club will be beginners and intermediates. A fast court makes the game move faster than they can comfortably handle.',
+        'You are not building courts only for professionals on tour. You are building them for members who need to enjoy their first year of padel enough to renew their membership and keep coming back.',
+      ]},
+      { heading: 'Indoor, outdoor, and the galvanization question', paragraphs: [
+        'The other specification that genuinely matters is the paint and galvanization protecting the structure. The right choice depends entirely on where the court will live.',
+        'For an outdoor installation—especially one near the ocean—specify double galvanization. It costs more initially, but helps prevent corrosion and can extend the life of the structure by years. Indoors, it is generally unnecessary. Do not pay for protection you do not need, but never skip it where you do.',
+      ]},
+      { heading: 'The manufacturers I recommend', paragraphs: [
+        'I am asked for manufacturer recommendations constantly. I know many of the companies in this market, have played on most of these courts, and know people behind several of the brands.',
+        'Based on my direct experience, my premium shortlist is:',
+      ], bullets: [
+        'Mejor Set',
+        'Padel Galis',
+        'Portico',
+        'Ingode',
+        'For Chinese and Pakistani sourcing, Longtree is the company I recommend. I have played on its courts and purchased from the company directly. In my experience, the quality is strong at roughly half the price of many premium brands.',
+      ]},
+      { heading: 'The broker trap that costs owners money', paragraphs: [
+        'Before you send a wire transfer, understand that there are relatively few actual padel-court manufacturers. Many of the names you find through an online search are brokers that buy courts from a real manufacturer and resell them at a markup while presenting themselves as the source.',
+        'That means you may pay more for the exact same court you could have purchased directly. I have seen owners make this mistake even after getting almost every other part of the project right.',
+      ]},
+      { heading: 'Before you wire the money', paragraphs: [
+        'Ask every supplier these questions before you commit:',
+      ], bullets: [
+        'Is the turf texturized or monofilament?',
+        'What playing speed am I getting, and is a slower option available?',
+        'Is the structure galvanized, and is it double galvanized for an outdoor or coastal installation?',
+        'Are you the actual manufacturer, or are you reselling another company’s courts?',
+      ]},
+      { heading: 'Get a second set of eyes before you sign', paragraphs: [
+        'Get the right information before the money moves, not after. I have seen owners spend a fortune correcting a court decision that a five-minute conversation could have prevented.',
+        'After 25 years on padel courts—on both sides of the net and the negotiating table—I am always glad to review a manufacturer quote before a club owner signs or wires the deposit.',
+      ]},
+    ],
+    source: 'Written by Julian Wortelboer from 25 years of experience on padel courts and direct experience comparing, purchasing, building, and consulting on court installations.',
+  },
+  {
     slug: 'ai-operations-layer-icon-padel-club',
     title: 'The AI Operations Layer: How We’re Running Every Department at Icon Padel Club',
     category: 'Club Strategy & Operations',
@@ -69,7 +135,7 @@ export const articles: Article[] = [
         'This is not a trend to wait out, and it is not table stakes yet. The clubs that build this operational discipline early will not simply run more efficiently. They will set a service standard against which the rest of the market is judged.',
       ]},
     ],
-    source: 'Written by Julian Wortelboer from the AI operations system currently being implemented at Icon Padel Club across customer service, supply ordering, and vendor communication.',
+    source: 'Julian Wortelboer is a certified Padel Master Coach and Chief Padel Officer of Icon Padel Club, where this AI operations system is currently live across customer service, supply ordering, and vendor communication. More on building a modern padel club operation in Mastering the Art of Coaching Padel.',
   },
   {
     slug: 'if-you-build-it-they-might-not-come',

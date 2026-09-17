@@ -44,7 +44,7 @@ try {
     const url = `${origin}/insights/${article.slug}`;
     return `<item><title>${escape(article.title)}</title><link>${url}</link><guid isPermaLink="true">${url}</guid><description>${escape(article.intro[0])}</description><pubDate>${new Date(article.date + ' 12:00:00 UTC').toUTCString()}</pubDate><category>${escape(article.category)}</category></item>`;
   }).join('');
-  await writeFile('dist/feed.xml', `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Julian Wortelboer Padel Insights</title><link>${origin}/insights</link><description>Practical insights on padel club strategy, operations, coaching, player development and leadership.</description><language>en-us</language><lastBuildDate>${new Date('2026-09-14T12:00:00Z').toUTCString()}</lastBuildDate>${items}</channel></rss>`);
+  await writeFile('dist/feed.xml', `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Julian Wortelboer Padel Insights</title><link>${origin}/insights</link><description>Practical insights on padel club strategy, operations, coaching, player development and leadership.</description><language>en-us</language><lastBuildDate>${new Date('2026-09-17T12:00:00Z').toUTCString()}</lastBuildDate>${items}</channel></rss>`);
   for (const [path, file] of routes) {
     const html = await readFile(`dist/${file}`, 'utf8');
     if ((html.match(/<h1[ >]/g) || []).length !== 1) throw Error(`Expected one H1: ${path}`);

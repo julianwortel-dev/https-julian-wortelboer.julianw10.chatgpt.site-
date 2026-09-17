@@ -9,6 +9,7 @@
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/insights", "destination": "/insights.html" },
+    { "source": "/insights/premium-vs-chinese-padel-courts", "destination": "/article-courts.html" },
     { "source": "/insights/ai-operations-layer-icon-padel-club", "destination": "/article-ai-operations.html" },
     { "source": "/insights/if-you-build-it-they-might-not-come", "destination": "/article-build-it.html" },
     { "source": "/insights/the-coachs-eye-observe-before-you-correct", "destination": "/article-coachs-eye.html" },
