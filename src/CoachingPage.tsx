@@ -66,7 +66,7 @@ export default function CoachingPage() {
         <p>If you are serious about improving your padel, the goal should be more than hitting more balls. It should be understanding why you win points, why you lose them, where you should be on the court and how to make better decisions under pressure.</p>
         <a className="button button-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Request a coaching session <ArrowRight size={18} /></a>
       </div>
-      <div className="coaching-hero-image"><img src="/assets/carousel/coaching-wide.webp" alt="Julian Wortelboer providing private padel coaching in Miami Florida" /><div className="coaching-stat"><strong>25+</strong><span>Years developing<br />players and coaches</span></div></div>
+      <div className="coaching-hero-image"><img src="/assets/carousel/coaching-hero-hd.jpg" fetchPriority="high" alt="Julian Wortelboer providing private padel coaching in Miami Florida" /><div className="coaching-stat"><strong>25+</strong><span>Years developing<br />players and coaches</span></div></div>
     </section>
 
     <section className="section coaching-philosophy" id="methodology">
