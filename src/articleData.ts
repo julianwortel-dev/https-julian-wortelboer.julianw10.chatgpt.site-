@@ -487,6 +487,12 @@ export const articles: Article[] = [
       "I've watched clubs with mediocre facilities thrive under a great GM, and I've watched gorgeous facilities struggle under the wrong one. The building is not the business. The person running it is.",
     ],
     sections: [
+      { heading: 'The GM and Head of Padel: one person or two, clear responsibility', paragraphs: [
+        'Some clubs have a General Manager and a separate Head of Padel. Others combine both roles in one position. Either structure can work, but the owner must be clear about who is responsible for the business, the coaching team and the quality of the programs.',
+        'When the roles are separate, the GM leads the overall operation: finances, staffing, hospitality and the member experience. The Head of Padel leads coaching standards, coach assessment and development, programming and player progression. They need to work together on hiring, budgets and the value their programs deliver to members.',
+        'When one person fills both roles, that person must have the competence and time to deliver both. Giving a GM the additional title of Head of Padel does not automatically give them the ability to evaluate a coach. Owners need to assess both sets of skills and provide support where it is needed.',
+        'What matters is that responsibility is clear. The Head of Padel should lead the practical coaching assessment when that position exists, and the GM should ensure that proper assessment takes place before anyone is hired. Neither should assume the other has checked.',
+      ]},
       { heading: 'What general management experience needs to mean', paragraphs: ["A résumé that says ‘managed a facility’ tells you almost nothing. These are the competencies that actually predict whether someone can run your club:"], bullets: [
         'Proven team leadership. Has personally built, coached, and held accountable a multi-department team across the front desk, coaching, cleaning, and maintenance.',
         "Culture and mission stewardship. Can translate the club's mission into daily behavior—not merely repeat it in an interview.",
@@ -497,23 +503,24 @@ export const articles: Article[] = [
         'Systems and AI fluency. Understands the booking platform, POS, CRM and reporting tools, and can use AI thoughtfully throughout club operations.',
         'Composure under pressure. Sets the emotional tone through double bookings, injuries, and peak-hour staffing problems—not only on easy days.',
       ]},
-      { heading: 'AI belongs in the general manager’s toolbox', paragraphs: [
+      { heading: 'AI belongs in the GM’s and Head of Padel’s toolbox', paragraphs: [
+        'Both roles should know how to use AI in their area of responsibility. The GM might use it for operational reporting and staff planning, while the Head of Padel might use it to organize programs, prepare coach development materials and review participation patterns. In a combined role, the same person needs to apply that judgment across both areas.',
         'The landscape of running a padel club is changing by the minute. AI is part of that change, and a great manager needs to understand how to use it across the operation. Being comfortable with a booking system is no longer enough.',
         'I want a manager who can look at the weekly schedule, member feedback, program attendance and team workload, then identify where AI can help the club work better. That could mean preparing staff training, drafting member communications, spotting patterns in court utilization, planning programs or organizing operating procedures.',
         'The important question is what the manager does with the result. Can they check the information, make a sound decision and turn it into better service? They must also know what member information belongs in an approved system and what should never be pasted into a public AI tool. Accountability stays with the manager.',
         'During an interview, ask for a practical example: show me how you would use AI to improve one part of our club this week, how you would check its work, and how you would measure the improvement. You will learn much more than you will from a résumé that simply lists AI as a skill.',
       ]},
       { heading: 'You are running a hospitality business', paragraphs: [
-        'A padel club is a hospitality business. People skills belong at the center of the GM role. Your manager must know how to motivate the team, listen to members, handle difficult conversations and make people feel that they belong.',
+        'A padel club is a hospitality business. People skills belong at the center of both the GM and Head of Padel roles. Both must know how to motivate their teams, listen to members, handle difficult conversations and make people feel that they belong.',
         'Motivating a team takes clear expectations, regular feedback, recognition and support. A manager should know when a coach needs development, when a front-desk employee needs help and when a standard needs to be enforced. The team watches what the leader does every day.',
         'Creating value for members takes the same attention. Help them find suitable playing partners, give them a clear path to improve, offer programs that fit their level and follow up when something goes wrong. A member should feel that someone at the club knows them and cares about their experience. That is what gives them a reason to return.',
       ]},
       { heading: 'A great player is not automatically a great coach', paragraphs: [
         'This is one of the mistakes I see most often: managers hire coaches based on playing ability. They watch someone hit a strong víbora or win a match and assume that person can teach. Coaching requires a different set of skills.',
-        'A GM must understand enough about padel to recognize the difference between someone who can play and someone who can develop a player. Can the coach observe, diagnose and explain? Can they adapt a lesson for a beginner, keep a group involved, communicate clearly and help players apply what they learn in a match?',
-        'Then there is the desperation hire. A club is short of coaches, someone walks in with a coaching certificate under their arm, and the manager puts them on court without properly checking their ability to teach. Sometimes that person has no teaching experience at all. In my view, this is one of the worst hiring decisions a GM can make.',
+        'Whoever leads coaching recruitment—your GM, Head of Padel or one person doing both jobs—must understand the difference between someone who can play and someone who can develop a player. Can the coach observe, diagnose and explain? Can they adapt a lesson for a beginner, keep a group involved, communicate clearly and help players apply what they learn in a match?',
+        'Then there is the desperation hire. A club is short of coaches, someone walks in with a coaching certificate under their arm, and the GM or Head of Padel puts them on court without properly checking their ability to teach. Sometimes that person has no teaching experience at all. In my view, this is one of the worst hiring decisions either leader can make.',
         'A certificate is a starting point. An inexperienced coach can become excellent with mentoring, supervised practice and feedback. The mistake is treating the certificate as proof that the person is ready to deliver your club’s programs independently.',
-        'Before making an offer, watch the candidate teach. Give them a realistic lesson situation and evaluate what the players actually learn. If the GM cannot assess coaching quality confidently, involve a qualified head coach or coach educator. Filling a gap in the schedule is never enough reason to lower the standard.',
+        'Before making an offer, watch the candidate teach. Give them a realistic lesson situation and evaluate what the players actually learn. A qualified Head of Padel should lead this assessment where the roles are separate. If the person filling both roles cannot assess coaching quality confidently, involve a qualified coach educator. Filling a gap in the schedule is never enough reason to lower the standard.',
       ], bullets: [
         'Observe a practical lesson with players at the level the candidate will teach.',
         'Evaluate communication, diagnosis, lesson structure, safety and player engagement.',
@@ -532,9 +539,9 @@ export const articles: Article[] = [
         "This is why it's often smarter to be the second or third club in a new city rather than the first. Later entrants inherit a community the first club spent years and dollars building. If you are the first mover, your GM's ability to build that community from nothing is the biggest variable in how quickly you reach profitability.",
       ]},
       { heading: 'The standard to hold', paragraphs: [
-        'Club owners: you MUST pay attention to who is running your club. Your general manager sets the standard for the team, the member experience and the quality of coaching. A beautiful facility cannot compensate for weak leadership indefinitely.',
+        'Club owners: you MUST pay attention to who is running your club. Your GM and Head of Padel set the standard for the team, the member experience and the quality of coaching. Whether those responsibilities sit with one person or two, a beautiful facility cannot compensate for weak leadership indefinitely.',
         'Hire someone who combines people skills, financial judgment, padel knowledge and the ability to use modern tools responsibly. They need to recognize great coaching, develop the team and create value for members every day. Without strong leadership, you put the entire business at risk.',
-        'What you can do tomorrow: review your GM job description and interview process. Ask candidates to demonstrate how they would use AI, resolve a member complaint, motivate an underperforming team and assess a coaching candidate. Look for evidence in their decisions and actions. Your club’s future depends on the standard you accept.',
+        'What you can do tomorrow: review your GM and Head of Padel job descriptions, or your combined role, and make the responsibilities explicit. Ask candidates to demonstrate how they would use AI, resolve a member complaint, motivate an underperforming team and assess a coaching candidate within their remit. If one person will do both jobs, assess them for both. Look for evidence in their decisions and actions. Your club’s future depends on the standard you accept.',
       ]},
     ],
     source: 'This hiring framework is part of the Padel Club Blueprint—the full competency matrix and manager-specific red flags are covered in Mastering the Art of Coaching Padel.',
