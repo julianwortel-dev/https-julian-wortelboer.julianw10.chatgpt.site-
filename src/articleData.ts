@@ -4,6 +4,7 @@ export type Article = {
   category: string;
   date: string;
   readTime: string;
+  updatedDate?: string;
   author?: string;
   academyUrl?: string;
   intro: string[];
@@ -478,7 +479,8 @@ export const articles: Article[] = [
     title: 'Your Most Important Hire: What to Look for in a Padel Club General Manager',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
-    readTime: '5 min read',
+    updatedDate: 'September 22, 2026',
+    readTime: '8 min read',
     intro: [
       'Before you hire a single coach, before you post a single front-desk shift, hire the person who will lead them.',
       "The Club Manager or General Manager is the highest-leverage hire in the building. Get this one wrong, and every other role underperforms—regardless of how talented your coaching staff is or how beautiful your courts are.",
@@ -492,16 +494,47 @@ export const articles: Article[] = [
         'Financial literacy. Can build and read a P&L, control labor cost, and understand margin by revenue stream.',
         'A real local network. Vendors, local players, other clubs, and ideally a roster of micro-influencers who can help build awareness.',
         'Recruiting instinct. A GM who keeps a bench ensures the club is never one resignation away from a crisis.',
-        'Systems fluency. Comfortable with the booking platform, POS, CRM, and reporting stack.',
+        'Systems and AI fluency. Understands the booking platform, POS, CRM and reporting tools, and can use AI thoughtfully throughout club operations.',
         'Composure under pressure. Sets the emotional tone through double bookings, injuries, and peak-hour staffing problems—not only on easy days.',
+      ]},
+      { heading: 'AI belongs in the general manager’s toolbox', paragraphs: [
+        'The landscape of running a padel club is changing by the minute. AI is part of that change, and a great manager needs to understand how to use it across the operation. Being comfortable with a booking system is no longer enough.',
+        'I want a manager who can look at the weekly schedule, member feedback, program attendance and team workload, then identify where AI can help the club work better. That could mean preparing staff training, drafting member communications, spotting patterns in court utilization, planning programs or organizing operating procedures.',
+        'The important question is what the manager does with the result. Can they check the information, make a sound decision and turn it into better service? They must also know what member information belongs in an approved system and what should never be pasted into a public AI tool. Accountability stays with the manager.',
+        'During an interview, ask for a practical example: show me how you would use AI to improve one part of our club this week, how you would check its work, and how you would measure the improvement. You will learn much more than you will from a résumé that simply lists AI as a skill.',
+      ]},
+      { heading: 'You are running a hospitality business', paragraphs: [
+        'A padel club is a hospitality business. People skills belong at the center of the GM role. Your manager must know how to motivate the team, listen to members, handle difficult conversations and make people feel that they belong.',
+        'Motivating a team takes clear expectations, regular feedback, recognition and support. A manager should know when a coach needs development, when a front-desk employee needs help and when a standard needs to be enforced. The team watches what the leader does every day.',
+        'Creating value for members takes the same attention. Help them find suitable playing partners, give them a clear path to improve, offer programs that fit their level and follow up when something goes wrong. A member should feel that someone at the club knows them and cares about their experience. That is what gives them a reason to return.',
+      ]},
+      { heading: 'A great player is not automatically a great coach', paragraphs: [
+        'This is one of the mistakes I see most often: managers hire coaches based on playing ability. They watch someone hit a strong víbora or win a match and assume that person can teach. Coaching requires a different set of skills.',
+        'A GM must understand enough about padel to recognize the difference between someone who can play and someone who can develop a player. Can the coach observe, diagnose and explain? Can they adapt a lesson for a beginner, keep a group involved, communicate clearly and help players apply what they learn in a match?',
+        'Then there is the desperation hire. A club is short of coaches, someone walks in with a coaching certificate under their arm, and the manager puts them on court without properly checking their ability to teach. Sometimes that person has no teaching experience at all. In my view, this is one of the worst hiring decisions a GM can make.',
+        'A certificate is a starting point. An inexperienced coach can become excellent with mentoring, supervised practice and feedback. The mistake is treating the certificate as proof that the person is ready to deliver your club’s programs independently.',
+        'Before making an offer, watch the candidate teach. Give them a realistic lesson situation and evaluate what the players actually learn. If the GM cannot assess coaching quality confidently, involve a qualified head coach or coach educator. Filling a gap in the schedule is never enough reason to lower the standard.',
+      ], bullets: [
+        'Observe a practical lesson with players at the level the candidate will teach.',
+        'Evaluate communication, diagnosis, lesson structure, safety and player engagement.',
+        'Ask how the coach would adapt the same exercise for different abilities.',
+        'Check references and teaching experience, and establish a development plan where needed.',
+        'Review coaching quality regularly after hiring, using lesson observations and player feedback.',
+      ]},
+      { heading: 'Your coaches build your future membership', paragraphs: [
+        'I consider your coaches the most important asset in the development of your club’s playing community. They introduce people to the sport, help them improve, build their confidence and give them a reason to keep playing.',
+        'Those new players can become regular participants, members and customers across the club. Good coaching supports lessons, clinics, leagues, court bookings and the social connections that keep people involved.',
+        'Poor coaching can hurt the operation quickly. Players become frustrated, programs lose momentum, repeat bookings decline and revenue suffers. A weak hire can cost far more than the empty lesson slot the manager was trying to fill.',
+        'Invest in your coaches. Give them a shared methodology, time to develop, clear standards and a leader who understands their contribution. Then measure player progress, repeat participation and member feedback alongside lesson revenue.',
       ]},
       { heading: 'Why this matters even more in a new market', paragraphs: [
         "If you're opening in a city with no existing padel community, building one typically takes 10 to 24 months. The right manager can significantly compress that window.",
         "This is why it's often smarter to be the second or third club in a new city rather than the first. Later entrants inherit a community the first club spent years and dollars building. If you are the first mover, your GM's ability to build that community from nothing is the biggest variable in how quickly you reach profitability.",
       ]},
       { heading: 'The standard to hold', paragraphs: [
-        "Don't hire a facility manager. Hire a leader who happens to understand padel operations. The technical parts—the booking software, scheduling, and reporting—can be taught in weeks. Team leadership, financial judgment, and composure under pressure cannot be taught nearly as fast, if at all.",
-        "What you can do tomorrow: Take your current GM job posting, or your mental checklist if you haven't written one, and run it against the eight competencies above. If it's mostly about padel knowledge and facility operations, rewrite it. Playing knowledge is easy to find. Leadership and financial judgment are rare.",
+        'Club owners: you MUST pay attention to who is running your club. Your general manager sets the standard for the team, the member experience and the quality of coaching. A beautiful facility cannot compensate for weak leadership indefinitely.',
+        'Hire someone who combines people skills, financial judgment, padel knowledge and the ability to use modern tools responsibly. They need to recognize great coaching, develop the team and create value for members every day. Without strong leadership, you put the entire business at risk.',
+        'What you can do tomorrow: review your GM job description and interview process. Ask candidates to demonstrate how they would use AI, resolve a member complaint, motivate an underperforming team and assess a coaching candidate. Look for evidence in their decisions and actions. Your club’s future depends on the standard you accept.',
       ]},
     ],
     source: 'This hiring framework is part of the Padel Club Blueprint—the full competency matrix and manager-specific red flags are covered in Mastering the Art of Coaching Padel.',

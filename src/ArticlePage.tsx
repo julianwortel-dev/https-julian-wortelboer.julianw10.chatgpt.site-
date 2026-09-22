@@ -29,7 +29,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     description: article.intro[0],
     articleSection: article.category,
     datePublished: published,
-    dateModified: published,
+    dateModified: article.updatedDate ? new Date(article.updatedDate + ' 12:00:00 UTC').toISOString().slice(0, 10) : published,
     inLanguage: 'en-US',
     image: 'https://www.julianwortelboer.com/assets/julian-hero.webp',
     mainEntityOfPage: articleUrl,
