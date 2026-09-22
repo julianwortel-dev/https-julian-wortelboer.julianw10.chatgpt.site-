@@ -207,6 +207,60 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .article-not-found { min-height:100vh; display:grid; place-content:center; text-align:center; }
 .article-not-found h1 { margin-bottom:30px; }
 
+.coaching-page .site-header nav>a:first-child { display:inline-flex; align-items:center; gap:7px; }
+.coaching-hero { min-height:calc(100vh - 84px); display:grid; grid-template-columns:56% 44%; border-bottom:1px solid var(--line); }
+.coaching-hero-copy { padding:clamp(70px,8vw,130px) clamp(30px,7vw,110px); display:flex; flex-direction:column; justify-content:center; }
+.coaching-hero h1 { max-width:900px; font-size:clamp(58px,7.5vw,116px); margin:32px 0 30px; }
+.coaching-lead { max-width:720px; font-size:clamp(20px,1.75vw,26px); line-height:1.45; font-weight:700; letter-spacing:-.02em; }
+.coaching-hero-copy>p:not(.eyebrow,.coaching-lead) { max-width:680px; color:var(--muted); font-size:17px; line-height:1.65; }
+.coaching-hero-copy .button { width:max-content; margin-top:25px; }
+.coaching-hero-image { min-height:700px; position:relative; overflow:hidden; background:var(--forest); }
+.coaching-hero-image>img { width:100%; height:100%; object-fit:cover; object-position:55% center; }
+.coaching-hero-image::after { content:""; position:absolute; inset:8%; border:1px solid rgba(255,198,56,.88); border-left:0; pointer-events:none; }
+.coaching-stat { position:absolute; left:0; bottom:0; z-index:2; display:flex; align-items:center; gap:15px; background:var(--acid); padding:21px 28px; }
+.coaching-stat strong { font-size:32px; line-height:1; }
+.coaching-stat span { font-size:10px; line-height:1.35; font-weight:700; text-transform:uppercase; letter-spacing:.11em; }
+.coaching-philosophy { padding-bottom:0; }
+.coaching-statement { display:grid; grid-template-columns:1.3fr .7fr; gap:9%; align-items:end; }
+.coaching-statement h2 { margin:0; }
+.coaching-statement>p { margin:0; color:var(--muted); font-size:18px; line-height:1.65; }
+.coaching-method-grid { display:grid; grid-template-columns:repeat(3,1fr); margin-top:clamp(65px,8vw,110px); border-top:1px solid var(--line); }
+.coaching-method-grid article { min-height:330px; padding:32px clamp(22px,3vw,45px) 44px 0; border-right:1px solid var(--line); }
+.coaching-method-grid article+article { padding-left:clamp(22px,3vw,45px); }
+.coaching-method-grid article:last-child { border-right:0; }
+.coaching-method-grid span,.coaching-format-grid>article>span { font:12px monospace; color:var(--muted); }
+.coaching-method-grid h3,.coaching-format-grid h3 { font-size:clamp(28px,3vw,43px); line-height:1.05; letter-spacing:-.04em; margin:55px 0 20px; }
+.coaching-method-grid p,.coaching-format-grid p { color:var(--muted); line-height:1.6; margin:0; }
+.coaching-system { display:grid; grid-template-columns:1.3fr .7fr; gap:8%; padding:clamp(75px,9vw,140px) clamp(24px,7vw,110px); background:#1d3128; color:white; align-items:center; }
+.coaching-system h2 { color:white; margin:35px 0; }
+.coaching-system-copy>p:not(.section-label) { max-width:760px; color:rgba(255,255,255,.72); font-size:18px; line-height:1.65; }
+.coaching-system-links { margin-top:34px; border-top:1px solid rgba(255,255,255,.25); }
+.coaching-system-links a { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:21px 0; border-bottom:1px solid rgba(255,255,255,.25); font-weight:700; }
+.coaching-system-links a:hover { color:var(--acid); }
+.coaching-book { display:block; max-width:390px; justify-self:center; padding:20px; background:#112640; }
+.coaching-book img { box-shadow:0 25px 55px rgba(0,0,0,.35); }
+.coaching-focus-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:0 6%; margin:65px 0 90px; border-top:1px solid var(--line); }
+.coaching-focus-grid>div { min-height:64px; display:flex; align-items:center; gap:13px; border-bottom:1px solid var(--line); font-size:15px; font-weight:700; }
+.coaching-focus-grid svg { color:var(--red); flex-shrink:0; }
+.coaching-format-grid { display:grid; grid-template-columns:repeat(2,1fr); border-top:1px solid var(--line); }
+.coaching-format-grid article { min-height:360px; padding:35px 8% 50px 0; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+.coaching-format-grid article:nth-child(even) { padding-left:8%; padding-right:0; border-right:0; }
+.coaching-levels { display:grid; grid-template-columns:42% 1fr; gap:8%; padding:clamp(75px,9vw,135px) clamp(24px,7vw,110px); background:var(--ink); color:white; }
+.coaching-levels h2 { color:white; margin:34px 0 0; }
+.coaching-levels>div:last-child { border-top:1px solid rgba(255,255,255,.25); }
+.coaching-levels article { display:grid; grid-template-columns:40% 1fr; gap:7%; padding:25px 0; border-bottom:1px solid rgba(255,255,255,.25); }
+.coaching-levels h3 { margin:0; font-size:22px; }
+.coaching-levels article p { margin:0; color:rgba(255,255,255,.65); line-height:1.55; }
+.coaching-eye { display:grid; grid-template-columns:43% 1fr; gap:8%; align-items:center; }
+.coaching-eye-image { min-height:620px; }
+.coaching-eye-image img { height:100%; object-fit:cover; }
+.coaching-eye h2 { margin:35px 0; }
+.coaching-eye>div:last-child>p:not(.section-label) { color:var(--muted); font-size:18px; line-height:1.65; }
+.coaching-eye blockquote { margin:40px 0; padding:25px 0 25px 30px; border-left:4px solid var(--acid); font-size:clamp(25px,3vw,40px); line-height:1.15; font-weight:700; letter-spacing:-.035em; }
+.coaching-cta { text-align:center; padding:clamp(80px,10vw,150px) clamp(24px,7vw,110px); background:var(--acid); }
+.coaching-cta h2 { max-width:1100px; margin:40px auto 28px; font-size:clamp(53px,7vw,100px); }
+.coaching-cta>p:not(.eyebrow) { max-width:700px; margin:0 auto 38px; font-size:18px; line-height:1.6; }
+
 @media (max-width:900px) {
   .site-header nav { display:none; } .mobile-contact { display:block; }
   .hero { grid-template-columns:1fr; } .hero-copy { min-height:620px; } .hero-visual { min-height:72vh; } .hero-index { display:none; }
@@ -227,6 +281,11 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
   .insights-cta { align-items:flex-start; flex-direction:column; }
   .article-layout { grid-template-columns:1fr; gap:45px; } .article-layout aside { max-width:280px; }
   .article-resource-cta { grid-template-columns:minmax(130px,32%) 1fr; }
+  .coaching-hero { grid-template-columns:1fr; } .coaching-hero-copy { min-height:690px; } .coaching-hero-image { min-height:650px; }
+  .coaching-statement,.coaching-system,.coaching-levels,.coaching-eye { grid-template-columns:1fr; }
+  .coaching-statement { align-items:start; gap:35px; }
+  .coaching-system { gap:65px; } .coaching-book { max-width:350px; }
+  .coaching-levels { gap:55px; } .coaching-eye { gap:55px; }
 }
 
 @media (max-width:560px) {
@@ -248,6 +307,19 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
   .resource-card,.article-resource-cta { grid-template-columns:1fr; }
   .resource-card { min-height:auto; } .resource-cover { aspect-ratio:4/5; }
   .article-resource-cover { min-height:0; aspect-ratio:4/5; }
+  .coaching-hero-copy { min-height:calc(100vh - 72px); padding:70px 28px; }
+  .coaching-hero h1 { font-size:clamp(52px,15vw,73px); }
+  .coaching-hero-copy .button { width:100%; }
+  .coaching-hero-image { min-height:520px; }
+  .coaching-method-grid,.coaching-focus-grid,.coaching-format-grid { grid-template-columns:1fr; }
+  .coaching-method-grid article,.coaching-method-grid article+article { min-height:auto; padding:30px 0 40px; border-right:0; border-bottom:1px solid var(--line); }
+  .coaching-method-grid h3,.coaching-format-grid h3 { margin-top:30px; }
+  .coaching-system { padding-left:28px; padding-right:28px; }
+  .coaching-focus-grid { margin:50px 0 70px; }
+  .coaching-format-grid article,.coaching-format-grid article:nth-child(even) { min-height:auto; padding:34px 0 45px; border-right:0; }
+  .coaching-levels { padding-left:28px; padding-right:28px; }
+  .coaching-levels article { grid-template-columns:1fr; gap:10px; }
+  .coaching-eye-image { min-height:430px; }
 }
 
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } .photo-carousel img { animation:none; opacity:0; } .photo-carousel img:first-child { opacity:1; } }

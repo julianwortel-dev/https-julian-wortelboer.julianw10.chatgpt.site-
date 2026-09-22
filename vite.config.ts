@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         contact: resolve(__dirname, 'contact.html'),
+        coaching: resolve(__dirname, 'coaching.html'),
         insights: resolve(__dirname, 'insights.html'),
         articleCourts: resolve(__dirname, 'article-courts.html'),
         articleAiOperations: resolve(__dirname, 'article-ai-operations.html'),

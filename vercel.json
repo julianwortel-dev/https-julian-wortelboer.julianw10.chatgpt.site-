@@ -8,6 +8,7 @@
   "rewrites": [
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/padel-coaching-miami", "destination": "/coaching.html" },
     { "source": "/insights", "destination": "/insights.html" },
     { "source": "/insights/premium-vs-chinese-padel-courts", "destination": "/article-courts.html" },
     { "source": "/insights/ai-operations-layer-icon-padel-club", "destination": "/article-ai-operations.html" },

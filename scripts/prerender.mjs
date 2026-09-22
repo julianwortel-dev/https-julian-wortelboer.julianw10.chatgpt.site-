@@ -14,7 +14,7 @@ try {
   for (const [path, file] of routes) {
     if (path === '/about-julian-wortelboer') continue;
     let html = await readFile(`dist/${file}`, 'utf8');
-    const module = path === '/' ? 'App' : path === '/contact' ? 'ContactPage' : path === '/insights' ? 'InsightsPage' : 'ArticlePage';
+    const module = path === '/' ? 'App' : path === '/contact' ? 'ContactPage' : path === '/padel-coaching-miami' ? 'CoachingPage' : path === '/insights' ? 'InsightsPage' : 'ArticlePage';
     const { default: Component } = await server.ssrLoadModule(`/src/${module}.tsx`);
     const body = renderToString(createElement(Component, { pathname: path }));
     if (path !== '/') html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
