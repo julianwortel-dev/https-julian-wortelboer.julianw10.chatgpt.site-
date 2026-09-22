@@ -215,7 +215,7 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .coaching-hero-copy>p:not(.eyebrow,.coaching-lead) { max-width:680px; color:var(--muted); font-size:17px; line-height:1.65; }
 .coaching-hero-copy .button { width:max-content; margin-top:25px; }
 .coaching-hero-image { min-height:700px; position:relative; overflow:hidden; background:var(--forest); }
-.coaching-hero-image>img { width:100%; height:100%; object-fit:cover; object-position:55% center; }
+.coaching-hero-image>img { width:100%; height:100%; object-fit:cover; object-position:28% center; }
 .coaching-hero-image::after { content:""; position:absolute; inset:8%; border:1px solid rgba(255,198,56,.88); border-left:0; pointer-events:none; }
 .coaching-stat { position:absolute; left:0; bottom:0; z-index:2; display:flex; align-items:center; gap:15px; background:var(--acid); padding:21px 28px; }
 .coaching-stat strong { font-size:32px; line-height:1; }
@@ -311,6 +311,7 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
   .coaching-hero h1 { font-size:clamp(52px,15vw,73px); }
   .coaching-hero-copy .button { width:100%; }
   .coaching-hero-image { min-height:520px; }
+  .coaching-hero-image>img { object-position:28% center; }
   .coaching-method-grid,.coaching-focus-grid,.coaching-format-grid { grid-template-columns:1fr; }
   .coaching-method-grid article,.coaching-method-grid article+article { min-height:auto; padding:30px 0 40px; border-right:0; border-bottom:1px solid var(--line); }
   .coaching-method-grid h3,.coaching-format-grid h3 { margin-top:30px; }
