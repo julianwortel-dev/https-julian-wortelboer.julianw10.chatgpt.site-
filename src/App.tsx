@@ -32,7 +32,7 @@ export default function Home() {
       <header className="site-header">
         <a href="#top" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Primary navigation">
-          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="/padel-coaching-miami">Coaching</a><a href="#about">About</a><a href="/insights">Insights</a>
+          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="/padel-coaching-miami">Coaching</a><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a href="#about">About</a><a href="/insights">Insights</a>
           <a className="nav-cta" href="#contact">Work with Julian <ArrowDownRight size={16} /></a>
         </nav>
         <a className="mobile-contact" href="#contact" aria-label="Contact Julian"><Menu size={22} /></a>
@@ -133,10 +133,10 @@ export default function Home() {
             <div className="resource-copy"><span>For coaches</span><h3>Take your coaching skills to the next level.</h3><p>Master the Art of Coaching Padel with a global methodology for developing players, empowering coaches and growing the sport.</p><a className="button button-primary" href="https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/" target="_blank" rel="noreferrer">Purchase the book <ArrowRight size={18} /></a></div>
           </article>
           <article className="resource-card resource-card-blueprint">
-            <a className="resource-cover" href="/contact" aria-label="Work with PSA and Julian to access The Complete Padel Club Blueprint">
+            <a className="resource-cover" href="/padel-club-growth-roadmap" aria-label="Explore Julian Wortelboer's Padel Club Growth Roadmap">
               <img src="/assets/resources/padel-club-blueprint-cover.webp" alt="The Complete Padel Club Blueprint operating manual for padel club owners" width="1231" height="1600" loading="lazy" />
             </a>
-            <div className="resource-copy"><span>For club owners and operators</span><h3>The Complete Padel Club Blueprint.</h3><p>A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-primary" href="/contact">Work with PSA and Julian <ArrowRight size={18} /></a></div>
+            <div className="resource-copy"><span>For club owners and operators</span><h3>The Complete Padel Club Blueprint.</h3><p>A comprehensive operating manual provided to consulting clients—covering pre-opening, launch, daily operations, programming, and scalable growth.</p><a className="button button-primary" href="/padel-club-growth-roadmap">Start the Growth Roadmap <ArrowRight size={18} /></a></div>
           </article>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function Home() {
 
       <footer>
         <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
-        <div><a href="/padel-coaching-miami">Coaching</a><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
+        <div><a href="/padel-coaching-miami">Coaching</a><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>
   );

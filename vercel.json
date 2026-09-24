@@ -9,6 +9,8 @@
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/padel-coaching-miami", "destination": "/coaching.html" },
+    { "source": "/padel-club-growth-roadmap", "destination": "/growth-roadmap.html" },
+    { "source": "/padel-club-growth-roadmap/assessment", "destination": "/growth-roadmap-assessment.html" },
     { "source": "/insights", "destination": "/insights.html" },
     { "source": "/insights/premium-vs-chinese-padel-courts", "destination": "/article-courts.html" },
     { "source": "/insights/programming-excellence", "destination": "/article-programming.html" },

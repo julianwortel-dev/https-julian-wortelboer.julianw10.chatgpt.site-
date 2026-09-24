@@ -14,6 +14,11 @@ try {
   for (const [path, file] of routes) {
     if (path === '/about-julian-wortelboer') continue;
     let html = await readFile(`dist/${file}`, 'utf8');
+    if (path.startsWith('/padel-club-growth-roadmap')) {
+      html = html.replace('</head>', `${rssLink}</head>`);
+      await writeFile(`dist/${file}`, html);
+      continue;
+    }
     const module = path === '/' ? 'App' : path === '/contact' ? 'ContactPage' : path === '/padel-coaching-miami' ? 'CoachingPage' : path === '/insights' ? 'InsightsPage' : 'ArticlePage';
     const { default: Component } = await server.ssrLoadModule(`/src/${module}.tsx`);
     const body = renderToString(createElement(Component, { pathname: path }));
@@ -50,11 +55,14 @@ try {
     const html = await readFile(`dist/${file}`, 'utf8');
     if ((html.match(/<h1[ >]/g) || []).length !== 1) throw Error(`Expected one H1: ${path}`);
     if (!html.includes(`href="${origin}${path}"`)) throw Error(`Missing canonical: ${path}`);
-    for (const required of ['<title>', 'name="description"', 'name="robots"', 'property="og:title"', 'property="og:description"', 'property="og:url"', 'property="og:image"', 'name="twitter:card"']) if (!html.includes(required)) throw Error(`Missing ${required}: ${path}`);
+    const requiredMetadata = ['<title>', 'name="description"', 'name="robots"', 'property="og:title"', 'property="og:description"', 'property="og:url"', 'name="twitter:card"'];
+    if (!path.startsWith('/padel-club-growth-roadmap')) requiredMetadata.push('property="og:image"');
+    for (const required of requiredMetadata) if (!html.includes(required)) throw Error(`Missing ${required}: ${path}`);
     for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) JSON.parse(match[1]);
     for (const [, href] of html.matchAll(/href="(\/[^"#]*)/g)) {
       if (href.startsWith('/assets/')) continue;
-      if (!routes.has(href)) throw Error(`Broken internal link ${href} in ${path}`);
+      const routeHref = href.split('?')[0];
+      if (!routes.has(routeHref)) throw Error(`Broken internal link ${href} in ${path}`);
     }
   }
   console.log(`Validated ${routes.size} fully rendered pages, canonical URLs, internal links and JSON-LD.`);

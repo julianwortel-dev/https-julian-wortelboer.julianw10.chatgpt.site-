@@ -54,7 +54,7 @@ export default function CoachingPage() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
     <header className="site-header">
       <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
-      <nav aria-label="Coaching navigation"><a href="/"><ArrowLeft size={16} /> Home</a><a href="#methodology">Methodology</a><a href="#coaching-options">Coaching options</a><a href="/insights#coaching">Insights</a><a className="nav-cta" href={whatsappUrl} target="_blank" rel="noreferrer">Request a session <ArrowDownRight size={16} /></a></nav>
+      <nav aria-label="Coaching navigation"><a href="/"><ArrowLeft size={16} /> Home</a><a href="#methodology">Methodology</a><a href="#coaching-options">Coaching options</a><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a href="/insights#coaching">Insights</a><a className="nav-cta" href={whatsappUrl} target="_blank" rel="noreferrer">Request a session <ArrowDownRight size={16} /></a></nav>
       <a className="mobile-contact" href={whatsappUrl} target="_blank" rel="noreferrer" aria-label="Request a padel coaching session"><ArrowRight size={22} /></a>
     </header>
 
@@ -119,6 +119,6 @@ export default function CoachingPage() {
       <a className="button button-light" href={whatsappUrl} target="_blank" rel="noreferrer">Request a coaching session on WhatsApp <ArrowRight size={19} /></a>
     </section>
 
-    <footer><div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel Master Coach · Miami · USA</p><div><a href="/">Home</a><a href="/insights">Insights</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a></div></footer>
+    <footer><div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel Master Coach · Miami · USA</p><div><a href="/">Home</a><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a href="/insights">Insights</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a></div></footer>
   </main>;
 }

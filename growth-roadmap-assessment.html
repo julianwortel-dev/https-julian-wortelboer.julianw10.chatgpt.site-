@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Padel Club Assessment | Growth Roadmap</title>
+  <meta name="description" content="Assess your padel club's strategy, operations, coaching, programs, membership and growth. Choose a pre-opening or operating-club diagnostic.">
+  <meta name="author" content="Julian Wortelboer">
+  <meta name="robots" content="noindex,follow,max-snippet:-1">
+  <link rel="canonical" href="https://www.julianwortelboer.com/padel-club-growth-roadmap/assessment">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Julian Wortelboer">
+  <meta property="og:title" content="Free Padel Club Assessment | Growth Roadmap">
+  <meta property="og:description" content="Choose the pre-opening or operating-club path and identify the areas that most need expert attention.">
+  <meta property="og:url" content="https://www.julianwortelboer.com/padel-club-growth-roadmap/assessment">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Free Padel Club Assessment">
+  <meta name="twitter:description" content="A personalized diagnostic for padel club owners, investors and managers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23f1cf3c'/%3E%3Cpath d='M17 49V15h14c11 0 17 5 17 15 0 9-6 14-17 14h-6v5h-8zm8-13h7c5 0 8-2 8-6s-3-7-8-7h-7v13z' fill='%2311110f'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --ink:#10233f;
+      --blue:#1e5da8;
+      --lime:#b8d532;
+      --paper:#f4f6f1;
+      --white:#fff;
+      --muted:#64748b;
+      --line:#dbe2e8;
+      --red:#c94242;
+      --amber:#dc8a16;
+      --green:#2f855a;
+      --shadow:0 20px 55px rgba(16,35,63,.13);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(150deg,#edf2ea 0%,#f8fafc 45%,#edf3f8 100%);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
+    button,input,select{font:inherit}
+    .topbar{background:var(--ink);color:#fff;padding:18px 24px;position:sticky;top:0;z-index:10;box-shadow:0 8px 24px rgba(16,35,63,.22)}
+    .topbar-inner{max-width:1040px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .mark{width:42px;height:42px;border-radius:12px;background:var(--lime);color:var(--ink);display:grid;place-items:center;font-weight:950;font-size:20px}
+    .brand strong{display:block;font-size:15px;letter-spacing:.2px}
+    .brand span{display:block;color:#b9c7d8;font-size:11px;margin-top:2px}
+    .track-label{font-size:12px;color:#dbe5ef;text-align:right}
+    .progress{height:5px;background:#203957}
+    .progress span{display:block;height:100%;width:0;background:var(--lime);transition:width .3s ease}
+    main{max-width:1040px;margin:0 auto;padding:34px 18px 80px}
+    .panel{display:none;background:rgba(255,255,255,.96);border:1px solid rgba(219,226,232,.9);border-radius:var(--radius);box-shadow:var(--shadow);padding:42px}
+    .panel.active{display:block;animation:enter .25s ease}
+    @keyframes enter{from{opacity:.25;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .eyebrow{color:var(--blue);font-weight:850;letter-spacing:1.8px;text-transform:uppercase;font-size:11px;margin-bottom:8px}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(30px,5vw,52px);line-height:1.02;letter-spacing:-1.7px;margin-bottom:16px}
+    h2{font-size:clamp(25px,3.5vw,36px);letter-spacing:-.8px;margin-bottom:10px}
+    .lede{font-size:17px;line-height:1.65;color:#526273;max-width:760px}
+    .track-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:30px 0 8px}
+    .track-card{border:2px solid var(--line);border-radius:16px;padding:24px;cursor:pointer;background:#fff;text-align:left;transition:.2s;min-height:235px}
+    .track-card:hover,.track-card.selected{border-color:var(--lime);transform:translateY(-2px);box-shadow:0 14px 30px rgba(16,35,63,.1)}
+    .track-card.selected{background:#f8fbe9}
+    .track-card .icon{font-size:34px;margin-bottom:13px}
+    .track-card h3{font-size:21px;margin-bottom:7px}
+    .track-card p{color:var(--muted);line-height:1.55;font-size:14px}
+    .track-card ul{padding-left:18px;margin:13px 0 0;color:#465669;font-size:13px;line-height:1.55}
+    .field-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px;margin-top:26px}
+    .field{display:flex;flex-direction:column;gap:7px}
+    .field.full{grid-column:1/-1}
+    label{font-size:13px;font-weight:750}
+    input,select{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);outline:none}
+    input:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(30,93,168,.1)}
+    .help{color:var(--muted);font-size:12px;line-height:1.45}
+    .domain{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+    .domain:first-of-type{margin-top:24px}
+    .domain-head{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:15px}
+    .domain-head h3{font-size:19px;margin-bottom:4px}
+    .domain-head p{font-size:12px;color:var(--muted);margin:0;line-height:1.45}
+    .q-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .question{background:var(--paper);border:1px solid #e3e8df;border-radius:12px;padding:14px}
+    .question label{display:block;line-height:1.4;min-height:38px;margin-bottom:9px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:32px;padding-top:22px;border-top:1px solid var(--line)}
+    .btn{border:0;border-radius:10px;padding:13px 22px;font-weight:850;cursor:pointer;transition:.18s}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:var(--ink);color:#fff}
+    .btn-accent{background:var(--lime);color:var(--ink)}
+    .btn-secondary{background:#edf1f5;color:var(--ink)}
+    .btn-blue{background:var(--blue);color:#fff}
+    .small-note{font-size:11px;color:var(--muted);line-height:1.5}
+    .result-hero{background:var(--ink);color:#fff;border-radius:16px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+    .result-hero .eyebrow{color:var(--lime)}
+    .result-hero h2{margin:0 0 8px}
+    .result-hero p{color:#c3cfdb;margin:0;line-height:1.55}
+    .score-ring{width:132px;height:132px;border-radius:50%;background:conic-gradient(var(--lime) 0deg,#314861 0deg);display:grid;place-items:center;position:relative}
+    .score-ring:before{content:"";position:absolute;inset:11px;background:var(--ink);border-radius:50%}
+    .score-ring div{position:relative;text-align:center}
+    .score-ring strong{display:block;font-size:38px;line-height:1}
+    .score-ring span{font-size:10px;color:#c3cfdb;text-transform:uppercase;letter-spacing:1px}
+    .status-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+    .pill{border-radius:99px;padding:7px 12px;font-size:11px;font-weight:850;background:#eaf0f5;color:var(--ink)}
+    .pill.red{background:#fde4e4;color:#9b2525}.pill.amber{background:#fff0d3;color:#92580b}.pill.green{background:#def4e7;color:#1d6b43}.pill.blue{background:#e0edfb;color:#174f8c}
+    .results-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;margin-top:24px}
+    .result-card{border:1px solid var(--line);border-radius:14px;padding:21px;background:#fff}
+    .result-card h3{font-size:17px;margin-bottom:15px}
+    .bar-row{margin-bottom:15px}
+    .bar-meta{display:flex;justify-content:space-between;gap:15px;font-size:12px;font-weight:750;margin-bottom:6px}
+    .bar{height:9px;background:#e8edf1;border-radius:99px;overflow:hidden}
+    .bar span{display:block;height:100%;border-radius:99px;background:var(--blue)}
+    .risk{border-left:4px solid var(--amber);padding:11px 13px;background:#fff8e8;border-radius:0 10px 10px 0;margin-bottom:10px}
+    .risk strong{display:block;font-size:13px;margin-bottom:3px}
+    .risk span{font-size:12px;color:#66553e;line-height:1.45}
+    .timeline{margin-top:24px}
+    .timeline-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .time-card{border-top:4px solid var(--lime);background:var(--paper);padding:15px;border-radius:8px 8px 12px 12px}
+    .time-card strong{font-size:11px;color:var(--blue);text-transform:uppercase;letter-spacing:1.2px}
+    .time-card p{font-size:12px;line-height:1.5;color:#455568;margin:8px 0 0}
+    .disclaimer{margin-top:22px;background:#eef3f7;border-radius:12px;padding:15px 17px;color:#536274;font-size:11px;line-height:1.55}
+    .next-step{margin-top:24px;background:linear-gradient(135deg,var(--ink),#183c66);color:#fff;border-radius:16px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
+    .next-step h3{margin:0 0 7px;font-size:19px}.next-step p{margin:0;color:#c8d4df;font-size:13px;line-height:1.55;max-width:700px}
+    .next-step ol{margin:12px 0 0;padding-left:19px;color:#e8eef4;font-size:12px;line-height:1.65}
+    .action-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+    .hidden{display:none!important}
+    @media(max-width:760px){
+      .panel{padding:25px 18px}.track-grid,.field-grid,.q-grid,.results-grid{grid-template-columns:1fr}.timeline-grid{grid-template-columns:1fr 1fr}.next-step{grid-template-columns:1fr}.result-hero{grid-template-columns:1fr}.score-ring{width:112px;height:112px}.track-label{display:none}
+    }
+    @media(max-width:460px){.timeline-grid{grid-template-columns:1fr}.topbar{padding:14px}.brand span{display:none}}
+    @media print{
+      .topbar,.progress,.nav,.action-row{display:none!important}body{background:#fff}.panel{box-shadow:none;border:0;padding:0}.result-hero,.time-card,.result-card{-webkit-print-color-adjust:exact;print-color-adjust:exact}main{padding:0}
+    }
+    /* Julian Wortelboer website visual system */
+    :root{--ink:#11110f;--blue:#b64b38;--lime:#f1cf3c;--paper:#f3f0e8;--white:#fff;--muted:#615f58;--line:rgba(17,17,15,.2);--shadow:0 18px 45px rgba(17,17,15,.08);--radius:0}
+    body{background:var(--paper);font-family:"DM Sans",Arial,sans-serif}
+    .topbar{background:rgba(243,240,232,.96);color:var(--ink);border-bottom:1px solid var(--line);box-shadow:none;backdrop-filter:blur(12px)}
+    .brand{color:var(--ink);text-decoration:none}.brand span,.track-label{color:var(--muted)}
+    .mark{background:var(--yellow,var(--lime));border-radius:0}.progress{background:#d8d4ca}.progress span{background:var(--lime)}
+    main{max-width:1120px;padding-top:46px}.panel{border:1px solid var(--line);border-radius:0;box-shadow:none;background:rgba(255,255,255,.55)}
+    .eyebrow{color:var(--red,var(--blue));letter-spacing:.17em}.panel h1,.panel h2{letter-spacing:-.055em;color:var(--ink)}
+    h1{font-size:clamp(3rem,6vw,5.7rem);line-height:.9}.lede{color:var(--muted)}
+    .track-card,.question,.result-card{border-radius:0}.track-card:hover,.track-card.selected{border-color:var(--ink);box-shadow:none}.track-card.selected{background:var(--lime)}
+    input,select{border-radius:0}.btn{border-radius:0;text-transform:uppercase;letter-spacing:.08em;font-size:.76rem}.btn-primary,.btn-blue{background:var(--ink)}.btn-accent{background:var(--lime)}
+    .result-hero{border-radius:0}.score-ring{background:conic-gradient(var(--lime) 0deg,#474641 0deg)}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/padel-club-growth-roadmap"><div class="mark">JW</div><div><strong>Julian Wortelboer</strong><span>Padel Club Growth Roadmap</span></div></a>
+      <div class="track-label" id="headerTrack">Choose your club path</div>
+    </div>
+  </header>
+  <div class="progress"><span id="progressBar"></span></div>
+
+  <main>
+    <section class="panel active" id="step0">
+      <div class="eyebrow">Free Padel Club Growth Roadmap</div>
+      <h1>Find the constraints holding your padel club back.</h1>
+      <p class="lede">Choose the path that matches your club. In approximately eight minutes, you will receive a preliminary readiness or performance snapshot and identify the three areas that most need expert attention.</p>
+      <div class="track-grid">
+        <button class="track-card" type="button" data-track="prepare" onclick="chooseTrack('prepare',this)">
+          <div class="icon">🏗️</div><h3>Prepare to Open</h3>
+          <p>For owners and managers planning a new club or preparing for opening day.</p>
+          <ul><li>Opening readiness</li><li>Commercial and operational decisions</li><li>Team, programming and launch preparation</li></ul>
+        </button>
+        <button class="track-card" type="button" data-track="improve" onclick="chooseTrack('improve',this)">
+          <div class="icon">📈</div><h3>Improve an Open Club</h3>
+          <p>For operating clubs that need stronger systems, utilization, profitability or retention.</p>
+          <ul><li>Operational performance</li><li>Revenue and utilization gaps</li><li>Team accountability and member retention</li></ul>
+        </button>
+      </div>
+      <div class="nav"><span class="small-note">Your answers remain in this browser unless you copy, print or email the results.</span><button class="btn btn-accent" id="startBtn" type="button" onclick="nextFromStart()" disabled>Start Diagnostic →</button></div>
+    </section>
+
+    <section class="panel" id="step1">
+      <div class="eyebrow">Step 1 of 4 — Club Profile</div>
+      <h2>Tell us about the club.</h2>
+      <p class="lede" id="profileIntro"></p>
+      <div class="field-grid">
+        <div class="field"><label for="name">Your name *</label><input id="name" autocomplete="name" placeholder="Full name"></div>
+        <div class="field"><label for="email">Email *</label><input id="email" type="email" autocomplete="email" placeholder="name@company.com"></div>
+        <div class="field"><label for="phone">Phone / WhatsApp *</label><input id="phone" autocomplete="tel" placeholder="+1 305 000 0000"></div>
+        <div class="field"><label for="role">Your role *</label><input id="role" placeholder="Owner, investor, general manager..."></div>
+        <div class="field"><label for="club">Club or project name *</label><input id="club" placeholder="Club name or working title"></div>
+        <div class="field"><label for="location">City and country *</label><input id="location" placeholder="Miami, USA"></div>
+        <div class="field"><label for="courts">Number of courts *</label><input id="courts" type="number" min="1" max="100" placeholder="6"></div>
+        <div class="field"><label for="website">Website or social profile</label><input id="website" placeholder="https://..."></div>
+        <div class="field"><label for="openingDate" id="dateLabel">Target opening date *</label><input id="openingDate" placeholder="Month / Year"></div>
+        <div class="field full"><label for="goal">What is the most important result you need in the next 90 days?</label><input id="goal" placeholder="Example: complete staffing and sell 75 founding memberships"></div>
+      </div>
+      <div class="field-grid" id="trackProfileFields"></div>
+      <div class="nav"><button class="btn btn-secondary" type="button" onclick="go(0)">← Back</button><button class="btn btn-primary" type="button" onclick="validateProfile()">Continue →</button></div>
+    </section>
+
+    <section class="panel" id="step2">
+      <div class="eyebrow">Step 2 of 4 — Foundations</div>
+      <h2 id="foundationTitle">Assess the foundations.</h2>
+      <p class="lede">Score the club as it is today, not as you expect it to be. Honest answers produce a more useful action plan.</p>
+      <div id="assessmentA"></div>
+      <div class="nav"><button class="btn btn-secondary" type="button" onclick="go(1)">← Back</button><button class="btn btn-primary" type="button" onclick="validateAssessment(2)">Continue →</button></div>
+    </section>
+
+    <section class="panel" id="step3">
+      <div class="eyebrow">Step 3 of 4 — Operations</div>
+      <h2>Assess people and daily execution.</h2>
+      <p class="lede">These questions measure whether the club can deliver consistently without depending on one person to solve everything.</p>
+      <div id="assessmentB"></div>
+      <div class="nav"><button class="btn btn-secondary" type="button" onclick="go(2)">← Back</button><button class="btn btn-primary" type="button" onclick="validateAssessment(3)">Continue →</button></div>
+    </section>
+
+    <section class="panel" id="step4">
+      <div class="eyebrow">Step 4 of 4 — Customers and Growth</div>
+      <h2>Assess demand, member value and growth.</h2>
+      <p class="lede">The final section evaluates whether the club has a repeatable engine for attracting, serving and retaining members.</p>
+      <div id="assessmentC"></div>
+      <div class="nav"><button class="btn btn-secondary" type="button" onclick="go(3)">← Back</button><button class="btn btn-accent" type="button" onclick="buildResults()">Generate My Results →</button></div>
+    </section>
+
+    <section class="panel" id="results">
+      <div class="result-hero">
+        <div><div class="eyebrow" id="resultTrack"></div><h2 id="resultTitle"></h2><p id="resultSummary"></p><div class="status-row"><span class="pill" id="statusPill"></span><span class="pill blue" id="clubPill"></span></div></div>
+        <div class="score-ring" id="scoreRing"><div><strong id="overallScore">0</strong><span>Overall score</span></div></div>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card"><h3>Performance by operating area</h3><div id="scoreBars"></div></div>
+        <div class="result-card"><h3>Your three priority risks</h3><div id="riskList"></div></div>
+      </div>
+
+      <div class="result-card timeline"><h3>Specific answers that need expert attention</h3><div id="responseSignals"></div></div>
+
+      <div class="result-card timeline">
+        <h3>How your expert roadmap is created</h3>
+        <div class="timeline-grid">
+          <div class="time-card"><strong>1 — Submit</strong><p>Send your completed diagnostic and club data for confidential review.</p></div>
+          <div class="time-card"><strong>2 — Analyze</strong><p>Your answers are evaluated against the club's stage, market, goals and operating reality.</p></div>
+          <div class="time-card"><strong>3 — Review</strong><p>Meet with the expert to challenge assumptions, confirm priorities and identify missing evidence.</p></div>
+          <div class="time-card"><strong>4 — Roadmap</strong><p>Receive the recommended 30/60/90-day and six-month implementation path through an advisory engagement.</p></div>
+        </div>
+      </div>
+
+      <div class="next-step">
+        <div><h3>Your score is the starting point—not the advice</h3><p>This preliminary snapshot identifies where expert attention is most likely required. A recommendation is made only after the club's answers, supporting data and operating context have been reviewed.</p><ol><li>Send the completed data for expert review.</li><li>Complete a focused diagnostic-review call.</li><li>Receive the recommended advisory and implementation path.</li></ol></div>
+        <button class="btn btn-accent" type="button" onclick="emailResults()">Contact Julian for Expert Review →</button>
+      </div>
+
+      <div class="disclaimer">This diagnostic is an operational planning tool, not legal, accounting, insurance, architectural, engineering, employment, or investment advice. Local requirements and professional advice must be reviewed for the club's jurisdiction.</div>
+      <div class="action-row"><button class="btn btn-primary" type="button" onclick="window.print()">Print Preliminary Snapshot</button><button class="btn btn-secondary" type="button" onclick="restart()">Start Again</button></div>
+    </section>
+  </main>
+
+  <script>
+    const scale=[
+      ['','Select the answer that best describes the club'],
+      ['0','0 — Not started / critical gap'],
+      ['1','1 — Early stage / mostly informal'],
+      ['2','2 — Partially complete / inconsistent'],
+      ['3','3 — Mostly complete / reliable'],
+      ['4','4 — Documented, measured and working well']
+    ];
+
+    const answerGuide={
+      prepare:{
+        strategy:[
+          ['No target customer or positioning has been defined','We have a broad idea but it is not documented','A draft exists but it does not consistently guide decisions','The target customer and positioning are documented and guide most decisions','The positioning is documented, market-tested and consistently used across the project'],
+          ['No complete capital budget exists','We only have a rough construction estimate','Several cost categories exist, but contingency or operating reserve is missing','The budget includes construction, pre-opening costs, contingency and operating reserve','The complete budget is supported by vendor quotes and has been stress-tested'],
+          ['No financial model exists','We have high-level revenue and cost estimates only','A draft model exists with one primary scenario','A 24–36 month model includes conservative, base and growth scenarios','The model includes sensitivities, cash needs and is actively used for decisions'],
+          ['Revenue assumptions have not been developed','Only court-rental revenue has been estimated','Several revenue streams are estimated but assumptions are incomplete','All planned revenue streams have documented volume and price assumptions','Assumptions are benchmarked, capacity-tested and linked to the financial model']
+        ],
+        facility:[
+          ['Site, zoning and permit requirements have not been mapped','Some requirements are known through informal conversations','A partial checklist exists but dependencies and dates are incomplete','The full zoning, permit and occupancy sequence is documented with owners and dates','Requirements have been professionally verified and are actively tracked to completion'],
+          ['Facility operations and player flow have not been reviewed','The design focuses mainly on court placement','Some operational, accessibility or safety considerations are included','Layout, flow, accessibility, lighting, drainage and safety have been reviewed','The complete design has been tested with operators, specialists and opening scenarios'],
+          ['No builders, contractors or major suppliers have been selected','Initial supplier research or conversations have started','Shortlists or preliminary quotes exist','Key suppliers have defined scopes, prices and target dates','Contracts, dependencies, acceptance criteria and contingency plans are documented'],
+          ['Core operating technology has not been researched','Individual tools are being considered without an integrated plan','Shortlists exist for some systems but gaps or integrations remain','All core systems are selected with implementation dates and owners','Systems are contracted, integrated, tested and ready for staff training']
+        ],
+        people:[
+          ['No opening leader has been appointed','An owner is informally leading the opening','A likely leader exists but authority and outcomes are unclear','The opening leader is appointed with documented authority and outcomes','The leader is active, accountable and running a structured opening cadence'],
+          ['No organization or staffing plan exists','Roles have been discussed but headcount and timing are unclear','A draft org chart or hiring list exists','Roles, headcount, compensation and hiring dates are documented','The staffing model is budget-aligned, recruiting is active and backup plans exist'],
+          ['Core procedures exist only in people’s heads','A few informal checklists or notes exist','Some core SOPs are drafted but important gaps remain','All essential SOPs are documented and assigned to roles','SOPs are documented, trained, rehearsed and include audit evidence'],
+          ['No structured staff training or rehearsal is planned','Basic orientation is planned','Role training exists but simulations and assessment are incomplete','Onboarding, role training, rehearsals and assessments are scheduled','The full team has rehearsed operations and demonstrated role readiness']
+        ],
+        programs:[
+          ['Membership structure has not been designed','A membership idea or price has been discussed','Draft tiers exist but benefits, rights or upgrade logic are incomplete','Tiers, benefits, booking rights, fees and upgrades are documented','The structure is capacity-tested, financially modeled and ready for sale'],
+          ['Court pricing has not been established','One standard price is being considered','Some member or peak differences exist but rules are incomplete','Peak, off-peak, member and non-member pricing are approved','Pricing is linked to demand, capacity, membership value and review triggers'],
+          ['Coaching leadership and player pathway are undefined','Potential coaches have been discussed informally','Some coaches or levels are identified but standards are incomplete','The coaching team, levels, pathway and service standards are documented','Coaches are contracted or hired, trained and accountable to quality and commercial outcomes'],
+          ['No structured program calendar exists','A few opening programs or events are planned','A partial calendar exists without full capacity, ownership or economics','A 12-month calendar covers all major programs and audiences','Programs are loaded with capacity, pricing, owners, targets and review dates'],
+          ['No club coaching methodology is defined','Each coach is expected to use an individual approach','General coaching principles exist but delivery will vary by coach','A documented club methodology and common lesson structure are defined','The methodology is documented, trained, assessed and connected to player outcomes'],
+          ['Coach certification is not required or has not been considered','Certification is encouraged but will not be verified','Certification requirements exist for selected roles only','A documented certification standard applies to the coaching team','Credentials are verified and renewal, continuing education and advancement are managed']
+        ],
+        market:[
+          ['Brand positioning and identity are not established','A name, logo or general idea exists without a complete system','Core identity exists but message or usage is inconsistent','Positioning, identity and message are documented and consistently applied','The brand is audience-tested, protected and embedded across the complete member journey'],
+          ['There is no lead-capture or prospect database','Interested prospects are kept in personal messages or spreadsheets','A landing page or list exists but segmentation and follow-up are limited','One CRM captures, segments and tracks all prospects','Lead sources, behaviors, follow-up and conversion are automated and measured'],
+          ['No founding-member offer or target exists','An offer is being discussed without a firm target or process','An offer exists but deadline, ownership or follow-up is incomplete','The offer, target, deadline, owner and follow-up process are documented','The campaign is active with deposits, conversion reporting and weekly corrective action'],
+          ['No preview, partnership, press or opening plan exists','A grand-opening idea exists without dates or owners','Several activities are planned but not integrated or measured','Preview, partnership, press, content and opening activities are scheduled','Every activity has an audience, owner, lead target, budget and follow-up process']
+        ],
+        risk:[
+          ['Required insurance, waivers and policies have not been identified','Some requirements are known but professional review has not started','Several documents exist but gaps or local verification remain','Required coverage, waivers, policies and procedures are identified and scheduled','All requirements have been professionally reviewed, approved and prepared for launch'],
+          ['No incident or emergency procedure exists','Emergency contacts or basic instructions exist informally','A partial procedure exists but roles or scenarios are incomplete','Incident, emergency, camera and escalation responsibilities are documented','The procedures have been trained, simulated and corrected based on rehearsal'],
+          ['Opening-week authority and responsibilities are undefined','The owner expects to coordinate issues as they arise','A schedule exists but decision rights and escalation remain unclear','Opening-week roles, meetings and decision authority are documented','The command structure has been rehearsed with contingencies and backup leaders'],
+          ['No first-year KPI dashboard or review process exists','A few metrics will be checked manually','A draft dashboard exists but owners, targets or cadence are incomplete','The dashboard, targets and weekly review cadence are ready','Data sources are connected, leaders are trained and decisions are tied to thresholds']
+        ]
+      },
+      improve:{
+        finance:[
+          ['Management does not receive a reliable monthly P&L','A P&L exists but arrives late or lacks useful operating detail','The P&L is timely but categories or explanations are inconsistent','A timely operating P&L supports a structured monthly review','The P&L is accurate, segmented, benchmarked and routinely drives decisions'],
+          ['Revenue and costs are not tracked by department or program','Some revenue is separated but labor and direct costs are not','Contribution can be estimated for selected programs only','Revenue, labor, direct cost and contribution are tracked across major areas','Contribution data is reliable, benchmarked and used to allocate capacity and resources'],
+          ['There are no documented targets or monthly business review','Results are discussed informally when problems occur','Some targets exist but review and follow-up are inconsistent','Targets and actuals are reviewed monthly with owners and corrective actions','Variances, decisions, owners and results are documented and carried into the next review'],
+          ['Cash and capital needs are not forecast','Management monitors the current bank balance only','A short forecast exists but reserves or capital needs are incomplete','Cash, maintenance reserves and capital needs are forecast at least 90 days','The forecast is scenario-based, updated routinely and linked to operating decisions']
+        ],
+        utilization:[
+          ['Court utilization is not measured','Management relies on observation or overall booking volume','Some utilization reports exist but not by useful segments','Utilization is measured by day, time, court and customer type','Utilization has targets, trends and documented actions for every material segment'],
+          ['Revenue per available court hour is not known','Revenue can be estimated with manual work','The metric is calculated occasionally or for limited periods','RevPACH is tracked and reviewed consistently','RevPACH is segmented, benchmarked and used for pricing and capacity decisions'],
+          ['Pricing follows no documented strategy','Prices are largely copied from competitors or changed reactively','Some peak, member or promotional rules exist','Pricing rules are documented across key customer and demand segments','Pricing is tested, measured and adjusted through defined demand and value triggers'],
+          ['No structured action addresses weak or high-demand periods','Promotions are launched reactively when bookings look low','Occasional actions exist but results are not consistently measured','Weak periods have targeted programs while high-demand inventory is protected','Every material time block has a measured capacity, pricing and programming strategy']
+        ],
+        operations:[
+          ['Roles, outcomes and authority are unclear','People understand their jobs mainly through experience','Some job descriptions exist but accountability is inconsistent','Every role has documented outcomes, authority and performance measures','Accountability is reviewed routinely and leaders act without unnecessary owner dependence'],
+          ['Core operations depend on memory and individual habits','A few checklists exist but use varies by shift','Important SOPs exist but coverage, training or compliance is incomplete','Core SOPs are documented, assigned and used consistently','SOP use is trained, evidenced, audited and improved through operating data'],
+          ['Schedules are not linked to demand or labor performance','Schedules repeat historical patterns without analysis','Managers make occasional adjustments using booking information','Schedules are built from demand, programs and service requirements','Labor deployment is forecast, measured against revenue and optimized without harming service'],
+          ['Management meetings and follow-up are inconsistent or absent','Briefings happen informally when issues arise','A meeting rhythm exists but actions or accountability are often lost','Shift briefings, weekly meetings and follow-up occur consistently','Meetings use a scorecard, document decisions and close accountability loops']
+        ],
+        coaching:[
+          ['Programs have no documented capacity, revenue or fill targets','Management knows attendance but not complete economics','Some programs have targets but cost or contribution is incomplete','Every recurring program has capacity, revenue, cost and fill targets','Targets, contribution and strategic member value drive monthly program decisions'],
+          ['Coach utilization and outcomes are not reviewed','Coach performance is judged mainly through availability or anecdote','Hours or feedback are tracked but not combined into a full review','Utilization, availability, service quality and outcomes are reviewed','Coaches receive scorecards, coaching and incentives tied to quality and club outcomes'],
+          ['There is no documented player-development pathway','Players depend on individual coaches to suggest next steps','Levels or programs exist but progression is unclear','A clear pathway moves players from introduction through community','Progression, conversion and retention are measured at every pathway stage'],
+          ['Underperforming programs continue without structured decisions','Programs change only after major complaints or financial pressure','Managers adjust programs inconsistently without defined thresholds','Repeatedly weak programs are reviewed and changed through a standard process','Program decisions use thresholds, experiments and documented post-change results'],
+          ['Coaches do not follow a shared club methodology','Every coach uses an individual method with no club standard','General principles exist but lesson structure and delivery vary significantly','A documented methodology and common lesson standards are used across the team','Methodology use is trained, observed, assessed and linked to player outcomes'],
+          ['Coach certifications are unknown or not required','Some coaches report certifications but records are not verified','Certifications are tracked for selected coaches or roles only','A documented certification standard is verified across the coaching team','Credentials, renewals, continuing education and advancement are actively managed']
+        ],
+        retention:[
+          ['New members receive no consistent onboarding journey','Onboarding depends on the staff member or coach involved','Some welcome steps exist but timing and ownership are inconsistent','A documented first-90-days journey is consistently delivered','Milestones, engagement and conversion are measured and improved by member segment'],
+          ['The club cannot identify at-risk members before cancellation','Staff notice risk mainly through personal relationships','Some activity or feedback signals are reviewed manually','Activity, spend, participation and feedback identify at-risk members','A measured health score triggers assigned outreach and tracks recovery outcomes'],
+          ['Renewal, pause, save and win-back processes are not defined','Managers improvise offers case by case','Scripts or offers exist but use and tracking are inconsistent','Renewal, pause, save and win-back procedures are consistently used','Outcomes are segmented by reason, measured and improved through controlled testing'],
+          ['Service problems are handled inconsistently and not recorded','Individual staff resolve issues without shared visibility','Issues are recorded sometimes but causes and follow-up are inconsistent','Problems are resolved promptly, documented and reviewed','Service recovery has standards, authority, follow-up, cause analysis and prevention metrics']
+        ],
+        growth:[
+          ['Leads and conversions are not tracked through one funnel','Contacts exist across messages, staff phones or separate lists','Some stages are tracked but sources or conversion are incomplete','Leads, tours, trials and memberships are tracked in one funnel','Every source and stage has targets, ownership, follow-up and conversion reporting'],
+          ['Referral, partnership and corporate channels are unmanaged','Opportunities happen through informal relationships','Some activities exist but targets and ownership are inconsistent','Each channel has an owner, target and activity plan','Pipeline, conversion, revenue and partner performance are reviewed and optimized'],
+          ['Marketing is disconnected from capacity and revenue needs','Marketing focuses mainly on general awareness','Some promotions support programs or weak periods','Campaigns are designed around specific capacity, segment and revenue objectives','Marketing uses demand data, contribution and controlled tests to allocate effort'],
+          ['Leadership does not use a consistent weekly scorecard','Metrics are discussed informally or only when performance drops','A scorecard exists but data, owners or follow-up are inconsistent','Leadership reviews one scorecard and agrees corrective actions weekly','Scorecard trends, thresholds and completed actions drive continuous improvement cycles']
+        ]
+      }
+    };
+
+    const assessments={
+      prepare:[
+        {id:'strategy',name:'Strategy & Financial Readiness',risk:'The club may commit capital without a validated operating model or sufficient reserve.',questions:[
+          'The target customer, club positioning and service promise are clearly defined.',
+          'The capital budget includes construction, pre-opening costs, contingency and operating reserve.',
+          'A 24–36 month financial model includes conservative, base and growth scenarios.',
+          'Revenue assumptions cover courts, memberships, coaching, events, retail and other planned streams.'
+        ],actions:{now:'Validate the target customer, revenue model and total funding requirement before adding commitments.',d30:'Complete the three-scenario financial model and confirm the operating reserve.',d60:'Stress-test pricing, utilization and staffing assumptions against break-even.',d90:'Approve the opening budget and establish a monthly owner-reporting process.'}},
+        {id:'facility',name:'Facility, Permits & Technology',risk:'Facility, permit or technology gaps can delay opening and create expensive retrofits.',questions:[
+          'The site, zoning, permits and Certificate of Occupancy sequence are documented.',
+          'Court layout, player flow, accessibility, lighting, drainage and safety have been reviewed.',
+          'Court builder, key contractors and major suppliers have defined scopes and deadlines.',
+          'Booking, payments, CRM, connectivity, access control and security systems are selected.'
+        ],actions:{now:'Create one milestone register for site, permits, construction and technology dependencies.',d30:'Resolve the three items most likely to delay the opening date.',d60:'Complete system selection and integration decisions before final installation.',d90:'Run an opening-readiness inspection and document unresolved risks with owners and dates.'}},
+        {id:'people',name:'Leadership, Staffing & SOPs',risk:'Opening without trained leaders and documented procedures creates owner dependence and inconsistent service.',questions:[
+          'The general manager or opening leader is appointed with clear decision authority.',
+          'The organization chart, staffing plan, compensation and hiring calendar are complete.',
+          'Core SOPs exist for opening, closing, booking, service, safety and court maintenance.',
+          'Staff onboarding, role training, rehearsals and performance expectations are scheduled.'
+        ],actions:{now:'Appoint the opening leader and publish the role-accountability chart.',d30:'Recruit priority roles and complete the first eight essential SOPs.',d60:'Train the team through practical shift and emergency simulations.',d90:'Complete opening rehearsals and certify each role against a readiness checklist.'}},
+        {id:'programs',name:'Programs, Coaching & Membership',risk:'A club can open with courts but without a program and membership engine that creates recurring demand.',questions:[
+          'Membership tiers, booking rights, benefits, fees and upgrade paths are defined.',
+          'Peak, off-peak, member and non-member pricing are approved.',
+          'The coaching team, player-level pathway and coaching standards are defined.',
+          'A 12-month program calendar covers lessons, clinics, leagues, socials, juniors and events.',
+          'The coaching team follows a specific, documented coaching methodology.',
+          'Coach certification requirements and verification are defined.'
+        ],actions:{now:'Finalize the membership architecture and first 90 days of programming.',d30:'Recruit the coaching leader and publish the player-development pathway.',d60:'Load programs, capacity, pricing and cancellation rules into the booking system.',d90:'Review early demand weekly and adjust timing, format and capacity based on bookings.'}},
+        {id:'market',name:'Marketing, Sales & Opening Demand',risk:'Without a measured pre-opening sales process, the club may open with awareness but insufficient paying demand.',questions:[
+          'The club has a clear brand position, visual system and consistent message.',
+          'A landing page or CRM captures and segments interested prospects.',
+          'The founding-member offer has a target, deadline, sales owner and follow-up process.',
+          'Preview events, partnerships, press, content and grand-opening activities are scheduled.'
+        ],actions:{now:'Set the founding-member target and begin capturing every qualified lead in one pipeline.',d30:'Launch the waitlist campaign and assign personal follow-up to every high-intent prospect.',d60:'Run preview events and partnership promotions that produce tours and deposits.',d90:'Measure source-to-membership conversion and shift effort toward the best channels.'}},
+        {id:'risk',name:'Opening Control, Risk & Measurement',risk:'The opening may be exposed to safety, compliance, cash-control or decision-making failures.',questions:[
+          'Required insurance, waivers, employment policies and safety procedures are identified.',
+          'Incident response, emergency contacts, camera access and escalation responsibilities are documented.',
+          'Opening-week responsibilities, daily meetings and decision authority are defined.',
+          'The first-year KPI dashboard and weekly management review are ready.'
+        ],actions:{now:'Create the opening risk register and assign an owner and deadline to every critical item.',d30:'Complete professional reviews for insurance, waivers, employment and local compliance.',d60:'Run emergency, service-recovery and cash-control simulations.',d90:'Operate the first 30 days through daily controls and a weekly KPI review.'}}
+      ],
+      improve:[
+        {id:'finance',name:'Financial Control & Profitability',risk:'Management may be making operating decisions without knowing which revenue streams and programs create profit.',questions:[
+          'Management receives a timely monthly P&L with revenue and cost categories that match club operations.',
+          'The club tracks revenue, labor, direct cost and contribution by program or department.',
+          'Targets and actual results are reviewed in a structured monthly business meeting.',
+          'Cash needs, maintenance reserves and capital requirements are forecast at least 90 days ahead.'
+        ],actions:{now:'Produce a clean operating P&L and identify the three largest unexplained variances.',d30:'Assign each revenue and cost line to an accountable leader.',d60:'Measure contribution by courts, coaching, events, retail and F&B.',d90:'Use the monthly business review to stop, fix or scale programs based on evidence.'}},
+        {id:'utilization',name:'Court Utilization & Revenue',risk:'Unmeasured demand by time block hides unused capacity, weak pricing and lost court-hour revenue.',questions:[
+          'Court utilization is measured by day, time block, court and customer type.',
+          'Revenue per available court hour is tracked and reviewed.',
+          'Peak, off-peak, member, non-member and promotional prices follow a documented strategy.',
+          'Management runs targeted actions to improve weak periods and protects high-demand inventory.'
+        ],actions:{now:'Pull 90 days of booking data and identify the three weakest and strongest time blocks.',d30:'Test targeted programs or offers in weak periods without discounting strong inventory.',d60:'Review price, duration and booking-right rules against demand and member value.',d90:'Make utilization and revenue per available court hour standing management KPIs.'}},
+        {id:'operations',name:'Leadership, Staffing & SOPs',risk:'Daily quality and accountability may depend on individual effort rather than a repeatable operating system.',questions:[
+          'Every leadership and frontline role has clear outcomes, authority and performance measures.',
+          'Opening, closing, booking, service, safety and maintenance SOPs are documented and used.',
+          'Schedules match demand and labor is reviewed against revenue and service needs.',
+          'Managers run consistent shift briefings, weekly meetings and performance follow-up.'
+        ],actions:{now:'Map owner dependencies and assign one accountable owner to every recurring operating process.',d30:'Deploy the eight essential SOPs and train each responsible role.',d60:'Align schedules and labor deployment with bookings, programs and service demand.',d90:'Audit SOP use and coach managers on missed standards or unclear accountability.'}},
+        {id:'coaching',name:'Coaching & Program Performance',risk:'Underfilled programs and inconsistent coaching can weaken both revenue and the member-development pathway.',questions:[
+          'Every clinic and program has capacity, revenue, direct cost and fill-rate targets.',
+          'Coach utilization, availability, service quality and member outcomes are reviewed.',
+          'Players have a clear pathway from introduction to regular play, development and community.',
+          'Management changes or removes programs that repeatedly miss performance targets.',
+          'The coaching team follows a specific, documented coaching methodology.',
+          'Coach certifications are required, verified and kept current.'
+        ],actions:{now:'Rank every recurring program by fill rate, contribution and strategic member value.',d30:'Repair or replace the three weakest recurring programs.',d60:'Publish the player pathway and assign coaches to conversion and retention outcomes.',d90:'Run a monthly program review with documented decisions and owners.'}},
+        {id:'retention',name:'Member Experience & Retention',risk:'The club may discover member dissatisfaction only when a cancellation request arrives.',questions:[
+          'New members follow a documented first-90-days onboarding journey.',
+          'Booking activity, participation, spend, feedback and engagement identify at-risk members.',
+          'Renewal, pause, cancellation-save and win-back procedures are consistently used.',
+          'Service problems are resolved promptly, documented and reviewed for recurring causes.'
+        ],actions:{now:'Identify members with declining activity and personally contact the highest-risk group.',d30:'Deploy the first-90-days onboarding and Save-the-Cancel procedures.',d60:'Launch a practical Member Health Score using available activity and engagement data.',d90:'Review retention, cancellation reasons and recovery outcomes every month.'}},
+        {id:'growth',name:'Marketing, Sales & Management Rhythm',risk:'Growth may rely on occasional promotions instead of a measured acquisition, referral and management system.',questions:[
+          'Leads, tours, trials, memberships and acquisition sources are tracked through one funnel.',
+          'Referral, partnership, corporate and community channels have owners and targets.',
+          'Marketing activity supports specific low-demand periods, programs or member segments.',
+          'The leadership team reviews a consistent scorecard and agrees corrective actions every week.'
+        ],actions:{now:'Create one scorecard covering leads, conversions, utilization, revenue, retention and service.',d30:'Assign targets and owners to the referral, partnership and corporate pipelines.',d60:'Connect marketing campaigns to specific capacity and revenue needs.',d90:'Use the weekly scorecard to maintain accountability and select the next improvement cycle.'}}
+      ]
+    };
+
+    let selectedTrack='';
+    let currentStep=0;
+    let resultText='';
+    const reviewEmail='julianwortel@gmail.com';
+
+    function chooseTrack(track,el){
+      selectedTrack=track;
+      document.querySelectorAll('.track-card').forEach(c=>c.classList.remove('selected'));
+      el.classList.add('selected');
+      document.getElementById('startBtn').disabled=false;
+      document.getElementById('headerTrack').textContent=track==='prepare'?'Track A — Prepare to Open':'Track B — Improve an Open Club';
+    }
+
+    function nextFromStart(){
+      if(!selectedTrack)return;
+      configureTrack();
+      go(1);
+    }
+
+    function configureTrack(){
+      const prep=selectedTrack==='prepare';
+      document.getElementById('profileIntro').textContent=prep?'We will measure whether the commercial, operational and customer systems required for opening are ready.':'We will measure how consistently the current club converts capacity, people and member relationships into sustainable performance.';
+      document.getElementById('dateLabel').textContent=prep?'Target opening date':'Club opening date';
+      document.getElementById('foundationTitle').textContent=prep?'Assess strategy, finance and opening dependencies.':'Assess financial control and court performance.';
+      document.getElementById('trackProfileFields').innerHTML=prep?`
+        <div class="field"><label for="projectStage">Current project stage *</label><select id="projectStage"><option value="">Select stage</option><option>Concept validation</option><option>Business planning</option><option>Site search</option><option>Site secured</option><option>Permitting and design</option><option>Construction</option><option>Pre-opening</option></select></div>
+        <div class="field"><label for="siteStatus">Site status *</label><select id="siteStatus"><option value="">Select status</option><option>No site identified</option><option>Evaluating sites</option><option>Site shortlisted</option><option>Lease or purchase negotiation</option><option>Site secured</option><option>Construction underway</option></select></div>
+        <div class="field"><label for="budgetRange">Estimated total project budget *</label><select id="budgetRange"><option value="">Select range</option><option>Under $1 million</option><option>$1–$2.5 million</option><option>$2.5–$5 million</option><option>$5–$10 million</option><option>Over $10 million</option><option>Not established</option></select></div>
+        <div class="field"><label for="targetMembers">Founding-member target</label><input id="targetMembers" type="number" min="0" placeholder="75"></div>
+      `:`
+        <div class="field"><label for="activeMembers">Active members *</label><input id="activeMembers" type="number" min="0" placeholder="350"></div>
+        <div class="field"><label for="monthlyRevenue">Average monthly revenue *</label><select id="monthlyRevenue"><option value="">Select range</option><option>Under $50,000</option><option>$50,000–$100,000</option><option>$100,000–$250,000</option><option>$250,000–$500,000</option><option>$500,000–$999,999</option><option>$1,000,000+</option><option>Not currently measured</option></select></div>
+        <div class="field"><label for="utilization">Average court utilization *</label><select id="utilization"><option value="">Select range</option><option>Under 30%</option><option>30–49%</option><option>50–64%</option><option>65–79%</option><option>80% or higher</option><option>Not currently measured</option></select></div>
+        <div class="field"><label for="retentionMetric">Annual retention or monthly churn</label><input id="retentionMetric" placeholder="Example: 78% annual retention or unknown"></div>
+      `;
+      const d=assessments[selectedTrack];
+      renderDomains('assessmentA',d.slice(0,2));
+      renderDomains('assessmentB',d.slice(2,4));
+      renderDomains('assessmentC',d.slice(4,6));
+    }
+
+    function renderDomains(containerId,domains){
+      document.getElementById(containerId).innerHTML=domains.map(domain=>`
+        <div class="domain" data-domain="${domain.id}">
+          <div class="domain-head"><div><h3>${domain.name}</h3><p>${domain.questions.length} scored operating statements — maximum ${domain.questions.length*4} points.</p></div></div>
+          <div class="q-grid">${domain.questions.map((q,i)=>`
+            <div class="question"><label for="${domain.id}_${i}">${q}</label><select id="${domain.id}_${i}" data-domain-id="${domain.id}"><option value="">Select the answer that best describes the club</option>${answerGuide[selectedTrack][domain.id][i].map((label,value)=>`<option value="${value}">${label}</option>`).join('')}</select></div>
+          `).join('')}</div>${['programs','coaching'].includes(domain.id)?`
+          <div class="domain"><div class="domain-head"><div><h3>Coaching and program capacity</h3><p>Operating data for expert review — these counts do not affect the quality score.</p></div></div>
+            <div class="q-grid">
+              <div class="question"><label for="fullTimeCoaches">How many coaches work full time—40 or more hours per week?</label><input class="required-data" id="fullTimeCoaches" type="number" min="0" placeholder="Enter number"></div>
+              <div class="question"><label for="totalCoaches">How many total coaches work at the club?</label><input class="required-data" id="totalCoaches" type="number" min="0" placeholder="Enter number"></div>
+              <div class="question"><label for="weeklyPrograms">How many organized programs does the club run per week?</label><input class="required-data" id="weeklyPrograms" type="number" min="0" placeholder="Clinics, leagues, socials, camps..."></div>
+            </div>
+          </div>`:''}
+        </div>`).join('');
+    }
+
+    function go(step){
+      document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+      const target=step==='results'?document.getElementById('results'):document.getElementById('step'+step);
+      target.classList.add('active');
+      currentStep=step==='results'?5:step;
+      document.getElementById('progressBar').style.width=(currentStep/5*100)+'%';
+      window.scrollTo({top:0,behavior:'smooth'});
+    }
+
+    function validateProfile(){
+      const ids=['name','email','phone','role','club','location','courts','openingDate',...(selectedTrack==='prepare'?['projectStage','siteStatus','budgetRange']:['activeMembers','monthlyRevenue','utilization'])];
+      const missing=ids.find(id=>!document.getElementById(id).value.trim());
+      const email=document.getElementById('email').value.trim();
+      if(missing){alert('Please complete all required profile fields.');document.getElementById(missing).focus();return;}
+      if(!/^\S+@\S+\.\S+$/.test(email)){alert('Please enter a valid email address.');document.getElementById('email').focus();return;}
+      go(2);
+    }
+
+    function validateAssessment(step){
+      const panel=document.getElementById('step'+step);
+      const missing=[...panel.querySelectorAll('select')].find(s=>s.value==='');
+      if(missing){alert('Please answer every question before continuing.');missing.focus();return;}
+      const missingData=[...panel.querySelectorAll('.required-data')].find(input=>input.value==='');
+      if(missingData){alert('Please complete the coaching and program capacity questions before continuing.');missingData.focus();return;}
+      go(step+1);
+    }
+
+    function statusFor(score){
+      if(score<40)return{label:'Critical gaps',cls:'red',summary:'Immediate intervention is required. Several essential systems are missing or unreliable.'};
+      if(score<60)return{label:'At risk',cls:'amber',summary:'The club has useful foundations, but important gaps can materially affect opening or performance.'};
+      if(score<75)return{label:'Developing',cls:'blue',summary:'The operating foundation is taking shape. Focused implementation can remove the largest risks.'};
+      if(score<90)return{label:'Ready to advance',cls:'green',summary:'The club has a strong base. The next opportunity is consistency, measurement and disciplined improvement.'};
+      return{label:'High-performing foundation',cls:'green',summary:'The club reports mature operating practices. Validate the evidence, protect consistency and prepare to scale.'};
+    }
+
+    function buildResults(){
+      const missing=[...document.getElementById('step4').querySelectorAll('select')].find(s=>s.value==='');
+      if(missing){alert('Please answer every question before generating the results.');missing.focus();return;}
+      const domains=assessments[selectedTrack];
+      const scored=domains.map(domain=>{
+        const total=domain.questions.reduce((sum,_,i)=>sum+Number(document.getElementById(`${domain.id}_${i}`).value),0);
+        const maximum=domain.questions.length*4;
+        return{...domain,total,maximum,percent:Math.round(total/maximum*100)};
+      });
+      const overallMaximum=scored.reduce((s,d)=>s+d.maximum,0);
+      const overall=Math.round(scored.reduce((s,d)=>s+d.total,0)/overallMaximum*100);
+      const status=statusFor(overall);
+      const risks=[...scored].sort((a,b)=>a.percent-b.percent).slice(0,3);
+      const responses=scored.flatMap(domain=>domain.questions.map((question,i)=>{
+        const value=Number(document.getElementById(`${domain.id}_${i}`).value);
+        return{domain:domain.name,question,value,label:answerGuide[selectedTrack][domain.id][i][value]};
+      }));
+      const signals=[...responses].sort((a,b)=>a.value-b.value).slice(0,3);
+      const club=document.getElementById('club').value.trim();
+      const location=document.getElementById('location').value.trim();
+      const trackName=selectedTrack==='prepare'?'Track A — Prepare to Open':'Track B — Improve an Open Club';
+      document.getElementById('resultTrack').textContent=trackName;
+      document.getElementById('resultTitle').textContent=`${club} Diagnostic Results`;
+      document.getElementById('resultSummary').textContent=status.summary+' This is a preliminary diagnostic snapshot; expert review is required before recommendations are made.';
+      const pill=document.getElementById('statusPill');pill.textContent=status.label;pill.className='pill '+status.cls;
+      document.getElementById('clubPill').textContent=location;
+      document.getElementById('overallScore').textContent=overall;
+      document.getElementById('scoreRing').style.background=`conic-gradient(var(--lime) ${overall*3.6}deg,#314861 0deg)`;
+      document.getElementById('scoreBars').innerHTML=scored.map(d=>`<div class="bar-row"><div class="bar-meta"><span>${d.name}</span><span>${d.percent}%</span></div><div class="bar"><span style="width:${d.percent}%;background:${d.percent<40?'var(--red)':d.percent<60?'var(--amber)':d.percent<75?'var(--blue)':'var(--green)'}"></span></div></div>`).join('');
+      document.getElementById('riskList').innerHTML=risks.map((d,i)=>`<div class="risk"><strong>${i+1}. ${d.name} — ${d.percent}%</strong><span>${d.risk}</span></div>`).join('');
+      document.getElementById('responseSignals').innerHTML=signals.map((item,i)=>`<div class="risk"><strong>${i+1}. ${item.domain}</strong><span><b>Question:</b> ${item.question}<br><b>Your answer:</b> ${item.label}</span></div>`).join('');
+      const trackData=selectedTrack==='prepare'?
+        [`Project stage: ${document.getElementById('projectStage').value}`,`Site status: ${document.getElementById('siteStatus').value}`,`Estimated project budget: ${document.getElementById('budgetRange').value}`,`Founding-member target: ${document.getElementById('targetMembers').value||'Not provided'}`]:
+        [`Active members: ${document.getElementById('activeMembers').value}`,`Average monthly revenue: ${document.getElementById('monthlyRevenue').value}`,`Average court utilization: ${document.getElementById('utilization').value}`,`Retention / churn: ${document.getElementById('retentionMetric').value||'Not provided'}`];
+      const coachingCapacity=[`Full-time coaches working 40+ hours/week: ${document.getElementById('fullTimeCoaches').value||'Not provided'}`,`Total coaches: ${document.getElementById('totalCoaches').value||'Not provided'}`,`Organized programs per week: ${document.getElementById('weeklyPrograms').value||'Not provided'}`];
+      const detailedAnswers=scored.flatMap(domain=>[domain.name,...domain.questions.map((q,i)=>{const value=Number(document.getElementById(`${domain.id}_${i}`).value);return`  ${i+1}. [${value}/4] ${q}\n     Answer: ${answerGuide[selectedTrack][domain.id][i][value]}`;})]);
+      resultText=[
+        'PADEL CLUB GROWTH ROADMAP — CONFIDENTIAL DIAGNOSTIC SUBMISSION',
+        `Track: ${trackName}`,
+        `Club: ${club}`,
+        `Location: ${location}`,
+        `Prepared for: ${document.getElementById('name').value.trim()}`,
+        `Role: ${document.getElementById('role').value.trim()}`,
+        `Email: ${document.getElementById('email').value.trim()}`,
+        `Phone / WhatsApp: ${document.getElementById('phone').value.trim()}`,
+        `Website / social: ${document.getElementById('website').value.trim()||'Not provided'}`,
+        `Courts: ${document.getElementById('courts').value}`,
+        `Opening date: ${document.getElementById('openingDate').value.trim()}`,
+        ...trackData,
+        ...coachingCapacity,
+        `Overall score: ${overall}% — ${status.label}`,
+        '',
+        'OPERATING AREA SCORES',
+        ...scored.map(d=>`- ${d.name}: ${d.percent}%`),
+        '',
+        'THREE PRIORITY RISKS',
+        ...risks.map((d,i)=>`${i+1}. ${d.name}: ${d.risk}`),
+        '',
+        'QUESTION-BY-QUESTION RESPONSES',
+        'Scale: 0 = critical gap; 4 = documented, measured and working well',
+        ...detailedAnswers,
+        '',
+        `Primary 90-day goal: ${document.getElementById('goal').value.trim()||'Not provided'}`,
+        '',
+        'EXPERT REVIEW REQUIRED',
+        'This submission organizes the club data but does not constitute an implementation recommendation. The 30/60/90-day and six-month roadmap is prepared after expert review.'
+      ].join('\n');
+      go('results');
+    }
+
+    function copyResults(){
+      navigator.clipboard.writeText(resultText).then(()=>alert('Results copied to the clipboard.')).catch(()=>alert('Copy was blocked by the browser. Please use Print / Save PDF instead.'));
+    }
+
+    function emailResults(){
+      const club=document.getElementById('club').value.trim()||'Padel Club';
+      const sender=document.getElementById('email').value.trim();
+      const subject=encodeURIComponent(`${club} — Padel Club Growth Roadmap Review`);
+      const intro=`Please review my completed Padel Club Growth Roadmap diagnostic.\n\nContact email: ${sender}\n\n`;
+      window.location.href=`mailto:${reviewEmail}?subject=${subject}&body=${encodeURIComponent(intro+resultText)}`;
+    }
+
+    function restart(){
+      if(!confirm('Start a new diagnostic? Current answers will be cleared.'))return;
+      location.reload();
+    }
+
+    const requestedTrack=new URLSearchParams(location.search).get('track');
+    if(requestedTrack==='opening'||requestedTrack==='operating'){
+      const track=requestedTrack==='opening'?'prepare':'improve';
+      const card=document.querySelector(`[data-track="${track}"]`);
+      if(card)chooseTrack(track,card);
+    }
+  </script>
+</body>
+</html>
