@@ -13,6 +13,118 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+{
+  "slug": "programming-excellence",
+  "title": "Programming Excellence: Why Your Best Programs Still Sit Half Empty",
+  "category": "Club Strategy & Operations",
+  "date": "September 24, 2026",
+  "readTime": "7 min read",
+  "intro": [
+    "Great coaching fills a lesson. Great programming fills a calendar. Most clubs only ever build the first one.",
+    "A padel club can have the best coaches in the city and still run half its clinics under capacity. I see it constantly walking into a new consulting client's facility: beautiful courts, talented staff, and a program calendar that nobody outside the building actually knows exists. That's not a coaching problem. That's a programming problem, and it deserves just as much discipline as coaching does.",
+    "Programming excellence is the part of this business nobody teaches you when you fall in love with the sport. You can build the most beautiful padel club in the country and still watch programs fail—not because they were bad programs, but because nobody engineered the way members discovered them, chose them, and kept coming back."
+  ],
+  "sections": [
+    {
+      "heading": "Reach more than just their eyes",
+      "paragraphs": [
+        "Most clubs market a new clinic with one generic post and call it done. Members respond to a program when they experience a piece of it before they ever commit to it—not just see it scroll past."
+      ],
+      "bullets": [
+        "Sight: Run highlight clips from last week's best rallies on the screens by the courts—and post those same clips to social media. That content is often what actually drives enrollment, not just what plays in the lobby.",
+        "Touch: When a new racquet arrives at the club, get it into a student's hands on court, not just on a shelf. A coach or front desk teammate who lets a player demo a new racquet during a lesson can do more for sales than a display case.",
+        "Atmosphere: Your lounge should feel and sound like your brand before anyone asks a single question about a program. The experience should support the premium you charge."
+      ]
+    },
+    {
+      "heading": "Market to the member in front of you, not everyone at once",
+      "paragraphs": [
+        "WhatsApp groups, Instagram, targeted posts: there are plenty of ways to reach your members. But a generic message blasted out to everyone rarely feels relevant to anyone. The clubs that fill programs consistently match the message to the member—a WhatsApp group, a direct message, a story sent by the coach who actually knows them—not a one-size-fits-all post to the whole club."
+      ],
+      "bullets": [
+        "First 30 days: New members in their first month should hear about one program at a time from their own coach, not face a wall of options on day one.",
+        "Youth programs: Parents of young kids need to see the program at pickup and drop-off, not buried in a newsletter they'll never open.",
+        "Competitive players: A personal text about the next league or tournament can reach your competitive players more effectively than another email they'll skim past."
+      ]
+    },
+    {
+      "heading": "Promote through every channel, every single day",
+      "paragraphs": [
+        "A program that only lives on one Instagram post is a program most members will never see. The clubs that actually fill their calendars treat promotion as a daily habit, not a one-time announcement, and they use every channel available to them."
+      ],
+      "bullets": [
+        "Social media and email: A member who misses it on one channel may catch it on another. Promote programs on Instagram, Facebook, email, and anywhere else your club shows up.",
+        "WhatsApp groups: A group for your regulars, league players, or parents can be a high-response channel because it feels personal, not corporate.",
+        "Content, all the time: Post about what's coming, what's happening, and what just happened, every week, so members know what is available.",
+        "Coaches and front desk: If your own staff can't promote what's currently open for enrollment in casual conversation, no flyer or post will save it."
+      ]
+    },
+    {
+      "heading": "Put a content creator on your team—permanently",
+      "paragraphs": [
+        "Your members are already paying attention to Instagram, TikTok, and Facebook. Your programs need to be visible where your members spend their time.",
+        "Your club should be posting daily, on a posting schedule built by your marketing team—a topic I'll cover in its own insight. But a schedule is only as good as the content feeding it, and that content doesn't create itself. Having someone permanently responsible for content at your club is essential.",
+        "It doesn't matter which option you choose. What matters is that it's someone's job—not something that happens only when somebody remembers."
+      ],
+      "bullets": [
+        "Front desk personnel: A team member with a good eye and a phone can capture clinics, leagues, and member moments between check-ins.",
+        "Coaches between lessons: A coach who isn't on court can film a teammate's clinic—and nobody knows what a great padel moment looks like better than a coach.",
+        "A professional photographer: A bit more expensive, but worth considering. The quality shows, and your brand looks like the premium club you're charging for."
+      ]
+    },
+    {
+      "heading": "Set up the circus",
+      "paragraphs": [
+        "When coaches run a program, they should set up the court with the teaching accessories the session needs. I call it setting up the padel court circus: cones, agility ladders, elastic ropes, silicone spots, silicone arrows—everything you as a coach need to run a successful clinic.",
+        "Every day I see coaches walk onto the court with no accessories and no excitement. The student feels it immediately, and so does anyone watching from the lounge or scrolling past on their phone.",
+        "My standard: Set up every program session before players arrive, and capture at least one photo or clip for the club's channels. Use equipment purposefully and safely, and respect players' permission to be filmed."
+      ],
+      "bullets": [
+        "It sells the experience: A purposeful, visually exciting setup helps players see what makes your clinic worth joining. The coach plays a major role in creating that energy.",
+        "It feeds the camera: A court full of color, stations, and movement makes compelling content. An empty court with one coach and a basket of balls tells a much smaller story.",
+        "It signals preparation: Players are paying for a coach who planned their session, not one who's improvising. The setup shows it before the first ball is fed."
+      ]
+    },
+    {
+      "heading": "Every coach is a content creator",
+      "paragraphs": [
+        "Every coach should take responsibility for helping promote their programs and clinics. Your club's content creator can't be on every court at every hour, and nobody knows your clinic better than you do.",
+        "Remember why this matters to you personally. If your pay is tied to filling your clinics and programs, helping players discover them supports your own income. Every useful post is working for your next session."
+      ],
+      "bullets": [
+        "Mount your phone on the glass: A suitable, securely positioned phone mount gives you a court-level angle of the drills without interrupting play.",
+        "Get a tripod: A tripod safely behind the court captures the full picture—the setup, the movement, and the energy of the group.",
+        "Ask the front desk for help: A teammate can grab a quick clip or photo while you coach. Two minutes of support can help promote your next session."
+      ]
+    },
+    {
+      "heading": "Give every program a number",
+      "paragraphs": [
+        "A program without a target is a program nobody is accountable for. Every program on your calendar should carry a written enrollment or fill-rate goal that you review monthly with your coaching staff—not just a court reserved out of habit.",
+        "My operating benchmark: Aim for clinics and leagues to run at 70% or more of capacity. Anything consistently below that deserves a review and a decision: redesign it or retire it, rather than repeat it just because it's always been on the schedule.",
+        "That is a management benchmark, not a guarantee of profitability. Look at each program's costs, purpose, and contribution alongside its fill rate."
+      ]
+    },
+    {
+      "heading": "Coaches sell through relationships, not pitches",
+      "paragraphs": [
+        "A member trusts their coach more than they'll ever trust a flyer or social media post, and that trust is one of the best ways to connect players with the right program—if you use it on purpose instead of by accident.",
+        "A coach who notices a student is ready for the next level should say so, on the court, in the moment. “You're ready for the advanced clinic” lands differently than any email ever will."
+      ],
+      "bullets": [
+        "Standard practice: Train every coach to make one specific program recommendation per student, per month, based on what they're actually seeing on court—never a generic “you should join something.”"
+      ]
+    },
+    {
+      "heading": "Track the programs that build loyalty",
+      "paragraphs": [
+        "Programming excellence isn't a marketing tactic you bolt onto a padel club after the fact. It's a discipline, the same as coaching is—and it's the difference between a club with full courts and empty programs, and one where programs do what they were built to do: turn curious players into committed members.",
+        "The metric to watch is fill rate by program, tracked monthly—not just total court utilization. A club can look busy on paper while the programs that actually build loyalty are quietly failing underneath it."
+      ]
+    }
+  ],
+  "source": "Written by Julian Wortelboer. Adapted from his Programming Excellence operator's playbook."
+},
   {
     slug: 'premium-vs-chinese-padel-courts',
     title: 'Premium vs. Chinese Padel Courts: What Actually Makes the Difference (and What Doesn’t)',

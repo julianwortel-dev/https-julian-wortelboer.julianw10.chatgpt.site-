@@ -11,6 +11,7 @@
     { "source": "/padel-coaching-miami", "destination": "/coaching.html" },
     { "source": "/insights", "destination": "/insights.html" },
     { "source": "/insights/premium-vs-chinese-padel-courts", "destination": "/article-courts.html" },
+    { "source": "/insights/programming-excellence", "destination": "/article-programming.html" },
     { "source": "/insights/ai-operations-layer-icon-padel-club", "destination": "/article-ai-operations.html" },
     { "source": "/insights/if-you-build-it-they-might-not-come", "destination": "/article-build-it.html" },
     { "source": "/insights/the-coachs-eye-observe-before-you-correct", "destination": "/article-coachs-eye.html" },

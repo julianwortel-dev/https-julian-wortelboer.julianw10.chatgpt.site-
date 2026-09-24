@@ -12,6 +12,7 @@ export default defineConfig({
         coaching: resolve(__dirname, 'coaching.html'),
         insights: resolve(__dirname, 'insights.html'),
         articleCourts: resolve(__dirname, 'article-courts.html'),
+        articleProgramming: resolve(__dirname, 'article-programming.html'),
         articleAiOperations: resolve(__dirname, 'article-ai-operations.html'),
         articleBuildIt: resolve(__dirname, 'article-build-it.html'),
         articleCoachsEye: resolve(__dirname, 'article-coachs-eye.html'),
