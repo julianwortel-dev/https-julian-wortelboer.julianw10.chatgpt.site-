@@ -118,6 +118,8 @@
     .next-step{margin-top:24px;background:linear-gradient(135deg,var(--ink),#183c66);color:#fff;border-radius:16px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
     .next-step h3{margin:0 0 7px;font-size:19px}.next-step p{margin:0;color:#c8d4df;font-size:13px;line-height:1.55;max-width:700px}
     .next-step ol{margin:12px 0 0;padding-left:19px;color:#e8eef4;font-size:12px;line-height:1.65}
+    .consent{display:flex;align-items:flex-start;gap:10px;padding:15px;border:1px solid var(--line);background:#fff;grid-column:1/-1}.consent input{width:18px;height:18px;flex:0 0 auto;margin:2px 0 0;accent-color:var(--ink)}.consent label{font-size:12px;line-height:1.55;font-weight:600}.consent label span{display:block;color:var(--muted);font-weight:400;margin-top:3px}
+    .submit-box{min-width:280px;max-width:340px}.submit-box .btn{width:100%}.submit-status{font-size:12px;line-height:1.45;margin-top:10px;color:#dce7ef}.submit-status.success{color:#d9f7cf}.submit-status.error{color:#ffd0cb}.submit-status:empty{display:none}
     .action-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
     .hidden{display:none!important}
     @media(max-width:760px){
@@ -167,7 +169,7 @@
           <ul><li>Operational performance</li><li>Revenue and utilization gaps</li><li>Team accountability and member retention</li></ul>
         </button>
       </div>
-      <div class="nav"><span class="small-note">Your answers remain in this browser unless you copy, print or email the results.</span><button class="btn btn-accent" id="startBtn" type="button" onclick="nextFromStart()" disabled>Start Diagnostic →</button></div>
+      <div class="nav"><span class="small-note">After you consent and generate the results, your questionnaire will be securely submitted to Julian for expert review.</span><button class="btn btn-accent" id="startBtn" type="button" onclick="nextFromStart()" disabled>Start Diagnostic →</button></div>
     </section>
 
     <section class="panel" id="step1">
@@ -185,6 +187,8 @@
         <div class="field"><label for="website">Website or social profile</label><input id="website" placeholder="https://..."></div>
         <div class="field"><label for="openingDate" id="dateLabel">Target opening date *</label><input id="openingDate" placeholder="Month / Year"></div>
         <div class="field full"><label for="goal">What is the most important result you need in the next 90 days?</label><input id="goal" placeholder="Example: complete staffing and sell 75 founding memberships"></div>
+        <div class="consent"><input id="submissionConsent" type="checkbox"><label for="submissionConsent">I agree to submit my contact information, questionnaire answers and preliminary results to Julian Wortelboer for expert review and follow-up.<span>Your information will be used to review this request and communicate with you about the Padel Club Growth Roadmap.</span></label></div>
+        <div class="hidden" aria-hidden="true"><label for="companyWebsite">Company website confirmation</label><input id="companyWebsite" tabindex="-1" autocomplete="off"></div>
       </div>
       <div class="field-grid" id="trackProfileFields"></div>
       <div class="nav"><button class="btn btn-secondary" type="button" onclick="go(0)">← Back</button><button class="btn btn-primary" type="button" onclick="validateProfile()">Continue →</button></div>
@@ -239,7 +243,7 @@
 
       <div class="next-step">
         <div><h3>Your score is the starting point—not the advice</h3><p>This preliminary snapshot identifies where expert attention is most likely required. A recommendation is made only after the club's answers, supporting data and operating context have been reviewed.</p><ol><li>Send the completed data for expert review.</li><li>Complete a focused diagnostic-review call.</li><li>Receive the recommended advisory and implementation path.</li></ol></div>
-        <button class="btn btn-accent" type="button" onclick="emailResults()">Contact Julian for Expert Review →</button>
+        <div class="submit-box"><button class="btn btn-accent" id="submitRoadmapBtn" type="button" onclick="submitRoadmap()">Submit Roadmap →</button><div class="submit-status" id="submitStatus" role="status" aria-live="polite"></div></div>
       </div>
 
       <div class="disclaimer">This diagnostic is an operational planning tool, not legal, accounting, insurance, architectural, engineering, employment, or investment advice. Local requirements and professional advice must be reviewed for the club's jurisdiction.</div>
@@ -426,7 +430,8 @@
     let selectedTrack='';
     let currentStep=0;
     let resultText='';
-    const reviewEmail='julianwortel@gmail.com';
+    let resultPayload=null;
+    let submissionId='';
 
     function chooseTrack(track,el){
       selectedTrack=track;
@@ -507,6 +512,7 @@
       const email=document.getElementById('email').value.trim();
       if(missing){alert('Please complete all required profile fields.');document.getElementById(missing).focus();return;}
       if(!/^\S+@\S+\.\S+$/.test(email)){alert('Please enter a valid email address.');document.getElementById('email').focus();return;}
+      if(!document.getElementById('submissionConsent').checked){alert('Please confirm that you agree to submit the questionnaire for expert review.');document.getElementById('submissionConsent').focus();return;}
       go(2);
     }
 
@@ -618,19 +624,54 @@
         'EXPERT REVIEW REQUIRED',
         'This submission organizes the club data but does not constitute an implementation recommendation. The 30/60/90-day and six-month roadmap is prepared after expert review.'
       ].join('\n');
+      submissionId=submissionId||(crypto.randomUUID?crypto.randomUUID():`${Date.now()}-${Math.random().toString(16).slice(2)}`);
+      resultPayload={
+        submissionId,
+        consent:document.getElementById('submissionConsent').checked,
+        companyWebsite:document.getElementById('companyWebsite').value,
+        submittedAt:new Date().toISOString(),
+        track:selectedTrack,
+        trackName,
+        name:document.getElementById('name').value.trim(),
+        email:document.getElementById('email').value.trim(),
+        phone:document.getElementById('phone').value.trim(),
+        role:document.getElementById('role').value.trim(),
+        club,
+        location,
+        overall,
+        status:status.label,
+        domains:scored.map(d=>({name:d.name,percent:d.percent})),
+        resultText
+      };
       go('results');
+      submitRoadmap();
     }
 
     function copyResults(){
       navigator.clipboard.writeText(resultText).then(()=>alert('Results copied to the clipboard.')).catch(()=>alert('Copy was blocked by the browser. Please use Print / Save PDF instead.'));
     }
 
-    function emailResults(){
-      const club=document.getElementById('club').value.trim()||'Padel Club';
-      const sender=document.getElementById('email').value.trim();
-      const subject=encodeURIComponent(`${club} — Padel Club Growth Roadmap Review`);
-      const intro=`Please review my completed Padel Club Growth Roadmap diagnostic.\n\nContact email: ${sender}\n\n`;
-      window.location.href=`mailto:${reviewEmail}?subject=${subject}&body=${encodeURIComponent(intro+resultText)}`;
+    async function submitRoadmap(){
+      if(!resultPayload)return;
+      const button=document.getElementById('submitRoadmapBtn');
+      const status=document.getElementById('submitStatus');
+      button.disabled=true;
+      button.textContent='Submitting…';
+      status.className='submit-status';
+      status.textContent='Securely sending the full questionnaire and preparing both confirmation emails.';
+      try{
+        const response=await fetch('/api/submit-roadmap',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(resultPayload)});
+        const data=await response.json().catch(()=>({}));
+        if(!response.ok)throw new Error(data.message||'The submission could not be delivered.');
+        button.textContent='Roadmap Submitted ✓';
+        status.className='submit-status success';
+        status.textContent=`Julian has received the completed Roadmap. A confirmation email was sent to ${resultPayload.email}.`;
+      }catch(error){
+        button.disabled=false;
+        button.textContent='Retry Secure Submission →';
+        status.className='submit-status error';
+        status.textContent=error.message||'The submission could not be delivered. Please try again.';
+      }
     }
 
     function restart(){
