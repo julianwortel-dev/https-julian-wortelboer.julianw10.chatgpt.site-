@@ -132,7 +132,7 @@
     body{background:var(--paper);font-family:"DM Sans",Arial,sans-serif}
     .topbar{background:rgba(243,240,232,.96);color:var(--ink);border-bottom:1px solid var(--line);box-shadow:none;backdrop-filter:blur(12px)}
     .brand{color:var(--ink);text-decoration:none}.brand span,.track-label{color:var(--muted)}
-    .mark{background:var(--yellow,var(--lime));border-radius:0}.progress{background:#d8d4ca}.progress span{background:var(--lime)}
+    .mark{background:#fff;border:1px solid var(--line);border-radius:0;overflow:hidden;padding:3px}.mark img{display:block;width:100%;height:100%;object-fit:contain}.progress{background:#d8d4ca}.progress span{background:var(--lime)}
     main{max-width:1120px;padding-top:46px}.panel{border:1px solid var(--line);border-radius:0;box-shadow:none;background:rgba(255,255,255,.55)}
     .eyebrow{color:var(--red,var(--blue));letter-spacing:.17em}.panel h1,.panel h2{letter-spacing:-.055em;color:var(--ink)}
     h1{font-size:clamp(3rem,6vw,5.7rem);line-height:.9}.lede{color:var(--muted)}
@@ -144,7 +144,7 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="/padel-club-growth-roadmap"><div class="mark">JW</div><div><strong>Julian Wortelboer</strong><span>Padel Club Growth Roadmap</span></div></a>
+      <a class="brand" href="/padel-club-growth-roadmap"><div class="mark"><img src="/assets/jw-logo.webp" alt="Julian Wortelboer logo"></div><div><strong>Julian Wortelboer</strong><span>Padel Club Growth Roadmap</span></div></a>
       <div class="track-label" id="headerTrack">Choose your club path</div>
     </div>
   </header>
@@ -469,13 +469,24 @@
         <div class="domain" data-domain="${domain.id}">
           <div class="domain-head"><div><h3>${domain.name}</h3><p>${domain.questions.length} scored operating statements — maximum ${domain.questions.length*4} points.</p></div></div>
           <div class="q-grid">${domain.questions.map((q,i)=>`
-            <div class="question"><label for="${domain.id}_${i}">${q}</label><select id="${domain.id}_${i}" data-domain-id="${domain.id}"><option value="">Select the answer that best describes the club</option>${answerGuide[selectedTrack][domain.id][i].map((label,value)=>`<option value="${value}">${label}</option>`).join('')}</select></div>
+            <div class="question"><label for="${domain.id}_${i}">${q}</label><select id="${domain.id}_${i}" data-domain-id="${domain.id}"><option value="">Select the answer that best describes the club</option>${answerGuide[selectedTrack][domain.id][i].map((label,value)=>`<option value="${value}">${label}</option>`).join('')}<option value="none">None of the above</option></select></div>
           `).join('')}</div>${['programs','coaching'].includes(domain.id)?`
           <div class="domain"><div class="domain-head"><div><h3>Coaching and program capacity</h3><p>Operating data for expert review — these counts do not affect the quality score.</p></div></div>
             <div class="q-grid">
               <div class="question"><label for="fullTimeCoaches">How many coaches work full time—40 or more hours per week?</label><input class="required-data" id="fullTimeCoaches" type="number" min="0" placeholder="Enter number"></div>
               <div class="question"><label for="totalCoaches">How many total coaches work at the club?</label><input class="required-data" id="totalCoaches" type="number" min="0" placeholder="Enter number"></div>
               <div class="question"><label for="weeklyPrograms">How many organized programs does the club run per week?</label><input class="required-data" id="weeklyPrograms" type="number" min="0" placeholder="Clinics, leagues, socials, camps..."></div>
+              <div class="question"><label for="courtReservationPlatform">What court reservation platform does the club use?</label><input class="required-data" id="courtReservationPlatform" placeholder="Enter platform name or not yet selected"></div>
+              <div class="question"><label for="crmSoftware">Does the club use CRM software? If so, which one?</label><input class="required-data" id="crmSoftware" placeholder="Enter CRM name, no, or not yet selected"></div>
+              <div class="question"><label for="coachEmploymentModel">Are the coaches employees or independent contractors?</label><input class="required-data" id="coachEmploymentModel" placeholder="Describe the employment model"></div>
+              <div class="question"><label for="programDecisionMaker">Who decides which programs the club runs?</label><input class="required-data" id="programDecisionMaker" placeholder="Enter role or decision-maker name"></div>
+            </div>
+          </div>`:''}${domain.id==='retention'?`
+          <div class="domain"><div class="domain-head"><div><h3>Member model and marketing</h3><p>Member-experience context for expert review — these answers do not affect the quality score.</p></div></div>
+            <div class="q-grid">
+              <div class="question"><label for="accessModel">Does the club offer memberships, pay-to-play, or both?</label><select class="required-data" id="accessModel"><option value="">Select the club model</option><option>Membership</option><option>Pay-to-play</option><option>Both membership and pay-to-play</option></select></div>
+              <div class="question"><label for="hasMarketingDepartment">Does the club have a marketing department?</label><select class="required-data" id="hasMarketingDepartment"><option value="">Select an answer</option><option>Yes</option><option>No</option></select></div>
+              <div class="question"><label for="socialMediaLinks">Provide the club's social media links.</label><input class="required-data" id="socialMediaLinks" placeholder="Instagram, Facebook, LinkedIn, TikTok..."></div>
             </div>
           </div>`:''}
         </div>`).join('');
@@ -504,7 +515,7 @@
       const missing=[...panel.querySelectorAll('select')].find(s=>s.value==='');
       if(missing){alert('Please answer every question before continuing.');missing.focus();return;}
       const missingData=[...panel.querySelectorAll('.required-data')].find(input=>input.value==='');
-      if(missingData){alert('Please complete the coaching and program capacity questions before continuing.');missingData.focus();return;}
+      if(missingData){alert('Please complete all club-information questions before continuing.');missingData.focus();return;}
       go(step+1);
     }
 
@@ -516,12 +527,27 @@
       return{label:'High-performing foundation',cls:'green',summary:'The club reports mature operating practices. Validate the evidence, protect consistency and prepare to scale.'};
     }
 
+    function scoreValue(value){
+      return value==='none'?0:Number(value);
+    }
+
+    function answerLabel(domainId,questionIndex,value){
+      return value==='none'?'None of the above':answerGuide[selectedTrack][domainId][questionIndex][Number(value)];
+    }
+
+    function fieldValue(id){
+      const field=document.getElementById(id);
+      return field&&field.value.trim()?field.value.trim():'Not provided';
+    }
+
     function buildResults(){
       const missing=[...document.getElementById('step4').querySelectorAll('select')].find(s=>s.value==='');
       if(missing){alert('Please answer every question before generating the results.');missing.focus();return;}
+      const missingData=[...document.getElementById('step4').querySelectorAll('.required-data')].find(input=>input.value==='');
+      if(missingData){alert('Please complete all club-information questions before generating the results.');missingData.focus();return;}
       const domains=assessments[selectedTrack];
       const scored=domains.map(domain=>{
-        const total=domain.questions.reduce((sum,_,i)=>sum+Number(document.getElementById(`${domain.id}_${i}`).value),0);
+        const total=domain.questions.reduce((sum,_,i)=>sum+scoreValue(document.getElementById(`${domain.id}_${i}`).value),0);
         const maximum=domain.questions.length*4;
         return{...domain,total,maximum,percent:Math.round(total/maximum*100)};
       });
@@ -530,8 +556,8 @@
       const status=statusFor(overall);
       const risks=[...scored].sort((a,b)=>a.percent-b.percent).slice(0,3);
       const responses=scored.flatMap(domain=>domain.questions.map((question,i)=>{
-        const value=Number(document.getElementById(`${domain.id}_${i}`).value);
-        return{domain:domain.name,question,value,label:answerGuide[selectedTrack][domain.id][i][value]};
+        const rawValue=document.getElementById(`${domain.id}_${i}`).value;
+        return{domain:domain.name,question,value:scoreValue(rawValue),label:answerLabel(domain.id,i,rawValue)};
       }));
       const signals=[...responses].sort((a,b)=>a.value-b.value).slice(0,3);
       const club=document.getElementById('club').value.trim();
@@ -550,8 +576,17 @@
       const trackData=selectedTrack==='prepare'?
         [`Project stage: ${document.getElementById('projectStage').value}`,`Site status: ${document.getElementById('siteStatus').value}`,`Estimated project budget: ${document.getElementById('budgetRange').value}`,`Founding-member target: ${document.getElementById('targetMembers').value||'Not provided'}`]:
         [`Active members: ${document.getElementById('activeMembers').value}`,`Average monthly revenue: ${document.getElementById('monthlyRevenue').value}`,`Average court utilization: ${document.getElementById('utilization').value}`,`Retention / churn: ${document.getElementById('retentionMetric').value||'Not provided'}`];
-      const coachingCapacity=[`Full-time coaches working 40+ hours/week: ${document.getElementById('fullTimeCoaches').value||'Not provided'}`,`Total coaches: ${document.getElementById('totalCoaches').value||'Not provided'}`,`Organized programs per week: ${document.getElementById('weeklyPrograms').value||'Not provided'}`];
-      const detailedAnswers=scored.flatMap(domain=>[domain.name,...domain.questions.map((q,i)=>{const value=Number(document.getElementById(`${domain.id}_${i}`).value);return`  ${i+1}. [${value}/4] ${q}\n     Answer: ${answerGuide[selectedTrack][domain.id][i][value]}`;})]);
+      const clubSystemsData=[
+        `Full-time coaches working 40+ hours/week: ${fieldValue('fullTimeCoaches')}`,
+        `Total coaches: ${fieldValue('totalCoaches')}`,
+        `Organized programs per week: ${fieldValue('weeklyPrograms')}`,
+        `Court reservation platform: ${fieldValue('courtReservationPlatform')}`,
+        `CRM software: ${fieldValue('crmSoftware')}`,
+        `Coach employment model: ${fieldValue('coachEmploymentModel')}`,
+        `Program decision maker: ${fieldValue('programDecisionMaker')}`,
+        ...(selectedTrack==='improve'?[`Club access model: ${fieldValue('accessModel')}`,`Marketing department: ${fieldValue('hasMarketingDepartment')}`,`Social media links: ${fieldValue('socialMediaLinks')}`]:[])
+      ];
+      const detailedAnswers=scored.flatMap(domain=>[domain.name,...domain.questions.map((q,i)=>{const rawValue=document.getElementById(`${domain.id}_${i}`).value;const value=scoreValue(rawValue);return`  ${i+1}. [${value}/4] ${q}\n     Answer: ${answerLabel(domain.id,i,rawValue)}`;})]);
       resultText=[
         'PADEL CLUB GROWTH ROADMAP — CONFIDENTIAL DIAGNOSTIC SUBMISSION',
         `Track: ${trackName}`,
@@ -565,7 +600,7 @@
         `Courts: ${document.getElementById('courts').value}`,
         `Opening date: ${document.getElementById('openingDate').value.trim()}`,
         ...trackData,
-        ...coachingCapacity,
+        ...clubSystemsData,
         `Overall score: ${overall}% — ${status.label}`,
         '',
         'OPERATING AREA SCORES',
