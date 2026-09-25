@@ -1,4 +1,12 @@
 :root { --ink:#171717; --forest:#28231d; --acid:#ffc638; --red:#df2029; --paper:#f5f2eb; --line:rgba(23,23,23,.16); --muted:#666058; }
+.certification-body { max-width:900px; margin:auto; padding:50px 24px; }
+.certification-book { display:grid; grid-template-columns:minmax(120px,240px) 1fr; gap:32px; align-items:center; }
+.certification-book img { height:auto; object-fit:contain; }
+.certification-body a:not(.button) { text-decoration:underline; }
+.certification-page .button { background:var(--ink); color:white; }
+.site-header nav { flex-wrap:wrap; }
+@media (min-width:901px) and (max-width:1250px) { .site-header nav { gap:14px!important; font-size:12px; } }
+@media (max-width:560px) { .certification-book { grid-template-columns:1fr; } .certification-book img { max-width:240px; margin:auto; } }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }

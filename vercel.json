@@ -6,6 +6,7 @@
     { "source": "/general-8", "destination": "/#resources", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/padel-coach-certification", "destination": "/certification.html" },
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },
     { "source": "/padel-coaching-miami", "destination": "/coaching.html" },

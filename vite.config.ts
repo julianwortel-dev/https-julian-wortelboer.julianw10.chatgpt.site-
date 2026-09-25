@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        certification: resolve(__dirname, 'certification.html'),
         contact: resolve(__dirname, 'contact.html'),
         coaching: resolve(__dirname, 'coaching.html'),
         insights: resolve(__dirname, 'insights.html'),
