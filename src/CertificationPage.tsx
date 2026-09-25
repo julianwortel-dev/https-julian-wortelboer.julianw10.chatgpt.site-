@@ -1,12 +1,23 @@
 const course = 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation';
 export default function CertificationPage() {
-  const schema = {'@context':'https://schema.org','@type':'Course',name:'Level 1 Padel Coach Certification',description:'Online padel coach education from Padel Smash Academy, based on Julian Wortelboer’s coaching methodology.',url:course,provider:{'@type':'Organization',name:'Padel Smash Academy',url:'https://www.padelsmashacademy.com/'}};
+  const pageUrl = 'https://www.julianwortelboer.com/padel-coach-certification';
+  const academyId = 'https://www.padelsmashacademy.com/#organization';
+  const personId = 'https://www.julianwortelboer.com/#julian-wortelboer';
+  const schema = {'@context':'https://schema.org','@graph':[
+    {'@type':'WebPage','@id':pageUrl+'#webpage',url:pageUrl,name:'Padel Coach Certification | Padel Smash Academy',description:'Explore Padel Smash Academy coaching certification and Julian Wortelboer’s 25+ years of coaching and club experience.',inLanguage:'en',mainEntity:{'@id':course+'#course'},author:{'@id':personId},about:{'@id':academyId},breadcrumb:{'@id':pageUrl+'#breadcrumb'}},
+    {'@type':'Organization','@id':academyId,name:'Padel Smash Academy',alternateName:'PSA',url:'https://www.padelsmashacademy.com/',founder:[{'@id':personId},{'@type':'Person',name:'Cesc Caceres'}]},
+    {'@type':'Person','@id':personId,name:'Julian Wortelboer',url:'https://www.julianwortelboer.com/about-julian-wortelboer',jobTitle:'Padel Master Coach'},
+    {'@type':'Course','@id':course+'#course',name:'Level 1 Padel Coach Certification',description:'Online, self-paced padel coach education from Padel Smash Academy, led by Julian Wortelboer and Cesc Caceres.',url:course,provider:{'@id':academyId},inLanguage:'en',educationalLevel:'Level 1'},
+    {'@type':'BreadcrumbList','@id':pageUrl+'#breadcrumb',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://www.julianwortelboer.com/'},{'@type':'ListItem',position:2,name:'Padel Coach Certification',item:pageUrl}]}
+  ]};
   return <main className="article-page certification-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} />
     <header className="site-header"><a className="brand" href="/">Julian Wortelboer</a><nav aria-label="Primary navigation"><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification" aria-current="page">Coach Certification</a><a href="/insights">Insights</a><a href="/contact">Contact Julian</a></nav><a className="mobile-contact" href="/contact">Contact</a></header>
     <header className="article-header"><p className="eyebrow">Padel Smash Academy · Coach education</p><h1>Being a good player doesn’t automatically make you a great coach.</h1><p>Develop your ability to teach—not just demonstrate—with Padel Smash Academy’s Level 1 padel coach certification.</p><p><strong>400+ coaches certified worldwide.</strong></p><a className="button" href={course}>Become a Certified Padel Coach →</a></header>
     <article className="article-body certification-body">
-      <h2>A methodology built around the player</h2>
+      <nav aria-label="Breadcrumb"><a href="/">Home</a> / Padel Coach Certification</nav>
+      <h2>Padel Smash Academy coach certification: a methodology built around the player</h2>
+      <p><a href="https://www.padelsmashacademy.com/">Padel Smash Academy (PSA)</a> provides padel coach education and certification. Co-founded by Julian Wortelboer and Cesc Caceres, PSA has certified more than 400 coaches worldwide. The online Level 1 certification introduces coaches to its player-centered teaching approach.</p>
       <p>We developed the Padel Smash Academy coaching certification around a simple belief: knowing how to hit a shot is only the beginning. A coach needs to understand the player, explain clearly and turn practice into progress.</p>
       <p>The methodology draws on my book, <em>Mastering the Art of Coaching Padel</em>, and more than 25 years of hands-on experience coaching players, developing coaches, running padel academies and managing clubs. It brings together what I have learned on court and inside the operation—not just theory, but the everyday work of helping players, coaches and programs succeed.</p>
       <p>Together with PSA co-founder Cesc Caceres, we have brought that experience into a practical coaching formula: teach padel with purpose, develop the player and help grow the sport worldwide.</p>
