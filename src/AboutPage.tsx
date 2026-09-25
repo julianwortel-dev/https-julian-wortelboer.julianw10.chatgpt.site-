@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return <main className="article-page">
-    <header className="site-header"><a className="brand" href="/">Julian Wortelboer</a><nav aria-label="Primary navigation"><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a href="/insights">Insights</a><a href="/contact">Work with Julian</a></nav></header>
+    <header className="site-header"><a className="brand" href="/">Julian Wortelboer</a><nav aria-label="Primary navigation"><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="/insights">Insights</a><a href="/contact">Work with Julian</a></nav></header>
     <article><header className="article-header"><p className="eyebrow">Club development · Operations · Coach education</p><h1>About Julian Wortelboer</h1><p>Padel club consultant, operator and Master Coach.</p></header>
     <div className="article-body" style={{maxWidth: '850px', margin: '0 auto', padding: '0 24px 64px'}}>
       <p>For more than 25 years, I have run padel and racquet clubs, developed programs and helped coaches and teams improve. My consulting work brings together club development, daily operations, programming and leadership.</p>

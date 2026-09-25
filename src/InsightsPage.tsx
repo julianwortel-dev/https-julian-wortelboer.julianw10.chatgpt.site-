@@ -52,7 +52,7 @@ export default function InsightsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
-        <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a href="/padel-club-growth-roadmap">Growth Roadmap</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
+        <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
         <a className="mobile-contact contact-back" href="/" aria-label="Back to homepage"><ArrowLeft size={22} /></a>
       </header>
 
