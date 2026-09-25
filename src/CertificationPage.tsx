@@ -6,7 +6,21 @@ export default function CertificationPage() {
     <header className="site-header"><a className="brand" href="/">Julian Wortelboer</a><nav aria-label="Primary navigation"><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification" aria-current="page">Coach Certification</a><a href="/insights">Insights</a><a href="/contact">Contact Julian</a></nav><a className="mobile-contact" href="/contact">Contact</a></header>
     <header className="article-header"><p className="eyebrow">Padel Smash Academy · Coach education</p><h1>Being a good player doesn’t automatically make you a great coach.</h1><p>Develop your ability to teach—not just demonstrate—with Padel Smash Academy’s Level 1 padel coach certification.</p><p><strong>400+ coaches certified worldwide.</strong></p><a className="button" href={course}>Become a Certified Padel Coach →</a></header>
     <article className="article-body certification-body">
-      <h2>A methodology built around the player</h2><p>I developed the Padel Smash Academy coaching certification around a simple belief: knowing how to hit a shot is only the beginning. A coach needs to understand the player, explain clearly and turn practice into progress.</p><p>Based on my book, <em>Mastering the Art of Coaching Padel</em>, the certification brings that approach into coach education. Together with PSA co-founder Cesc Caceres, I help coaches connect technical knowledge with the everyday work of teaching people.</p>
+      <h2>A methodology built around the player</h2>
+      <p>We developed the Padel Smash Academy coaching certification around a simple belief: knowing how to hit a shot is only the beginning. A coach needs to understand the player, explain clearly and turn practice into progress.</p>
+      <p>The methodology draws on my book, <em>Mastering the Art of Coaching Padel</em>, and more than 25 years of hands-on experience coaching players, developing coaches, running padel academies and managing clubs. It brings together what I have learned on court and inside the operation—not just theory, but the everyday work of helping players, coaches and programs succeed.</p>
+      <p>Together with PSA co-founder Cesc Caceres, we have brought that experience into a practical coaching formula: teach padel with purpose, develop the player and help grow the sport worldwide.</p>
+      <h2>A coaching pathway that grows with you</h2>
+      <p>The Padel Smash Academy methodology is organized into different levels. It starts with the foundations of teaching padel and extends into the business of coaching, academy leadership and club operations.</p>
+      <p>Across those levels, coaches learn how to:</p>
+      <ul>
+        <li><strong>Run a padel academy:</strong> connect coaching quality, player development and the day-to-day organization of an academy.</li>
+        <li><strong>Understand the business of padel:</strong> develop the knowledge needed to contribute to running a club, beyond delivering lessons.</li>
+        <li><strong>Market themselves and their club:</strong> communicate their value as a coach and help players discover what the club offers.</li>
+        <li><strong>Create new padel drills:</strong> design purposeful exercises around the needs of the players, rather than repeat drills without a clear objective.</li>
+        <li><strong>Build successful padel programs:</strong> connect the right coaching, structure and player experience to create programs people want to join and return to.</li>
+      </ul>
+      <p>And much more. The aim is to develop coaches who can teach well, lead programs and contribute to the growth of their academy, their club and padel itself. The linked Level 1 course is the starting point; check the PSA course details or <a href="/contact">contact us about the different levels</a> to find the right next step.</p>
       <h2>A sneak peek inside the PSA coaching certification</h2>
       <p>You’ll learn the Padel Smash Academy coaching methodology—not just what to teach, but how to teach it. Every lesson should have a purpose, and every coach should understand the player in front of them.</p>
       <ul>
