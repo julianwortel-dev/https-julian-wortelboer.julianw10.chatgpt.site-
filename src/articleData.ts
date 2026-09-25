@@ -14,6 +14,152 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "zig-and-zag-strategy",
+  "title": "What Happens When the Courts Are Full? The Zig & Zag Strategy",
+  "category": "Club Strategy & Operations",
+  "date": "September 24, 2026",
+  "readTime": "9 min read",
+  "intro": [
+    "The Zig & Zag Strategy for Building a Stronger Padel Club.",
+    "For years, racquet-sports operators have focused heavily on one number: court utilization. How many hours are the courts occupied? What is our revenue per court? How do we fill slower periods? Those are important questions. I ask them myself.",
+    "But I believe the next generation of successful padel clubs needs to ask a much bigger one: How productive is the entire ecosystem?"
+  ],
+  "sections": [
+    {
+      "heading": "A new measure of productivity",
+      "paragraphs": [
+        "A padel court has a natural economic ceiling. We can rent it. We can use it for private lessons, clinics, leagues, tournaments, junior programs and corporate events. We can improve pricing, programming and occupancy.",
+        "But eventually we run into the same limitation: There are only so many courts and only so many hours in the day.",
+        "That is where a concept I call The Zig & Zag Strategy begins. Instead of continually asking, “What else can I sell on my padel courts?” start asking: “What else can this property, this community and this customer base support?”"
+      ]
+    },
+    {
+      "heading": "First, Zig: Maximize the Core",
+      "paragraphs": [
+        "Before talking about diversification, the core business has to work. If you operate a padel club, the padel operation needs to be exceptional.",
+        "Court utilization. Coaching. Clinics. Leagues. Match play. Tournaments. Junior development. Corporate events. Customer service. All of it needs to perform.",
+        "But owners and investors also need to understand something important. Court rentals, lessons, clinics, leagues and tournaments may look like different revenue streams, but economically they are highly correlated. They all depend on essentially the same asset: The padel court.",
+        "When the courts reach capacity, you cannot manufacture another 6:00 p.m. So after maximizing the core, it is time to Zag."
+      ]
+    },
+    {
+      "heading": "Zag Beyond the Court",
+      "paragraphs": [
+        "This is where the business becomes much more interesting. What else can exist around the padel customer without requiring another minute of court inventory?",
+        "Fitness: A gym can create memberships, personal training, strength and conditioning, mobility, TRX and group fitness.",
+        "Wellness: Pilates and yoga can operate independently from court utilization. Recovery can become another vertical through sauna, cold plunge, mobility, stretching and other wellness services.",
+        "Hospitality: Food and beverage can become a completely different business. And I don't mean putting a refrigerator with protein bars behind the front desk. A serious restaurant, café, smoothie concept or bar can become a destination in its own right.",
+        "I saw a version of this philosophy firsthand at Mad4Padel in Pozuelo, Spain. The food and hospitality experience was not simply an afterthought for players finishing a match. It became part of the destination.",
+        "That changes the relationship: Padel → Restaurant. Restaurant → Club Discovery → Padel.",
+        "Someone can enter the property without any intention of playing padel and eventually become part of the community. That is a Zag."
+      ]
+    },
+    {
+      "heading": "Zag Across Sports",
+      "paragraphs": [
+        "Diversification does not always require leaving racquet sports. Sometimes the smartest Zag is adding another sport. Padel and pickleball are a great example.",
+        "Now you do not simply have another amenity. You have another community. Another coaching business. Another programming schedule. Another tournament calendar. Another customer segment. Another potential membership base.",
+        "Epic Athletic Club in Florida is an example of padel and pickleball operating together within the same environment. UNICO in Weston is another example of a club being developed around multiple verticals, including padel, pickleball, fitness and social experiences.",
+        "And then something very valuable starts happening: Cross-pollination.",
+        "Pickleball → Padel. Padel → Pickleball. Parents → Junior Programs. Players → Fitness. Fitness → Racquet Sports.",
+        "That is a much more interesting business than simply asking how many court hours were sold today."
+      ]
+    },
+    {
+      "heading": "From Tennis Club to Racquet Ecosystem",
+      "paragraphs": [
+        "We are seeing the same evolution inside traditional American private clubs. For generations, many prestigious clubs had very defined identities. A tennis club was a tennis club. A country club revolved primarily around golf, with tennis operating as an additional amenity.",
+        "That model is changing. Historic clubs are adding padel and pickleball while maintaining their traditions in tennis, golf, squash and other sports. That tells me something important.",
+        "The future does not necessarily have to be: Tennis vs. Pickleball vs. Padel. It can become: Tennis + Pickleball + Padel.",
+        "The progression: Tennis Club → Racquet Club → Sports & Wellness Club → Lifestyle Ecosystem.",
+        "Tradition does not need to disappear. Tradition can evolve. And when it does, the club gives members—and entire families—more reasons to use the property."
+      ]
+    },
+    {
+      "heading": "Cross-Pollination Must Be Designed",
+      "paragraphs": [
+        "Here is where many operators can make a mistake. Putting several businesses inside the same building does not automatically create an ecosystem. They need to connect.",
+        "Think about the possibilities: Padel → Gym → Recovery → Restaurant. Pilates → Smoothie → Introduction to Padel. Pickleball → Padel → Social Event. Restaurant → Corporate Event → Padel Experience → Future Member.",
+        "I call this intentional cross-pollination. Every vertical should have the opportunity to introduce the customer to another part of the business.",
+        "If someone comes three times a week for Pilates but has never been introduced to padel, we may be missing an opportunity. If someone plays padel four times a week but never uses the gym, restaurant or recovery services, we may be missing another.",
+        "Cross-pollination should not happen by accident. Management should engineer it."
+      ]
+    },
+    {
+      "heading": "Diversify the Experience. Diversify the Revenue. Diversify the Risk.",
+      "paragraphs": [
+        "There is another reason I believe Zig & Zag deserves serious attention from owners and investors: Concentration risk.",
+        "Imagine a club whose economics depend almost entirely on court occupancy. If court demand declines, several revenue streams can decline together. If programming is weak, lessons and clinics suffer. If competition enters the market, pricing may come under pressure. And with outdoor facilities, weather introduces another variable entirely.",
+        "I have seen this firsthand in South Florida. Heat, torrential rain and seasonality can have a dramatic effect on outdoor court utilization. My experience helping develop large padel operations has reinforced something important for me: Indoor and outdoor court economics can behave very differently.",
+        "An outdoor court that cannot be used because of extreme heat or a thunderstorm is inventory that cannot be sold during that period.",
+        "Now imagine that same property also has: A gym. Pilates. Yoga. A restaurant. Wellness. Pickleball. Personal training. Corporate programming. The courts may temporarily slow down while another part of the property continues producing.",
+        "That does not make the investment risk-free. Every new vertical introduces its own costs, complexity and management requirements. But it can reduce dependence on a single economic engine. That is the point.",
+        "Diversify the experience. Diversify the revenue. Diversify the risk. A stronger racquet club is not necessarily the one with the most courts. It may be the one that is least dependent on them."
+      ]
+    },
+    {
+      "heading": "Icon Padel: Building the Integrated Model",
+      "paragraphs": [
+        "This is one of the concepts we are developing at Icon Padel. Padel is the anchor. But it is not intended to be the entire experience.",
+        "The ecosystem combines padel with a gym, Pilates, yoga, wellness and recovery, premium organic food and smoothies, hospitality, social experiences, valet parking and conveniences such as complimentary car washing.",
+        "Some of these elements can become direct revenue engines. Others serve a different purpose. They increase convenience. Dwell time. Visit frequency. Perceived value. Retention. Loyalty. That distinction is important.",
+        "Not every Zag has to become a major profit center. Sometimes its job is to make the entire ecosystem more valuable.",
+        "Think about the customer experience. A person can arrive, play padel, work out, use recovery facilities, have a smoothie or meal and take care of another everyday need without leaving the property. We have created more value from the visit without adding another hour to the padel court. That is ecosystem thinking."
+      ]
+    },
+    {
+      "heading": "The KPI Has to Change",
+      "paragraphs": [
+        "Court occupancy will always matter. But it should not be the only number on the dashboard.",
+        "If a padel member begins using fitness, wellness and hospitality, the economic relationship with that customer changes dramatically. You have not necessarily acquired another customer. You have created more value for—and from—the customer you already have. That can be extraordinarily powerful.",
+        "Operators should also understand:"
+      ],
+      "bullets": [
+        "Revenue per court",
+        "Revenue per square foot",
+        "Revenue per member",
+        "Revenue per visit",
+        "Spend beyond the court",
+        "Visit frequency",
+        "Cross-vertical participation",
+        "Member retention",
+        "Customer lifetime value"
+      ]
+    },
+    {
+      "heading": "But None of This Works Without the Right People",
+      "paragraphs": [
+        "There is one part of Zig & Zag that I consider non-negotiable: Execution. Two clubs can have nearly identical facilities and produce completely different results. Why? People.",
+        "A great padel coach does more than teach a bandeja. A great coach creates relationships, organizes groups, develops players, fills clinics, builds programs and gives people reasons to return.",
+        "The same principle applies everywhere else. A gym without great programming is equipment. A Pilates studio without great instructors is a room. A restaurant without hospitality is a kitchen.",
+        "And padel courts without great coaching, programming and management are ultimately: Glass and turf.",
+        "That is why Zig & Zag cannot simply be a real-estate strategy. It has to be a people strategy and an operating strategy."
+      ]
+    },
+    {
+      "heading": "Vision Is One Thing. Execution Is Everything.",
+      "paragraphs": [
+        "Owners need vision. They need to understand what the property can become—not simply what is being built today.",
+        "But the more verticals we introduce, the more sophisticated management has to become. Leadership. Training. Programming. Scheduling. Financial controls. Marketing. Sales. Service standards. Maintenance. Communication. Accountability. Culture. Customer experience. Consistency.",
+        "Every vertical has to perform individually. But someone also has to understand how all of those verticals perform together.",
+        "Having Pilates next to padel is not the strategy. Having a restaurant next to the gym is not the strategy. Having pickleball next to padel is not the strategy.",
+        "The strategy is creating an operating system in which every part makes the whole more valuable. That is where ownership vision and professional management meet.",
+        "Because ultimately: Facilities create capacity. People create experiences. Management creates consistency.",
+        "And I believe this may become one of the biggest opportunities in the next evolution of the American padel business. Stop thinking only about: How full are my courts? Start thinking: How productive is my entire ecosystem?",
+        "Because the future of the padel club may have less to do with adding more courts…and much more to do with creating more reasons for people to: Come. Stay. Spend. Return.",
+        "Vision attracts investment. Execution attracts members. The court creates the community. The ecosystem creates the business. Management makes it sustainable. That is the Zig & Zag Strategy."
+      ]
+    },
+    {
+      "heading": "Building or Developing a Padel Club?",
+      "paragraphs": [
+        "I work with owners, investors and operators on club strategy, operations, programming, coach development and customer experience. Let's discuss your project."
+      ]
+    }
+  ],
+  "source": "Written by Julian Wortelboer, Padel Master Coach, racquet-sports executive, club operator and consultant with more than 25 years of experience. From The Zig & Zag Strategy."
+},
+{
   "slug": "programming-excellence",
   "title": "Programming Excellence: Why Your Best Programs Still Sit Half Empty",
   "category": "Club Strategy & Operations",

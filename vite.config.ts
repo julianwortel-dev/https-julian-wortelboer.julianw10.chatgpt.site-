@@ -15,6 +15,7 @@ export default defineConfig({
         growthRoadmapAssessment: resolve(__dirname, 'growth-roadmap-assessment.html'),
         articleCourts: resolve(__dirname, 'article-courts.html'),
         articleProgramming: resolve(__dirname, 'article-programming.html'),
+        articleZigZag: resolve(__dirname, 'article-zig-zag.html'),
         articleAiOperations: resolve(__dirname, 'article-ai-operations.html'),
         articleBuildIt: resolve(__dirname, 'article-build-it.html'),
         articleCoachsEye: resolve(__dirname, 'article-coachs-eye.html'),
