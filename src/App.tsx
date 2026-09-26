@@ -42,7 +42,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow"><span /> Padel strategy · Operations · Leadership</p>
           <h1>Shaping the clubs and coaches that define <em>padel.</em></h1>
-          <p className="hero-intro">I help investors and operators turn ambitious padel concepts into distinctive, profitable clubs—built to perform and succeed from day one.</p>
+          <p className="hero-intro">I help investors, operators and coaches turn ambitious padel concepts into distinctive, profitable clubs and coaching programs—built to perform and succeed from day one.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#contact">Discuss your project <ArrowRight size={18} /></a>
             <a className="text-link" href="#work">Explore selected work <ArrowDownRight size={17} /></a>
