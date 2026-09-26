@@ -41,7 +41,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow"><span /> Padel strategy · Operations · Leadership</p>
-          <h1>Building the next generation of <em>iconic</em> padel clubs and coaches.</h1>
+          <h1>Shaping the clubs and coaches that define <em>padel.</em></h1>
           <p className="hero-intro">I help investors and operators turn ambitious padel concepts into distinctive, profitable clubs—built to perform and succeed from day one.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#contact">Discuss your project <ArrowRight size={18} /></a>
