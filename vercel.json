@@ -6,6 +6,7 @@
     { "source": "/general-8", "destination": "/#resources", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/insights/the-team-is-the-padel-club", "destination": "/article-team.html" },
     { "source": "/padel-coach-certification", "destination": "/certification.html" },
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
     { "source": "/contact", "destination": "/contact.html" },

@@ -14,6 +14,97 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "the-team-is-the-padel-club",
+  "title": "The Team Is the Club: Why People Make a Padel Club Succeed",
+  "category": "Club Strategy & Operations",
+  "date": "October 13, 2026",
+  "readTime": "5 min read",
+  "intro": [
+    "Members do not fall in love with glass, turf and lighting. They fall in love with the people who greet them, coach them and take care of them.",
+    "I have walked into some of the most beautiful padel clubs in the world. Panoramic courts, designer lounges, perfect lighting, architecture you would put on a magazine cover. And I have watched some of those clubs struggle to keep members.",
+    "I have also walked into clubs with average facilities that were packed every night. The difference was not the building. It was the people running it.",
+    "I always tell club owners and investors the same thing: you can build the most beautiful padel club in the world and still fail without the right team. Design gets attention. Your people give members a reason to come back."
+  ],
+  "sections": [
+    {
+      "heading": "A padel court is a padel court",
+      "paragraphs": [
+        "Every club in your city can buy similar courts, glass, turf and lighting. Whatever you build, a competitor can try to match it—or improve on it.",
+        "What they cannot simply buy is the relationship your team has built with your members. Players drive across town for the coach who knows their game, the front desk teammate who greets them by name and the feeling that someone actually cares that they showed up.",
+        "Yet I see owners spend months obsessing over finishes and furniture, then rush to fill their team with whoever answered the job post first. That is backwards.",
+        "You are operating a hospitality business, not just renting padel courts. Your team delivers that hospitality every day."
+      ]
+    },
+    {
+      "heading": "Every role shapes the member experience",
+      "paragraphs": [
+        "There is no invisible role in a padel club. Every person on your team shapes how a member feels about the club—even if they never speak to that member."
+      ],
+      "bullets": [
+        "Front desk: the first and last impression of every visit. A great teammate greets members by name, understands their playing level and solves problems before they become complaints.",
+        "Cleaning: a member notices a dirty bathroom long before they notice your new court lights. Your cleaning team protects the standard of the experience you promise.",
+        "Maintenance: a loose glass panel, a flickering light or a sagging net cannot be ignored. Your maintenance team protects safety and keeps the club feeling cared for, long after opening day.",
+        "Coaches: the relationships that can keep members coming back for years. A great coach gives a player a reason to book next Tuesday—and bring a friend.",
+        "Management: the GM and Head of Padel set the tone, whether those responsibilities sit with one person or two. They must give every department clear standards and the support to deliver them."
+      ]
+    },
+    {
+      "heading": "Hire for attitude—and verify the skills the role requires",
+      "paragraphs": [
+        "You can teach your booking system, a cleaning checklist or your lesson-planning standards. Warmth, reliability and pride in the work deserve just as much attention when you hire. Do not assume a strong résumé tells you how someone will treat your members.",
+        "For coaches, a good attitude does not replace coaching ability. Watch them teach. Can they explain clearly, adapt to the player, manage a group and help someone improve? Playing well and coaching well are not the same thing.",
+        "One wrong hire can undo months of great service. Do not let the pressure to fill a shift replace a proper evaluation."
+      ],
+      "bullets": [
+        "Ask for real stories: “Tell me about a time you went out of your way for a customer.” Then ask what they did and what happened.",
+        "Watch the small things: how does the candidate treat the front desk when they arrive? Listen to the people they interact with, not only the person conducting the interview.",
+        "Include a paid, supervised practical assessment appropriate to the role. See how they work, communicate and respond to feedback—not only how well they interview."
+      ]
+    },
+    {
+      "heading": "Treat your team the way you want them to treat your members",
+      "paragraphs": [
+        "Members feel how your staff is treated. If people are unsupported, untrained and unappreciated, a beautiful lobby will not make up for it.",
+        "Expecting excellent service without investing in the people delivering it is not a strategy. It is wishful thinking."
+      ],
+      "bullets": [
+        "Onboard properly: every new hire should understand your standards, your members and your culture before working independently.",
+        "Define what good looks like: write clear expectations for every role. People cannot hit a target they have never seen.",
+        "Recognize the wins: when a member praises someone by name, share it with the team. Show people that their contribution is noticed.",
+        "Invest in keeping good people: fair pay, development, useful feedback and a manager who listens all matter. Do not wait until a valued teammate resigns to ask what they need."
+      ]
+    },
+    {
+      "heading": "Staff turnover has a cost beyond recruitment",
+      "paragraphs": [
+        "When a coach or front desk teammate leaves, you risk losing some of the trust and familiarity they built. Some members may follow a coach. Others may simply stop feeling as connected to the club.",
+        "Your courts have not changed, but your member experience has.",
+        "Build relationships across the team so the experience does not depend on one person. Introduce members to other coaches and staff, share appropriate service notes and make handovers part of the operation.",
+        "The standard I want to see: every role has written expectations, proper onboarding and a manager who checks in with that person at least once a month—from the coaching staff to the cleaning crew.",
+        "Track staff retention alongside member retention. If either falls, investigate the reasons. Do not assume the numbers tell the whole story: talk to your team and your members."
+      ]
+    },
+    {
+      "heading": "What you can do tomorrow",
+      "paragraphs": [
+        "Walk your club with fresh eyes. List every person who shapes a member’s visit: front desk, coach, cleaner, maintenance and manager.",
+        "Next to each name, write one thing that person does that makes a member want to come back. Wherever you struggle to write something, start a conversation. Is the expectation unclear? Is training missing? Does that person need better tools, support or feedback?",
+        "This is not an exercise in blaming staff. It is an exercise in leadership. Your job is to give people the conditions to do great work."
+      ]
+    },
+    {
+      "heading": "The club is the people",
+      "paragraphs": [
+        "Build the team before you build the lounge. Invest in your people with the same care you put into your courts.",
+        "At the end of the day, members are not just choosing a facility. They are choosing the experience your team creates.",
+        "Develop the player. Empower the person. Grow the sport. That philosophy starts with your own team.",
+        "If you want help building the standards, coaching structure and operating systems behind that experience, let’s talk about your club."
+      ]
+    }
+  ],
+  "source": "Adapted from “The Team Is the Club” by Julian Wortelboer, drawing on more than 25 years of padel and racquet club experience."
+},
+{
   "slug": "zig-and-zag-strategy",
   "title": "What Happens When the Courts Are Full? The Zig & Zag Strategy",
   "category": "Club Strategy & Operations",
