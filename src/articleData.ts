@@ -1073,7 +1073,8 @@ export const articles: Article[] = [
     title: 'The Padel Clubs That Will Win',
     category: 'Padel Industry & Leadership',
     date: 'September 6, 2026',
-    readTime: '4 min read',
+    updatedDate: 'October 13, 2026',
+    readTime: '6 min read',
     intro: [
       'What separates a padel club that becomes a community from one that is merely eight courts and a parking lot? After helping build Ultra Padel Club and now building Icon Padel Club in Miami, my answer is one word: leadership.',
       'Not marketing. Not amenities. Leadership.',
@@ -1083,6 +1084,37 @@ export const articles: Article[] = [
       { heading: 'Build belonging deliberately', paragraphs: [
         'At Icon, we built exclusivity around coaching pedigree and experience rather than price: an invitation model, capped membership tiers, seven courts and Padel Smash Academy-certified coaches who know every member’s name before they know their forehand.',
         'That is slower than opening the doors and seeing who arrives. It is also the version of growth most likely to hold after the honeymoon period of a new sport ends.',
+      ]},
+      { heading: 'Remembering names is not a talent. It is a system.', paragraphs: [
+        'When I tell our coaches to learn every player’s name, I do not leave it there. I teach them a method. You cannot ask coaches to create a personal experience and then give them no tools to do it.',
+        'A player should never feel like just another booking. Using their name, remembering what they are working on and following up on their progress are small actions that show you are paying attention. This is hospitality on a padel court.',
+        'The system I teach is simple: one pre-lesson ritual, one on-court loop and one post-lesson recap. Every time. Listen, repeat and reply.',
+      ]},
+      { heading: 'Before the warm-up: the 60-second gate ritual', paragraphs: [
+        'The lesson starts before the first ball. Meet your players at the gate, look at them and give them your attention. Learn each name and repeat it once. If you are unsure how to pronounce it, ask.',
+      ], bullets: [
+        'Greet and repeat: “Hi Sofia—great to see you again, Sofia.” For a new player, introduce yourself and repeat their name naturally when they introduce themselves.',
+        'Create a one-line anchor: ask, “What is today’s number-one focus?” Remember their word—volleys, serve or footwork. Now you have a name connected to a purpose.',
+        'Tag it mentally: connect the name to a skill or visual cue, such as Sofia–Slice or Marco–Movement. This is a private memory aid, not a nickname you impose on the player.',
+        'Place them: mentally pin each name to where that player first stands on court. Use the starting positions as another way to recall the group.',
+      ]},
+      { heading: 'The N.A.M.E. method for padel coaches', paragraphs: [
+        'I give our coaches four words to remember: Notice, Anchor, Mention, Echo. The goal is not to sound rehearsed. It is to build a habit of paying attention to the person in front of you.',
+      ], bullets: [
+        'N — Notice: look at the player’s face and notice one distinctive feature. Be present instead of thinking about your next drill while they are introducing themselves.',
+        'A — Anchor: link the name to a visual or coaching cue. Sofia and a softer slice, or Daniel and his bandeja, can give you something concrete to remember.',
+        'M — Mention: use the name in your next sentence. “Sofia, start with a softer slice.” Connect the name to useful coaching, not empty repetition.',
+        'E — Echo: invite each player to share their name and goal with the group, then echo it once. “Ana—you are working on your lob today.”',
+      ]},
+      { heading: 'The first 10 minutes: make names part of your feedback', paragraphs: [
+        'During the warm-up, use each player’s name naturally three to five times. Rotate your attention around the group. Do not learn the strongest player’s name and forget everyone else.',
+        'Use name-first feedback: “Diego—nice split step. Now hit the ball softer.” You are reinforcing the name while giving that player a clear, individual instruction.',
+        'A quick partner introduction helps too. Ask each player to introduce their partner and their focus: “This is Ana; she is working on lobs.” Now the players are learning about each other, not only getting to know the coach. That is how a group lesson starts becoming a community.',
+      ]},
+      { heading: 'After the lesson: remember the person and the progress', paragraphs: [
+        'Finish with a short personal recap. Use the player’s name, recognize something they improved and give them a clear focus for next time. “Sofia, your slice was more controlled today. Next time we will build on that with your positioning.”',
+        'After the session, briefly recap the names and goals for yourself so you can pick up the conversation when they return. Knowing the name is the beginning. Remembering the journey is what makes the experience personal.',
+        'This is what I want our coaches to understand: remembering names is not a trick to sell another lesson. It is part of caring about your players. Clubs that want people to return need to make this attention part of their everyday coaching standards.',
       ]},
       { heading: 'Three leadership habits for club operators', paragraphs: [
         'Community becomes operational when responsibility, measurement and training make it part of the daily work.',
