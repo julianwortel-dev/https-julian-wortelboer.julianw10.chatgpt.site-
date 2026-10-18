@@ -16,7 +16,9 @@ img { display:block; width:100%; }
 .brand { display:inline-flex; align-items:center; gap:13px; font-size:14px; letter-spacing:.02em; }
 .brand img { width:48px; height:48px; object-fit:cover; border-radius:50%; mix-blend-mode:multiply; }
 .brand img.wordmark { width:190px; height:70px; object-fit:cover; border-radius:0; mix-blend-mode:multiply; }
-.site-header nav { display:flex; align-items:center; gap:clamp(22px,3vw,48px); font-size:13px; font-weight:700; }
+.site-header nav { display:flex; align-items:center; gap:clamp(12px,1.5vw,24px); font-size:13px; font-weight:700; }
+.ai-assessment { border-top:1px solid var(--line); }
+.ai-followup { margin-top:16px; }
 .site-header nav>a:not(.nav-cta) { transition:opacity .2s; }
 .site-header nav>a:not(.nav-cta):hover { color:var(--red); }
 .nav-cta { display:inline-flex; align-items:center; gap:20px; color:white; background:var(--ink); padding:14px 18px; }
