@@ -10,6 +10,8 @@ export type Article = {
   intro: string[];
   sections: { heading: string; paragraphs: string[]; bullets?: string[] }[];
   source: string;
+  image?: string;
+  imageAlt?: string;
 };
 
 export const articles: Article[] = [
@@ -1222,6 +1224,682 @@ export const articles: Article[] = [
     ],
     source: 'Part 3 of 3 — The Clubs. Adapted from Julian Wortelboer’s leadership principles for building lasting padel communities.',
   },
+  {
+    "slug": "the-100-icon-rule",
+    "image": "/assets/julian-portrait.webp",
+    "imageAlt": "Julian Wortelboer coaching on a padel court",
+    "title": "The $100 ICON Rule: Empowering Employees to Create Exceptional Service",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "6 min read",
+    "intro": [
+      "Exceptional customer service usually comes down to one question: when something goes wrong, does the employee standing in front of the member have the authority to make it right?",
+      "At many clubs, the answer is no. The employee finds a supervisor. The supervisor calls a manager. The manager may need approval from an owner. Meanwhile, the member is still waiting and becoming more frustrated.",
+      "That is why we created the $100 ICON Rule.",
+      "At ICON Padel Club, every front desk employee and coach has the authority to use up to $100 in value, per member and per occasion, to recover a disappointing experience or create a memorable one. They do not need to wait for a manager. They need to pay attention, make a sound decision, take action and document what they did."
+    ],
+    "sections": [
+      {
+        "heading": "Speed is part of the solution",
+        "paragraphs": [
+          "In more than 25 years of running and advising racquet-sports clubs, I have learned that the speed of the response often matters as much as the solution.",
+          "Imagine that a member arrives for an important match and the court is not ready. Perhaps the lights malfunction, a booking was entered incorrectly or the cabana was not reset properly. Whatever the cause, the member did not receive the experience we promised.",
+          "A sincere apology helps, but it does not complete the recovery.",
+          "Under the $100 ICON Rule, the employee can act immediately. Depending on the situation, that might mean comping the court, offering a drink, providing a future guest pass, upgrading an available cabana or adding a recovery experience.",
+          "A thoughtful response delivered in two minutes feels personal. The same response delivered two days later feels administrative."
+        ]
+      },
+      {
+        "heading": "The rule also creates celebrations",
+        "paragraphs": [
+          "The rule does more than resolve complaints. Employees may recognize a birthday, celebrate a first tournament win, welcome a new member or thank someone for introducing a friend.",
+          "Consider a player who has worked for months to win a first competitive match. A team member notices and offers a matcha and a fresh grip with a handwritten congratulations. The financial value may be $25. The emotional value can be far greater because the member feels seen.",
+          "Luxury service does not always require an expensive gesture. It requires awareness, timing and genuine care."
+        ]
+      },
+      {
+        "heading": "Five-star service lives in the details",
+        "paragraphs": [
+          "At ICON, our goal is to bring Michelin-level attention to detail and five-star hospitality into a padel club.",
+          "That standard cannot live only in the building, courts or amenities. Beautiful facilities may attract people once. Consistently thoughtful service brings them back.",
+          "Members notice whether someone remembers their name. They notice whether the team recognizes that they usually play at 7:00 a.m. They notice whether an employee guides a first-time visitor instead of pointing across the club. They especially notice when someone takes ownership after something goes wrong.",
+          "If every small gesture requires management approval, the club may look luxurious, but the service will feel ordinary."
+        ]
+      },
+      {
+        "heading": "Empowerment requires boundaries",
+        "paragraphs": [
+          "The $100 ICON Rule has five requirements:",
+          "1. Act within two minutes. 2. Own the problem and the next step. 3. Stay within the $100 limit per member, per occasion. 4. Document the reason, remedy, value and employee responsible. 5. Never argue with an upset member. Listen, acknowledge the impact and focus on resolution.",
+          "The language also matters. We teach our team to say:",
+          "“I am sorry this happened. That is not the ICON experience. Let me take care of this right now.”",
+          "Then the employee explains the remedy clearly and follows up before the member leaves."
+        ]
+      },
+      {
+        "heading": "The business case for generosity",
+        "paragraphs": [
+          "Some operators worry that employees will misuse this authority. Training and documentation control that risk. The greater risk is losing a valuable member over a problem that could have been resolved for $20, $50 or $100.",
+          "Think about the lifetime value of a member who books courts, attends clinics, purchases equipment, brings guests and participates in events. A well-used $75 recovery can protect years of future business.",
+          "The log also exposes operational problems. If employees repeatedly compensate members because courts are not ready, the real issue is court turnover. If booking errors recur, the system or training requires attention. The gesture recovers today’s experience. The record helps prevent tomorrow’s failure."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Tomorrow morning, ask your front desk team:",
+          "“If a member has a disappointing experience while I am unavailable, what can you do without asking anyone?”",
+          "If the answer is unclear, your recovery system depends too heavily on management.",
+          "Establish a reasonable limit. Approve a short menu of remedies. Require documentation. Train the language. Then give your people permission to act.",
+          "Exceptional service happens when a team member notices a detail, takes ownership and makes someone feel genuinely valued. That is the standard behind the $100 ICON Rule."
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "the-ten-second-welcome",
+    "image": "/assets/carousel/julian-pointing.webp",
+    "imageAlt": "Julian Wortelboer welcoming and guiding padel players",
+    "title": "The Ten-Second Welcome: Why Luxury Service Begins Before the First Word",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "Members begin judging a padel club before they reach the front desk.",
+      "They notice whether anyone looks up. They notice the expression on the employee’s face, the condition of the entrance and whether they seem expected or invisible.",
+      "That is why ICON uses a Ten-Second Welcome Rule. Every person entering the club should receive eye contact and a warm acknowledgment within ten seconds, even when the employee is assisting someone else or answering a call.",
+      "Ten seconds may sound like a small detail. In hospitality, small details often carry the greatest weight."
+    ],
+    "sections": [
+      {
+        "heading": "Recognition comes before the transaction",
+        "paragraphs": [
+          "Many front desks operate like check-in counters. The employee looks at a screen, asks for a name, confirms the court and points toward the facility.",
+          "The transaction may be correct, but the experience feels impersonal.",
+          "I want the opposite at ICON. The welcome should tell the member, “We saw you arrive. We are ready for you. You belong here.”",
+          "When we know the member, we use the name. When we do not, we still make eye contact and acknowledge the arrival. If the desk is busy, a simple “Welcome to ICON. I’ll be right with you” prevents the guest from wondering whether anyone noticed.",
+          "The employee may need only three seconds to create that sense of recognition."
+        ]
+      },
+      {
+        "heading": "Luxury service begins before words",
+        "paragraphs": [
+          "A strong welcome has three layers.",
+          "First comes awareness. The employee notices the approaching person instead of remaining buried in a screen.",
+          "Second comes physical presence. Good posture, eye contact and an open expression communicate readiness before the greeting begins.",
+          "Third comes personal language. Use the member’s name when known and offer a clear next step.",
+          "The words do not need to sound rehearsed. The standard should be consistent, but the delivery must remain human."
+        ]
+      },
+      {
+        "heading": "The member in front of you comes first",
+        "paragraphs": [
+          "One of the most common service failures happens when the telephone becomes more important than the person standing at the desk.",
+          "The correct response is simple. Answer the phone promptly, ask permission to place the caller on a brief hold and finish helping the member in front of you. At the same time, acknowledge anyone else who approaches.",
+          "Nobody should stand silently at the counter wondering whether they are interrupting.",
+          "This requires situational awareness. A luxury front desk cannot operate with tunnel vision."
+        ]
+      },
+      {
+        "heading": "The welcome should continue beyond the desk",
+        "paragraphs": [
+          "The Ten-Second Rule opens the experience, but a welcome cannot end with “Court four is over there.”",
+          "First-time visitors should receive guidance. Show them where to find the courts, lockers, showers, recovery area, restaurant and wellness spaces. Introduce them to a coach or another member when appropriate.",
+          "Pointing gives information. Walking with someone creates connection.",
+          "I have seen clubs invest millions in facilities and then expect a first-time guest to discover everything alone. That is a missed opportunity. A proper orientation makes the facility easier to use and helps the guest understand the complete value of the club."
+        ]
+      },
+      {
+        "heading": "Names create belonging",
+        "paragraphs": [
+          "Using someone’s name is one of the simplest forms of personalization, but it must feel natural.",
+          "The goal is not to repeat the name in every sentence. The goal is to show that the member is known.",
+          "Teams can support this by keeping useful, respectful notes such as a preferred playing time, usual partners or racket preference. Notes should remain factual and appropriate for the member to read. Personalization should never become gossip."
+        ]
+      },
+      {
+        "heading": "Measure the behavior",
+        "paragraphs": [
+          "“Be friendly” is difficult to coach because it means different things to different people. “Acknowledge every arrival within ten seconds” creates a visible standard.",
+          "Managers can observe it. Employees can practice it. Mystery shoppers can measure it. The team can correct it during the shift.",
+          "The standard works only if it applies during a quiet morning, a packed Saturday and the final hour of the day."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Stand near your club entrance tomorrow and observe ten arrivals.",
+          "For each person, ask:",
+          "A five-star welcome does not require a complicated script. It requires awareness, consistency and genuine human attention.",
+          "The first ten seconds tell a member what kind of club they have entered."
+        ],
+        "bullets": [
+          "How many seconds passed before acknowledgment?",
+          "Did the employee look up?",
+          "Was the member’s name used when known?",
+          "Did a waiting guest feel recognized?",
+          "Did a first-time visitor receive guidance?"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "anticipation-is-the-highest-form-of-service",
+    "image": "/assets/carousel/coaching-wide.webp",
+    "imageAlt": "Julian Wortelboer observing players during a padel session",
+    "title": "Anticipation Is the Highest Form of Service",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "Good service responds when a member asks for something. Exceptional service notices the need before the question is asked.",
+      "That distinction has shaped the way I have operated racquet-sports clubs for more than 25 years. Members rarely remember every transaction, but they remember the moments when someone paid enough attention to make the experience easier.",
+      "At ICON, anticipation forms part of our service standard because we are building a five-star padel club, not simply renting courts."
+    ],
+    "sections": [
+      {
+        "heading": "Start with the member’s journey",
+        "paragraphs": [
+          "Anticipation becomes easier when the team understands what happens before, during and after a visit.",
+          "Before a morning reservation, the member may need parking directions, a waiver link or confirmation that the court is ready. On arrival, the group may need towels, water, balls or guidance to the correct court. After play, members may want recovery, food, another booking or help finding a program at their level.",
+          "The team should recognize those predictable needs and prepare for them.",
+          "This does not mean overwhelming people with offers. It means removing friction at the right moment."
+        ]
+      },
+      {
+        "heading": "Notice the unspoken signals",
+        "paragraphs": [
+          "Members tell us what they need through behavior.",
+          "A guest looking around the lobby probably needs direction. A player examining a worn grip may need equipment help. A spouse waiting through a match may appreciate a tour of the wellness offerings. A new player asking repeated questions about level probably needs a proper assessment rather than another vague answer.",
+          "The employee who notices these signals creates value without pressure.",
+          "The best question is often simple: “May I help you with that?”"
+        ]
+      },
+      {
+        "heading": "Personalization requires memory",
+        "paragraphs": [
+          "Anticipatory service depends on what the club remembers.",
+          "If a member prefers early courts, plays with the same group and uses a left-handed rental racket, that information can help any teammate deliver a personal experience. The record should remain neutral, relevant and respectful.",
+          "Operational memory also comes from a strong shift handoff. The next employee should know which member is celebrating a birthday, which guest is visiting for the first time and which service issue still requires follow-up.",
+          "Without that continuity, the club forces members to repeat themselves. Repetition makes even a beautiful club feel disconnected."
+        ]
+      },
+      {
+        "heading": "Anticipation must stay human",
+        "paragraphs": [
+          "Technology can support personalization, but software cannot replace observation.",
+          "A customer-management system can record preferences and prompt follow-ups. Automated messages can confirm bookings or remind guests about waivers. Artificial intelligence can answer routine questions.",
+          "The front desk still has to look up.",
+          "The coach still has to notice frustration or progress.",
+          "The manager still has to understand the mood of the club.",
+          "Technology should give the team more time to pay attention, not give the team permission to stop paying attention."
+        ]
+      },
+      {
+        "heading": "Prepare the environment, not only the response",
+        "paragraphs": [
+          "Anticipation also appears in the condition of the club.",
+          "Towels should be available before the rush. The booking system should be checked before opening. The front desk should reset the lobby before peak time rather than waiting for it to decline. Courts should be inspected at turnover, not after a member reports a problem.",
+          "The most elegant service recovery is the one the member never needs because the team prevented the problem."
+        ]
+      },
+      {
+        "heading": "Give employees permission to act",
+        "paragraphs": [
+          "Employees cannot anticipate well if they fear making every decision.",
+          "They need clear authority. What may they provide without approval? When should they offer a small convenience? Which problems require immediate escalation? What information should they record?",
+          "Clear boundaries create confidence. The team can act quickly without improvising beyond its authority."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Map one complete member visit, from the parking lot to departure.",
+          "At every stage, ask:",
+          "Then choose one recurring point of friction and remove it this week.",
+          "Outstanding service often looks effortless to the member. Behind that ease stands a team trained to observe, remember and prepare.",
+          "That is anticipation."
+        ],
+        "bullets": [
+          "What might the member need?",
+          "What usually creates confusion or delay?",
+          "What can the team prepare in advance?",
+          "What signal tells us that help is needed?",
+          "Who owns the next step?"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "the-five-sense-standard",
+    "image": "/assets/carousel/ball-on-racket.webp",
+    "imageAlt": "A padel ball and racket representing attention to club details",
+    "title": "The Five-Sense Standard: What Members Notice Before They Start Playing",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "A club can be technically clean and still feel neglected.",
+      "The floor may have been mopped. The trash may have been removed. The courts may be playable. Yet fingerprints cover the glass, the lobby smells like cleaning chemicals, the music is too loud and the counter feels sticky.",
+      "None of those details alone will destroy a business. Together, they tell the member that the standard is slipping.",
+      "At ICON, we use a five-sense standard because five-star hospitality reaches beyond what the member sees."
+    ],
+    "sections": [
+      {
+        "heading": "Sight: photograph-ready at every hour",
+        "paragraphs": [
+          "“Not dirty” is too low a standard for a premium club.",
+          "The facility should look ready for its most important guest at opening, during the evening rush and before closing. That includes clean glass, orderly furniture, uncluttered counters, stocked towels and no staff bags or personal bottles in member areas.",
+          "The danger appears when a club looks perfect at 7:00 a.m. and deteriorates by 5:00 p.m. A pre-peak reset prevents that decline."
+        ]
+      },
+      {
+        "heading": "Smell: fresh and neutral",
+        "paragraphs": [
+          "Members should not smell drains, food waste, sweat or an aggressive cleaning product.",
+          "Heavy fragrance can also create a problem. Spraying perfume over a sanitation issue hides the symptom without correcting the cause.",
+          "A fresh environment comes from cleaning, airflow, maintenance and proper waste control. Fragrance should never become a substitute for any of them."
+        ]
+      },
+      {
+        "heading": "Sound: energy without chaos",
+        "paragraphs": [
+          "Music contributes to the atmosphere, but volume requires judgment.",
+          "Members should be able to converse comfortably. Coaches must deliver safety instructions clearly. Equipment should not rattle or create unnecessary noise. Staff conversations should never dominate the room.",
+          "A premium sports club should feel energetic. It should not feel uncontrolled."
+        ]
+      },
+      {
+        "heading": "Touch: the detail members discover immediately",
+        "paragraphs": [
+          "Members touch door handles, counters, tables, rental rackets, lockers and bathroom fixtures.",
+          "A single sticky or damp surface can undermine the impression created by an otherwise beautiful space. High-touch areas require attention throughout the day, not only during opening and closing.",
+          "Rental equipment deserves the same discipline. Every racket should return clean, dry, inspected and ready for the next player."
+        ]
+      },
+      {
+        "heading": "Comfort: the invisible standard",
+        "paragraphs": [
+          "Temperature, airflow, lighting and shade influence how long people stay and how they remember the visit.",
+          "Glare near a walkway can create a safety problem. Poor air circulation can make a recovery area uncomfortable. A dark corner can make an otherwise elegant facility feel unfinished.",
+          "Comfort problems often become visible only when the team experiences the club from the member’s position."
+        ]
+      },
+      {
+        "heading": "Inspect from the member’s point of view",
+        "paragraphs": [
+          "I encourage managers to walk the property at least every two hours and before each peak period.",
+          "Do not inspect only while moving quickly through the facility. Sit where members sit. Look at the entrance from the parking area. Stand inside the restroom. View the clubhouse from a cabana. Touch the counter. Listen near the courts.",
+          "If an issue can be fixed in under two minutes, fix it immediately. Photograph and assign anything requiring more work. Repeated problems need root-cause correction, not endless temporary fixes."
+        ]
+      },
+      {
+        "heading": "Every employee owns the environment",
+        "paragraphs": [
+          "Cleanliness and presentation cannot belong only to a cleaning crew.",
+          "The employee who sees a towel on the floor owns the next action. The coach who notices damaged padding reports it. The front desk team resets the lobby before it looks tired. The manager verifies that repairs reach completion.",
+          "Five-star standards fail when everybody notices and nobody owns."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Complete one member-eye-level inspection tomorrow. Evaluate the journey from parking to exit through five questions:",
+          "Record the five most noticeable defects. Fix the fast ones immediately and assign an owner and deadline to the rest.",
+          "Members may never praise a perfectly reset counter or correctly balanced music. They will still feel the difference.",
+          "In premium hospitality, the details people cannot name often shape the experience they cannot forget."
+        ],
+        "bullets": [
+          "What do I see?",
+          "What do I smell?",
+          "What do I hear?",
+          "What do I touch?",
+          "How comfortable do I feel?"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "service-recovery",
+    "image": "/assets/carousel/action-volley.webp",
+    "imageAlt": "Julian Wortelboer responding decisively during padel coaching",
+    "title": "Service Recovery: The Moment That Can Create a Member for Life",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "Every club will make mistakes.",
+      "A reservation may be entered incorrectly. A court may develop a problem. A coach may run late. A payment or communication may create confusion.",
+      "The defining moment comes after the mistake. Does the team become defensive, or does someone take ownership?",
+      "I have watched ordinary service failures become long-term loyalty because an employee responded with speed and care. I have also watched small problems grow into lost members because nobody wanted responsibility."
+    ],
+    "sections": [
+      {
+        "heading": "Never make the member repeat the story",
+        "paragraphs": [
+          "One of the most frustrating phrases in customer service is, “You need to speak to someone else.”",
+          "Sometimes another person must approve or complete the solution. That should never force the member to start over.",
+          "The first employee should listen, document what happened, explain the next step and hand the issue to a named owner. The member should know who will respond and by what time.",
+          "The employee remains responsible for confirming that the handoff happened."
+        ]
+      },
+      {
+        "heading": "Listen before proposing a remedy",
+        "paragraphs": [
+          "Teams often rush toward a solution before understanding what outcome the member actually wants.",
+          "Move the conversation away from a crowded desk when appropriate. Stop interrupting. Ask what happened and what would make the situation feel properly resolved.",
+          "The member may want a credit, but they may also want an explanation, an apology or assurance that the problem will not happen again.",
+          "Listening prevents the club from offering the wrong solution to the right complaint."
+        ]
+      },
+      {
+        "heading": "Acknowledge the impact without guessing",
+        "paragraphs": [
+          "A strong response can recognize disappointment without admitting facts the employee has not verified.",
+          "“Thank you for telling me. I can see why that was disappointing. I’m going to own the next step.”",
+          "That language shows care and control. It avoids blaming a colleague, arguing about details or making promises before the record has been reviewed.",
+          "When investigation is necessary, give a specific follow-up time and keep it."
+        ]
+      },
+      {
+        "heading": "Solve within authority",
+        "paragraphs": [
+          "Employees should know what they may resolve immediately and what requires escalation.",
+          "A small convenience, replacement item or beverage may fall within front desk authority. A court credit may sit with a manager. Membership changes, unusual refunds and serious complaints require senior leadership.",
+          "Safety concerns, threats, discrimination allegations, privacy issues, payment disputes and matters involving minors should never receive an improvised remedy. Preserve the facts and escalate them immediately.",
+          "Empowerment works only when the boundaries are equally clear."
+        ]
+      },
+      {
+        "heading": "Track the recovery",
+        "paragraphs": [
+          "The team should record the complaint, remedy, cost, owner and follow-up.",
+          "Documentation serves two purposes. It protects operational continuity, and it turns individual complaints into business intelligence.",
+          "One complaint may be an isolated event. Five similar complaints reveal a process failure.",
+          "If members repeatedly arrive without the correct waiver information, improve the communication. If court turnover creates delays, correct the staffing or checklist. If messages remain unanswered, examine coverage and accountability.",
+          "The objective goes beyond making one member happy. The club should learn from the recovery."
+        ]
+      },
+      {
+        "heading": "Follow up after the emotion has passed",
+        "paragraphs": [
+          "A quick message later that day or the next morning can complete the experience:",
+          "“I wanted to make sure everything was resolved and thank you again for bringing it to our attention.”",
+          "That message tells the member the club did not simply make a gesture to end the conversation."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Review the last five complaints received by your club.",
+          "For each one, ask:",
+          "A service failure does not automatically cost loyalty. A defensive, slow or careless response does.",
+          "When the team listens, owns the next step and follows through, a difficult moment can become one of the strongest reasons a member stays."
+        ],
+        "bullets": [
+          "Who owned it?",
+          "Did the member repeat the story?",
+          "How quickly did the team act?",
+          "Was the remedy within clear authority?",
+          "Did anyone follow up?",
+          "What process changed afterward?"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "belonging-by-design",
+    "image": "/assets/padel-story.webp",
+    "imageAlt": "Padel players sharing a club experience and building community",
+    "title": "Belonging by Design: The Small Rituals That Turn a Club Into a Community",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "Community does not appear automatically because people share a sport.",
+      "Players can use the same courts for years and still feel like customers passing through a facility. Belonging develops when the club creates repeated moments of recognition and connection.",
+      "At ICON, we treat those moments as operating standards, not occasional acts of personality."
+    ],
+    "sections": [
+      {
+        "heading": "The first visit sets the social tone",
+        "paragraphs": [
+          "A first-time guest needs more than directions to the court.",
+          "The team should provide a proper welcome, explain the spaces and introduce the guest to at least one staff member. When appropriate, introduce a regular player or coach as well.",
+          "That introduction changes the visit. The guest leaves knowing someone instead of merely knowing where the lockers are.",
+          "The front desk plays a major role because it sees every arrival and can connect people who might otherwise pass each other silently."
+        ]
+      },
+      {
+        "heading": "Mark the milestones that matter",
+        "paragraphs": [
+          "Clubs often celebrate tournament winners but overlook the smaller achievements that carry more emotional meaning for most members.",
+          "A first clinic matters. So does the first competitive win, a level advancement, a return after an injury or the courage to enter a tournament for the first time.",
+          "Membership anniversaries and birthdays create additional opportunities for recognition.",
+          "The gesture can remain modest. A personal message, public congratulations with permission or a small surprise may be enough. What matters is that the recognition feels specific rather than automated."
+        ]
+      },
+      {
+        "heading": "Rituals need owners",
+        "paragraphs": [
+          "A good idea does not become culture until someone owns the execution.",
+          "Who identifies upcoming anniversaries? Who welcomes a first-time visitor? Who introduces the new member to a coach? Who records a level advancement? Who prepares the gesture?",
+          "Every ritual needs an owner and a date. Otherwise it disappears as soon as the club gets busy.",
+          "This is where community and operations meet. Warmth may feel spontaneous to the member, but consistency requires a system behind it."
+        ]
+      },
+      {
+        "heading": "Keep useful details across shifts",
+        "paragraphs": [
+          "The morning employee may learn that a member is celebrating a birthday during an evening reservation. If that information never reaches the next shift, the opportunity disappears.",
+          "Shift handoffs should include culture-relevant details, not only payments, incidents and maintenance problems.",
+          "The club’s customer record can also support continuity, provided that notes remain respectful and useful. A member should feel recognized, never monitored."
+        ]
+      },
+      {
+        "heading": "Coaches are community builders",
+        "paragraphs": [
+          "Coaches influence which players meet, which programs feel welcoming and whether beginners develop confidence.",
+          "A coach can introduce players of similar levels, invite someone into the right clinic and recognize improvement in front of the group. Those actions help players build relationships around development.",
+          "The best programming creates repeated contact. Clinics, ladders, tournaments and social events give people a reason to return at the same time and see familiar faces.",
+          "Community grows through frequency and shared experience."
+        ]
+      },
+      {
+        "heading": "Protect the newcomer",
+        "paragraphs": [
+          "Established groups can unintentionally make a new player feel excluded.",
+          "The team should notice who arrives alone, who appears unsure and who has not yet found a regular group. A thoughtful introduction or program recommendation can prevent that player from drifting away.",
+          "The first thirty days deserve special attention. Confirm the member’s level, invite them into a suitable program and help them make the first meaningful connections."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Choose four member moments:",
+          "Define the gesture, the employee responsible and the information required to deliver it. Track completion for one month.",
+          "Then ask new members whether they know at least one coach, one employee and one other player by name.",
+          "Court bookings create activity. Recognition and relationships create belonging.",
+          "A successful padel club should offer both."
+        ],
+        "bullets": [
+          "First visit",
+          "First 30 days",
+          "A personal or playing milestone",
+          "Membership anniversary"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "the-front-desk-is-the-heart-of-a-padel-club",
+    "image": "/assets/carousel/backhand.webp",
+    "imageAlt": "Julian Wortelboer demonstrating focus and coordination on court",
+    "title": "The Front Desk Is the Heart of a Padel Club",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "The front desk is often treated as an entry-level administrative position. That is a serious operational mistake.",
+      "The front desk influences the first impression, the last impression and dozens of moments in between. It connects reservations, memberships, programs, coaches, events, payments, waivers, communication and service recovery.",
+      "When the desk performs well, the club feels calm and coordinated. When it performs poorly, every department feels the consequences."
+    ],
+    "sections": [
+      {
+        "heading": "The desk controls the flow",
+        "paragraphs": [
+          "Members experience one club. They do not care which department owns the booking, the waiver, the lesson or the event inquiry.",
+          "The front desk needs enough knowledge to guide the member accurately and enough discipline to avoid guessing.",
+          "That includes confirming reservations, checking waivers, directing guests, managing messages, documenting incidents and handing requests to the correct person. The employee should know exactly where personal authority ends and escalation begins.",
+          "Accuracy matters because one incorrect promise can create a chain of problems across several departments."
+        ]
+      },
+      {
+        "heading": "The desk translates the club’s value",
+        "paragraphs": [
+          "A premium club can offer outstanding courts, coaching, wellness, food and recovery, but members will not use what they do not understand.",
+          "The front desk explains the complete experience. It identifies what matters to the person and recommends the next relevant step.",
+          "That is different from reciting every benefit.",
+          "If a prospect values access, explain booking priority. If the person wants a structured wellness routine, discuss the appropriate membership. If a new player wants improvement, connect them with the correct clinic or coach.",
+          "Good selling begins with listening."
+        ]
+      },
+      {
+        "heading": "The desk protects consistency",
+        "paragraphs": [
+          "Luxury service cannot depend on which employee happens to be working.",
+          "The welcome, telephone response, message timing, waiver process and complaint ownership should remain consistent across every shift. Written standards provide the baseline. Role-play turns those standards into behavior.",
+          "The team should practice busy situations, not only easy ones. Can an employee acknowledge two members at the desk while answering a call? Can they handle an upset member without matching the person’s energy? Can they explain a policy clearly without hiding behind “the system”?",
+          "Training should resemble the pressure of the actual job."
+        ]
+      },
+      {
+        "heading": "The desk is the club’s operational memory",
+        "paragraphs": [
+          "Every shift receives information that the next shift needs.",
+          "An effective handoff covers unresolved member issues, important arrivals, maintenance concerns, payment problems and any promised follow-up. The most important items should be spoken face to face and recorded in the proper system.",
+          "If information lives only in one employee’s memory, the club does not truly own it.",
+          "The shift log also protects the business. It records objective facts about incidents, disputes, outages, no-shows and resolutions. Months later, that record may provide the only reliable account of what occurred."
+        ]
+      },
+      {
+        "heading": "Calm is a service skill",
+        "paragraphs": [
+          "The desk sets the emotional temperature of the club.",
+          "Members notice panic, frustration and internal conflict. They also notice composure.",
+          "During a rush, the employee should acknowledge everyone, establish priorities and communicate what will happen next. Clear communication makes waiting feel shorter because the member understands the process."
+        ]
+      },
+      {
+        "heading": "Invest in the position",
+        "paragraphs": [
+          "Clubs should recruit front desk employees for judgment, communication and hospitality, then train them in the systems and padel knowledge required for the role.",
+          "Managers should coach performance in real time, recognize excellent service and provide a clear path for growth. A club cannot expect five-star behavior while treating the role as replaceable labor."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Observe one complete front desk shift and evaluate five areas:",
+          "Identify the single behavior that creates the most friction and train it through role-play before the next peak period.",
+          "The front desk does far more than check people in. It turns separate departments into one member experience.",
+          "That makes it the heart of the club."
+        ],
+        "bullets": [
+          "Welcome and farewell",
+          "Accuracy of bookings and policies",
+          "Knowledge of programs and membership",
+          "Ownership of communication and complaints",
+          "Quality of handoff and documentation"
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+  {
+    "slug": "treat-your-team-like-five-star-professionals",
+    "image": "/assets/carousel/forehand.webp",
+    "imageAlt": "Julian Wortelboer leading a padel training session",
+    "title": "You Cannot Deliver Five-Star Service Without Treating Your Team Like Five-Star Professionals",
+    "category": "Padel Industry & Leadership",
+    "date": "October 29, 2026",
+    "readTime": "5 min read",
+    "intro": [
+      "Club leaders frequently ask employees to deliver exceptional service while giving them ordinary training, unclear authority and little recognition.",
+      "That contradiction eventually reaches the member.",
+      "I believe the way a club treats its team becomes the way the team treats every person who enters the building. If we want employees to show care, pride and attention to detail, leadership must create an environment where those qualities can grow."
+    ],
+    "sections": [
+      {
+        "heading": "Training communicates respect",
+        "paragraphs": [
+          "Handing someone a uniform and login does not constitute onboarding.",
+          "A front desk employee needs to understand the club’s purpose, spaces, membership, programs, communication standards, safety procedures and service-recovery authority. They also need supervised practice.",
+          "Role-play matters because service problems rarely arrive one at a time. Employees should practice greeting several people, managing a call during a rush, explaining a difficult policy and responding to a complaint.",
+          "Prepared employees feel more confident. Confident employees create calmer experiences."
+        ]
+      },
+      {
+        "heading": "Clear standards remove uncertainty",
+        "paragraphs": [
+          "“Provide excellent service” sounds inspiring but gives an employee little practical direction.",
+          "A useful standard defines observable behavior. Acknowledge each arrival within ten seconds. Use the member’s name when known. Return missed calls promptly. Keep the desk clear. Document incidents in real time. Never make a member repeat a complaint.",
+          "Specificity makes coaching fair. The employee knows what success looks like, and the manager can correct behavior without turning feedback into a personal judgment."
+        ]
+      },
+      {
+        "heading": "Empowerment shows trust",
+        "paragraphs": [
+          "Employees cannot create memorable service if they need approval for every small decision.",
+          "Give them authority within clear limits. Let them offer an approved gesture, solve a routine problem and create a special moment. Require documentation and review the decisions so the team continues learning.",
+          "Trust does not mean removing accountability. It means giving capable people room to act responsibly."
+        ]
+      },
+      {
+        "heading": "Benefits should reflect the brand",
+        "paragraphs": [
+          "A padel and wellness club should help employees experience the product they represent.",
+          "Court access, clinics, coaching education, wellness classes and equipment benefits allow the team to understand the member experience personally. An employee who has attended a clinic can describe it more naturally. Someone who has used the recovery area can guide a first-time visitor with confidence.",
+          "Professional development also matters. Certifications and structured learning tell employees that the club sees a future for them beyond the current shift."
+        ]
+      },
+      {
+        "heading": "Recognition reinforces the standard",
+        "paragraphs": [
+          "Leaders often speak up when something goes wrong and remain silent when an employee handles a difficult moment beautifully.",
+          "Recognition should identify the behavior worth repeating. Perhaps an employee remembered a member’s milestone, prevented a safety issue or recovered a service failure without escalating the emotion.",
+          "A specific acknowledgment teaches the entire team what the brand values.",
+          "Compensation and rewards can support the culture, but recognition must never become a contest that encourages pressure selling or unhealthy competition. The member’s interest remains the priority."
+        ]
+      },
+      {
+        "heading": "Managers set the emotional example",
+        "paragraphs": [
+          "Employees copy the behavior they see.",
+          "A manager who stays calm during a rush teaches composure. A manager who picks up a towel teaches ownership. A manager who speaks respectfully about members and colleagues establishes the language of the workplace.",
+          "Standards lose credibility when leaders consider themselves exempt."
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Ask your team three questions anonymously:",
+          "1. Do you know exactly what excellent service looks like here? 2. Do you have enough authority to solve normal member problems? 3. What prevents you from delivering your best work?",
+          "Choose one obstacle and remove it within seven days. Then tell the team what changed because of their feedback.",
+          "A five-star member experience begins behind the scenes. It begins with trained employees, trusted judgment and leaders who model the standard they expect.",
+          "Take care of the team, and the team will take care of the member."
+        ]
+      }
+    ],
+    "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
+  },
+
 ];
 
 export const articleBySlug = Object.fromEntries(articles.map((article) => [article.slug, article]));
