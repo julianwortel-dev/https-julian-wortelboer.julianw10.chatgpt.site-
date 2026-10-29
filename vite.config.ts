@@ -43,6 +43,7 @@ export default defineConfig({
         articleBelongingDesign: resolve(__dirname, 'article-belonging-design.html'),
         articleFrontDeskHeart: resolve(__dirname, 'article-front-desk-heart.html'),
         articleFiveStarTeam: resolve(__dirname, 'article-five-star-team.html'),
+        articleIconRooftop: resolve(__dirname, 'article-icon-rooftop.html'),
       },
     },
   },
