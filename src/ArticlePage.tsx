@@ -31,7 +31,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     datePublished: published,
     dateModified: article.updatedDate ? new Date(article.updatedDate + ' 12:00:00 UTC').toISOString().slice(0, 10) : published,
     inLanguage: 'en-US',
-    image: 'https://www.julianwortelboer.com/assets/julian-hero.webp',
+    image: `https://www.julianwortelboer.com${article.image || '/assets/julian-hero.webp'}`,
     mainEntityOfPage: articleUrl,
     isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
     author: article.author
