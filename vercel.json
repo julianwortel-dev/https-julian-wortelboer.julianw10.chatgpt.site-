@@ -6,6 +6,14 @@
     { "source": "/general-8", "destination": "/#resources", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/insights/the-100-icon-rule", "destination": "/article-icon-100-rule.html" },
+    { "source": "/insights/the-ten-second-welcome", "destination": "/article-ten-second-welcome.html" },
+    { "source": "/insights/anticipation-is-the-highest-form-of-service", "destination": "/article-anticipation-service.html" },
+    { "source": "/insights/the-five-sense-standard", "destination": "/article-five-sense-standard.html" },
+    { "source": "/insights/service-recovery", "destination": "/article-service-recovery.html" },
+    { "source": "/insights/belonging-by-design", "destination": "/article-belonging-design.html" },
+    { "source": "/insights/the-front-desk-is-the-heart-of-a-padel-club", "destination": "/article-front-desk-heart.html" },
+    { "source": "/insights/treat-your-team-like-five-star-professionals", "destination": "/article-five-star-team.html" },
     { "source": "/insights/the-team-is-the-padel-club", "destination": "/article-team.html" },
     { "source": "/padel-coach-certification", "destination": "/certification.html" },
     { "source": "/about-julian-wortelboer", "destination": "/about.html" },
