@@ -1900,6 +1900,150 @@ export const articles: Article[] = [
     "source": "Adapted from the ICON Padel Club Front Desk Training and Julian Wortelboer’s operating standards for five-star padel club service."
   },
 
+  {
+    "slug": "building-icon-padel-wellness-club-rooftop",
+    "image": "/assets/julian-hero.webp",
+    "imageAlt": "Julian Wortelboer at a padel club, representing the vision and development of ICON Padel & Wellness Club",
+    "title": "Seven Floors Up: What It Took to Build ICON Padel & Wellness Club on a Rooftop",
+    "category": "Club Strategy & Operations",
+    "date": "October 29, 2026",
+    "readTime": "9 min read",
+    "intro": [
+      "Most people who walk into ICON Padel & Wellness Club see the finished experience: the courts, restaurant, wellness spaces, coverings, landscaping, lighting and skyline views.",
+      "What they do not see is what it took to build a complete padel and wellness club on the seventh-floor rooftop of a parking structure.",
+      "It took three years to move from vision to completion.",
+      "This was not a matter of placing padel courts on an existing rooftop. We began with a raw piece of concrete seven floors above the ground. There was no electricity, plumbing, sewer connection, water supply or waste infrastructure waiting for us.",
+      "Everything had to be designed, connected and built from zero."
+    ],
+    "sections": [
+      {
+        "heading": "A rooftop is not a construction site until you make it one",
+        "paragraphs": [
+          "When you build at ground level, many essential utilities are relatively accessible. On the seventh floor of a parking structure, every connection becomes a major engineering and construction exercise.",
+          "The electrical supply had to begin at ground level and travel all the way to the rooftop. The same was true for municipal water, drainage, sewer and waste connections.",
+          "Imagine the cables, pipes, tubes, conduits and connectors required to bring the infrastructure of an entire club seven floors into the air.",
+          "Every court light, kitchen appliance, restroom, sink, irrigation line and piece of wellness equipment depended on systems that did not exist when we started. Before members could enjoy the club, teams had to create the invisible infrastructure that made the experience possible.",
+          "That is one of the biggest lessons from this project: the parts members never see are often the parts that require the most planning, money and coordination."
+        ]
+      },
+      {
+        "heading": "Creating a rooftop oasis with 3,000 living plants",
+        "paragraphs": [
+          "Our vision from the first day was not simply to build padel courts on a rooftop. We wanted to create a padel and wellness oasis surrounded by living plants, with the Miami skyline as its backdrop.",
+          "That vision required more than 3,000 plants throughout the club. Bringing that amount of landscaping to the seventh floor was a major project. Keeping it alive became a daily operating responsibility.",
+          "Three thousand plants require an enormous amount of water, care and feeding. The irrigation system must work consistently because a failure can affect hundreds of plants very quickly, especially under the Miami sun.",
+          "Then there was the wind. The higher you build, the stronger and more unpredictable the wind can become. Leaves and branches can be damaged, containers can shift, soil can dry faster and plant health can change depending on where each plant is positioned.",
+          "The rooftop environment creates different growing conditions from one area of the club to another. A plant protected by a wall may thrive, while the same plant placed in an exposed corner may struggle.",
+          "The landscaping cannot be installed and forgotten. It requires meticulous weekly attention. Plants must be inspected, trimmed, repositioned, supported, replaced and fed when necessary. The irrigation system must be monitored constantly.",
+          "The oasis feeling members experience is not accidental. It is the result of a carefully designed system and continuous maintenance. Every beautiful feature you add to a club creates a responsibility to maintain it."
+        ]
+      },
+      {
+        "heading": "Getting equipment to the seventh floor",
+        "paragraphs": [
+          "Utilities and landscaping were only part of the challenge. Every heavy component also had to reach the rooftop.",
+          "Normal delivery methods were not sufficient for some of the largest structural materials. When it was time to install the coverings, we had to contract a massive crane capable of lifting them from outside the building and placing them on the seventh floor.",
+          "We first had to coordinate with the local police to close the street. The crane had to be positioned safely. The lifting operation had to be planned around the building, surrounding properties, traffic and weather.",
+          "Halfway through the process, a lightning storm moved into the area. The work had to stop immediately.",
+          "We had to cancel the operation, postpone it and repeat the entire coordination process on another day, including the crane, street closure, police support and lifting team.",
+          "That delay was expensive and frustrating, but safety had to come first. On a project like this, progress does not always mean continuing. Sometimes the correct decision is to stop, reorganize and try again under the right conditions."
+        ]
+      },
+      {
+        "heading": "An elevator problem discovered during inspection",
+        "paragraphs": [
+          "Another major challenge appeared when the fire department inspected the elevators.",
+          "Something in the elevator structure did not meet the required code. This was not a small cosmetic correction. The structure had to be rebuilt to satisfy the safety requirements.",
+          "When you are building a club on the seventh floor, elevators are not simply a convenience. They are essential to safe access, operations, emergency planning and the movement of people and supplies.",
+          "This is why inspections cannot be treated as formalities. Discovering a problem late in the process can force teams to reopen finished work, redesign structures and absorb costs that were never part of the original plan."
+        ]
+      },
+      {
+        "heading": "The electrical system was not designed for the real demand",
+        "paragraphs": [
+          "We also discovered that the original electrical installation did not properly account for the amount of power the completed club would use.",
+          "Padel court lighting requires significant electrical capacity. Add the restaurant, kitchen, wellness areas, air-conditioning, equipment and the normal operating systems of a club, and the demand becomes much greater than that of a typical rooftop.",
+          "The electrical panel had to be rewired.",
+          "This was another example of why a padel club cannot be designed as a generic commercial space. Engineers and contractors must understand the real operating demands of the business.",
+          "It is not enough to know how many square feet you are building. You must understand what will happen inside those square feet every day."
+        ]
+      },
+      {
+        "heading": "The restaurant grease trap did not fit the project",
+        "paragraphs": [
+          "The restaurant presented its own challenges.",
+          "During the kitchen installation, we discovered that the grease trap was too large for the space and the requirements of the project. The installed work had to be removed, and a smaller, appropriate grease trap had to be sourced and installed.",
+          "To someone outside the project, a grease trap may sound like a minor detail. It is not. One incorrect component can delay inspections and prevent the entire kitchen from opening.",
+          "That experience reinforced something I have learned repeatedly in club operations: small technical details can have enormous operational consequences."
+        ]
+      },
+      {
+        "heading": "Every solution created another layer of coordination",
+        "paragraphs": [
+          "None of these problems existed in isolation.",
+          "Changing the electrical system affected contractors, inspections and schedules. Rebuilding the elevator structure affected access and approvals. Replacing the grease trap affected the kitchen timeline. Postponing the crane affected police coordination, street access, installation crews and other construction work. Maintaining 3,000 plants required reliable water infrastructure, irrigation specialists and an ongoing landscaping operation.",
+          "A project of this complexity requires dozens of specialists to work toward the same outcome.",
+          "Architects, engineers, contractors, inspectors, municipal departments, police officers, crane operators, utility providers, landscapers and club operators all see the project from different perspectives. Someone must connect those perspectives and continue protecting the original vision.",
+          "The design may be impressive. The business plan may be strong. The courts may be ordered. But if decisions, responsibilities and communication are not managed every day, the project can lose time and money very quickly."
+        ]
+      },
+      {
+        "heading": "The owner who refused to compromise the vision",
+        "paragraphs": [
+          "I am incredibly proud of ICON’s owner, Virgilio, for having the courage to imagine this monumental project and the determination to make it happen.",
+          "Ideas of this scale are easy to admire once they are completed. Living through the construction is completely different.",
+          "Virgilio spent endless hours at the site making sure every detail received the attention it deserved. He worked through problems every day with the general contractor and construction teams. He pushed when progress slowed, challenged work that did not meet the standard and worked closely with inspectors to resolve issues and keep the project moving forward.",
+          "He did not simply approve a concept and wait for someone else to deliver it. He was present.",
+          "That presence mattered because every delay, unexpected cost and construction problem created pressure to simplify, compromise or remove something important. Virgilio continued protecting the vision: a complete padel and wellness oasis on a rooftop, not just another group of courts.",
+          "On a personal level, I am especially grateful that he asked me to be part of this monumental project. Being trusted to help shape such an ambitious and extraordinary padel club has been one of the most meaningful experiences of my career.",
+          "Vision begins a project. Presence, persistence and attention to detail are what complete it."
+        ]
+      },
+      {
+        "heading": "Three years of solving one problem after another",
+        "paragraphs": [
+          "ICON took three years to complete because building a full padel and wellness club on a seventh-floor rooftop was a monumental undertaking.",
+          "There were moments when a problem appeared just as we believed we had solved the previous one. There were delays we could not control and corrections we did not anticipate.",
+          "But the vision remained clear.",
+          "We were not building a few courts on top of a parking structure. We were creating a complete destination: a place where padel, wellness, hospitality, food, nature and community could exist together above the city.",
+          "An ambitious vision requires patience, but patience does not mean waiting passively. It means continuing to make decisions, solve problems, coordinate people and move the project forward when the easy answer would be to reduce the vision."
+        ]
+      },
+      {
+        "heading": "What future padel-club developers should learn from ICON",
+        "paragraphs": [
+          "If you are considering an elevated, rooftop or unconventional padel-club development, investigate the invisible infrastructure before falling in love with the visible design.",
+          "These questions are not as exciting as choosing court colors, furniture or branding. But they determine whether the vision can actually become an operating club."
+        ],
+        "bullets": [
+          "Where will the electricity, water, sewer, drainage and waste connections originate?",
+          "How will those utilities reach the club?",
+          "Has the electrical load been calculated using the club’s full operating demand?",
+          "How will courts, coverings, kitchen equipment, landscaping and other heavy materials reach the site?",
+          "Will street closures, cranes or special municipal permits be required?",
+          "Do the elevators meet the capacity, access and fire-code requirements of the completed project?",
+          "Have restaurant systems been designed for the actual kitchen layout and local code?",
+          "Can the water supply and pressure support the landscaping and irrigation system?",
+          "Which plants can tolerate the rooftop’s sun, heat and wind?",
+          "Who will inspect and maintain the irrigation and landscaping every week?",
+          "What happens to the schedule and budget if an inspection requires major work to be rebuilt?",
+          "Who is responsible for coordinating every contractor, inspector and authority?"
+        ]
+      },
+      {
+        "heading": "Practical takeaway",
+        "paragraphs": [
+          "Before finalizing the design of an unconventional padel facility, conduct a complete infrastructure, access and maintenance review.",
+          "Trace every utility from its original source to the point where it will be used. Calculate the real electrical and water demand. Confirm how every major component will enter the site. Review elevator, fire, kitchen, landscaping and municipal requirements before construction reaches the final stages.",
+          "Then build time and financial contingencies into the plan.",
+          "ICON Padel & Wellness Club did not become a reality because the project was easy. It became a reality because every time the building presented another challenge, the team found a way to solve it.",
+          "That is what it takes to turn a bold rooftop vision into a living padel and wellness oasis seven floors above the ground."
+        ]
+      }
+    ],
+    "source": "Based on Julian Wortelboer’s first-hand experience helping develop ICON Padel & Wellness Club in Miami."
+  },
+
 ];
 
 export const articleBySlug = Object.fromEntries(articles.map((article) => [article.slug, article]));
