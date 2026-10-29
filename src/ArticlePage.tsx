@@ -21,6 +21,8 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
   const promoteBlueprint = article.category === 'Club Strategy & Operations';
   const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
   const published = new Date(article.date + ' 12:00:00 UTC').toISOString().slice(0, 10);
+  const wordCount = [...article.intro, ...article.sections.flatMap((section) => [...section.paragraphs, ...(section.bullets || [])])]
+    .join(' ').trim().split(/\s+/).length;
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -28,6 +30,13 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     headline: article.title,
     description: article.intro[0],
     articleSection: article.category,
+    keywords: [article.category, 'padel club service', 'member experience', 'padel club operations', 'five-star hospitality', 'Julian Wortelboer'],
+    about: [
+      { '@type': 'Thing', name: 'Padel club operations' },
+      { '@type': 'Thing', name: 'Customer service' },
+      { '@type': 'Thing', name: 'Member experience' },
+    ],
+    wordCount,
     datePublished: published,
     dateModified: article.updatedDate ? new Date(article.updatedDate + ' 12:00:00 UTC').toISOString().slice(0, 10) : published,
     inLanguage: 'en-US',
@@ -36,8 +45,8 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
     author: article.author
       ? article.author.split(' & ').map((name) => ({ '@type': 'Person', name, ...(name === 'Julian Wortelboer' ? { url: 'https://www.julianwortelboer.com/about-julian-wortelboer' } : {}) }))
-      : { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/about-julian-wortelboer' },
-    publisher: { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/' },
+      : { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/about-julian-wortelboer', sameAs: ['https://www.linkedin.com/in/julianwortelboer', 'https://www.instagram.com/julianwortelboer/', 'https://www.youtube.com/@padelsmashtv'] },
+    publisher: { '@type': 'Person', name: 'Julian Wortelboer', url: 'https://www.julianwortelboer.com/', image: 'https://www.julianwortelboer.com/assets/julian-portrait.webp' },
   };
 
   return (
