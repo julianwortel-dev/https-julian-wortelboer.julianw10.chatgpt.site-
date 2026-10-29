@@ -1,46 +1,174 @@
 {
   "redirects": [
-    { "source": "/about", "destination": "/about-julian-wortelboer", "permanent": true },
-    { "source": "/onthemedia", "destination": "/#media", "permanent": true },
-    { "source": "/videos", "destination": "/#media", "permanent": true },
-    { "source": "/general-8", "destination": "/#resources", "permanent": true }
+    {
+      "source": "/about",
+      "destination": "/about-julian-wortelboer",
+      "permanent": true
+    },
+    {
+      "source": "/onthemedia",
+      "destination": "/#media",
+      "permanent": true
+    },
+    {
+      "source": "/videos",
+      "destination": "/#media",
+      "permanent": true
+    },
+    {
+      "source": "/general-8",
+      "destination": "/#resources",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/insights/the-100-icon-rule", "destination": "/article-icon-100-rule.html" },
-    { "source": "/insights/the-ten-second-welcome", "destination": "/article-ten-second-welcome.html" },
-    { "source": "/insights/anticipation-is-the-highest-form-of-service", "destination": "/article-anticipation-service.html" },
-    { "source": "/insights/the-five-sense-standard", "destination": "/article-five-sense-standard.html" },
-    { "source": "/insights/service-recovery", "destination": "/article-service-recovery.html" },
-    { "source": "/insights/belonging-by-design", "destination": "/article-belonging-design.html" },
-    { "source": "/insights/the-front-desk-is-the-heart-of-a-padel-club", "destination": "/article-front-desk-heart.html" },
-    { "source": "/insights/treat-your-team-like-five-star-professionals", "destination": "/article-five-star-team.html" },
-    { "source": "/insights/the-team-is-the-padel-club", "destination": "/article-team.html" },
-    { "source": "/padel-coach-certification", "destination": "/certification.html" },
-    { "source": "/about-julian-wortelboer", "destination": "/about.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/padel-coaching-miami", "destination": "/coaching.html" },
-    { "source": "/padel-club-growth-roadmap", "destination": "/growth-roadmap.html" },
-    { "source": "/padel-club-growth-roadmap/assessment", "destination": "/growth-roadmap-assessment.html" },
-    { "source": "/insights", "destination": "/insights.html" },
-    { "source": "/insights/premium-vs-chinese-padel-courts", "destination": "/article-courts.html" },
-    { "source": "/insights/programming-excellence", "destination": "/article-programming.html" },
-    { "source": "/insights/zig-and-zag-strategy", "destination": "/article-zig-zag.html" },
-    { "source": "/insights/ai-operations-layer-icon-padel-club", "destination": "/article-ai-operations.html" },
-    { "source": "/insights/if-you-build-it-they-might-not-come", "destination": "/article-build-it.html" },
-    { "source": "/insights/the-coachs-eye-observe-before-you-correct", "destination": "/article-coachs-eye.html" },
-    { "source": "/insights/before-you-fix-the-shot-find-the-problem", "destination": "/article-diagnosis.html" },
-    { "source": "/insights/why-padel-shots-disappear-in-matches", "destination": "/article-practice.html" },
-    { "source": "/insights/what-should-you-get-from-a-padel-lesson", "destination": "/article-lesson.html" },
-    { "source": "/insights/give-young-padel-players-a-reason-to-come-back", "destination": "/article-juniors.html" },
-    { "source": "/insights/small-habits-that-build-a-padel-club-community", "destination": "/article-community.html" },
-    { "source": "/insights/real-business-model-behind-a-profitable-padel-club", "destination": "/article-revenue.html" },
-    { "source": "/insights/what-to-look-for-in-a-padel-club-general-manager", "destination": "/article-gm.html" },
-    { "source": "/insights/people-process-service-padel-club-philosophy", "destination": "/article-pps.html" },
-    { "source": "/insights/when-to-open-your-second-padel-club", "destination": "/article-scaling.html" },
-    { "source": "/insights/52-shots-of-padel-complete-coaching-system", "destination": "/article-52-shots.html" },
-    { "source": "/insights/padel-smash-tv-one-million-subscribers", "destination": "/article-pstv-million.html" },
-    { "source": "/insights/americas-padel-diamond-in-the-rough", "destination": "/article-america-padel.html" },
-    { "source": "/insights/courts-dont-make-padel-coaches", "destination": "/article-coach-shortage.html" },
-    { "source": "/insights/padel-clubs-that-will-win", "destination": "/article-clubs-win.html" }
+    {
+      "source": "/insights/building-icon-padel-wellness-club-rooftop",
+      "destination": "/article-icon-rooftop.html"
+    },
+    {
+      "source": "/insights/the-100-icon-rule",
+      "destination": "/article-icon-100-rule.html"
+    },
+    {
+      "source": "/insights/the-ten-second-welcome",
+      "destination": "/article-ten-second-welcome.html"
+    },
+    {
+      "source": "/insights/anticipation-is-the-highest-form-of-service",
+      "destination": "/article-anticipation-service.html"
+    },
+    {
+      "source": "/insights/the-five-sense-standard",
+      "destination": "/article-five-sense-standard.html"
+    },
+    {
+      "source": "/insights/service-recovery",
+      "destination": "/article-service-recovery.html"
+    },
+    {
+      "source": "/insights/belonging-by-design",
+      "destination": "/article-belonging-design.html"
+    },
+    {
+      "source": "/insights/the-front-desk-is-the-heart-of-a-padel-club",
+      "destination": "/article-front-desk-heart.html"
+    },
+    {
+      "source": "/insights/treat-your-team-like-five-star-professionals",
+      "destination": "/article-five-star-team.html"
+    },
+    {
+      "source": "/insights/the-team-is-the-padel-club",
+      "destination": "/article-team.html"
+    },
+    {
+      "source": "/padel-coach-certification",
+      "destination": "/certification.html"
+    },
+    {
+      "source": "/about-julian-wortelboer",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/padel-coaching-miami",
+      "destination": "/coaching.html"
+    },
+    {
+      "source": "/padel-club-growth-roadmap",
+      "destination": "/growth-roadmap.html"
+    },
+    {
+      "source": "/padel-club-growth-roadmap/assessment",
+      "destination": "/growth-roadmap-assessment.html"
+    },
+    {
+      "source": "/insights",
+      "destination": "/insights.html"
+    },
+    {
+      "source": "/insights/premium-vs-chinese-padel-courts",
+      "destination": "/article-courts.html"
+    },
+    {
+      "source": "/insights/programming-excellence",
+      "destination": "/article-programming.html"
+    },
+    {
+      "source": "/insights/zig-and-zag-strategy",
+      "destination": "/article-zig-zag.html"
+    },
+    {
+      "source": "/insights/ai-operations-layer-icon-padel-club",
+      "destination": "/article-ai-operations.html"
+    },
+    {
+      "source": "/insights/if-you-build-it-they-might-not-come",
+      "destination": "/article-build-it.html"
+    },
+    {
+      "source": "/insights/the-coachs-eye-observe-before-you-correct",
+      "destination": "/article-coachs-eye.html"
+    },
+    {
+      "source": "/insights/before-you-fix-the-shot-find-the-problem",
+      "destination": "/article-diagnosis.html"
+    },
+    {
+      "source": "/insights/why-padel-shots-disappear-in-matches",
+      "destination": "/article-practice.html"
+    },
+    {
+      "source": "/insights/what-should-you-get-from-a-padel-lesson",
+      "destination": "/article-lesson.html"
+    },
+    {
+      "source": "/insights/give-young-padel-players-a-reason-to-come-back",
+      "destination": "/article-juniors.html"
+    },
+    {
+      "source": "/insights/small-habits-that-build-a-padel-club-community",
+      "destination": "/article-community.html"
+    },
+    {
+      "source": "/insights/real-business-model-behind-a-profitable-padel-club",
+      "destination": "/article-revenue.html"
+    },
+    {
+      "source": "/insights/what-to-look-for-in-a-padel-club-general-manager",
+      "destination": "/article-gm.html"
+    },
+    {
+      "source": "/insights/people-process-service-padel-club-philosophy",
+      "destination": "/article-pps.html"
+    },
+    {
+      "source": "/insights/when-to-open-your-second-padel-club",
+      "destination": "/article-scaling.html"
+    },
+    {
+      "source": "/insights/52-shots-of-padel-complete-coaching-system",
+      "destination": "/article-52-shots.html"
+    },
+    {
+      "source": "/insights/padel-smash-tv-one-million-subscribers",
+      "destination": "/article-pstv-million.html"
+    },
+    {
+      "source": "/insights/americas-padel-diamond-in-the-rough",
+      "destination": "/article-america-padel.html"
+    },
+    {
+      "source": "/insights/courts-dont-make-padel-coaches",
+      "destination": "/article-coach-shortage.html"
+    },
+    {
+      "source": "/insights/padel-clubs-that-will-win",
+      "destination": "/article-clubs-win.html"
+    }
   ]
 }
