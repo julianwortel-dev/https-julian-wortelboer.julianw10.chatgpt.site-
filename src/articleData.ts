@@ -793,8 +793,8 @@ export const articles: Article[] = [
     date: 'September 6, 2026',
     readTime: '6 min read',
     intro: [
-      "Most people who open a padel club think they're opening one business: a place to rent courts. They're actually opening seven.",
-      "Court rentals, memberships, private lessons, group clinics, tournaments, food and beverage, pro shop retail, and corporate events each behave like their own micro-business—with a different margin profile, a different growth ceiling, and a different job to do inside your P&L.",
+      "Most people who open a padel club think they're opening one business: a place to rent courts. They're actually opening eight or more.",
+      "Court rentals, memberships, private lessons, group clinics, tournaments, food and beverage, pro shop retail, corporate events, and complementary amenities each behave like their own micro-business—with a different margin profile, a different growth ceiling, and a different job to do inside your P&L.",
       "Confuse them, and you'll chase the wrong revenue for years. Understand them, and you'll know exactly where to put your next dollar of marketing spend, staffing hours, and court time.",
     ],
     sections: [
@@ -810,6 +810,7 @@ export const articles: Article[] = [
         "Food and beverage (55–65% gross margin). Inventory- and labor-intensive. Menu design and waste control are the real levers—not menu size.",
         'Pro shop and retail (40–50% gross margin). The thinnest margins, especially on paddles and technical gear. Apparel and house-brand merchandise perform better while reinforcing brand identity.',
         "Corporate events (premium margin). The highest revenue per head, with very low price sensitivity. A well-packaged corporate offering can generate outsized revenue per court-hour.",
+        "Extra amenities: yoga, Pilates, fitness or workout areas, and personal training. These services can produce revenue independently from court utilization through classes, training packages, memberships and recovery-focused programs. More importantly, they give members additional reasons to visit, stay longer and build a deeper relationship with the club. When these amenities are thoughtfully integrated, the business is no longer just a padel club. It becomes a complete wellness destination where members can play, train, recover and connect in one place.",
       ]},
       { heading: 'Five pricing rules that protect your brand and margin', paragraphs: [], bullets: [
         "Price to the value you deliver, not to the club down the street. Racing to match a competitor's price destroys the brand you spent years building.",
@@ -819,7 +820,7 @@ export const articles: Article[] = [
         'Never discount publicly. Offer private loyalty rewards to long-tenured members instead.',
       ]},
       { heading: 'The takeaway', paragraphs: [
-        'Every dollar that comes through your doors is not created equal. Thriving clubs treat their revenue mix deliberately—leaning into memberships and private lessons as the financial engine, using court rentals and clinics to build the player base, and treating retail and food and beverage as brand reinforcement first, profit center second.',
+        'Every dollar that comes through your doors is not created equal. Thriving clubs treat their revenue mix deliberately—leaning into memberships and private lessons as the financial engine, using court rentals and clinics to build the player base, treating retail and food and beverage as brand reinforcement first, profit center second, and using yoga, Pilates, fitness and personal training to expand both revenue and retention beyond the courts. That broader experience positions the club as a wellness destination, not simply a place to rent a padel court.',
         'What you can do tomorrow: Pull your last 90 days of revenue by category and calculate actual gross margin for each. Most operators are surprised by how much staff time goes toward their lowest-margin line. That gap is your next strategic decision.',
       ]},
     ],
