@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/insights/three-pillars-of-padel-development",
+      "destination": "/article-three-pillars.html"
+    },
+    {
       "source": "/insights/building-icon-padel-wellness-club-rooftop",
       "destination": "/article-icon-rooftop.html"
     },
