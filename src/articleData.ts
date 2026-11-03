@@ -2062,6 +2062,10 @@ export const articles: Article[] = [
         'The Three Pillars include 21 areas of player development: six physical subcategories, seven tactical subcategories and eight technical subcategories.',
         'We organize them separately so coaches can study and evaluate them clearly. On the court, they work together during every point. A player preparing to hit a bandeja must first move into the correct position. The player must then decide whether the bandeja is the right response to the lob and where to place it. Finally, the player must control the preparation, contact point, racket path and finish.',
         'A problem in any one of those areas can cause the shot to fail. The pillars must therefore develop in parallel rather than as three separate stages.',
+      ], bullets: [
+        'Physical: Is the body in the right place and properly prepared?',
+        'Tactical: Did the player choose the right shot and target for the situation?',
+        'Technical: Was the shot built and executed correctly?',
       ]},
       { heading: 'Pillar One: Physical', paragraphs: [
         'The physical pillar asks whether the player’s body is in the right place and properly prepared to play the ball.',
