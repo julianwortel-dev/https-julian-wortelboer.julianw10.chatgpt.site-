@@ -24,16 +24,25 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
   const wordCount = [...article.intro, ...article.sections.flatMap((section) => [...section.paragraphs, ...(section.bullets || [])])]
     .join(' ').trim().split(/\s+/).length;
   const isCoachingArticle = article.category === 'Coaching & Player Development';
-  const semanticTopics = isCoachingArticle
-    ? ['padel coaching', 'padel player development', 'physical development', 'tactical development', 'padel technique', 'coach education', 'Julian Wortelboer']
-    : ['padel club operations', 'customer service', 'member experience', 'padel business', 'Julian Wortelboer'];
-  const aboutTopics = isCoachingArticle
+  const isCoachHiringArticle = article.slug === 'how-to-hire-a-padel-coach';
+  const semanticTopics = isCoachHiringArticle
+    ? ['how to hire a padel coach', 'padel coach hiring scorecard', 'padel coach evaluation', 'on-court coaching audition', '52 Shots of Padel', 'padel coach certification', 'Padel Smash Group', 'Julian Wortelboer']
+    : isCoachingArticle
+      ? ['padel coaching', 'padel player development', 'physical development', 'tactical development', 'padel technique', 'coach education', 'Julian Wortelboer']
+      : ['padel club operations', 'customer service', 'member experience', 'padel business', 'Julian Wortelboer'];
+  const aboutTopics = isCoachHiringArticle
     ? [
-        { '@type': 'Thing', name: 'Padel coaching' },
-        { '@type': 'Thing', name: 'Player development' },
-        { '@type': 'Thing', name: 'Coach education' },
+        { '@type': 'Thing', name: 'Padel coach hiring' },
+        { '@type': 'Thing', name: 'Coach evaluation' },
+        { '@type': 'Thing', name: 'Padel club operations' },
       ]
-    : [
+    : isCoachingArticle
+      ? [
+          { '@type': 'Thing', name: 'Padel coaching' },
+          { '@type': 'Thing', name: 'Player development' },
+          { '@type': 'Thing', name: 'Coach education' },
+        ]
+      : [
         { '@type': 'Thing', name: 'Padel club operations' },
         { '@type': 'Thing', name: 'Customer service' },
         { '@type': 'Thing', name: 'Member experience' },
