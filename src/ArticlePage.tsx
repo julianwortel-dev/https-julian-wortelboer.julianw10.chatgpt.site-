@@ -82,8 +82,9 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
             <div className="article-intro">{article.intro.map((paragraph) => <p key={paragraph}><BookLinkedText text={paragraph} /></p>)}</div>
             {article.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}</section>)}
             <p className="article-source"><em><BookLinkedText text={article.source} /></em></p>
-            {(article.category === 'Coaching & Player Development' || article.academyUrl) && <a className="text-link article-academy-link" href={article.academyUrl || coachingCertificationUrl} target="_blank" rel="noreferrer">Explore Padel Coach Certification <ArrowRight size={17} /></a>}
-            {article.slug === 'how-to-hire-a-padel-coach' && <a className="text-link article-academy-link" href="https://padelsmashgroup.com/" target="_blank" rel="noreferrer">Visit Padel Smash Group <ArrowRight size={17} /></a>}
+            {article.slug === 'how-to-hire-a-padel-coach'
+              ? <a className="text-link article-academy-link" href="https://padelsmashgroup.com/" target="_blank" rel="noreferrer">Visit Padel Smash Group <ArrowRight size={17} /></a>
+              : (article.category === 'Coaching & Player Development' || article.academyUrl) && <a className="text-link article-academy-link" href={article.academyUrl || coachingCertificationUrl} target="_blank" rel="noreferrer">Explore Padel Coach Certification <ArrowRight size={17} /></a>}
             <div className="article-social-links" aria-label="Follow Julian Wortelboer">
               <span>Follow Julian</span>
               <a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram <ArrowRight size={15} /></a>
