@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/insights/how-to-hire-a-padel-coach",
+      "destination": "/article-hire-padel-coach.html"
+    },
+    {
       "source": "/insights/three-pillars-of-padel-development",
       "destination": "/article-three-pillars.html"
     },

@@ -45,6 +45,7 @@ export default defineConfig({
         articleFiveStarTeam: resolve(__dirname, 'article-five-star-team.html'),
         articleIconRooftop: resolve(__dirname, 'article-icon-rooftop.html'),
         articleThreePillars: resolve(__dirname, 'article-three-pillars.html'),
+        articleHirePadelCoach: resolve(__dirname, 'article-hire-padel-coach.html'),
       },
     },
   },

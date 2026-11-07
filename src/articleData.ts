@@ -2120,6 +2120,92 @@ export const articles: Article[] = [
     source: 'Developed from the Padel Smash Academy Three Pillars Coach Certification module and Julian Wortelboer’s coaching methodology in Mastering the Art of Coaching Padel.',
   },
 
+  {
+    slug: 'how-to-hire-a-padel-coach',
+    title: 'The Missing Link in Padel Club Success',
+    category: 'Coaching & Player Development',
+    date: 'November 7, 2026',
+    readTime: '11 min read',
+    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    intro: [
+      'A new player can walk into a beautiful padel club, take a lesson and leave without knowing what to book next or whom to play with. The facility earned the first visit. What happens in the lesson will help determine whether the player comes back.',
+      'When I look at a club’s coaching program, I ask two questions early. Who will teach the players? And who at the club knows how to evaluate that teaching?',
+      'The answers matter to anyone investing in courts, programming or memberships. Your coaches help players get comfortable on court, find people at their level and build a reason to return.',
+    ],
+    sections: [
+      { heading: 'The hiring mistake clubs can avoid', paragraphs: [
+        'A tournament record tells you how a candidate plays under pressure. A certification tells you about their formal training. The hiring decision needs another piece of evidence. Put the candidate in front of players and see what those players can do by the end of the session.',
+        'A strong player may demonstrate a beautiful bandeja and struggle to explain why a student keeps arriving late to the ball. A skilled teacher can spot that the player is moving too late, give one useful cue and change the feed so the player has time to try it. The difference becomes obvious when you watch the next few balls.',
+      ]},
+      { heading: 'What an outstanding padel coach does', paragraphs: [
+        'Look for someone who understands movement, biomechanics, positioning and shot selection, then translates that knowledge into something a player can use. With a beginner, that might mean explaining where to stand while a ball rebounds off the glass. With a more experienced pair, it might mean helping both players decide when to move forward together.',
+        'Good coaches can tell when a player is confused, discouraged or ready for more. They adjust the task, keep the group involved and finish with a clear next step. I want a player to leave knowing what improved and where to use it the next time they play.',
+      ]},
+      { heading: 'Who should evaluate your coaches', paragraphs: [
+        'Give the technical assessment to a qualified padel director, master coach or experienced coach educator. Look for someone who understands padel on court, has developed players at the levels you serve and has experience observing and giving feedback to other coaches. If that person is outside your organization, bring them in for the audition.',
+        'The technical evaluator should lead the on-court assessment, score the lesson and explain the evidence behind each rating. Ownership or the general manager should assess reliability, professionalism, member service and fit with the club’s programs. Verify credentials and speak with references who have seen the candidate teach. Make the decision together.',
+      ]},
+      { heading: 'How to evaluate a padel coach before hiring', paragraphs: [
+        'Run a live audition with players who reflect the role you are hiring for. Give each candidate the same brief, group size, equipment, time and core teaching prompts. For a role that includes group clinics, use a group audition.',
+        'Ask for a written plan for the session and have the candidate explain how they would adapt it to the club’s other standard lesson length. Consistency matters because a fair comparison requires every candidate to face the same essential task.',
+      ]},
+      { heading: 'Use the 52 Shots of Padel methodology', paragraphs: [
+        'At Padel Smash Academy, we teach 52 shots and variations alongside the transitions that connect them in play. The framework gives evaluators a way to test breadth and see whether a coach can explain what to do, when to do it and what comes next.',
+        'Ask candidates to explain how they would teach and progress shots across the framework. For the live audition, select a representative sample and use the same prompts for each candidate. An opening forehand, a closing backhand and a bandeja create three different situations to evaluate.',
+        'Ask for a concise explanation, a demonstration from an angle the player can see and a practice progression with a clear game situation. On the bandeja, watch how the coach teaches a player to respond to a lob and recover toward the net with their partner.',
+      ]},
+      { heading: 'Watch how the lesson uses the clock', paragraphs: [
+        'For a 60-minute trial, one workable split is 10 minutes for the warm-up and baseline, 15 for demonstration and guided practice, 20 for a progression, 10 for a point-based exercise and 5 for a recap.',
+        'For 90 minutes, try 10 minutes for the warm-up and baseline, 20 for demonstration and guided practice, 30 for a progression, 25 for point-based play and 5 for the recap. Have the candidate explain how the extra time gives players more practice and more decisions in play.',
+        'Watch how long players spend waiting, how quickly the group moves between tasks and whether the coach protects time for the recap. Ask what changed when the group needed more or less time than planned.',
+      ]},
+      { heading: 'Watch the basket and the feed', paragraphs: [
+        'Check whether the candidate starts with enough balls, places the basket clear of movement and plans when to collect. A good feed gives the player a repeatable ball at the right speed, height, depth and angle for the task. As the player improves, the coach can vary the feed to bring back the decisions the player will face in a match.',
+        'Pay attention to rhythm and safety. Can the coach keep the group active, rotate players and clear loose balls before the next drill? If a feed keeps causing the same problem, does the coach recognize it and adjust?',
+      ]},
+      { heading: 'Listen to the coach and watch the player', paragraphs: [
+        'Can everyone hear the instructions and see the demonstration? Does the coach give a short cue the player can try immediately, then check whether it worked?',
+        'Ask the candidate to set a simple measure at the start and repeat it near the end. For example, count how often the player returns a controlled ball after the back glass in five comparable feeds, then see whether they choose the shot in a live point. Finish by asking the coach what the player should practice next.',
+      ]},
+      { heading: 'The 100-point padel coach hiring scorecard', paragraphs: [
+        'Have the technical evaluator record one concrete observation for each category before discussing the candidate with the hiring panel. Use the same standards for every audition.',
+        'Award zero for a competency the candidate was asked to demonstrate and did not show, around half credit for inconsistent performance and full credit for reliable performance at the level the role requires. If the audition never gave the candidate a chance to show a skill, test it before closing the scorecard.',
+        'My suggested starting point is 80 out of 100 for further consideration, with at least 60% in every category. Address serious safety or conduct concerns before advancing any candidate.',
+      ], bullets: [
+        'Technical knowledge and shot instruction: 25 points. Look for accurate demonstrations, sound shot selection and a progression that connects the shot to the next ball. Minimum suggested score: 15.',
+        'Communication and court presence: 20 points. Look for clear explanations, useful cues and attention to everyone on court. Minimum suggested score: 12.',
+        'Lesson planning and time management: 20 points. Look for a clear goal, purposeful progression, efficient transitions and time for a recap. Minimum suggested score: 12.',
+        'Basket management and feeding: 15 points. Look for safe setup, planned ball collection and repeatable feeds adapted to the drill. Minimum suggested score: 9.',
+        'Player engagement and development: 20 points. Look for a useful diagnosis, an appropriate adjustment and evidence of progress against the session goal. Minimum suggested score: 12.',
+      ]},
+      { heading: 'The hidden cost of poor coaching', paragraphs: [
+        'A disappointing lesson can look like a completed sale in the booking system. The cost appears later when beginners fail to return, clinics lose momentum and the club has to find another customer to fill the same slot. A weak first experience can affect lesson revenue, court use and membership conversion at once.',
+        'A coach can change that trajectory by giving the player one attainable goal and connecting them to a next step that suits their level. A beginner who can sustain a short rally might be ready for a follow-up clinic. There they meet players they can book with, and that group may eventually organize its own weekly game.',
+        'The handoff works best when the front desk knows which programs have space and how to help a player join.',
+      ]},
+      { heading: 'What better coaching can mean for court revenue', paragraphs: [
+        'Suppose a coach introduces 20 new players to padel in a month and 10 become regulars. If those 10 players each take one spot in a paid doubles booking every week, they account for 2.5 four-player court bookings per week on a player-equivalent basis.',
+        'At $120 per booking over 52 weeks, that equals $15,600 in potential annual gross court revenue: 10 weekly player spots divided by 4 players per court, multiplied by $120 per booking and 52 weeks.',
+        'This is an annualized illustration for one group of new players. It assumes the 10 regulars keep playing weekly for 52 weeks, the club collects $120 per booking and the court time represents genuinely additional demand. The figure is gross court revenue before costs and excludes lessons, clinics, memberships, events and referrals.',
+        'If the bookings use time that would otherwise have sold, or if fewer players continue playing every week, the additional revenue is lower.',
+      ]},
+      { heading: 'Measure what happens after the lesson', paragraphs: [
+        'Keep tracking lesson volume and revenue, then follow the players who came through each introductory program. How many book another activity within 30 days? How many are still active at 60 and 90 days?',
+        'Record the share who move into clinics, open play, paid court bookings or membership, and agree on a skill milestone coaches can observe on court.',
+        'Compare groups at similar levels and with similar access to courts and follow-up programs. Scheduling, price and court availability can all affect who returns. Review the results alongside lesson observations so the director can see where a coach needs support or where the club needs to improve the next step in the player’s journey.',
+      ]},
+      { heading: 'Keep developing the coaches you hire', paragraphs: [
+        'Pair a new hire with a mentor, observe a lesson early and agree on one area to improve before the next observation. Use continuing education to sharpen the skills you expect to see on court.',
+        'Players benefit when the standard you set at the audition carries through into their weekly lessons.',
+      ]},
+      { heading: 'Invest in the people who develop your players', paragraphs: [
+        'At Padel Smash Academy, we have certified more than 400 coaches worldwide. Our online Level 1 padel coach certification helps coaches build the skills this article asks clubs to evaluate, from teaching shot progressions to feeding with precision and planning a lesson that gives players time to learn.',
+        'For club owners, PSA also offers on-site training for coaching teams. The facility may earn the first visit. Qualified coaches create the development, confidence and connections that give players a reason to return.',
+      ]},
+    ],
+    source: 'Developed from Julian Wortelboer’s padel coach hiring framework, the Padel Smash Academy 52 Shots methodology and more than 25 years of racquet-sports leadership.',
+  },
+
 ];
 
 export const articleBySlug = Object.fromEntries(articles.map((article) => [article.slug, article]));
