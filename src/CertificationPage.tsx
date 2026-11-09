@@ -60,3 +60,5 @@ export default function CertificationPage() {
     </article>
   </main>;
 }
+
+// Updated certification destination: Padel Smash Group.
