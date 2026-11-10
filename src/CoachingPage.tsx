@@ -2,7 +2,7 @@ import { ArrowDownRight, ArrowLeft, ArrowRight, Check } from 'lucide-react';
 
 const whatsappUrl = 'https://wa.me/13054311700?text=Hi%20Julian%2C%20I%27m%20interested%20in%20a%20padel%20coaching%20session.';
 const bookUrl = 'https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/';
-const academyUrl = 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation';
+const academyUrl = 'https://padelsmashgroup.com/';
 
 const focusAreas = [
   'Court positioning and movement', 'Defense and use of the glass', 'Transition from defense to attack',

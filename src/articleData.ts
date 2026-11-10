@@ -998,7 +998,7 @@ export const articles: Article[] = [
     category: 'Coaching & Player Development',
     date: 'September 6, 2026',
     readTime: '7 min read',
-    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    academyUrl: 'https://padelsmashgroup.com/',
     intro: [
       "Ask ten padel coaches to teach a beginner their first lesson, and you'll get ten different lessons. One starts with the forehand. One starts with the volley because ‘that's where points are won.’ One skips positioning entirely and just feeds balls until something looks right.",
       'All ten might be talented players. None of them are necessarily teaching the same game.',
@@ -1094,7 +1094,7 @@ export const articles: Article[] = [
     category: 'Padel Industry & Leadership',
     date: 'September 6, 2026',
     readTime: '5 min read',
-    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    academyUrl: 'https://padelsmashgroup.com/',
     intro: [
       'The US padel market has explosive potential—but there is a ceiling coming, and it is not the one most people are watching for.',
       'I have watched this growth from the ground floor. I helped build Ultra Padel Club into the largest padel club in the country, and today I am building Icon Padel Club here in Miami—the first-ever rooftop padel club in the United States, seven courts in the sky.',
@@ -1134,7 +1134,7 @@ export const articles: Article[] = [
     category: 'Padel Industry & Leadership',
     date: 'September 6, 2026',
     readTime: '4 min read',
-    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    academyUrl: 'https://padelsmashgroup.com/',
     intro: [
       'The sport does not have a court problem right now. It has a teaching problem, and it is about to become expensive to ignore.',
       'I have spent 25 years on courts—first as a player, then as one of the first Racquet Sports Directors in the country to earn a PSR 4-Star rating, and now as a certified Padel Master Coach. I have seen what happens when a sport grows faster than its teaching profession.',
@@ -2149,7 +2149,7 @@ export const articles: Article[] = [
     category: 'Coaching & Player Development',
     date: 'November 7, 2026',
     readTime: '11 min read',
-    academyUrl: 'https://www.padelsmashacademy.com/products/courses/padelcoachcertficiation',
+    academyUrl: 'https://padelsmashgroup.com/',
     intro: [
       'A new player can walk into a beautiful padel club, take a lesson and leave without knowing what to book next or whom to play with. The facility earned the first visit. What happens in the lesson will help determine whether the player comes back.',
       'When I look at a club’s coaching program, I ask two questions early. Who will teach the players? And who at the club knows how to evaluate that teaching?',
