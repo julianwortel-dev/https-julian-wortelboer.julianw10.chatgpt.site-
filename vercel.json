@@ -191,6 +191,34 @@
       "destination": "/article-tactical-pillar.html"
     },
     {
+      "source": "/insights/padel-court-zones-and-net-rule",
+      "destination": "/article-court-zones.html"
+    },
+    {
+      "source": "/insights/padel-shot-selection",
+      "destination": "/article-shot-selection.html"
+    },
+    {
+      "source": "/insights/padel-placement-and-targeting",
+      "destination": "/article-placement-targeting.html"
+    },
+    {
+      "source": "/insights/padel-point-construction-patterns",
+      "destination": "/article-point-construction.html"
+    },
+    {
+      "source": "/insights/padel-partnership-play",
+      "destination": "/article-partnership-play.html"
+    },
+    {
+      "source": "/insights/padel-momentum-and-pressure",
+      "destination": "/article-momentum-pressure.html"
+    },
+    {
+      "source": "/insights/reading-padel-opponents",
+      "destination": "/article-reading-opponents.html"
+    },
+    {
       "source": "/insights/technical-pillar-of-padel-development",
       "destination": "/article-technical-pillar.html"
     },
