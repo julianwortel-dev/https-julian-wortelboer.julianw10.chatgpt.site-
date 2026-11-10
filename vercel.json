@@ -177,6 +177,22 @@
     {
       "source": "/insights/padel-clubs-that-will-win",
       "destination": "/article-clubs-win.html"
+    },
+    {
+      "source": "/insights/21-subcategories-of-padel-player-development",
+      "destination": "/article-21-subcategories.html"
+    },
+    {
+      "source": "/insights/physical-pillar-of-padel-development",
+      "destination": "/article-physical-pillar.html"
+    },
+    {
+      "source": "/insights/tactical-pillar-of-padel-development",
+      "destination": "/article-tactical-pillar.html"
+    },
+    {
+      "source": "/insights/technical-pillar-of-padel-development",
+      "destination": "/article-technical-pillar.html"
     }
   ]
 }

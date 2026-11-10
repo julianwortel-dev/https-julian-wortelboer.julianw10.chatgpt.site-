@@ -2229,6 +2229,269 @@ export const articles: Article[] = [
     source: 'Developed from Julian Wortelboer’s padel coach hiring framework, the Padel Smash Academy 52 Shots methodology and more than 25 years of racquet-sports leadership.',
   },
 
+  {
+    slug: '21-subcategories-of-padel-player-development',
+    title: 'The 21 Subcategories of Padel Player Development',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '10 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'The Three Pillars give coaches a simple diagnostic question: did the error begin with the player’s body, decision or stroke?',
+      'That question becomes more useful when we break Physical, Tactical and Technical development into 21 subcategories. Each one gives the coach something specific to explain, observe, diagnose and correct.',
+      'This guide maps the complete system. It can support lesson planning, player evaluations, coach education and technical audits inside a padel club.',
+    ],
+    sections: [
+      { heading: 'How to use the 21-subcategory system', paragraphs: [
+        'A coach should be able to describe each subcategory in language the player understands, identify it during live play and determine whether it contributed to the error.',
+        'The correction should remain practical: one useful cue, one appropriate drill and one number that shows whether the player improved.',
+        'The categories are organized separately for study. On court, they work together on every ball.',
+      ], bullets: [
+        'Explain: describe what the subcategory means.',
+        'Observe: know what behavior to watch during a drill or point.',
+        'Diagnose: connect the visible mistake to its real cause.',
+        'Correct: choose one cue and one measurable exercise.',
+      ]},
+      { heading: 'The six Physical subcategories', paragraphs: [
+        'The Physical pillar asks whether the player’s body reached the correct place and arrived prepared for the shot.',
+      ], bullets: [
+        'Court positioning: standing in the correct place for the situation and moving with the partner.',
+        'Footwork and first step: using the ready position, split step and first movement to create time.',
+        'Body position at contact: managing distance, stance, knee bend and balance around the ball.',
+        'Glass and wall movement: reading the rebound and moving toward the ball’s exit angle.',
+        'Recovery and transitions: returning to position after the shot and crossing mid-court efficiently.',
+        'The engine: developing speed, agility, power, endurance, mobility, balance and stability.',
+      ]},
+      { heading: 'The seven Tactical subcategories', paragraphs: [
+        'The Tactical pillar asks why the player selected a shot and where that ball needed to go.',
+      ], bullets: [
+        'Zones and the Net Rule: understanding the Golden, Transition and Defensive zones and how to control the net.',
+        'Shot selection: choosing whether to attack, defend, neutralize or reset.',
+        'Placement and targeting: directing the ball to the space or opponent that creates the best next opportunity.',
+        'Point construction: using three-, five- and seven-shot patterns before attempting the finish.',
+        'Partnership play: moving, communicating and targeting as one unit.',
+        'Momentum and game situations: changing rhythm and managing pressure points.',
+        'Reading and adjusting: recognizing patterns and making independent changes during the match.',
+      ]},
+      { heading: 'The eight Technical subcategories', paragraphs: [
+        'The Technical pillar asks how the player built and executed the shot. It connects directly with the PSA 52 Shots of Padel System.',
+      ], bullets: [
+        'Foundations: grip, ready position, compact preparation and contact point.',
+        'Groundstrokes: eight forehands and eight backhands across different wall, angle and game situations.',
+        'Net game: forehand and backhand volleys plus the two dejadas.',
+        'Overhead game: seven aerial shots and three bajadas.',
+        'Lobs: raining, fast and backspin lobs from both sides.',
+        'Serve and return: two serves and six return variations.',
+        'Specialty shots: eight situational shots, including back-wall shots, chiquitas, volcadas and quick-bounce shots.',
+        'Cross-cutting qualities: spin, touch, feel and power control across the complete shot system.',
+      ]},
+      { heading: 'A practical diagnostic sequence', paragraphs: [
+        'When a player misses, observe the complete action before changing the stroke. Start with the body. Was the player positioned correctly, balanced and early enough to play the ball?',
+        'Then examine the decision. Did the situation call for that shot, target and level of risk?',
+        'Only then isolate the technical execution. Check the preparation, contact and finish in the context of the movement and decision that came before it.',
+      ]},
+      { heading: 'What to measure during a lesson', paragraphs: [
+        'Every correction should have visible evidence. Count balanced finishes, correct split steps, target hits, completed tactical patterns or successful decisions under pressure.',
+        'Ten comparable repetitions often provide enough information to see whether the cue and drill are helping. If the result does not improve, observe again and test a different cause.',
+      ]},
+      { heading: 'The standard for a trained padel coach', paragraphs: [
+        'Memorizing the 21 names does not demonstrate coaching ability. A trained coach can recognize each area in a live player and select a correction that matches the player’s level.',
+        'That standard separates knowing padel from knowing how to coach padel. The goal is to develop the complete player rather than repair one visible stroke at a time.',
+        'Develop the player. Empower the person. Grow the sport.',
+      ]},
+    ],
+    source: 'Developed from the Padel Smash Academy Three Pillars Coach Certification module and Julian Wortelboer’s coaching methodology.',
+  },
+
+  {
+    slug: 'physical-pillar-of-padel-development',
+    title: 'The Physical Pillar of Padel Development: The Body in the Right Place',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Many technical mistakes begin before the racket moves. The player arrived late, stood too close to the ball or lost balance before contact.',
+      'The Physical pillar helps a coach determine whether the player’s body reached the right place and prepared correctly for the shot.',
+      'It contains six connected subcategories: court positioning, footwork and the first step, body position at contact, glass and wall movement, recovery and transitions, and the player’s physical engine.',
+    ],
+    sections: [
+      { heading: 'Court positioning', paragraphs: [
+        'Court positioning means standing in the right place for the situation and maintaining a useful distance from the partner. Observe where the pair stands when the opponent contacts the ball, the space between them and whether they establish the Golden Zone at the net.',
+        'Common problems include living in the Transition Zone, moving in a straight line instead of as a pair and standing where the ball is rather than where it will be.',
+        'Coaching cue: “Move to where the ball is going to be, not where it is.”',
+        'Try tomorrow: pause a rally at random and ask both players to point to where they should stand. Measure correct positions out of ten stops.',
+      ]},
+      { heading: 'Footwork and the first step', paragraphs: [
+        'Most padel movement happens within two to four steps. The ready position, split step and direction of the first step often decide whether the player creates time or reaches with the arm.',
+        'Observe whether the split step matches the opponent’s contact, whether the first step moves in the correct direction and whether the feet settle before the arm accelerates.',
+        'Coaching cue: “Your feet decide the shot, not your arm. Fast legs, slow strokes.”',
+        'Try tomorrow: use hand signals to call directions. The player split-steps and makes the first move. Measure correct split steps out of ten signals.',
+      ]},
+      { heading: 'Body position at contact', paragraphs: [
+        'Distance, stance, knee bend and balance shape the contact. A player who bends from the waist, crowds the ball or falls backward will struggle to control even a technically sound swing.',
+        'Observe whether the ball stays in front of the body, whether the player uses the legs on low balls and whether the finish remains balanced.',
+        'Coaching cue: “Before every shot, find your ground.”',
+        'Try tomorrow: feed ten balls and ask the player to freeze after contact. Measure balanced finishes out of ten.',
+      ]},
+      { heading: 'Glass and wall movement', paragraphs: [
+        'Wall play requires the player to read the panel, anticipate the exit angle and move early enough to create space. Turning too soon or chasing the ball sideways creates rushed contact.',
+        'The PSA Nine-Panel System gives players a map for understanding the rebound instead of reacting in panic.',
+        'Coaching cue: “The player who knows the panels reads the game. The player who does not chases it.”',
+        'Try tomorrow: call the panel before every fed wall ball. Measure correctly identified panels out of ten.',
+      ]},
+      { heading: 'Recovery and transitions', paragraphs: [
+        'The shot does not end at contact. Players need to recover automatically and cross the middle of the court without stopping there.',
+        'Observe whether the player watches the ball after hitting, remains rooted after a volley or spends too long in the Transition Zone.',
+        'Coaching cue: “Move through the middle zone fast. Do not live there.”',
+        'Try tomorrow: after every volley, require the player to touch the base position before the next feed. Count completed recoveries out of ten.',
+      ]},
+      { heading: 'The physical engine', paragraphs: [
+        'The engine includes speed and agility, explosive power, aerobic endurance, flexibility and mobility, plus balance and stability.',
+        'A late first step may point to speed or anticipation. Technique that fades in the third set may reveal an endurance problem. Poor recovery between intense points also affects decision-making and shot quality.',
+        'Coaching cue: “Train to play the last point as well as the first.”',
+        'Try tomorrow: use the complete four-phase warm-up: mobility, activation, ball feel and progressive intensity. Track whether every phase is completed in three consecutive sessions.',
+      ]},
+      { heading: 'Physical diagnosis before technical correction', paragraphs: [
+        'Before changing the grip or swing, ask whether the player arrived early, created the correct distance and finished under control.',
+        'When the body solves the space and balance problem, the technical correction often becomes smaller and easier to understand.',
+      ]},
+    ],
+    source: 'Developed from the Physical pillar in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'tactical-pillar-of-padel-development',
+    title: 'The Tactical Pillar of Padel Development: Choosing the Right Shot',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Players often blame the stroke when the real mistake was the decision. They attacked from a defensive position, aimed at the stronger opponent or tried to finish before building the point.',
+      'The Tactical pillar asks why the player selected a shot and where the ball needed to go.',
+      'Its seven subcategories develop players who can recognize situations, work with a partner and adjust without waiting for the coach.',
+    ],
+    sections: [
+      { heading: 'Zones and the Net Rule', paragraphs: [
+        'Players need to understand the Golden Zone at the net, the Transition Zone in mid-court and the Defensive Zone near the back glass. The team controlling the net wins most points.',
+        'Observe whether a shot helps the pair gain the net, maintain it or force the opponents backward.',
+        'Coaching cue: “Does this shot give me the net, keep me there or push them back?”',
+        'Try tomorrow: before each shot, the player says gives, keeps or forces. Measure how many of ten points the pair controls from the net.',
+      ]},
+      { heading: 'Shot selection', paragraphs: [
+        'Shot selection means choosing whether to attack, defend, neutralize or reset according to the situation. The favorite shot may not be the correct response.',
+        'Watch what the player chooses under mild pressure, when they use the lob and whether they rush the finish.',
+        'Coaching cue: “Pick the shot the situation needs, not the one you like.”',
+        'Try tomorrow: call attack, defend or reset as the ball is fed. Measure correct choices out of ten.',
+      ]},
+      { heading: 'Placement and targeting', paragraphs: [
+        'A good target creates difficulty and improves the next ball. The player can use depth, direction, the middle, the feet or an opponent’s weaker side.',
+        'Observe where the balls land and whether both partners commit to the same target.',
+        'Coaching cue: “Hit it where they cannot respond.”',
+        'Try tomorrow: mark three targets with cones and hit ten balls toward each. Record how many land in the intended zone.',
+      ]},
+      { heading: 'Point construction', paragraphs: [
+        'Point construction teaches patience. Three-, five- and seven-shot patterns help players create the opportunity before attempting the finish.',
+        'Observe whether the player thinks one shot at a time, attacks from weak positions or establishes the net before using the finishing ball.',
+        'Coaching cue: “Build the point. Do not rush it.”',
+        'Try tomorrow: begin with serve, return and approach. Add the volley and overhead for a five-shot pattern. Count completed patterns out of ten points.',
+      ]},
+      { heading: 'Partnership play', paragraphs: [
+        'Padel partners need to move, communicate and target as one unit. Silence and large gaps create confusion even when both players have strong individual technique.',
+        'Observe whether the pair shifts together, calls borderline balls and agrees on the opponent or space they want to pressure.',
+        'Coaching cue: “Move as one unit. Call every ball.”',
+        'Try tomorrow: require mine or yours on every borderline ball. Track communication errors during ten points.',
+      ]},
+      { heading: 'Momentum and game situations', paragraphs: [
+        'Players can change pace, height and tempo to interrupt an opponent’s rhythm. They also need routines that keep decisions stable when the score creates pressure.',
+        'Observe the response after a lost point, the choices made when behind and whether the player becomes passive while leading.',
+        'Coaching cue: “Change the rhythm before they settle into it.”',
+        'Try tomorrow: begin ten games from a pressure score such as 30–40 and record the outcome.',
+      ]},
+      { heading: 'Reading and adjusting', paragraphs: [
+        'Advanced tactical development includes recognizing patterns and changing the plan during the match. Players should not need the coach to solve every problem.',
+        'Observe whether the pair discusses what it sees, changes targets between games and identifies the opponent’s weaker patterns.',
+        'Coaching cue: “Find the weakness early. Then use it.”',
+        'Try tomorrow: after every game, each player names one pattern and one adjustment. Count the changes they apply in the next game.',
+      ]},
+      { heading: 'Tactical development creates independent players', paragraphs: [
+        'The coach’s goal is not to call every shot from outside the court. The goal is to teach players how to read the situation and select the best response together.',
+        'A technically beautiful shot has limited value when the player uses it at the wrong time. Better decisions make existing technique more effective.',
+      ]},
+    ],
+    source: 'Developed from the Tactical pillar in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'technical-pillar-of-padel-development',
+    title: 'The Technical Pillar of Padel Development: How Every Shot Is Built',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Technique gives a player the tools to execute the shot. The coaching challenge is to build those tools without separating them from movement and decision-making.',
+      'The Technical pillar connects with the PSA 52 Shots of Padel System and organizes development into eight subcategories.',
+      'The objective is not a perfect-looking swing. The objective is reliable execution in the situation where the shot belongs.',
+    ],
+    sections: [
+      { heading: 'Technical foundations', paragraphs: [
+        'Grip, ready position, compact preparation and contact point form the base of every shot. Tennis habits often create an oversized backswing that becomes difficult to manage near the glass.',
+        'Observe the grip, racket position, length of preparation, contact in front and balanced finish.',
+        'Coaching cue: “Short backswing. The walls give you power. Trust the glass.”',
+        'Teach a new shot through six steps: demonstrate, isolate, feed, rally, add pressure and integrate it into live play.',
+      ]},
+      { heading: 'Groundstrokes: shots 1–16', paragraphs: [
+        'The system includes eight forehands and eight backhands. The technical foundation remains recognizable while the wall, angle and tactical purpose change.',
+        'Observe patience after the back glass, footwork on opening and closing balls and commitment before contact.',
+        'Coaching cue: “Let the ball come off the glass. Never rush contact.”',
+        'Try tomorrow: feed ten back-wall forehands and count clean contacts after the player reads the rebound.',
+      ]},
+      { heading: 'Net game: shots 17–20', paragraphs: [
+        'The net group includes the forehand volley, backhand volley and two dejadas. Players need a short action, firm wrist and immediate recovery.',
+        'Common errors include taking the racket too far back, collapsing the wrist and watching the volley instead of recovering.',
+        'Coaching cue: “Shake hands with the ball: short, firm, forward.”',
+        'Try tomorrow: use slow feeds before adding lateral movement. Measure firm, controlled contacts out of ten.',
+      ]},
+      { heading: 'Overhead game: shots 21–30', paragraphs: [
+        'The overhead system includes seven aerials: por cuatro, por tres, boomerang, bandeja, víbora, gancho and rulo. It also includes three bajadas.',
+        'Observe the contact above and in front, whether the player protects net position and whether the selected overhead fits the situation.',
+        'Coaching cue for the bandeja: “It is a high volley, not a smash. Punch it. Do not swing it.”',
+        'Try tomorrow: make the bandeja the required response to every lob. Count controlled balls that allow the pair to maintain the net.',
+      ]},
+      { heading: 'Lobs: shots 31–36', paragraphs: [
+        'The six lobs include raining, fast and backspin versions from both the forehand and backhand sides.',
+        'Observe the upward path, open racket face, height before depth and whether the player uses the lob to recover position.',
+        'Coaching cue: “Lift through the ball. Give it height. Depth comes from height.”',
+        'Try tomorrow: hit ten cross-court lobs from each side and count those that land deep enough to move the opponents away from the net.',
+      ]},
+      { heading: 'Serve and return: shots 37–44', paragraphs: [
+        'Two serves and six returns begin every point. Placement and the next position matter more than uncontrolled speed.',
+        'Observe the legal contact height, targets at the T or body, return depth and the player’s movement after contact.',
+        'Coaching cue: “Keep it low and targeted. Power is secondary to placement.”',
+        'Try tomorrow: serve ten balls toward one target, then return ten serves toward a deep target. Record target hits.',
+      ]},
+      { heading: 'Specialty shots: shots 45–52', paragraphs: [
+        'The eight specialty shots include back-wall shots, chiquitas, volcadas and quick-bounce responses. These situational tools require early recognition and precise preparation.',
+        'Observe disguise and backspin on the chiquita, preparation for the back-wall shot and whether the player takes a quick bounce before it reaches its peak.',
+        'Coaching cue: “The chiquita’s weapon is backspin and disguise.”',
+        'Try tomorrow: identify five specialty shots you cannot demonstrate confidently and practice each for ten focused minutes.',
+      ]},
+      { heading: 'Cross-cutting qualities', paragraphs: [
+        'Spin, touch, feel and power control influence every technical category. Players need relaxed muscles, timing and the ability to control the ball below maximum speed.',
+        'A tight grip and an attempt to muscle the ball usually reduce both control and adaptability.',
+        'Coaching cue: “Control first, power second.”',
+        'Try tomorrow: rally at three-quarter pace until the pair completes 20 shots, then add a target. Track the longest controlled sequence.',
+      ]},
+      { heading: 'Technique belongs inside the game', paragraphs: [
+        'A player has not fully learned a shot until they can recognize when to use it, move into position and execute it under pressure.',
+        'Controlled feeding begins the process. Rallying, decision-making and live play complete it. Twenty quality repetitions can teach more than one hundred careless ones.',
+      ]},
+    ],
+    source: 'Developed from the Technical pillar and PSA 52 Shots of Padel System in the Padel Smash Academy coach certification.',
+  },
+
 ];
 
 export const articleBySlug = Object.fromEntries(articles.map((article) => [article.slug, article]));
