@@ -30,8 +30,24 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
   const tacticalRelated = tacticalIndex >= 0
     ? [tacticalSeries[tacticalIndex - 1], tacticalSeries[tacticalIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
     : [];
-  const related = tacticalRelated.length > 0
-    ? tacticalRelated
+  const technicalSeries = [
+    'technical-pillar-of-padel-development',
+    'padel-technical-foundations-grip-preparation-contact',
+    'sixteen-padel-groundstrokes',
+    'four-padel-volleys-net-game',
+    'ten-padel-overhead-shots',
+    'six-types-of-padel-lobs',
+    'eight-padel-serve-return-variations',
+    'eight-padel-specialty-shots',
+    'padel-spin-touch-feel-power-control',
+  ];
+  const technicalIndex = technicalSeries.indexOf(article.slug);
+  const technicalRelated = technicalIndex >= 0
+    ? [technicalSeries[technicalIndex - 1], technicalSeries[technicalIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
+    : [];
+  const seriesRelated = tacticalRelated.length > 0 ? tacticalRelated : technicalRelated;
+  const related = seriesRelated.length > 0
+    ? seriesRelated
     : articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
   const promoteBlueprint = article.category === 'Club Strategy & Operations';
@@ -105,7 +121,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
           <aside><p>Insights from</p><a className="aside-book-link" href={bookUrl} target="_blank" rel="noreferrer"><strong>Mastering the Art<br />of Coaching Padel</strong><ArrowRight size={16} /></a><p className="author-experience">Julian draws on more than 25 years of experience running padel and racquet clubs. He also developed the Padel Club Blueprint, a practical manual for operational success.</p></aside>
           <div className="article-body">
             <div className="article-intro">{article.intro.map((paragraph) => <p key={paragraph}><BookLinkedText text={paragraph} /></p>)}</div>
-            {article.image && <figure className="article-visual"><img src={article.image} alt={article.imageAlt || article.title} width="746" height="1164" loading="eager" /><figcaption>The padel court divided into offensive, transition and defensive zones, with numbered wall and fence panels.</figcaption></figure>}
+            {article.image && <figure className="article-visual"><img src={article.image} alt={article.imageAlt || article.title} width="746" height="1164" loading="eager" />{article.imageCaption && <figcaption>{article.imageCaption}</figcaption>}</figure>}
             {article.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}{article.slug === 'how-to-hire-a-padel-coach' && section.heading === 'The 100-point padel coach hiring scorecard' && <figure className="article-scorecard"><a href="/assets/scorecards/padel-coach-hiring-scorecard.png" target="_blank" rel="noreferrer"><img src="/assets/scorecards/padel-coach-hiring-scorecard.png" alt="100-point padel coach hiring scorecard with five evaluation categories and observable evidence standards" width="1600" height="2000" loading="lazy" /></a><figcaption>Open the full-resolution scorecard to print or use during a live coaching audition.</figcaption></figure>}</section>)}
             <p className="article-source"><em><BookLinkedText text={article.source} /></em></p>
             {article.slug === 'how-to-hire-a-padel-coach'

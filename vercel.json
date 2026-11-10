@@ -223,6 +223,38 @@
       "destination": "/article-technical-pillar.html"
     },
     {
+      "source": "/insights/padel-technical-foundations-grip-preparation-contact",
+      "destination": "/article-technical-foundations.html"
+    },
+    {
+      "source": "/insights/sixteen-padel-groundstrokes",
+      "destination": "/article-groundstrokes.html"
+    },
+    {
+      "source": "/insights/four-padel-volleys-net-game",
+      "destination": "/article-volleys.html"
+    },
+    {
+      "source": "/insights/ten-padel-overhead-shots",
+      "destination": "/article-overheads.html"
+    },
+    {
+      "source": "/insights/six-types-of-padel-lobs",
+      "destination": "/article-lobs.html"
+    },
+    {
+      "source": "/insights/eight-padel-serve-return-variations",
+      "destination": "/article-serve-return.html"
+    },
+    {
+      "source": "/insights/eight-padel-specialty-shots",
+      "destination": "/article-specialty-shots.html"
+    },
+    {
+      "source": "/insights/padel-spin-touch-feel-power-control",
+      "destination": "/article-spin-touch-power.html"
+    },
+    {
       "source": "/insights/padel-court-positioning-golden-zone",
       "destination": "/article-court-positioning.html"
     },

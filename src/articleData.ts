@@ -12,6 +12,7 @@ export type Article = {
   source: string;
   image?: string;
   imageAlt?: string;
+  imageCaption?: string;
 };
 
 export const articles: Article[] = [
@@ -2432,6 +2433,7 @@ export const articles: Article[] = [
     academyUrl: 'https://padelsmashgroup.com/',
     image: '/assets/insights/padel-court-zones-net-rule.png',
     imageAlt: 'Padel court diagram showing the offense, transition and defense zones plus numbered wall and fence panels',
+    imageCaption: 'The padel court divided into offensive, transition and defensive zones, with numbered wall and fence panels.',
     intro: [
       'The simplest tactical truth in padel is also one of the most important: the pair that controls the net controls the point.',
       'Court zones give players a shared map. The Net Rule gives every shot a purpose: gain the net, keep the net or force the opponents away from it.',
@@ -2847,6 +2849,301 @@ export const articles: Article[] = [
       ]},
     ],
     source: 'Developed from the Technical pillar and PSA 52 Shots of Padel System in the Padel Smash Academy coach certification.',
+  },
+
+  {
+    slug: 'padel-technical-foundations-grip-preparation-contact',
+    title: 'Padel Technical Foundations: Grip, Preparation and Contact',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Every padel shot changes with the ball, the wall and the tactical situation, but the foundation remains recognizable: an adaptable grip, an efficient ready position, compact preparation and a clean contact point.',
+      'When those elements are unstable, coaches often chase the visible symptom instead of correcting the source. The player may miss the volley, but the real problem began before the racket moved forward.',
+      'Technical foundations should make the player more adaptable—not force every ball into one identical swing.',
+    ],
+    sections: [
+      { heading: 'What grip should a padel player use?', paragraphs: [
+        'The continental grip gives players the most useful starting point because it supports volleys, overheads, defense and quick changes near the glass. It reduces unnecessary grip changes when time is limited.',
+        'The grip must remain relaxed. Excess pressure locks the wrist and forearm, reduces touch and makes late adjustments harder. Hold securely enough to control the racket without squeezing away the feel.',
+      ]},
+      { heading: 'The ready position starts the shot', paragraphs: [
+        'A balanced stance, active feet and the racket in front reduce the distance the player must travel before contact. Racket height changes by position: lower in defense, neutral through transition and higher at the net.',
+        'Observe the player at the opponent’s contact—not after the ball has crossed the net. Late readiness produces late preparation.',
+      ], bullets: ['Balanced weight with the heels light and knees available to move.', 'Racket centered in front rather than hanging beside the hip.', 'Eyes reading the opponent, ball and likely rebound.', 'A split step timed to the opponent’s contact.']},
+      { heading: 'Compact preparation creates time', paragraphs: [
+        'Padel gives players less space and more rebounds than tennis. Large backswings waste time, interfere with the walls and make the contact point difficult to repeat.',
+        'Preparation should be early and proportional to the incoming ball. Coaching cue: “Prepare early; swing only as much as the ball allows.”',
+      ]},
+      { heading: 'Contact point before swing shape', paragraphs: [
+        'A technically attractive swing cannot rescue poor spacing. The player needs enough distance to meet the ball in a stable zone, generally in front, while remaining balanced for recovery.',
+        'Before changing the stroke, check the feet, distance and body position. If the player reaches, crowds the ball or contacts while falling, solve the space problem first.',
+      ]},
+      { heading: 'A six-stage teaching progression', paragraphs: [
+        'Teach the foundation through six stages: demonstrate, isolate, feed, rally, add pressure and integrate into live play. Each stage moves the player from understanding the shape to recognizing and executing it under pressure.',
+        'Try tomorrow: film ten repetitions from the side. Score grip readiness, preparation before the bounce, contact in front and balanced recovery. The goal is eight of ten repetitions meeting all four standards.',
+      ]},
+    ],
+    source: 'Part 17 of Julian Wortelboer’s Technical Pillar series, developed from the PSA 52 Shots of Padel coaching methodology.',
+  },
+
+  {
+    slug: 'sixteen-padel-groundstrokes',
+    title: 'The 16 Padel Groundstrokes: A Complete Coaching Framework',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Padel does not have one forehand and one backhand. The PSA 52 Shots System begins with 16 groundstrokes: eight forehand situations and eight backhand situations shaped by direction, rebound and court position.',
+      'Naming the variations helps coaches diagnose the exact situation instead of giving one generic correction to every ball.',
+      'Players improve faster when they understand what the ball and walls require before selecting the technical response.',
+    ],
+    sections: [
+      { heading: 'Why there are 16 groundstrokes', paragraphs: [
+        'The forehand and backhand foundations remain consistent, but movement, spacing, preparation and contact change when the ball comes directly, opens away, closes toward the body or rebounds from one or two walls.',
+        'Eight forehand and eight backhand situations give the coach a complete checklist for direct balls, wall defense, wall combinations and turning patterns.',
+      ]},
+      { heading: 'Direct, opening and closing balls', paragraphs: [
+        'A direct ball asks the player to create distance before the bounce. An opening ball travels away and requires movement into space. A closing ball moves toward the player and demands an early adjustment to prevent crowding.',
+        'Many so-called swing problems disappear when the player reads whether the ball is opening or closing and moves accordingly.',
+      ]},
+      { heading: 'Using the back and side walls', paragraphs: [
+        'The wall is not an emergency. It can slow the ball, create space and give the defender another contact opportunity. Players must read speed and angle before choosing to play before or after the rebound.',
+        'On two-wall balls, the order of contact changes the exit path. Identify the first wall early, move away from the predicted rebound and let the ball enter the usable contact window.',
+      ], bullets: ['Back wall: create space and allow the ball to travel.', 'Side then back: read the opening angle and move with the rebound.', 'Back then side: protect against the closing path.', 'Turn or 360 response: use only when reading and spacing make it safer.']},
+      { heading: 'What coaches should observe', paragraphs: [
+        'Observe the decision first: did the player choose before or after the wall correctly? Then check the first step, distance, preparation, contact and recovery.',
+        'Patience does not mean standing still. It means allowing the ball to travel while the feet organize the correct space.',
+      ]},
+      { heading: 'The 16-shot diagnostic drill', paragraphs: [
+        'Feed each groundstroke situation on both sides and ask the player to name the rebound before moving. Use five balls per variation and score recognition, movement, clean contact and recovery.',
+        'Train the four lowest-scoring situations with ten quality repetitions each. Reach 70% clean execution before adding targets, pressure and live decisions.',
+      ]},
+    ],
+    source: 'Part 18 of Julian Wortelboer’s Technical Pillar series, developed from shots 1–16 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'four-padel-volleys-net-game',
+    title: 'The Four Padel Volleys and the Net Game',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'The volley is not simply a shorter groundstroke. It is a net-control tool built around early preparation, stable contact, direction and immediate recovery.',
+      'The four-shot net family includes the forehand volley, backhand volley and the forehand and backhand dejada.',
+      'Players own the net when their technique allows the pair to keep pressure without losing balance or position.',
+    ],
+    sections: [
+      { heading: 'The forehand and backhand volley', paragraphs: [
+        'Both volleys begin with the racket in front, a compact shoulder turn and contact ahead of the body. The wrist remains stable while the legs and body move the racket through the ball.',
+        'The volley should not become a large swing. Long preparation creates late contact and delays recovery.',
+      ]},
+      { heading: 'The forehand and backhand dejada', paragraphs: [
+        'The dejada uses disguise, soft hands and backspin to bring the ball short after the same initial preparation as a deeper volley. It works because opponents read depth and receive touch instead.',
+        'Select it when the opponents are deep, the player is balanced and contact can stay in front.',
+      ]},
+      { heading: 'Direction before power', paragraphs: [
+        'High-value targets include the middle, the feet, open space and the weaker defender. Direction and depth often create more pressure than speed because they limit the next response.',
+        'Coaching cue: “Short preparation, firm contact, recover before you admire it.”',
+      ], bullets: ['Use the middle to create hesitation.', 'Use the feet to force a low contact.', 'Use depth when opponents are comfortable near the glass.', 'Use the dejada only when their position creates the space.']},
+      { heading: 'Common net-game errors', paragraphs: [
+        'Players often stand too close, swing too much and remain frozen after contact. Others try to finish every volley instead of building pressure.',
+        'Evaluate the pair after contact. A good volley that leaves both players separated or unbalanced is not a complete action.',
+      ]},
+      { heading: 'A measurable volley drill', paragraphs: [
+        'Feed ten forehand volleys, ten backhand volleys and five dejadas from each side. The player earns a point only when the target is reached and the ready position is recovered before the next feed.',
+        'Reach 80% controlled target-and-recovery repetitions, then repeat with lateral movement and live decisions.',
+      ]},
+    ],
+    source: 'Part 19 of Julian Wortelboer’s Technical Pillar series, developed from shots 17–20 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'ten-padel-overhead-shots',
+    title: 'The Ten Overhead Shots in Padel: Selection Before Power',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '10 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Padel has an overhead system, not one smash. It includes seven aerial shots and three bajadas used after the ball rebounds from the back glass.',
+      'Players must recognize which overhead protects the net, creates pressure or finishes the point.',
+      'Power without selection produces spectacular winners—and unnecessary errors. The best overhead is the one the situation supports.',
+    ],
+    sections: [
+      { heading: 'The seven aerial overheads', paragraphs: ['The aerial family includes the por cuatro, por tres, boomerang, bandeja, víbora, gancho and rulo. Some finish; others protect net control.'], bullets: [
+        'Por cuatro: direct power intended to clear the back wall.', 'Por tres: topspin or kick designed to exit over the side wall.', 'Boomerang: an advanced finish using rebound and court geometry.', 'Bandeja: a controlled high volley that protects the net.', 'Víbora: an aggressive sliced overhead with speed and side action.', 'Gancho: a hook-shaped response for difficult lobs.', 'Rulo: a topspin overhead toward the side fence or corner.',
+      ]},
+      { heading: 'The three bajadas', paragraphs: [
+        'The bajada family turns a high back-glass rebound into an attacking opportunity. Direction, height and angle determine whether the player uses control, pressure or a finishing intention.',
+        'Move behind the rebound, preserve space and contact in front. Rushing under the ball removes the angle and creates late contact.',
+      ]},
+      { heading: 'Bandeja versus víbora versus smash', paragraphs: [
+        'Use the bandeja when maintaining the net matters more than immediate damage. Use the víbora when balance supports controlled aggression. Use a smash when contact point, position and opponent location support a high-percentage finish.',
+        'Coaching cue: “Do not ask how hard you can hit it. Ask what the next position requires.”',
+      ]},
+      { heading: 'Footwork and contact decide the overhead', paragraphs: [
+        'The first movement creates space behind the ball. Side steps or a crossover position the body without losing visual contact. The player stabilizes, contacts above and in front and recovers according to the shot’s purpose.',
+        'Backing straight underneath the lob is a common cause of poor contact and lost net position.',
+      ]},
+      { heading: 'The overhead selection test', paragraphs: [
+        'Feed ten lobs with different height, depth and direction. Before striking, the player calls the intended overhead and tactical purpose. Score the decision separately from execution.',
+        'The goal is eight correct selections and seven controlled executions out of ten before adding maximum power.',
+      ]},
+    ],
+    source: 'Part 20 of Julian Wortelboer’s Technical Pillar series, developed from shots 21–30 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'six-types-of-padel-lobs',
+    title: 'The Six Types of Padel Lobs: Height, Spin and Purpose',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'The lob is one of padel’s most important tactical weapons. It creates time, moves opponents away from the net and gives the defending pair an opportunity to change court position.',
+      'The PSA system includes six lobs: raining, fast and backspin variations from both the forehand and backhand sides.',
+      'A lob should be selected for a purpose. Height, speed and spin change the opponent’s contact and the time available to advance.',
+    ],
+    sections: [
+      { heading: 'The raining lob', paragraphs: [
+        'The raining lob uses greater height and time. It can reset a difficult defensive situation, allow both partners to recover and force the net team to move backward under the ball.',
+        'Lift through the ball with a relaxed action and prioritize height before depth. A low attempt that lands deep can still be attacked.',
+      ]},
+      { heading: 'The fast lob', paragraphs: [
+        'The fast lob travels on a lower, quicker arc. It can surprise opponents who are close to the net or slow to turn, but it offers less margin above their reach.',
+        'Use it from balance and with a clear target. Speed without sufficient height becomes an easy overhead.',
+      ]},
+      { heading: 'The backspin lob', paragraphs: [
+        'Backspin changes the flight and can reduce the forward jump after the bounce. It is useful for disguise and depth control when the player has the touch to execute it.',
+        'The racket travels under and through the ball. Chopping sharply usually produces poor height and inconsistent contact.',
+      ]},
+      { heading: 'Forehand and backhand variations', paragraphs: [
+        'Players need all three intentions from both sides because defensive patterns do not always allow them to run around the ball. The backhand lob is especially important under pressure.',
+        'Train the less comfortable side until the player can select the lob without reorganizing the entire defense.',
+      ]},
+      { heading: 'A lob quality test', paragraphs: [
+        'Create a deep target zone and feed ten balls to each side. Alternate raining, fast and backspin lobs while calling the variation before contact.',
+        'Score height past reach, depth into the final third and balanced recovery. The goal is seven of ten successful lobs from both sides before adding a live overhead defender.',
+      ]},
+    ],
+    source: 'Part 21 of Julian Wortelboer’s Technical Pillar series, developed from shots 31–36 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'eight-padel-serve-return-variations',
+    title: 'The Eight Padel Serve and Return Variations',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Every point begins with the serve and return, yet many players practice both far less than their volleys and overheads.',
+      'The PSA system organizes this phase into eight shots: two serve variations and six return variations for different directions, rebounds and tactical intentions.',
+      'Both shots begin the battle for net control.',
+    ],
+    sections: [
+      { heading: 'The two serves', paragraphs: [
+        'Players need a reliable serve from both service sides, with options toward the glass, body and center. Legal, controlled contact and the first movement forward matter more than uncontrolled speed.',
+        'The server should finish balanced and advance with the partner. A strong serve followed by a slow transition gives away its advantage.',
+      ]},
+      { heading: 'The six return situations', paragraphs: [
+        'Return technique changes with direction and whether the player takes the ball before or after the wall. The complete family prepares the returner for both sides and the most common rebound patterns.',
+        'Decide early whether to drive low, play through the middle or lob to challenge net control. The correct response depends on serve quality and contact balance.',
+      ]},
+      { heading: 'Return low or return high?', paragraphs: [
+        'A low return asks the server to volley below net height. A well-executed lob can force the serving pair backward. Neither option is automatic.',
+        'Use ball height, pace and body position to decide. A forced lob may present an easy overhead, while a controlled low return can keep the pair alive.',
+      ]},
+      { heading: 'Targets that create the next ball', paragraphs: [
+        'The serve can attack the side glass, body or center. The return can use the middle to reduce angles, the feet to challenge the first volley or the lob to change court ownership.',
+        'Coaching cue: “Serve with a next position. Return with a next problem.”',
+      ]},
+      { heading: 'Serve-plus-one and return-plus-one', paragraphs: [
+        'Play ten points beginning with a called serve target and required first volley. Then play ten with a called return intention and required recovery position.',
+        'Track legal serves, target accuracy, return depth and which pair controls the net after the fourth shot. The objective is a repeatable opening pattern.',
+      ]},
+    ],
+    source: 'Part 22 of Julian Wortelboer’s Technical Pillar series, developed from shots 37–44 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'eight-padel-specialty-shots',
+    title: 'The Eight Specialty Shots in Padel',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Specialty shots solve situations the basic families do not fully address. They include back-wall responses, chiquitas, volcadas and quick-bounce balls that demand early recognition and precise preparation.',
+      'These are not trick shots. Each one has a tactical job inside a complete development system.',
+      'Introduce them after the player has the movement, contact control and decision-making needed to use them responsibly.',
+    ],
+    sections: [
+      { heading: 'Back-wall attacking responses', paragraphs: [
+        'When the ball rebounds high enough from the back glass, the player can move behind it and attack forward. The challenge is spacing: allow the rebound to create the contact rather than crowding the wall.',
+        'Direction and height determine whether the response is controlled, aggressive or intended to finish.',
+      ]},
+      { heading: 'The chiquita', paragraphs: [
+        'The chiquita is a soft, low ball toward the feet of the net players. Its weapons are disguise, placement and backspin—not power.',
+        'Use compact preparation resembling a deeper ball, then reduce speed and shape the contact. The pair must recognize the weak reply and advance together.',
+      ]},
+      { heading: 'The volcada', paragraphs: [
+        'The volcada uses forward body momentum and controlled contact to pressure a ball while moving into the court. It requires balance through motion rather than a stationary base.',
+        'A player who reaches without controlling the trunk turns the shot into a gamble. Footwork must organize the forward movement first.',
+      ]},
+      { heading: 'Quick-bounce responses', paragraphs: [
+        'A quick-bounce ball rises sharply and often must be taken before its peak. Recognition is the advantage: late preparation removes the contact window.',
+        'Stay compact, use the incoming energy and direct the ball rather than attempting a full swing.',
+      ]},
+      { heading: 'A specialty-shot development plan', paragraphs: [
+        'List the eight situations and score recognition, execution and correct tactical use from one to five. Train the lowest two first.',
+        'Use ten controlled feeds, ten cooperative rallies and ten live decisions. Reach 70% correct recognition and execution before using the shot under score.',
+      ]},
+    ],
+    source: 'Part 23 of Julian Wortelboer’s Technical Pillar series, developed from shots 45–52 in the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'padel-spin-touch-feel-power-control',
+    title: 'Spin, Touch, Feel and Power Control in Padel',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Technique is not complete when a player can only hit at one speed. Padel demands the ability to change spin, soften the hands, feel contact and control power according to the situation.',
+      'These qualities run through all 52 shots. They turn a collection of stroke shapes into an adaptable game.',
+      'The player who can control 50%, 70% and 90% effort has more solutions than the player whose only answer is harder.',
+    ],
+    sections: [
+      { heading: 'Spin changes the opponent’s contact', paragraphs: [
+        'Backspin can keep the ball low, topspin can create dip and kick, and sidespin can change the rebound from glass or fence. Spin is useful only when the player understands its effect on the next ball.',
+        'The racket path and face create spin; excessive wrist action reduces consistency. Teach the shape slowly before adding speed.',
+      ]},
+      { heading: 'Touch is controlled softness', paragraphs: [
+        'Touch is not simply hitting slowly. It is the ability to absorb and redirect pace with a clear target. The dejada and chiquita require soft hands while preserving structure and disguise.',
+        'The grip relaxes, but the contact remains organized.',
+      ]},
+      { heading: 'Feel must be trained', paragraphs: [
+        'Feel develops through varied contacts, different speeds and immediate feedback. Players need to notice where the ball met the racket and how small changes affect flight and rebound.',
+        'Ask questions before supplying every answer: “Where did you feel that contact? What changed the height? What would you adjust?”',
+      ]},
+      { heading: 'Power control creates more power', paragraphs: [
+        'Players often squeeze the grip and recruit too much arm when they want speed. Tension interrupts timing and reduces racket acceleration.',
+        'Efficient power begins with positioning, rotation, contact quality and relaxed acceleration. Coaching cue: “Control first. Add speed without adding tension.”',
+      ]},
+      { heading: 'The three-speed control drill', paragraphs: [
+        'Choose one target and hit five balls at 50% effort, five at 70% and five at 90%. Maintain the same preparation while changing speed and shape.',
+        'The goal is four of five target hits at each level, followed by a live rally in which the coach calls the required speed.',
+      ]},
+    ],
+    source: 'Part 24 of Julian Wortelboer’s Technical Pillar series, developed from the cross-cutting qualities in the PSA 52 Shots of Padel coaching methodology.',
   },
 
   {
