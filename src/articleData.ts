@@ -2430,6 +2430,8 @@ export const articles: Article[] = [
     date: 'November 10, 2026',
     readTime: '7 min read',
     academyUrl: 'https://padelsmashgroup.com/',
+    image: '/assets/insights/padel-court-zones-net-rule.png',
+    imageAlt: 'Padel court diagram showing the offense, transition and defense zones plus numbered wall and fence panels',
     intro: [
       'The simplest tactical truth in padel is also one of the most important: the pair that controls the net controls the point.',
       'Court zones give players a shared map. The Net Rule gives every shot a purpose: gain the net, keep the net or force the opponents away from it.',
