@@ -193,6 +193,30 @@
     {
       "source": "/insights/technical-pillar-of-padel-development",
       "destination": "/article-technical-pillar.html"
+    },
+    {
+      "source": "/insights/padel-court-positioning-golden-zone",
+      "destination": "/article-court-positioning.html"
+    },
+    {
+      "source": "/insights/padel-footwork-first-step",
+      "destination": "/article-footwork-first-step.html"
+    },
+    {
+      "source": "/insights/padel-body-position-at-contact",
+      "destination": "/article-body-position.html"
+    },
+    {
+      "source": "/insights/padel-glass-wall-movement-nine-panel-system",
+      "destination": "/article-glass-movement.html"
+    },
+    {
+      "source": "/insights/padel-recovery-and-transitions",
+      "destination": "/article-recovery-transitions.html"
+    },
+    {
+      "source": "/insights/physical-engine-for-padel-players",
+      "destination": "/article-physical-engine.html"
     }
   ]
 }

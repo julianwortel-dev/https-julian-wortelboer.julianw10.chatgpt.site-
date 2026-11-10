@@ -2492,6 +2492,294 @@ export const articles: Article[] = [
     source: 'Developed from the Technical pillar and PSA 52 Shots of Padel System in the Padel Smash Academy coach certification.',
   },
 
+  {
+    slug: 'padel-court-positioning-golden-zone',
+    title: 'Padel Court Positioning: Where Players Should Stand',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '6 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Many players move toward the ball and forget that padel positioning depends on what will happen next.',
+      'Court positioning means standing in the right place for the situation, maintaining a useful distance from the partner and preparing for the opponent’s most likely response.',
+      'A coach should evaluate positioning before correcting the stroke because a player standing in the wrong place rarely receives a comfortable ball.',
+    ],
+    sections: [
+      { heading: 'The Golden, Transition and Defensive zones', paragraphs: [
+        'The Golden Zone sits near the net, where the pair can apply pressure and control more of the court. The Defensive Zone gives players room to use the back glass. The Transition Zone connects them, but players should move through it rather than settle there.',
+        'Position changes with the ball, the opponents and the partner. A fixed spot cannot solve every situation.',
+      ]},
+      { heading: 'What a coach should observe', paragraphs: [
+        'Watch where both players stand when the opponent contacts the ball. Check the distance between partners and whether they shift together as the ball moves.',
+        'At the net, observe whether the pair takes and holds the Golden Zone. In defense, check whether they leave enough room for the rebound.',
+      ], bullets: [
+        'Position at the opponent’s contact.',
+        'Distance and alignment between partners.',
+        'Ability to gain and protect the Golden Zone.',
+        'Space available to defend the back glass.',
+      ]},
+      { heading: 'Common positioning errors', paragraphs: [
+        'Players often stop in mid-court because they feel closer to every ball. In reality, they become vulnerable at their feet and have less time to respond.',
+        'Partners also create gaps when one player follows the ball while the other remains still. Another common mistake is standing where the ball currently is instead of anticipating where the next ball will arrive.',
+      ]},
+      { heading: 'The coaching cue', paragraphs: [
+        'Use one simple instruction: “Move to where the ball is going to be, not where it is.”',
+        'The cue directs attention toward anticipation and helps the player connect positioning with the next shot rather than the previous one.',
+      ]},
+      { heading: 'Try tomorrow: the positioning pause', paragraphs: [
+        'Start a cooperative rally and pause it at random. Ask each player to point to the position they believe they should occupy. Let the pair explain the answer before correcting and restarting the rally.',
+        'Measure correct positions out of ten pauses. Repeat the test later in the session and compare the score.',
+      ]},
+      { heading: 'Positioning turns reaction into preparation', paragraphs: [
+        'Players who understand court position do not need extraordinary speed to cover every ball. They reduce the distance they must travel and prepare earlier for the likely response.',
+        'Better positioning also protects the partnership. Both players see the same court, close the same spaces and move with a shared purpose.',
+      ]},
+    ],
+    source: 'Developed from the Court Positioning subcategory in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'padel-footwork-first-step',
+    title: 'Padel Footwork and the First Step: Your Feet Decide the Shot',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '6 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Most padel movement happens within two to four steps. That makes the ready position, split step and first movement more important than long-distance speed.',
+      'When the first step comes late, the player reaches with the arm and the coach may mistake a movement problem for a swing problem.',
+      'The principle is simple: your feet decide the shot, not your arm. Fast legs, slow strokes.',
+    ],
+    sections: [
+      { heading: 'The ready position creates the first advantage', paragraphs: [
+        'A useful ready position keeps the player balanced, alert and able to move in either direction. The racket and body position should reflect whether the player is defending, transitioning or controlling the net.',
+        'Flat feet delay the first move. Excess tension also slows the reaction and makes the stroke feel rushed.',
+      ]},
+      { heading: 'The split step belongs to the opponent’s contact', paragraphs: [
+        'The split step prepares the body to respond as the opponent hits. Timing it too early leaves the player static again. Timing it too late means the ball has already begun to travel before the player organizes the feet.',
+        'Teach the player to connect the landing of the split step with the opponent’s contact.',
+      ]},
+      { heading: 'What a coach should observe', paragraphs: [
+        'Watch the split-step timing, the direction of the first step and whether the feet create the correct distance before the arm swings.',
+        'A player who repeatedly reaches, crosses unnecessarily or contacts while still moving needs a movement correction before a longer technical explanation.',
+      ], bullets: [
+        'Split step timed to contact.',
+        'First step in the correct direction.',
+        'Enough distance between the body and ball.',
+        'Feet settled before acceleration of the racket.',
+      ]},
+      { heading: 'Common footwork errors', paragraphs: [
+        'The most common errors are no split step, a late first step and reaching instead of moving. Players may also take too many small steps without committing to a direction.',
+        'The result often looks technical: late contact, crowded preparation or loss of control. The cause began with the feet.',
+      ]},
+      { heading: 'Try tomorrow: split and go', paragraphs: [
+        'Stand in front of the player and use a hand signal to indicate direction. The player split-steps as the signal appears and immediately makes the first step.',
+        'Run the exercise for two minutes, then measure correctly timed split steps and first movements out of ten signals.',
+      ]},
+      { heading: 'Fast legs create calm strokes', paragraphs: [
+        'Efficient feet give the player more time. More time reduces tension and makes a compact stroke possible.',
+        'Before asking the arm to work harder, make sure the feet have done their job.',
+      ]},
+    ],
+    source: 'Developed from the Footwork and First Step subcategory in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'padel-body-position-at-contact',
+    title: 'Body Position at Contact: Balance Before Technique',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '6 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A player can understand the correct swing and still lose control because the body never created a stable contact position.',
+      'Body position at contact includes distance from the ball, stance, knee bend and balance through the finish.',
+      'Before every shot, the player must find the ground.',
+    ],
+    sections: [
+      { heading: 'Distance determines freedom', paragraphs: [
+        'A player who stands too close jams the arm and loses the ability to guide the racket. A player who stays too far away reaches and often opens the racket face unintentionally.',
+        'Good footwork creates the distance that allows the technical action to remain compact and controlled.',
+      ]},
+      { heading: 'Use the legs on low balls', paragraphs: [
+        'Players frequently bend from the waist when the ball stays low. That position moves the head and shoulders away from balance and makes recovery slower.',
+        'The better solution is to lower the body with the legs while keeping the upper body organized around the ball.',
+      ]},
+      { heading: 'What a coach should observe', paragraphs: [
+        'Check whether the contact stays in front, whether the knees respond to the height of the ball and whether the player can finish without falling away.',
+        'Observe the body before, during and after contact. A freeze at the finish often reveals the problem more clearly than watching the racket alone.',
+      ], bullets: [
+        'Useful distance from the ball.',
+        'Contact in front rather than beside the body.',
+        'Knee bend appropriate to the ball height.',
+        'Balanced finish and controlled recovery.',
+      ]},
+      { heading: 'Common body-position errors', paragraphs: [
+        'Common errors include bending at the waist, crowding the ball and contacting while falling backward. Some players also rotate or transfer weight before the feet have created a stable base.',
+        'These errors make timing inconsistent even when the racket path appears correct.',
+      ]},
+      { heading: 'Try tomorrow: freeze after contact', paragraphs: [
+        'Feed ten comparable balls. After each contact, the player freezes long enough for the coach to check distance, knee position and balance.',
+        'Measure balanced finishes out of ten. Repeat after one movement cue and compare the result.',
+      ]},
+      { heading: 'Balance makes technique repeatable', paragraphs: [
+        'Technique becomes reliable when the body gives the racket a stable platform. Balance also improves recovery because the player can move again without first regaining control.',
+        'Correct the base before adding more instructions to the swing.',
+      ]},
+    ],
+    source: 'Developed from the Body Position at Contact subcategory in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'padel-glass-wall-movement-nine-panel-system',
+    title: 'Padel Glass and Wall Movement: Reading the Nine Panels',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '7 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Wall play separates padel from other racquet sports. Players must read the rebound, anticipate the exit angle and move early enough to create space.',
+      'Without a clear map, beginners chase the ball and experienced players still rush contacts they could have controlled.',
+      'The PSA Nine-Panel System gives coaches and players a shared language for understanding glass and wall movement.',
+    ],
+    sections: [
+      { heading: 'Read the exit before chasing the ball', paragraphs: [
+        'The ball does not remain where it strikes the glass. The player must anticipate where it will exit and move toward that space.',
+        'Moving directly toward the impact point often leaves the body beside the ball or forces a late sideways swing.',
+      ]},
+      { heading: 'The Nine-Panel System', paragraphs: [
+        'Dividing the walls into panels helps players connect the impact location with the likely rebound. The system turns an unpredictable-looking bounce into a pattern the player can study.',
+        'For example, a ball that reaches one panel may require the player to create space in another. The panel numbers help the coach give a precise movement instruction.',
+      ]},
+      { heading: 'What a coach should observe', paragraphs: [
+        'Watch whether the player tracks the rebound, organizes the feet before contact and recovers to the correct position after the wall shot.',
+        'Notice when the player turns. An early panic turn can remove visual information and make the exit angle harder to judge.',
+      ], bullets: [
+        'Recognition of the panel and exit angle.',
+        'Timing and direction of the turn.',
+        'Space created between the body and rebound.',
+        'Position after the wall shot.',
+      ]},
+      { heading: 'Common wall-movement errors', paragraphs: [
+        'Players often turn too early, chase the ball sideways or move toward the glass contact instead of the rebound’s exit path.',
+        'They may also rush the swing before the ball separates from the wall. The technical correction will not hold until the movement pattern improves.',
+      ]},
+      { heading: 'The coaching cue', paragraphs: [
+        'Use the principle: “The player who knows the panels reads the game. The player who does not chases it.”',
+        'The cue reinforces that wall play depends on recognition and movement rather than emergency racket speed.',
+      ]},
+      { heading: 'Try tomorrow: call the panel', paragraphs: [
+        'Teach the panel numbers before feeding. Ask the player to call the relevant panel and move toward the expected exit before playing the ball.',
+        'Measure correctly identified panels and movement responses out of ten feeds.',
+      ]},
+      { heading: 'The wall gives players time when they understand it', paragraphs: [
+        'Players often fear the glass because they believe it removes time. A correctly read rebound can create time by slowing and redirecting the ball.',
+        'The goal is to replace chasing with reading. Once the movement improves, the contact becomes calmer and easier to teach.',
+      ]},
+    ],
+    source: 'Developed from the Glass and Wall Movement subcategory and PSA Nine-Panel System in the Padel Smash Academy certification.',
+  },
+
+  {
+    slug: 'padel-recovery-and-transitions',
+    title: 'Padel Recovery and Transitions: Stop Living in the Middle Zone',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '6 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A padel shot does not finish when the ball leaves the racket. The player must recover, reconnect with the partner and prepare for the next response.',
+      'The Transition Zone creates a common trap. Players move forward, stop halfway and become vulnerable at their feet.',
+      'The coaching message is direct: move through the middle zone quickly. Do not live there.',
+    ],
+    sections: [
+      { heading: 'Recovery begins immediately after contact', paragraphs: [
+        'Players often admire the shot or wait to see its result. That pause costs time and creates gaps in the pair’s formation.',
+        'Recovery should become an automatic part of the stroke. The finish leads directly into the next position.',
+      ]},
+      { heading: 'The Transition Zone is a passage', paragraphs: [
+        'Mid-court connects defense and attack. It serves a purpose during movement, but it usually offers less time and more difficult contacts when a player remains there.',
+        'Players should recognize when to continue forward, when to recover backward and when the ball allows the pair to establish the net together.',
+      ]},
+      { heading: 'What a coach should observe', paragraphs: [
+        'Watch whether the player recovers after every shot, how long they remain in mid-court and where they stand after the volley.',
+        'Evaluate the pair rather than one player alone. A successful transition requires both partners to move with compatible timing.',
+      ], bullets: [
+        'Immediate movement after contact.',
+        'Time spent in the Transition Zone.',
+        'Recovery after volleys and overheads.',
+        'Connection with the partner during movement.',
+      ]},
+      { heading: 'Common recovery errors', paragraphs: [
+        'The player watches the shot, remains rooted after the volley or advances without the partner. Another common mistake is crossing mid-court slowly with no clear destination.',
+        'These behaviors expose open space and make the next ball feel faster than it is.',
+      ]},
+      { heading: 'Try tomorrow: touch the base', paragraphs: [
+        'Choose a recovery point appropriate to the drill. After every volley, the player touches or moves through that base position before receiving the next feed.',
+        'Measure recoveries completed before the next feed out of ten. Increase the realism only after the movement becomes consistent.',
+      ]},
+      { heading: 'Recovery connects every shot', paragraphs: [
+        'Individual technique cannot compensate for repeated positional gaps. The player must finish one action already preparing for the next.',
+        'When recovery becomes automatic, the rally feels slower and the partnership becomes more difficult to break.',
+      ]},
+    ],
+    source: 'Developed from the Recovery and Transitions subcategory in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
+  {
+    slug: 'physical-engine-for-padel-players',
+    title: 'The Physical Engine for Padel Players',
+    category: 'Coaching & Player Development',
+    date: 'November 9, 2026',
+    readTime: '7 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Technical quality changes when the body becomes tired. The first step slows, balance disappears and decisions become rushed.',
+      'The physical engine supports the player’s ability to repeat useful movement from the first point to the last.',
+      'It includes speed and agility, explosive power, aerobic endurance, flexibility and mobility, plus balance and stability.',
+    ],
+    sections: [
+      { heading: 'Speed and agility', paragraphs: [
+        'Padel speed begins with reaction and an efficient first step. Players rarely need a long sprint, but they repeatedly need to start, stop and change direction within a small space.',
+        'Training should reflect the distances, positions and recovery patterns found in actual points.',
+      ]},
+      { heading: 'Explosive power', paragraphs: [
+        'Explosive power supports quick acceleration, jumps, overheads and rapid changes of direction. It should remain connected to control and safe mechanics.',
+        'More force does not automatically create a better shot. The player needs the ability to produce power at the appropriate moment and recover afterward.',
+      ]},
+      { heading: 'Aerobic endurance', paragraphs: [
+        'Endurance helps the player recover between repeated efforts and maintain movement quality throughout the match.',
+        'When technique fades late in a session, the coach should consider whether fatigue changed the feet, balance and preparation rather than assuming the player forgot the correction.',
+      ]},
+      { heading: 'Flexibility and mobility', paragraphs: [
+        'Mobility allows the player to reach useful positions without compensating through the spine, shoulder or knees. It also supports lower contacts and recovery from difficult defensive situations.',
+        'Static stretching alone does not prepare a player for the demands of a session. The warm-up should gradually increase movement and intensity.',
+      ]},
+      { heading: 'Balance and stability', paragraphs: [
+        'Balance helps the player control contact while moving. Stability allows the body to absorb force and produce the next action without unnecessary adjustment.',
+        'Observe whether the player can stop under control, finish the shot and move again efficiently.',
+      ]},
+      { heading: 'The four-phase PSA warm-up', paragraphs: [
+        'A complete warm-up moves through mobility, activation, ball feel and progressive intensity. Each phase prepares a different part of the player’s engine for the session.',
+        'Skipping directly to hard hitting may leave the body unprepared and hide movement limitations that the coach needs to see.',
+      ], bullets: [
+        'Mobility: prepare the joints and useful ranges of motion.',
+        'Activation: engage the muscles needed for movement and stability.',
+        'Ball feel: connect the body with timing and racket control.',
+        'Progressive intensity: build toward the speed of live play.',
+      ]},
+      { heading: 'Try tomorrow: complete every phase', paragraphs: [
+        'Run the four-phase warm-up as written for three consecutive sessions. Do not skip a phase when time feels short. Adjust the length while preserving the sequence.',
+        'Measure whether the player completes all four phases and compare movement quality during the first ten minutes of technical work.',
+      ]},
+      { heading: 'Train the last point', paragraphs: [
+        'The coaching cue is: “Train to play the last point as well as the first.”',
+        'The physical engine does not sit outside player development. It protects technique, supports tactical clarity and allows the player to repeat both under pressure.',
+      ]},
+    ],
+    source: 'Developed from The Engine subcategory in the Padel Smash Academy Three Pillars Coach Certification module.',
+  },
+
 ];
 
 export const articleBySlug = Object.fromEntries(articles.map((article) => [article.slug, article]));
