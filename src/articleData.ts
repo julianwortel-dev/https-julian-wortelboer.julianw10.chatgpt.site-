@@ -2424,6 +2424,361 @@ export const articles: Article[] = [
   },
 
   {
+    slug: 'padel-court-zones-and-net-rule',
+    title: 'Court Zones and the Net Rule: Where Padel Points Are Won',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '7 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'The simplest tactical truth in padel is also one of the most important: the pair that controls the net controls the point.',
+      'Court zones give players a shared map. The Net Rule gives every shot a purpose: gain the net, keep the net or force the opponents away from it.',
+      'When players understand those two ideas, positioning stops being guesswork and becomes a repeatable tactical system.',
+    ],
+    sections: [
+      { heading: 'What are the three court zones in padel?', paragraphs: [
+        'I divide the court into the Defensive Zone near the back glass, the Transition Zone through mid-court and the Golden Zone at the net. Each zone changes the player’s priorities, available shots and acceptable level of risk.',
+        'In the Defensive Zone, the first job is to create time and space. In the Transition Zone, the pair must move with purpose rather than stop. In the Golden Zone, the objective is to apply pressure while protecting the space behind the team.',
+      ], bullets: [
+        'Defensive Zone: defend, neutralize, use the glass and create a ball that allows the pair to advance.',
+        'Transition Zone: connect defense to attack; move through it quickly and avoid becoming trapped at the feet.',
+        'Golden Zone: control the net, take time away and look for a high-percentage finishing opportunity.',
+      ]},
+      { heading: 'The Net Rule: gain it, keep it or take it away', paragraphs: [
+        'Before selecting a shot, the player should ask one question: does this ball help us gain the net, keep the net or force the opponents backward? That question connects positioning and shot selection.',
+        'A lob from the back is valuable because it can move the opponents away from the Golden Zone. A controlled bandeja is valuable because it can preserve net position. A low volley is valuable because it can prevent the opponents from moving forward.',
+        'The Net Rule does not mean attacking every ball. It means recognizing that net control is the strategic objective and choosing the safest path toward it.',
+      ]},
+      { heading: 'Where should players stand at the net?', paragraphs: [
+        'The Golden Zone is not a painted line. It changes with the quality of the ball, the opponent’s position and the likely reply. Players should be close enough to apply pressure but far enough from the net to protect the lob and react to a fast ball.',
+        'The pair must also maintain useful spacing. If one player moves forward, backward or laterally, the partner adjusts. Two individuals standing in good positions can still leave a bad gap if they do not move as one unit.',
+      ]},
+      { heading: 'Common zone mistakes', paragraphs: [
+        'The most common mistake is living in the Transition Zone. Players advance without a ball that supports the move, stop in mid-court and receive the next ball at their feet.',
+        'Another mistake is confusing movement with progress. Running forward after a weak shot does not create an attacking position. The ball must earn the movement.',
+      ], bullets: [
+        'Advancing alone while the partner stays behind.',
+        'Standing too close to the net and becoming vulnerable to the lob.',
+        'Retreating after every overhead instead of recovering the Golden Zone.',
+        'Remaining deep after a successful lob instead of taking the space created.',
+      ]},
+      { heading: 'A practical zone drill for tomorrow', paragraphs: [
+        'Mark the three zones with flat lines. Begin every point in defense. The pair earns one point for gaining the net together and a second point for winning the rally while controlling the Golden Zone.',
+        'After each rally, ask the players to identify the ball that allowed them to advance. Track successful net gains out of ten attempts. The objective is not merely to run forward; it is to recognize the correct tactical invitation.',
+      ]},
+      { heading: 'The coaching takeaway', paragraphs: [
+        'Court awareness gives every other tactical skill a home. When players know where they are, where their partner is and which zone they want to control, better decisions become much easier.',
+        'Coaching cue: “Gain the net together, keep it with discipline and make the opponents earn it back.”',
+      ]},
+    ],
+    source: 'Part 10 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'padel-shot-selection',
+    title: 'Shot Selection in Padel: Choose What the Situation Needs',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '7 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Many errors that look technical are actually decisions. The player executed a difficult shot from the wrong position, attacked a neutral ball or used a favorite shot when the situation required patience.',
+      'Good shot selection is the ability to match the response to the ball, the court position, the score, the partner and the opponents.',
+      'The objective is not to remove creativity. It is to build a decision-making system that makes creativity useful.',
+    ],
+    sections: [
+      { heading: 'What does good shot selection mean in padel?', paragraphs: [
+        'Good shot selection means choosing the highest-value response available in that moment—not automatically choosing the most aggressive option. A player must recognize whether the situation calls for attack, defense, neutralization or reset.',
+        'The same stroke can have different tactical purposes. A lob can defend, neutralize or create an opportunity to gain the net. A volley can maintain pressure or simply prevent the opponent from advancing.',
+      ]},
+      { heading: 'The four tactical intentions', paragraphs: [
+        'I teach players to identify the intention before they become obsessed with the stroke. Clear intention reduces hesitation and helps the coach diagnose whether the mistake was technical or tactical.',
+      ], bullets: [
+        'Attack: apply pressure from a balanced position with a ball that supports aggression.',
+        'Defend: stay in the point, use time and protect space when the opponents have the advantage.',
+        'Neutralize: remove the opponent’s immediate advantage and return the rally to a manageable state.',
+        'Reset: slow the situation, recover position and rebuild the point instead of forcing a low-percentage finish.',
+      ]},
+      { heading: 'Read the ball before choosing the shot', paragraphs: [
+        'Shot selection begins with the incoming ball. Height, speed, depth, spin and direction determine what is realistically available. Court position and body balance then narrow the options further.',
+        'A high ball does not automatically mean attack. If the player is moving backward, late or outside the court, the percentage may favor control. A lower ball can still be used offensively if the player is balanced and the opponents are out of position.',
+      ]},
+      { heading: 'Use the score without becoming afraid', paragraphs: [
+        'The score should influence risk, not eliminate intelligent aggression. At 30–40, the player may choose a larger target or build one additional ball before attacking. On an easy ball, however, becoming passive can be just as costly as taking too much risk.',
+        'Pressure exposes habits. Players who do not train decisions under score will return to their favorite shot when the match becomes uncomfortable.',
+      ]},
+      { heading: 'Common shot-selection errors', paragraphs: [
+        'The most frequent error is trying to finish from a position that only supports neutralization. Another is selecting the shot before reading the opponent’s location.',
+      ], bullets: [
+        'Smashing while moving backward instead of using a bandeja or controlled overhead.',
+        'Driving a low ball when the lob would create time and court position.',
+        'Attempting the same target repeatedly after the opponent has adjusted.',
+        'Using the favorite shot rather than the ball the pair needs.',
+      ]},
+      { heading: 'A decision drill for coaches', paragraphs: [
+        'Feed ten varied balls and require the player to call attack, defend, neutralize or reset before contact. Award one point for the correct decision and one point for execution that matches the intention.',
+        'Record decision score and execution score separately. This distinction tells you whether to coach the mind, the movement or the stroke.',
+      ]},
+      { heading: 'The coaching takeaway', paragraphs: [
+        'Players improve faster when they understand why the shot belongs. Technique provides the menu; tactical awareness decides what to order.',
+        'Coaching cue: “Choose the shot the situation needs, not the shot you want to hit.”',
+      ]},
+    ],
+    source: 'Part 11 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'padel-placement-and-targeting',
+    title: 'Placement and Targeting in Padel: Create the Next Ball',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '7 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Power can win a point. Placement can control an entire match.',
+      'The best target is not always the open court. It is the location that creates difficulty, protects your team’s position and improves the quality of the next ball.',
+      'Effective targeting turns isolated shots into connected tactical decisions.',
+    ],
+    sections: [
+      { heading: 'What is the best place to hit the ball in padel?', paragraphs: [
+        'There is no universal target. The best location depends on the opponents’ positions, movement, strengths, weaknesses and likely reply. Good placement combines available space with the problem you want the ball to create.',
+        'The middle, the feet, the backhand side, the deep corner and the body are all useful targets. Their value changes from one rally to the next.',
+      ]},
+      { heading: 'The five primary target families', paragraphs: [
+        'Players need a small number of clear target families before they can make advanced adjustments. These targets should be trained with a tactical purpose, not only as cone-hitting exercises.',
+      ], bullets: [
+        'Middle: creates communication pressure, reduces angles and can separate the pair.',
+        'Feet: forces a difficult low contact, especially against opponents advancing or established at the net.',
+        'Corners and glass: uses depth and rebound uncertainty to push opponents back.',
+        'Body: removes comfortable swing space and can produce a weak reply.',
+        'Open space or weaker side: punishes poor positioning or applies repeated pressure to a known limitation.',
+      ]},
+      { heading: 'Target for the next ball, not only this ball', paragraphs: [
+        'A strong tactical target creates a predictable family of replies. A deep ball to the corner may produce a shorter defensive response. A volley to the feet may create a higher ball. The player should already understand what opportunity the target is designed to produce.',
+        'This is the difference between hitting away from an opponent and constructing pressure. One reacts to space; the other creates the next situation.',
+      ]},
+      { heading: 'Protect your position with placement', paragraphs: [
+        'The chosen target must fit the pair’s court position. A sharp angle can look attractive, but it may open a larger angle for the opponent. A ball through the middle often gives the attacking pair better court coverage and more predictable movement.',
+        'When off balance, use a larger, safer target that allows recovery. Precision without positional protection is not smart targeting.',
+      ]},
+      { heading: 'How to identify the right opponent to target', paragraphs: [
+        'Do not target someone simply because they appear weaker. Consider who is under pressure, who is moving, who has the less effective overhead and which player’s reply creates the best next ball for your pair.',
+        'Targets also change. Once opponents begin protecting a weakness, the space they leave can become the new opportunity.',
+      ]},
+      { heading: 'A three-target practice', paragraphs: [
+        'Mark the middle, feet and deep corner. Feed the same ball ten times and call the target late enough that the player must read and adjust. Then allow the player to choose the target and explain the tactical reason after contact.',
+        'Track target accuracy, quality of the opponent’s reply and whether the hitter recovered correctly. Placement is successful only when the whole sequence improves.',
+      ]},
+      { heading: 'The coaching takeaway', paragraphs: [
+        'Teach targets as tactical tools, not isolated destinations. The question is not only “Did the ball land there?” It is “What did that placement create?”',
+        'Coaching cue: “Place the ball where it improves your next decision.”',
+      ]},
+    ],
+    source: 'Part 12 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'padel-point-construction-patterns',
+    title: 'Point Construction in Padel: Three-, Five- and Seven-Shot Patterns',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A point is rarely won by one spectacular shot. Most points are shaped by the quality and purpose of the balls that came before it.',
+      'Three-, five- and seven-shot patterns teach players to connect decisions, anticipate likely replies and earn the opportunity to finish.',
+      'Patterns are not rigid scripts. They are training structures that help players recognize repeatable situations.',
+    ],
+    sections: [
+      { heading: 'What is point construction in padel?', paragraphs: [
+        'Point construction is the process of using a sequence of shots to improve court position, create pressure and produce a high-percentage finishing opportunity. Each ball should support the next tactical objective.',
+        'The player does not need to predict the exact rally. The goal is to understand families of responses: if I serve here, what return is likely? If I volley there, where can the next ball arrive?',
+      ]},
+      { heading: 'Three-shot patterns: establish the point', paragraphs: [
+        'Three-shot patterns teach the opening structure. For the serving pair, this can be serve, return and first volley. For the returning pair, it can be return, first defensive ball and lob or counterattack.',
+        'The measurement is not whether the third shot wins. It is whether the sequence produces the intended position and a manageable next ball.',
+      ], bullets: [
+        'Serve to the body, receive a limited return, play the first volley through the middle.',
+        'Return low, defend the first volley, use the next ball to lob and challenge net control.',
+        'Lob from defense, move forward together and play the first ball from the Transition Zone with discipline.',
+      ]},
+      { heading: 'Five-shot patterns: build pressure', paragraphs: [
+        'Five-shot patterns add the opponent’s adaptation and the pair’s response. The players begin to see how one target opens another and how net position must be protected after the first attacking ball.',
+        'For example: serve wide, first volley middle, controlled overhead to the corner, recover the Golden Zone and finish only after the short ball appears.',
+      ]},
+      { heading: 'Seven-shot patterns: solve the rally', paragraphs: [
+        'Seven-shot patterns develop patience and adjustment. The initial plan may not produce an immediate advantage, so the pair must recycle pressure, reset or change the target without losing its shape.',
+        'This level is especially important for advanced players who can execute many shots but sometimes attack before the point is ready.',
+      ]},
+      { heading: 'Patterns must include both partners', paragraphs: [
+        'Point construction is not an individual hitting sequence. The non-hitting partner adjusts position, protects the middle, anticipates the likely reply and communicates. A pattern is complete only when both players understand their roles.',
+        'Coaches should stop drills when the hitter makes the right shot but the partner fails to move. Tactics belong to the pair.',
+      ]},
+      { heading: 'How to teach patterns without creating robots', paragraphs: [
+        'Begin with a cooperative pattern, add a defined opponent response and then open the point after the third, fifth or seventh ball. This progression preserves the learning objective while requiring real decisions.',
+        'Ask players to name the purpose of each ball. If they only remember the location, they learned choreography. If they understand the purpose, they can adapt the pattern in competition.',
+      ]},
+      { heading: 'A measurable practice for tomorrow', paragraphs: [
+        'Choose one three-shot opening and one five-shot pressure pattern. Run ten attempts of each. Track completion, court position after the final ball and whether the next opportunity is stronger than the starting situation.',
+        'Coaching cue: “Build the point until the finish becomes the simple choice.”',
+      ]},
+    ],
+    source: 'Part 13 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'padel-partnership-play',
+    title: 'Partnership Play in Padel: Move and Decide as One Unit',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Padel is not two singles players sharing a court. It is one tactical unit made of two people.',
+      'A pair can have excellent individual technique and still lose because the players move at different times, protect different spaces or make decisions without communicating.',
+      'Partnership play turns individual skills into coordinated pressure, reliable coverage and shared problem-solving.',
+    ],
+    sections: [
+      { heading: 'What does moving as one unit mean?', paragraphs: [
+        'Moving as one unit means both players adjust to the ball, the opponents and each other. They do not need to stand on the same horizontal line at every moment, but their positions must protect the court as a connected pair.',
+        'When one player is pulled wide, the partner closes the most dangerous central space. When one player advances behind a good ball, the partner advances. When the pair loses the net, both recover with a shared plan.',
+      ]},
+      { heading: 'Communication before, during and after the point', paragraphs: [
+        'Useful communication begins before the serve. The pair agrees on target, formation and the likely first response. During the rally, short calls solve immediate uncertainty. After the point, one clear observation is more valuable than a long emotional discussion.',
+      ], bullets: [
+        'Before: target, formation, first-ball responsibility and return plan.',
+        'During: mine, yours, leave, back, switch and information about opponent position.',
+        'After: one pattern observed, one adjustment and emotional reset.',
+      ]},
+      { heading: 'Who takes the middle ball?', paragraphs: [
+        'The answer depends on formation, player strengths, incoming direction and which player can maintain the pair’s shape after contact. A permanent rule such as “forehand always takes it” can create predictable problems.',
+        'Partners need clear default responsibilities and permission to adjust. The call must be early. Late communication is often worse than no communication because both players have already committed their feet.',
+      ]},
+      { heading: 'Shared targeting and pressure', paragraphs: [
+        'Both partners should understand whom or what they are pressuring. If one player targets the middle while the other anticipates the line, the pair’s coverage separates.',
+        'A shared plan also improves anticipation. When both players know the intended target, they can position for the most likely reply rather than reacting after the ball crosses the net.',
+      ]},
+      { heading: 'Emotional partnership is tactical', paragraphs: [
+        'Body language affects decision-making. Blame creates hesitation; silence can create uncertainty. Strong partners correct the plan without attacking the person.',
+        'Use short, neutral language: what happened, what we will do next and one cue for the following point. Emotional stability protects tactical clarity.',
+      ]},
+      { heading: 'Partnership mistakes coaches should observe', paragraphs: [
+        'Do not evaluate only the player who touches the ball. Watch the partner’s movement, preparation and communication. Many apparent shot errors began with poor pair organization.',
+      ], bullets: [
+        'One player attacks while the other remains in defense.',
+        'Both players cover the same space and expose the middle or line.',
+        'No call on lobs, middle balls or switches.',
+        'Partners use different targets without discussing the change.',
+        'The pair carries the previous point into the next one.',
+      ]},
+      { heading: 'A partnership drill for tomorrow', paragraphs: [
+        'Play ten points in which the pair must call the target before the serve or return and communicate on every middle ball. Award one point for winning the rally and one partnership point for coordinated movement and early communication.',
+        'Coaching cue: “Two players, one position, one plan.”',
+      ]},
+    ],
+    source: 'Part 14 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'padel-momentum-and-pressure',
+    title: 'Momentum and Pressure in Padel: Make Better Decisions Under Score',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Pressure does not create a completely different player. It reveals the habits that were trained—or never trained.',
+      'Momentum changes when a pair controls tempo, responds well after mistakes and makes clear decisions at important scores.',
+      'Players cannot eliminate pressure, but they can build routines and tactical rules that keep pressure from controlling them.',
+    ],
+    sections: [
+      { heading: 'What is momentum in a padel match?', paragraphs: [
+        'Momentum is the temporary advantage created when one pair controls rhythm, confidence and the pattern of play. It can come from a run of points, a successful tactical adjustment or an emotional response after a difficult moment.',
+        'Momentum is not magic. Coaches can identify the behaviors behind it: faster play between points, repeated targeting, rushed decisions, passive movement or stronger communication.',
+      ]},
+      { heading: 'Control tempo before tempo controls you', paragraphs: [
+        'A pair can change pace, height, depth and time between points. When opponents are comfortable, change one variable with purpose. When your pair is playing clearly, protect the rhythm instead of introducing unnecessary risk.',
+        'Slowing the game does not mean playing passively. It can mean using a higher ball, taking a full breath, extending the routine or building one more shot before attacking.',
+      ]},
+      { heading: 'Use a between-point routine', paragraphs: [
+        'A useful routine should be short enough to repeat under stress. I recommend three steps: release the previous point, identify one useful fact and commit to the next plan.',
+      ], bullets: [
+        'Release: one breath and neutral body language.',
+        'Review: what pattern or target mattered?',
+        'Reset: agree on serve, return, target or first-ball intention.',
+      ]},
+      { heading: 'How should tactics change on important points?', paragraphs: [
+        'Pressure points usually favor clarity and percentage, not fear. Use the pair’s strongest reliable pattern, select a larger target and make the opponents play an additional quality ball.',
+        'Do not abandon an earned attacking opportunity. The goal is intelligent aggression: a clear pattern with manageable risk, executed with commitment.',
+      ]},
+      { heading: 'Leading, trailing and stopping a run', paragraphs: [
+        'When leading, players often protect the score and stop applying the pressure that created the lead. When trailing, they may try to recover three points with one spectacular shot. Both responses disconnect the pair from its process.',
+        'To stop an opponent’s run, slow the transition between points, choose a familiar opening pattern and make the next rally physical and clear. One well-constructed point can interrupt momentum.',
+      ]},
+      { heading: 'Train pressure instead of discussing it', paragraphs: [
+        'Pressure must appear in practice. Start games at 30–40, use sudden-death points, require a target before the serve and attach a small consequence to careless decisions rather than missed execution.',
+        'Track decision quality on pressure points separately from the result. A player can make the correct decision and miss; that is different from winning with a poor choice that will not hold up over time.',
+      ]},
+      { heading: 'A pressure practice for tomorrow', paragraphs: [
+        'Play ten games beginning at 30–30 or 30–40. Before every point, the pair states the opening plan. Record plan execution, decision quality and result.',
+        'Coaching cue: “Pressure is the moment to become clearer, not more complicated.”',
+      ]},
+    ],
+    source: 'Part 15 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
+    slug: 'reading-padel-opponents',
+    title: 'How to Read Padel Opponents and Adjust During a Match',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A match gives players information on every point. The advanced tactical skill is noticing that information, deciding what matters and adjusting before the match is over.',
+      'Reading opponents is not guessing. It is observing repeated behaviors: positioning, preferred shots, movement, communication and decisions under pressure.',
+      'The coach’s long-term objective is to develop players who can solve these problems independently on court.',
+    ],
+    sections: [
+      { heading: 'What should you observe in a padel opponent?', paragraphs: [
+        'Begin with patterns that directly affect the next decision. Where do they stand on serve and return? Which overhead do they use while moving backward? What happens when the ball reaches the feet? Who protects the middle?',
+        'Avoid collecting trivia. Information is valuable only when it changes your pair’s target, position, tempo or shot selection.',
+      ], bullets: [
+        'Court position and spacing between partners.',
+        'Preferred serve, return, overhead and defensive escape.',
+        'Movement direction that creates discomfort.',
+        'Stronger and weaker contact points or wall patterns.',
+        'Communication and emotional response after pressure points.',
+      ]},
+      { heading: 'Separate a pattern from a coincidence', paragraphs: [
+        'One missed backhand does not prove a weakness. Look for repetition across several similar situations. Did the opponent miss because of technique, poor position, unusual pace or score pressure?',
+        'Test the observation with a safe target. If the same response appears again, the pair has evidence for an adjustment.',
+      ]},
+      { heading: 'Make one adjustment at a time', paragraphs: [
+        'Teams often respond to difficulty by changing everything: formation, target, pace and shot choice. That makes it impossible to know what helped.',
+        'Choose the smallest meaningful adjustment. Serve more often to the body. Play one extra ball through the middle. Lob over the player with the weaker moving overhead. Then observe the result for a full game.',
+      ]},
+      { heading: 'Read what opponents are doing to you', paragraphs: [
+        'Tactical awareness includes recognizing the opponent’s plan. Which partner are they targeting? How are they moving your pair? What reply are they trying to create?',
+        'Once the pattern is visible, change the input. Adjust return position, use a different height, protect the middle earlier or change who takes responsibility for a repeated ball.',
+      ]},
+      { heading: 'Use changeovers and partner conversations well', paragraphs: [
+        'The best conversation is short and evidence-based. Name the repeated pattern, agree on one response and define what success will look like in the next game.',
+        'For example: “They are returning crosscourt at your feet. On the next two returns, start half a step deeper and I will close the middle.” That is more useful than “We need to play better.”',
+      ]},
+      { heading: 'When should you abandon the adjustment?', paragraphs: [
+        'An adjustment deserves enough time to evaluate, but not blind loyalty. If it exposes a larger weakness, cannot be executed reliably or the opponents have countered it, choose the next evidence-based change.',
+        'The pair should keep the central match identity stable while adjusting the details. Constant reinvention creates uncertainty.',
+      ]},
+      { heading: 'An observation drill for tomorrow', paragraphs: [
+        'Play a practice set. After every two games, each partner writes one repeated opponent pattern and one possible adjustment. They must agree on a single change and evaluate it after the next two games.',
+        'Track how often the pair identifies a real pattern, applies the adjustment and improves the next situation. Coaching cue: “Observe, test, adjust and confirm.”',
+      ]},
+    ],
+    source: 'Part 16 of Julian Wortelboer’s Tactical Pillar series, developed from the Padel Smash Academy Three Pillars coaching methodology.',
+  },
+
+  {
     slug: 'technical-pillar-of-padel-development',
     title: 'The Technical Pillar of Padel Development: How Every Shot Is Built',
     category: 'Coaching & Player Development',
