@@ -16,7 +16,23 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
 
   if (!article) return <main className="article-not-found"><h1>Insight not found.</h1><a href="/insights">Return to Insights</a></main>;
 
-  const related = articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
+  const tacticalSeries = [
+    'tactical-pillar-of-padel-development',
+    'padel-court-zones-and-net-rule',
+    'padel-shot-selection',
+    'padel-placement-and-targeting',
+    'padel-point-construction-patterns',
+    'padel-partnership-play',
+    'padel-momentum-and-pressure',
+    'reading-padel-opponents',
+  ];
+  const tacticalIndex = tacticalSeries.indexOf(article.slug);
+  const tacticalRelated = tacticalIndex >= 0
+    ? [tacticalSeries[tacticalIndex - 1], tacticalSeries[tacticalIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
+    : [];
+  const related = tacticalRelated.length > 0
+    ? tacticalRelated
+    : articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
   const promoteBlueprint = article.category === 'Club Strategy & Operations';
   const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
