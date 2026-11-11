@@ -45,7 +45,19 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
   const technicalRelated = technicalIndex >= 0
     ? [technicalSeries[technicalIndex - 1], technicalSeries[technicalIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
     : [];
-  const seriesRelated = tacticalRelated.length > 0 ? tacticalRelated : technicalRelated;
+  const authoritySeries = [
+    'three-pillars-60-minute-padel-lesson',
+    'explain-observe-diagnose-correct-padel-coaching-system',
+    'twenty-quality-repetitions-padel-practice',
+    'padel-coach-certification-checklist',
+    'three-pillars-psa-52-shots-system',
+    'club-director-evaluate-padel-coach-three-pillars',
+  ];
+  const authorityIndex = authoritySeries.indexOf(article.slug);
+  const authorityRelated = authorityIndex >= 0
+    ? [authoritySeries[authorityIndex - 1], authoritySeries[authorityIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
+    : [];
+  const seriesRelated = tacticalRelated.length > 0 ? tacticalRelated : technicalRelated.length > 0 ? technicalRelated : authorityRelated;
   const related = seriesRelated.length > 0
     ? seriesRelated
     : articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);

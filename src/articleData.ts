@@ -3147,6 +3147,243 @@ export const articles: Article[] = [
   },
 
   {
+    slug: 'three-pillars-60-minute-padel-lesson',
+    title: 'How to Include All Three Pillars in a 60-Minute Padel Lesson',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A complete padel lesson should develop more than the stroke. It should improve how the player moves, what the player decides and how the player executes.',
+      'That is the purpose of the Three Pillars: Physical, Tactical and Technical development. The coach does not need three separate lessons. The three pillars can be integrated into one clear 60-minute progression.',
+      'The key is to choose one match situation and develop it from the body, decision and stroke—not to teach three unrelated topics.',
+    ],
+    sections: [
+      { heading: 'Start with one match objective', paragraphs: [
+        'Choose one situation the player needs to improve: defending after the back glass, gaining the net with the lob, maintaining the net with the bandeja or building pressure with the volley.',
+        'A focused objective gives all three pillars the same destination. Without it, the lesson can become a collection of drills with no transfer to the match.',
+      ]},
+      { heading: 'Minutes 0–10: prepare the physical pillar', paragraphs: [
+        'Begin with mobility, activation, footwork and ball feel related to the lesson objective. A back-glass lesson needs turning, spacing and recovery movement. A volley lesson needs split-step timing, lateral movement and balance at contact.',
+        'Success metric: the player completes eight of ten movement patterns in balance and recovers to the correct position.',
+      ]},
+      { heading: 'Minutes 10–25: build the technical tool', paragraphs: [
+        'Demonstrate the shot, isolate the movement and use controlled feeding. Correct one priority at a time: grip, preparation, spacing, contact or finish.',
+        'Do not remain in the basket phase simply because the ball looks better. The technical tool must progress toward a rally. Coaching cue: “Build the contact, then connect it to the game.”',
+      ]},
+      { heading: 'Minutes 25–45: add the tactical decision', paragraphs: [
+        'Introduce choices. The player may need to decide between lob and low ball, bandeja and víbora, or deep volley and dejada. Feed different situations and require the player to identify the intention before contact.',
+        'Success metric: eight correct decisions out of ten, measured separately from the quality of execution.',
+      ]},
+      { heading: 'Minutes 45–55: integrate all three pillars', paragraphs: [
+        'Use conditioned points that begin in the lesson situation. The player must move into position, select the response and execute the technical tool under pressure.',
+        'Coach less during this phase. Observe whether the lesson survives when the player no longer knows exactly which ball is coming.',
+      ]},
+      { heading: 'Minutes 55–60: reflect and assign', paragraphs: [
+        'Ask the player what changed physically, tactically and technically. Name one success and one priority for independent practice.',
+        'Try tomorrow: design one 60-minute lesson using this timeline. Track movement quality, decision accuracy and execution percentage. A lesson is complete when the player understands what to repeat without the coach.',
+      ]},
+    ],
+    source: 'Part 25 of Julian Wortelboer’s Three Pillars authority series, developed from the Padel Smash Academy coaching methodology.',
+  },
+
+  {
+    slug: 'explain-observe-diagnose-correct-padel-coaching-system',
+    title: 'The Explain–Observe–Diagnose–Correct Padel Coaching System',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Great coaching is not a constant stream of corrections. It is a disciplined process for helping the player understand, attempt, recognize and improve.',
+      'I use four actions: Explain, Observe, Diagnose and Correct. The order matters. When coaches correct before they observe and diagnose, they often treat the visible mistake instead of its cause.',
+      'This system makes feedback shorter, more accurate and easier for the player to use.',
+    ],
+    sections: [
+      { heading: 'Explain: create a clear picture', paragraphs: [
+        'Explain what the player is learning, why it matters and where it belongs in the game. Use one or two essential cues, then demonstrate from a useful angle.',
+        'The objective is not to show how much the coach knows. It is to give the player a picture simple enough to attempt.',
+      ]},
+      { heading: 'Observe: let the player reveal the problem', paragraphs: [
+        'Allow several repetitions before interrupting. Watch the ball, feet, spacing, body position, preparation, contact, finish, recovery and tactical choice.',
+        'One poor repetition may be random. A repeated pattern is evidence. Coaching cue: “Observe the pattern, not the miss.”',
+      ]},
+      { heading: 'Diagnose: identify the pillar and the cause', paragraphs: [
+        'Ask whether the problem is primarily Physical, Tactical or Technical. A late volley may begin with the split step. A failed lob may be the wrong decision. A ball into the glass may come from the racket face.',
+        'Then identify the highest-leverage cause. Correcting five symptoms at once overwhelms the player and hides what actually worked.',
+      ], bullets: ['Physical: position, movement, spacing, balance or recovery.', 'Tactical: recognition, shot selection, target or partnership decision.', 'Technical: grip, preparation, contact, racket path or finish.']},
+      { heading: 'Correct: change one variable', paragraphs: [
+        'Give one concise correction, demonstrate if necessary and let the player attempt it immediately. Use external cues when possible because they connect the action to the ball and target.',
+        'After the correction, observe again. If the result changes, confirm it. If it does not, reconsider the diagnosis instead of repeating the same instruction louder.',
+      ]},
+      { heading: 'A feedback ratio coaches can measure', paragraphs: [
+        'Try tomorrow: during a ten-minute drill, count player repetitions and coach interruptions. Require at least three observed attempts before most corrections, unless safety is involved.',
+        'After every intervention, write the diagnosed pillar and the one variable changed. The goal is fewer, better corrections and a player who can describe the cause in their own words.',
+      ]},
+    ],
+    source: 'Part 26 of Julian Wortelboer’s Three Pillars authority series, developed from the Padel Smash Academy coaching methodology.',
+  },
+
+  {
+    slug: 'twenty-quality-repetitions-padel-practice',
+    title: 'Why Twenty Quality Repetitions Beat One Hundred Careless Ones',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '8 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Repetition matters, but repetition alone does not guarantee learning. A player can repeat the same late preparation, poor spacing or wrong decision one hundred times and become more consistent at the mistake.',
+      'Twenty focused repetitions with a clear objective, immediate feedback and a measurable standard can create more progress than a full basket hit without intention.',
+      'The coach’s job is not to keep the player busy. It is to make every repetition teach something.',
+    ],
+    sections: [
+      { heading: 'Practice makes patterns permanent', paragraphs: [
+        'The body learns what it repeats. If the player contacts while falling backward or attacks the wrong ball repeatedly, volume strengthens that pattern.',
+        'Quality begins before the feed: the player knows the objective, recognizes the situation and understands the success standard.',
+      ]},
+      { heading: 'Define a quality repetition', paragraphs: [
+        'A quality repetition includes the complete action—not only whether the ball landed in. Evaluate preparation, movement, balance, contact, target and recovery according to the drill’s purpose.',
+        'For a bandeja, for example, success may mean early movement, contact above and in front, controlled depth and recovery of the net. A ball that lands in but loses position may not meet the standard.',
+      ]},
+      { heading: 'Use small blocks and specific feedback', paragraphs: [
+        'Work in blocks of five or ten. Pause briefly to identify the pattern, correct one variable and repeat. Small blocks keep attention high and allow the coach to compare before and after.',
+        'Feedback should be specific: “Eight of ten contacts were in front” is more useful than “That looked better.”',
+      ]},
+      { heading: 'Progress from predictable to variable', paragraphs: [
+        'Begin with controlled feeding when the player needs to feel the movement. Then add rally, direction changes, tactical choices, pressure and score.',
+        'Perfect basket execution is not the finish line. The repetition becomes valuable when it transfers into a ball the player must read.',
+      ]},
+      { heading: 'The 20-repetition challenge', paragraphs: [
+        'Try tomorrow: choose one shot and define four standards. Complete four blocks of five repetitions. Score every attempt and correct only the highest-priority variable between blocks.',
+        'The target is 16 of 20 quality repetitions, followed by ten live decisions. If quality falls below 70%, reduce difficulty instead of feeding faster.',
+      ]},
+    ],
+    source: 'Part 27 of Julian Wortelboer’s Three Pillars authority series, developed from the Padel Smash Academy coaching methodology.',
+  },
+
+  {
+    slug: 'padel-coach-certification-checklist',
+    title: 'The Padel Coach Certification Checklist',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'A padel coach certification should prove more than attendance. A qualified coach needs technical knowledge, playing competence, teaching ability, safety awareness, communication skills and the judgment to develop different players.',
+      'A certificate is valuable when it represents a standard. The checklist below helps coaches, academies and club directors evaluate whether that standard is complete.',
+      'The objective is not to create perfect coaches in one course. It is to establish the minimum foundation for responsible professional development.',
+    ],
+    sections: [
+      { heading: '1. Knowledge of the complete game', paragraphs: [
+        'The coach should understand the Physical, Tactical and Technical pillars and know how the 52 Shots of Padel fit into real match situations.',
+        'Knowledge means explaining when and why a shot is used—not only demonstrating its shape.',
+      ], bullets: ['Court zones, positioning and transitions.', 'Shot selection, targeting and point construction.', 'The 52-shot technical framework.', 'Basic rules, scoring, safety and equipment.']},
+      { heading: '2. Demonstration and playing competence', paragraphs: [
+        'A coach needs enough control to demonstrate the lesson objective accurately and feed balls consistently. The demonstration should suit the player’s viewing angle and level.',
+        'Playing ability alone does not prove coaching ability, but the coach must be able to create the ball and situation being taught.',
+      ]},
+      { heading: '3. Lesson design and time management', paragraphs: [
+        'The coach should organize a 60- or 90-minute lesson with a clear objective, appropriate warm-up, progression, live application and conclusion.',
+        'Basket management matters. The drill should not collapse because the coach runs out of balls, overfeeds, talks too long or fails to adapt.',
+      ]},
+      { heading: '4. Observation, diagnosis and correction', paragraphs: [
+        'The coach must observe patterns, identify whether the primary problem is Physical, Tactical or Technical and correct the highest-leverage cause.',
+        'The Explain–Observe–Diagnose–Correct system should produce concise feedback the player can understand and repeat.',
+      ]},
+      { heading: '5. Communication, presence and professionalism', paragraphs: [
+        'Evaluate voice, body language, listening, encouragement, boundaries and the ability to work with different ages and personalities.',
+        'Professional standards include punctuality, preparation, appropriate conduct, continuing education and respect for the club, players and other coaches.',
+      ]},
+      { heading: '6. Practical and written assessment', paragraphs: [
+        'A credible certification should include observed teaching, technical knowledge and a playing or demonstration test. Candidates should receive specific feedback and a development plan.',
+        'Try tomorrow: score a coach from one to five across these six areas. Require evidence for every score. Certification should answer one question clearly: can this person safely and effectively help players improve?',
+      ]},
+    ],
+    source: 'Part 28 of Julian Wortelboer’s Three Pillars authority series, connected to the Padel Smash Group coach-certification pathway.',
+  },
+
+  {
+    slug: 'three-pillars-psa-52-shots-system',
+    title: 'How the Three Pillars Connect to the PSA 52 Shots System',
+    category: 'Coaching & Player Development',
+    date: 'November 10, 2026',
+    readTime: '9 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'The PSA 52 Shots System organizes the technical tools of padel. The Three Pillars explain what allows those tools to work in the game.',
+      'Technical knowledge alone is incomplete. The player must arrive in the right position, recognize the situation and choose the correct shot. That connects the Physical, Tactical and Technical pillars to every one of the 52 shots.',
+      'Together, the two frameworks give coaches both a complete shot library and a diagnostic system.',
+    ],
+    sections: [
+      { heading: 'The Technical pillar names the tool', paragraphs: [
+        'The 52 shots are organized into 16 groundstrokes, four volleys, ten overheads, six lobs, eight serve-and-return variations and eight specialty shots.',
+        'This structure helps coaches identify exactly what is being taught and prevents major areas of the game from being ignored.',
+      ]},
+      { heading: 'The Physical pillar makes the contact possible', paragraphs: [
+        'Positioning, footwork, body balance, wall movement, recovery and the physical engine determine whether the player can reach a usable contact point.',
+        'A back-wall forehand is not only a swing. The player must read the rebound, create distance, organize the feet, contact in balance and recover.',
+      ]},
+      { heading: 'The Tactical pillar selects the tool', paragraphs: [
+        'Court zone, incoming ball, partner position, opponent position and score determine which of the 52 shots is appropriate.',
+        'A player may technically own a víbora but need a bandeja. The error is tactical when the chosen tool does not fit the situation.',
+      ]},
+      { heading: 'One shot, three diagnoses', paragraphs: [
+        'Imagine a player missing a lob short. The Physical diagnosis may be poor spacing or balance. The Tactical diagnosis may be attempting the lob from the wrong ball. The Technical diagnosis may be a closed racket face or flat path.',
+        'The miss looks identical, but the correction changes completely. This is why coaches need both frameworks.',
+      ]},
+      { heading: 'Build a 52-shot development map', paragraphs: [
+        'List the 52 shots and score each one across three questions: can the player move into position, select it correctly and execute it reliably?',
+        'Try tomorrow: assess one shot family rather than all 52. Use five live situations per shot and record Physical, Tactical and Technical scores separately. Train the lowest pillar first.',
+      ]},
+      { heading: 'The complete coaching objective', paragraphs: [
+        'The goal is not a player who can demonstrate 52 isolated strokes. It is a player who can recognize the correct tool, move into position and execute it under pressure.',
+        'Develop the player. Empower the person. Grow the sport.',
+      ]},
+    ],
+    source: 'Part 29 of Julian Wortelboer’s Three Pillars authority series, connecting the Three Pillars with the PSA 52 Shots of Padel System.',
+  },
+
+  {
+    slug: 'club-director-evaluate-padel-coach-three-pillars',
+    title: 'How Club Directors Can Evaluate a Padel Coach Using the Three Pillars',
+    category: 'Club Strategy & Operations',
+    date: 'November 10, 2026',
+    readTime: '10 min read',
+    academyUrl: 'https://padelsmashgroup.com/',
+    intro: [
+      'Club directors often hire coaches by watching them play. That reveals playing level, but it does not show whether the person can observe, communicate, manage a lesson or develop players.',
+      'The Three Pillars give directors a practical evaluation framework. During a live audition, look at whether the coach develops the player physically, tactically and technically—and whether those corrections connect.',
+      'A strong coach does not merely feed balls. A strong coach understands why the player is struggling and knows how to create improvement.',
+    ],
+    sections: [
+      { heading: 'Evaluate the Physical pillar', paragraphs: [
+        'Does the coach notice court position, first step, distance from the ball, balance, wall movement and recovery? Or does every correction focus on the racket?',
+        'Ask the coach to explain how movement created the technical error. Strong coaches diagnose the body before rebuilding a stroke that may not be broken.',
+      ]},
+      { heading: 'Evaluate the Tactical pillar', paragraphs: [
+        'Does the coach teach when and why the shot is used? Can the coach create decisions, point patterns and partnership situations instead of repeating one predictable feed?',
+        'Look for clear connections between court zone, target, opponent position and shot selection.',
+      ]},
+      { heading: 'Evaluate the Technical pillar', paragraphs: [
+        'Can the coach explain and demonstrate the relevant shot from the 52-shot framework? Are corrections concise, accurate and appropriate to the player’s level?',
+        'Test more than the favorite shots. Ask for an opening forehand, closing backhand, back-wall defense, volley, bandeja, víbora and lob variation.',
+      ]},
+      { heading: 'Observe the complete lesson', paragraphs: [
+        'A live audition should include greeting, objective, warm-up, progression, correction, live application and conclusion. Watch communication, presence, safety, basket management and time control.',
+        'Speak with the player afterward. Can the player explain what improved, why it changed and what to practice next?',
+      ]},
+      { heading: 'Use evidence, not impressions', paragraphs: [
+        'Score observable behavior rather than charisma or playing reputation. Require an example for every rating and use the same process for every candidate.',
+      ], bullets: ['Physical diagnosis and movement development.', 'Tactical teaching and decision-making.', 'Technical knowledge and demonstration.', 'Communication and player engagement.', 'Lesson structure, safety and professionalism.']},
+      { heading: 'A director’s audition for tomorrow', paragraphs: [
+        'Give the candidate 30 minutes with an unfamiliar player. Ask for one objective, one Three-Pillars diagnosis and a final explanation of the improvement achieved.',
+        'Measure player understanding, quality of correction and transfer into live play. Hire the person who can develop players—not simply the person who can defeat them.',
+      ]},
+    ],
+    source: 'Part 30 of Julian Wortelboer’s Three Pillars authority series, connected to the 100-Point Padel Coach Hiring Scorecard.',
+  },
+
+  {
     slug: 'padel-court-positioning-golden-zone',
     title: 'Padel Court Positioning: Where Players Should Stand',
     category: 'Coaching & Player Development',
