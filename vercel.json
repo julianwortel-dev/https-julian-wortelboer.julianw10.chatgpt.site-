@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/insights/the-coffee-and-beer-connection",
+      "destination": "/article-coffee-and-beer.html"
+    },
+    {
       "source": "/insights/how-to-hire-a-padel-coach",
       "destination": "/article-hire-padel-coach.html"
     },

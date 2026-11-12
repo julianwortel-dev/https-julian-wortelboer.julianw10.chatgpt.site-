@@ -8,14 +8,207 @@ export type Article = {
   author?: string;
   academyUrl?: string;
   intro: string[];
-  sections: { heading: string; paragraphs: string[]; bullets?: string[] }[];
+  sections: {
+    heading: string;
+    paragraphs: string[];
+    bullets?: string[];
+    list?: { after: number; items: string[]; ordered?: boolean };
+    visual?: { src: string; alt: string; caption: string };
+  }[];
   source: string;
+  description?: string;
+  keywords?: string[];
+  related?: string[];
+  formatted?: boolean;
   image?: string;
   imageAlt?: string;
   imageCaption?: string;
 };
 
 export const articles: Article[] = [
+{
+  "slug": "the-coffee-and-beer-connection",
+  "title": "The Coffee & Beer Connection: Why Great Padel Clubs Are Built Beyond the Court",
+  "category": "Club Strategy & Operations",
+  "date": "November 11, 2026",
+  "readTime": "6 min read",
+  "description": "How excellent coffee and post-match drinks help padel clubs grow beverage revenue, build community and give members a reason to return.",
+  "keywords": [
+    "padel club hospitality",
+    "padel club operations",
+    "food and beverage revenue",
+    "member retention",
+    "padel community"
+  ],
+  "related": [
+    "real-business-model-behind-a-profitable-padel-club",
+    "people-process-service-padel-club-philosophy"
+  ],
+  "formatted": true,
+  "intro": [
+    "*Your courts bring people in. Your hospitality brings them back.*",
+    "After more than 25 years in the racquet sports industry, I continue to see something that surprises me.",
+    "Padel club owners invest millions of dollars in beautiful facilities, premium courts, lighting, technology, and equipment.",
+    "Yet some of these same clubs don't offer a good cup of coffee in the morning or a cold beer after an afternoon match.",
+    "**To every padel club owner and manager reading this: you are missing a tremendous opportunity.**",
+    "I call it **The Coffee & Beer Connection.**",
+    "It is one of the simplest, most powerful, and most underestimated concepts in padel club management.",
+    "And it is about much more than selling beverages."
+  ],
+  "sections": [
+    {
+      "heading": "1. The Morning Coffee Connection ☕",
+      "paragraphs": [
+        "Imagine walking into a padel club at 8:00 in the morning.",
+        "The smell of freshly ground coffee. Players arriving for their matches. Friends greeting each other. Someone enjoying an espresso, another ordering a cappuccino, and two players catching up over their lattes.",
+        "This is what a great padel club should feel like.",
+        "For many morning players, coffee is part of their daily routine. They want to arrive a little earlier, enjoy an excellent coffee, connect with friends, and then step onto the court.",
+        "After the match, they may want another coffee, breakfast, or simply a few more minutes of conversation.",
+        "But if your club doesn't offer good coffee, what happens?",
+        "**They go somewhere else.**",
+        "They take their business, their conversations, and their social experience to another establishment.",
+        "As a club owner, why would you want that?",
+        "Invest in a quality espresso machine. Serve excellent espresso, cappuccinos, lattes, and Americanos. Train your team to deliver a consistent product. Create a comfortable space where people want to sit and socialize.",
+        "Don't just offer coffee.",
+        "**Become their favorite place to have coffee.**",
+        "Imagine members coming to your club for a cappuccino even on a day when they aren't playing padel.",
+        "That is when your club becomes part of their lifestyle."
+      ],
+      "visual": {
+        "src": "/assets/insights/coffee-and-beer-morning.webp",
+        "alt": "Friends chatting over morning coffee in a clubhouse café overlooking a padel court",
+        "caption": "Great padel clubs don't just open their doors in the morning. They create a morning ritual that members look forward to every day."
+      }
+    },
+    {
+      "heading": "2. The Afternoon Beer Connection 🍺",
+      "paragraphs": [
+        "Anyone who has experienced padel culture in Argentina or Spain understands this perfectly.",
+        "Four friends finish a match. They shake hands, walk off the court, and someone says:",
+        "\"Let's have a beer.\"",
+        "That is where the second part of the padel experience begins.",
+        "They talk about the match. They laugh about the easy volley someone missed. They debate a questionable call. They discuss who played better.",
+        "And before they know it, they are organizing their next match.",
+        "But what happens if your club doesn't offer beer or a comfortable place to socialize?",
+        "They leave.",
+        "Perhaps they go to a restaurant or bar nearby.",
+        "And another business benefits from the community that your padel courts created.",
+        "**Think about that for a moment. Your club brought those four people together, but another business is capturing the value of their social experience.**",
+        "This is something every padel club manager needs to understand.",
+        "Offering excellent cold beer, quality local craft options, non-alcoholic alternatives, and a welcoming social environment is not a luxury.",
+        "It is an important component of the padel business model."
+      ],
+      "visual": {
+        "src": "/assets/insights/coffee-and-beer-afternoon.webp",
+        "alt": "Four friends share drinks on a padel clubhouse terrace after a match",
+        "caption": "The match may end at the final point, but the club experience shouldn't. Great clubs create spaces where friendships grow and communities thrive."
+      }
+    },
+    {
+      "heading": "3. The Missed Business Opportunity",
+      "paragraphs": [
+        "Let's put some numbers behind the concept.",
+        "Imagine a padel club with seven courts, averaging six bookings per court per day, with four players per booking.",
+        "Now imagine that just 25% of those players purchase a coffee, beer, or another beverage at an average price of $5.",
+        "That represents:",
+        "**$210 in additional daily revenue.**",
+        "**$6,300 in additional monthly revenue.**",
+        "**$75,600 in additional annual revenue, using 12 comparable 30-day months.**",
+        "And that is before considering food, second beverages, special events, guests, and members who visit the club just to socialize.",
+        "These are illustrative gross revenue figures, not profit projections. Actual results will depend on utilization, pricing, operating costs, staffing, licensing, and customer purchasing behavior.",
+        "But here is the most important point:",
+        "**You are already bringing these customers into your club.**",
+        "You don't need another marketing campaign to attract them. You don't need another court. You don't need to increase your court rental prices.",
+        "You simply need to enhance the experience of the customers who are already there."
+      ],
+      "list": {
+        "after": 2,
+        "items": [
+          "42 court bookings per day.",
+          "168 player visits per day.",
+          "Approximately 5,040 player visits per month."
+        ]
+      }
+    },
+    {
+      "heading": "4. The Real Value Is Beyond the Beverage",
+      "paragraphs": [
+        "As club owners and managers, we need to look beyond the immediate transaction.",
+        "The real value of the Coffee & Beer Connection is not just the profit margin on a cappuccino or a beer.",
+        "It is what happens when players stay longer.",
+        "They build friendships. They meet new people. They organize more matches. They discuss upcoming tournaments. They introduce friends to the club.",
+        "They develop a sense of belonging.",
+        "And when people feel they belong, they have more reasons to come back.",
+        "A strong hospitality culture can contribute to:",
+        "Your competitors can build similar courts. They can offer similar pricing. They can purchase the same equipment.",
+        "But the community you create is much more difficult to replicate."
+      ],
+      "list": {
+        "after": 7,
+        "items": [
+          "Greater member retention.",
+          "Increased repeat court bookings.",
+          "Higher revenue per player visit.",
+          "Stronger community engagement.",
+          "More successful leagues, tournaments, and social events.",
+          "Greater opportunities for memberships and referrals."
+        ]
+      }
+    },
+    {
+      "heading": "5. You Don't Need a Full Restaurant",
+      "paragraphs": [
+        "I am not suggesting that every padel club needs to invest hundreds of thousands of dollars in a restaurant.",
+        "Start simple.",
+        "**In the morning:** Excellent coffee, fresh pastries, healthy breakfast options, and a welcoming environment.",
+        "**In the afternoon and evening:** Cold beer, non-alcoholic beverages, light bites, and a comfortable social area.",
+        "Make sure your operation complies with local food service and alcohol licensing requirements.",
+        "The key is quality, consistency, and hospitality.",
+        "A bad cappuccino is not the solution. A warm beer is not the solution. A beautiful lounge where nobody is encouraged to stay is not the solution.",
+        "You need to create an experience that genuinely adds value to your members' visits.",
+        "**Do the basics exceptionally well before trying to do everything.**"
+      ]
+    },
+    {
+      "heading": "6. My Challenge to Every Padel Club Owner",
+      "paragraphs": [
+        "If you own, manage, or are planning to open a padel club, ask yourself:",
+        "Then take action.",
+        "Invest in the right equipment. Create an inviting social space. Train your staff. Establish quality standards. Measure beverage sales per player visit, purchase conversion rates, and repeat visits.",
+        "And most importantly, listen to your members.",
+        "Understand what they want and create the environment that makes them want to return."
+      ],
+      "list": {
+        "after": 1,
+        "ordered": true,
+        "items": [
+          "Where do my morning players go for coffee?",
+          "Where do my afternoon players go for a beer after their matches?",
+          "How many of my players leave immediately after playing because I haven't given them a reason to stay?",
+          "How much additional revenue and member loyalty could I generate by improving this experience?",
+          "Is hospitality part of my business strategy, or is it an afterthought?"
+        ]
+      }
+    },
+    {
+      "heading": "My Final Thought",
+      "paragraphs": [
+        "I have always believed that we are not simply in the padel business.",
+        "**We are in the hospitality business. Padel is the vehicle that brings people together.**",
+        "The coffee before the match and the beer afterward are not just beverages. They are rituals that transform a court reservation into a social experience.",
+        "They transform customers into members.",
+        "They transform members into friends.",
+        "And they transform a padel facility into a community.",
+        "To every club owner and manager: if you haven't embraced the Coffee & Beer Connection, don't underestimate what you are leaving on the table.",
+        "Build exceptional courts. Serve exceptional coffee. Offer exceptional hospitality.",
+        "**Because the match may end at the final point, but the club experience shouldn't.**",
+        "*Develop the player. Empower the person. Grow the sport.*",
+        "— **Julian Wortelboer**"
+      ]
+    }
+  ],
+  "source": ""
+},
 {
   "slug": "the-team-is-the-padel-club",
   "title": "The Team Is the Club: Why People Make a Padel Club Succeed",

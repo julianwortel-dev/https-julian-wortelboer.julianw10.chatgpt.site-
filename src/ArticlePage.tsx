@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
-import { articleBySlug, articles } from './articleData';
+import { articleBySlug, articles, type Article } from './articleData';
 
 const bookUrl = 'https://www.amazon.com/MASTERING-ART-COACHING-PADEL-Methodology-ebook/dp/B0H8R4336Q/';
 const bookTitle = 'Mastering the Art of Coaching Padel';
@@ -8,6 +8,27 @@ const coachingCertificationUrl = 'https://padelsmashgroup.com/';
 function BookLinkedText({ text }: { text: string }) {
   const parts = text.split(bookTitle);
   return <>{parts.map((part, index) => <span key={`${part}-${index}`}>{part}{index < parts.length - 1 && <a className="inline-book-link" href={bookUrl} target="_blank" rel="noreferrer">{bookTitle}</a>}</span>)}</>;
+}
+
+function ArticleText({ text }: { text: string }) {
+  return <>{text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) return <strong key={index}>{part.slice(2, -2)}</strong>;
+    if (part.startsWith('*') && part.endsWith('*')) return <em key={index}>{part.slice(1, -1)}</em>;
+    return part;
+  })}</>;
+}
+
+function SectionText({ section, formatted }: { section: Article['sections'][number]; formatted?: boolean }) {
+  const renderParagraph = (paragraph: string) => <p key={paragraph}>{formatted ? <ArticleText text={paragraph} /> : paragraph}</p>;
+  const list = section.list;
+  if (!list) return <>{section.paragraphs.map(renderParagraph)}</>;
+
+  const List = list.ordered ? 'ol' : 'ul';
+  return <>
+    {section.paragraphs.slice(0, list.after).map(renderParagraph)}
+    <List>{list.items.map((item) => <li key={item}>{item}</li>)}</List>
+    {section.paragraphs.slice(list.after).map(renderParagraph)}
+  </>;
 }
 
 export default function ArticlePage({ pathname = typeof window === 'undefined' ? '' : window.location.pathname }: { pathname?: string } = {}) {
@@ -58,22 +79,24 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     ? [authoritySeries[authorityIndex - 1], authoritySeries[authorityIndex + 1]].filter(Boolean).map((itemSlug) => articleBySlug[itemSlug])
     : [];
   const seriesRelated = tacticalRelated.length > 0 ? tacticalRelated : technicalRelated.length > 0 ? technicalRelated : authorityRelated;
-  const related = seriesRelated.length > 0
+  const related = article.related
+    ? article.related.map((slug) => articleBySlug[slug])
+    : seriesRelated.length > 0
     ? seriesRelated
     : articles.filter((item) => item.slug !== article.slug && item.category === article.category).slice(0, 2);
   const categoryAnchor = article.category === 'Club Strategy & Operations' ? 'club-strategy' : article.category === 'Coaching & Player Development' ? 'coaching' : 'industry';
   const promoteBlueprint = article.category === 'Club Strategy & Operations';
   const articleUrl = `https://www.julianwortelboer.com/insights/${article.slug}`;
   const published = new Date(article.date + ' 12:00:00 UTC').toISOString().slice(0, 10);
-  const wordCount = [...article.intro, ...article.sections.flatMap((section) => [...section.paragraphs, ...(section.bullets || [])])]
+  const wordCount = [...article.intro, ...article.sections.flatMap((section) => [...section.paragraphs, ...(section.bullets || []), ...(section.list?.items || [])])]
     .join(' ').trim().split(/\s+/).length;
   const isCoachingArticle = article.category === 'Coaching & Player Development';
   const isCoachHiringArticle = article.slug === 'how-to-hire-a-padel-coach';
-  const semanticTopics = isCoachHiringArticle
+  const semanticTopics = article.keywords ?? (isCoachHiringArticle
     ? ['how to hire a padel coach', 'padel coach hiring scorecard', 'padel coach evaluation', 'on-court coaching audition', '52 Shots of Padel', 'padel coach certification', 'Padel Smash Group', 'Julian Wortelboer']
     : isCoachingArticle
       ? ['padel coaching', 'padel player development', 'physical development', 'tactical development', 'padel technique', 'coach education', 'Julian Wortelboer']
-      : ['padel club operations', 'customer service', 'member experience', 'padel business', 'Julian Wortelboer'];
+      : ['padel club operations', 'customer service', 'member experience', 'padel business', 'Julian Wortelboer']);
   const aboutTopics = isCoachHiringArticle
     ? [
         { '@type': 'Thing', name: 'Padel coach hiring' },
@@ -91,12 +114,13 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
         { '@type': 'Thing', name: 'Customer service' },
         { '@type': 'Thing', name: 'Member experience' },
       ];
+  const sectionImages = article.sections.flatMap(({ visual }) => visual ? [new URL(visual.src, articleUrl).href] : []);
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     '@id': `${articleUrl}#article`,
     headline: article.title,
-    description: article.intro[0],
+    description: article.description ?? article.intro[0],
     articleSection: article.category,
     keywords: [article.category, ...semanticTopics],
     about: aboutTopics,
@@ -104,7 +128,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
     datePublished: published,
     dateModified: article.updatedDate ? new Date(article.updatedDate + ' 12:00:00 UTC').toISOString().slice(0, 10) : published,
     inLanguage: 'en-US',
-    image: `https://www.julianwortelboer.com${article.slug === 'padel-coach-certification-checklist' ? '/assets/scorecards/padel-coach-certification-checklist.png' : article.image || '/assets/julian-hero.webp'}`,
+    image: sectionImages.length > 0 ? sectionImages : `https://www.julianwortelboer.com${article.slug === 'padel-coach-certification-checklist' ? '/assets/scorecards/padel-coach-certification-checklist.png' : article.image || '/assets/julian-hero.webp'}`,
     mainEntityOfPage: articleUrl,
     isPartOf: { '@id': 'https://www.julianwortelboer.com/insights#collection' },
     author: article.author
@@ -132,10 +156,10 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
         <div className="article-layout">
           <aside><p>Insights from</p><a className="aside-book-link" href={bookUrl} target="_blank" rel="noreferrer"><strong>Mastering the Art<br />of Coaching Padel</strong><ArrowRight size={16} /></a><p className="author-experience">Julian draws on more than 25 years of experience running padel and racquet clubs. He also developed the Padel Club Blueprint, a practical manual for operational success.</p></aside>
           <div className="article-body">
-            <div className="article-intro">{article.intro.map((paragraph) => <p key={paragraph}><BookLinkedText text={paragraph} /></p>)}</div>
+            <div className="article-intro">{article.intro.map((paragraph) => <p key={paragraph}>{article.formatted ? <ArticleText text={paragraph} /> : <BookLinkedText text={paragraph} />}</p>)}</div>
             {article.image && <figure className="article-visual"><img src={article.image} alt={article.imageAlt || article.title} width="746" height="1164" loading="eager" />{article.imageCaption && <figcaption>{article.imageCaption}</figcaption>}</figure>}
-            {article.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}{article.slug === 'how-to-hire-a-padel-coach' && section.heading === 'The 100-point padel coach hiring scorecard' && <figure className="article-scorecard"><a href="/assets/scorecards/padel-coach-hiring-scorecard.png" target="_blank" rel="noreferrer"><img src="/assets/scorecards/padel-coach-hiring-scorecard.png" alt="100-point padel coach hiring scorecard with five evaluation categories and observable evidence standards" width="1600" height="2000" loading="lazy" /></a><figcaption>Open the full-resolution scorecard to print or use during a live coaching audition.</figcaption></figure>}{article.slug === 'padel-coach-certification-checklist' && section.heading === '6. Practical and written assessment' && <figure className="article-scorecard"><a href="/assets/scorecards/padel-coach-certification-checklist.png" target="_blank" rel="noreferrer"><img src="/assets/scorecards/padel-coach-certification-checklist.png" alt="Printable Padel Coach Certification Checklist with six evaluation categories, evidence notes, one-to-five scoring and certification recommendation" width="1700" height="2200" loading="lazy" /></a><figcaption>Open the full-resolution checklist to print or use during a padel coach certification assessment.</figcaption></figure>}</section>)}
-            <p className="article-source"><em><BookLinkedText text={article.source} /></em></p>
+            {article.sections.map((section) => <section key={section.heading}><h2>{section.heading}</h2>{section.visual && <figure className="article-section-visual"><img src={section.visual.src} alt={section.visual.alt} width="1440" height="810" loading="lazy" /><figcaption>{section.visual.caption}</figcaption></figure>}<SectionText section={section} formatted={article.formatted} />{section.bullets && <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>}{article.slug === 'how-to-hire-a-padel-coach' && section.heading === 'The 100-point padel coach hiring scorecard' && <figure className="article-scorecard"><a href="/assets/scorecards/padel-coach-hiring-scorecard.png" target="_blank" rel="noreferrer"><img src="/assets/scorecards/padel-coach-hiring-scorecard.png" alt="100-point padel coach hiring scorecard with five evaluation categories and observable evidence standards" width="1600" height="2000" loading="lazy" /></a><figcaption>Open the full-resolution scorecard to print or use during a live coaching audition.</figcaption></figure>}{article.slug === 'padel-coach-certification-checklist' && section.heading === '6. Practical and written assessment' && <figure className="article-scorecard"><a href="/assets/scorecards/padel-coach-certification-checklist.png" target="_blank" rel="noreferrer"><img src="/assets/scorecards/padel-coach-certification-checklist.png" alt="Printable Padel Coach Certification Checklist with six evaluation categories, evidence notes, one-to-five scoring and certification recommendation" width="1700" height="2200" loading="lazy" /></a><figcaption>Open the full-resolution checklist to print or use during a padel coach certification assessment.</figcaption></figure>}</section>)}
+            {article.source && <p className="article-source"><em><BookLinkedText text={article.source} /></em></p>}
             {article.slug === 'how-to-hire-a-padel-coach'
               ? <a className="text-link article-academy-link" href="https://padelsmashgroup.com/" target="_blank" rel="noreferrer">Visit Padel Smash Group <ArrowRight size={17} /></a>
               : (article.category === 'Coaching & Player Development' || article.academyUrl) && <a className="text-link article-academy-link" href={article.academyUrl || coachingCertificationUrl} target="_blank" rel="noreferrer">Explore Padel Coach Certification <ArrowRight size={17} /></a>}

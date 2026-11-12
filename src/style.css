@@ -189,6 +189,9 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .article-body h2 { font-family:Arial,Helvetica,sans-serif; font-size:clamp(32px,3.2vw,47px); line-height:1.05; letter-spacing:-.045em; margin-bottom:25px; }
 .article-body ul { margin:28px 0 0; padding:0; list-style:none; }
 .article-body li { position:relative; padding:18px 0 18px 30px; border-top:1px solid var(--line); }
+.article-body ol { margin:28px 0; padding-left:30px; }
+.article-body ol li { padding-left:6px; }
+.article-body ol li::before { display:none; }
 .article-body li:last-child { border-bottom:1px solid var(--line); }
 .article-body li::before { content:""; position:absolute; left:0; top:30px; width:8px; height:8px; border-radius:50%; background:var(--acid); }
 .article-source { border-top:1px solid var(--line); padding-top:30px; margin-top:70px; color:var(--muted); font-size:15px; line-height:1.6; }
@@ -197,9 +200,10 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .article-scorecard a { display:block; }
 .article-scorecard img { display:block; width:100%; height:auto; border:1px solid var(--line); box-shadow:0 18px 45px rgba(16,46,58,.12); }
 .article-scorecard figcaption { margin-top:14px; color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:1.5; }
+.article-section-visual { margin:22px 0 30px; }
 .article-visual { margin:42px auto 54px; max-width:680px; }
-.article-visual img { display:block; width:100%; height:auto; border:1px solid var(--line); box-shadow:0 18px 45px rgba(16,46,58,.12); }
-.article-visual figcaption { margin-top:14px; color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:1.5; text-align:center; }
+.article-visual img, .article-section-visual img { display:block; width:100%; height:auto; border:1px solid var(--line); box-shadow:0 18px 45px rgba(16,46,58,.12); }
+.article-visual figcaption, .article-section-visual figcaption { margin-top:14px; color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:1.5; text-align:center; }
 .article-social-links { display:flex; flex-wrap:wrap; align-items:center; gap:12px 22px; margin-top:28px; padding-top:22px; border-top:1px solid var(--line); font-family:Arial,Helvetica,sans-serif; }
 .article-social-links>span { color:var(--muted); font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
 .article-social-links a { display:inline-flex; align-items:center; gap:6px; color:var(--ink); font-size:14px; font-weight:700; text-decoration:none; }

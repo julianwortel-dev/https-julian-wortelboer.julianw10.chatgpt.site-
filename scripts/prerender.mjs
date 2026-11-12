@@ -8,6 +8,7 @@ const server = await createServer({ server: { middlewareMode: true, hmr: false, 
 const escape = (s) => s.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
 const rssLink = '<link rel="alternate" type="application/rss+xml" title="Julian Wortelboer Padel Insights" href="https://www.julianwortelboer.com/feed.xml">';
 try {
+  const { articles, articleBySlug } = await server.ssrLoadModule('/src/articleData.ts');
   const routes = new Map([['/', 'index.html']]);
   const config = JSON.parse(await readFile('vercel.json', 'utf8'));
   for (const route of config.rewrites) routes.set(route.source, route.destination.slice(1));
@@ -28,7 +29,7 @@ try {
     // Avoid re-rendering the same content and downloading the entire article collection.
     html = html.replace(/<script type="module"[^>]*>[\s\S]*?<\/script>/g, '').replace(/<link rel="modulepreload"[^>]*>/g, '');
     if (path.startsWith('/insights/')) {
-      const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin + '/' }, { '@type': 'ListItem', position: 2, name: 'Insights', item: origin + '/insights' }, { '@type': 'ListItem', position: 3, name: body.match(/<h1>(.*?)<\/h1>/)?.[1], item: origin + path }] };
+      const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin + '/' }, { '@type': 'ListItem', position: 2, name: 'Insights', item: origin + '/insights' }, { '@type': 'ListItem', position: 3, name: articleBySlug[path.split('/').pop()].title, item: origin + path }] };
       html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(breadcrumb)}</script></head>`);
     }
     html = html.replace('</head>', `${rssLink}</head>`);
@@ -44,11 +45,10 @@ try {
   await writeFile('dist/about.html', `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title><meta name="description" content="${escape(description)}"><meta name="author" content="Julian Wortelboer"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"><link rel="canonical" href="${origin}/about-julian-wortelboer"><link rel="icon" href="/assets/jw-logo.webp" type="image/webp"><meta property="og:type" content="profile"><meta property="og:site_name" content="Julian Wortelboer"><meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(description)}"><meta property="og:url" content="${origin}/about-julian-wortelboer"><meta property="og:image" content="${aboutImage}"><meta property="og:image:alt" content="Julian Wortelboer coaching on a padel court"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escape(title)}"><meta name="twitter:description" content="${escape(description)}"><meta name="twitter:image" content="${aboutImage}">${rssLink}${css}<script type="application/ld+json">${JSON.stringify(aboutSchema)}</script></head><body>${renderToString(createElement(About))}</body></html>`);
   routes.set('/about-julian-wortelboer', 'about.html');
 
-  const { articles } = await server.ssrLoadModule('/src/articleData.ts');
   const feedUpdated = new Date(Math.max(...articles.map(article => new Date((article.updatedDate || article.date) + ' 12:00:00 UTC').getTime()))).toUTCString();
   const items = articles.map((article) => {
     const url = `${origin}/insights/${article.slug}`;
-    return `<item><title>${escape(article.title)}</title><link>${url}</link><guid isPermaLink="true">${url}</guid><description>${escape(article.intro[0])}</description><pubDate>${new Date(article.date + ' 12:00:00 UTC').toUTCString()}</pubDate><category>${escape(article.category)}</category></item>`;
+    return `<item><title>${escape(article.title)}</title><link>${url}</link><guid isPermaLink="true">${url}</guid><description>${escape(article.description ?? article.intro[0])}</description><pubDate>${new Date(article.date + ' 12:00:00 UTC').toUTCString()}</pubDate><category>${escape(article.category)}</category></item>`;
   }).join('');
   await writeFile('dist/feed.xml', `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Julian Wortelboer Padel Insights</title><link>${origin}/insights</link><description>Practical insights on padel club strategy, operations, coaching, player development and leadership.</description><language>en-us</language><lastBuildDate>${feedUpdated}</lastBuildDate>${items}</channel></rss>`);
   for (const [path, file] of routes) {
