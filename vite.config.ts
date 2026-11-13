@@ -17,6 +17,7 @@ export default defineConfig({
         articleCourts: resolve(__dirname, 'article-courts.html'),
         articleProgramming: resolve(__dirname, 'article-programming.html'),
         articleZigZag: resolve(__dirname, 'article-zig-zag.html'),
+        articleAmericaPadelBoom: resolve(__dirname, 'article-america-padel-boom.html'),
         articleParkPadel: resolve(__dirname, 'article-park-padel.html'),
         articleCoffeeAndBeer: resolve(__dirname, 'article-coffee-and-beer.html'),
         articleTeam: resolve(__dirname, 'article-team.html'),

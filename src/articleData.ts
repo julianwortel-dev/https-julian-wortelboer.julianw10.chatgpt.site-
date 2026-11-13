@@ -27,6 +27,251 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "why-americas-padel-boom-is-just-beginning",
+  "title": "America Isn't Late to Padel. Its Moment Has Finally Arrived.",
+  "description": "Padel Master Coach Julian Wortelboer explains why padel is booming in America, lessons from Spain and Argentina, and why coaching will determine its future.",
+  "category": "Padel Industry & Leadership",
+  "date": "November 13, 2026",
+  "readTime": "10 min read",
+  "author": "Julian Wortelboer",
+  "academyUrl": "https://padelsmashgroup.com/",
+  "formatted": true,
+  "keywords": [
+    "padel growth in the United States",
+    "history of padel",
+    "American padel industry",
+    "padel club development",
+    "padel coaching certification",
+    "padel in Spain",
+    "padel in Argentina",
+    "padel real estate development"
+  ],
+  "related": [
+    "real-business-model-behind-a-profitable-padel-club",
+    "how-to-hire-a-padel-coach",
+    "three-pillars-of-padel-development",
+    "padel-smash-tv-one-million-subscribers"
+  ],
+  "image": "/assets/padel-story.webp",
+  "imageAlt": "Padel players sharing a club experience and building community",
+  "intro": [
+    "*Why the world's padel revolution is accelerating, what Argentina and Spain taught us, and why the United States is entering its most exciting chapter yet.*",
+    "I was recently interviewed by Scott Matulis for an article exploring a fascinating question: Why did it take so long for padel to catch on in the United States?",
+    "It's a question I hear frequently. After all, padel was invented in Mexico in 1969, Argentina experienced an extraordinary boom in the early 1990s, and Spain has been playing the sport for decades.",
+    "Yet here we are, in 2026, witnessing what appears to be the beginning of a major padel revolution in America.",
+    "But after more than 25 years in the racquet sports industry, having lived through Argentina's first padel explosion and helped develop the sport in the United States, I would challenge the premise of the question.",
+    "**The real question isn't why padel took so long to arrive. The real question is why it is happening now.**"
+  ],
+  "sections": [
+    {
+      "heading": "1. The Pickleball Parallel: Every Sport Has Its Moment",
+      "paragraphs": [
+        "Let's start with a sport Americans know very well.",
+        "Pickleball was invented in 1965 in Washington State. Yet it took more than half a century to become the phenomenon we know today.",
+        "Think about that.",
+        "A sport invented in the United States took more than 50 years to achieve widespread popularity in its own country.",
+        "So why should we be surprised that padel, a sport invented in Mexico, took several decades to establish itself in America?",
+        "Sports have their own evolution. They need the right infrastructure, cultural environment, investment, accessibility, exposure and timing.",
+        "For decades, pickleball was a relatively niche recreational activity. Then a combination of accessibility, social interaction, changing lifestyles, infrastructure and media exposure helped transform it into a mainstream sport.",
+        "Padel is experiencing a similar transformation today, but with one extraordinary difference: **it is happening simultaneously around the world.**"
+      ]
+    },
+    {
+      "heading": "2. Argentina: The First Padel Revolution",
+      "paragraphs": [
+        "I'm originally from Argentina, and I was fortunate enough to live through the incredible padel boom of the late 1980s and early 1990s.",
+        "Argentina already had a strong racquet sports culture, particularly in tennis and squash. Padel combined familiar elements from both sports while offering something incredibly attractive: a very easy entry point.",
+        "You could step onto a court with three friends, start playing and enjoy yourself almost immediately.",
+        "People fell in love with it.",
+        "Courts appeared everywhere. Clubs opened rapidly. Young players discovered the sport, and competitive opportunities began to emerge.",
+        "What many people don't realize is how sophisticated Argentine padel already was more than 30 years ago.",
+        "We had a pioneering professional circuit sponsored by Coca-Cola. Players such as Alejandro Lasaigues, Roberto Gattiker and Hernán Auguste were making a living playing professional padel. A young Juan Martín Díaz was beginning his journey toward becoming one of the greatest players in the history of the sport.",
+        "Argentina also pioneered one of padel's most important innovations: the transportable glass court, known as the Crystal Palace.",
+        "I remember that era vividly. We essentially had one glass court that traveled from tournament to tournament. It would be assembled, the tournament would be played, and then it would be dismantled and transported to the next venue.",
+        "It transformed the spectator experience and opened new possibilities for television.",
+        "It was an incredible period.",
+        "But Argentina also experienced a boom followed by a bust. Rapid expansion eventually exposed weaknesses in the industry.",
+        "**That experience taught me a lesson I still carry today: growing a sport quickly and building a sustainable sport are two very different things.**"
+      ]
+    },
+    {
+      "heading": "3. The Spain Factor: How Real Estate Transformed Padel",
+      "paragraphs": [
+        "If Argentina demonstrated how quickly padel could grow, Spain demonstrated how deeply it could become embedded in a country's culture.",
+        "One of the most fascinating chapters in Spain's padel history took place during the mid-1990s and early 2000s.",
+        "José María Aznar, Spain's prime minister from 1996 to 2004, was an avid padel player. His enthusiasm helped give the sport visibility and made it increasingly fashionable.",
+        "But something even more important was happening at the same time.",
+        "Spain was experiencing a massive real estate boom.",
+        "Residential communities, condominiums and urbanizaciones were being developed across the country. Increasingly, developers began including padel courts alongside swimming pools, gardens and other residential amenities.",
+        "Suddenly, padel was no longer just a sport played at exclusive clubs.",
+        "It was something people could play right where they lived.",
+        "Imagine a child growing up in a residential community with a padel court downstairs. After school, that child could grab a racket, meet some friends and play.",
+        "Parents could organize matches with their neighbors. Families could play on weekends. Children could develop their skills naturally through daily exposure to the sport.",
+        "Nobody needed to drive across town or make a significant financial commitment just to discover padel.",
+        "The court was already there.",
+        "**Spain didn't just build padel clubs. Spain built padel into people's everyday lives.**",
+        "In my opinion, that is one of the fundamental reasons Spain became the padel powerhouse it is today.",
+        "Many of the professional players we now watch on television developed their passion for the game in ordinary local clubs and communities, where playing padel was simply part of growing up.",
+        "There is an enormous lesson here for American real estate developers.",
+        "Imagine padel courts becoming a standard amenity in condominium developments, apartment communities and residential neighborhoods across the United States.",
+        "When that happens, padel will move from being a destination to becoming part of everyday American life."
+      ]
+    },
+    {
+      "heading": "4. Why America Took a Different Path",
+      "paragraphs": [
+        "The United States is one of the most sports-oriented countries in the world.",
+        "But that also means every sport is competing for attention, facilities, investment, sponsorship and participation.",
+        "Padel entered a market already dominated by American football, basketball, baseball, golf, tennis and many other established sports.",
+        "The seeds of American padel were planted decades ago by Mike May and the pioneers who followed him. Their contribution deserves enormous recognition. They believed in the sport long before most Americans had ever heard of it.",
+        "But for many years, growth remained relatively slow.",
+        "Then two powerful forces changed the landscape: COVID-19 and social media.",
+        "The pandemic accelerated interest in recreational sports and activities that allowed people to stay active and socially connected. Both pickleball and padel benefited.",
+        "At the same time, social media completely transformed how people discover sports.",
+        "Thirty years ago, if you wanted to watch professional padel, you needed access to a tournament in Argentina or Spain, or somehow get your hands on a videotape.",
+        "Today, someone in Miami, Los Angeles, India or Indonesia can watch an extraordinary professional padel rally on their phone within seconds.",
+        "They see players running outside the court, spectacular points, an exciting atmosphere and people having fun.",
+        "And they think, \"I want to try that.\"",
+        "**Social media did something that geography never could. It made padel visible to the entire world at the same time.**"
+      ]
+    },
+    {
+      "heading": "5. What Our Global Media Audience Tells Us",
+      "paragraphs": [
+        "Through Padel Smash TV, I have a unique opportunity to see how this global transformation is unfolding.",
+        "Our YouTube channel has grown to more than one million subscribers and generates over 10 million views per month.",
+        "But what fascinates me most is where those viewers come from.",
+        "India is our largest audience. Indonesia and the Middle East are also major sources of viewership. The United States typically ranks between fourth and fifth among our leading markets.",
+        "We are an American-based padel media platform, yet some of our greatest engagement comes from countries thousands of miles away.",
+        "Every day, we receive comments, messages and questions from people across the United States and around the world.",
+        "They want to know where they can play, how they can improve, how they can become coaches and how they can open padel clubs in their communities.",
+        "Some live in cities where the sport is already thriving. Others live in communities that don't even have a padel court yet.",
+        "That gives us a perspective that goes beyond industry reports, court construction statistics or investment announcements.",
+        "**We are listening directly to the people who will drive the next generation of padel growth.**",
+        "In more than 25 years working in the racquet sports industry, I have never witnessed this level of simultaneous international enthusiasm for a sport.",
+        "And the most exciting part?",
+        "In the United States, we are still at the beginning."
+      ]
+    },
+    {
+      "heading": "6. American Padel Is Following the Tennis Blueprint",
+      "paragraphs": [
+        "I often compare what is happening with padel today to the evolution of American tennis, particularly during the tennis boom of the 1970s and 1980s.",
+        "Tennis had long been associated with affluent communities, private clubs and wealthy families.",
+        "Then professional stars such as Rod Laver, John Newcombe, Jimmy Connors and John McEnroe helped transform the sport into a major spectator attraction.",
+        "Later, Andre Agassi, Pete Sampras and Michael Chang helped carry American tennis to another level.",
+        "Over time, tennis expanded across country clubs, public parks, schools and universities, making the sport accessible to a much broader population.",
+        "I see many of those same signs in padel today.",
+        "Wealthy homeowners in Beverly Hills, the Hamptons and Florida are installing padel courts on their properties. Some are even replacing existing tennis courts with padel courts.",
+        "Beautiful, high-end private padel clubs are opening across the country.",
+        "But what excites me even more is what is happening next.",
+        "Traditional golf and tennis country clubs are beginning to introduce padel to their members. I personally know of dozens of country clubs that are adding or exploring the addition of padel courts.",
+        "We are also beginning to see collegiate development, residential projects and public recreation opportunities."
+      ]
+    },
+    {
+      "heading": "The five stages of American padel development",
+      "paragraphs": [
+        "These stages will overlap, but I believe they represent a natural progression toward mass participation.",
+        "The more accessible padel becomes, the larger the potential player base becomes.",
+        "And when children start growing up playing padel in America, just as generations of Spanish and Argentine children did, we will enter an entirely new chapter."
+      ],
+      "list": {
+        "after": 0,
+        "ordered": true,
+        "items": [
+          "Private residences: Wealthy early adopters introduce the sport to their personal and social networks.",
+          "Dedicated padel clubs: Entrepreneurs and investors create facilities, programming and communities around the sport.",
+          "Traditional country clubs: Established golf and tennis clubs introduce padel to an existing membership base.",
+          "Residential communities: Developers incorporate padel into the everyday lifestyle of their residents.",
+          "Public and educational facilities: Municipal courts, schools and universities open the sport to a much larger population."
+        ]
+      }
+    },
+    {
+      "heading": "7. The Missing Link: Who Will Teach America to Play?",
+      "paragraphs": [
+        "Having been involved in the development and operation of seven different padel clubs in the United States, I see the signs of growth every day.",
+        "Through Padel Smash TV, I also see the interest and enthusiasm coming directly from players and communities nationwide.",
+        "But there is another part of my work that I believe is essential to the future of the sport: coaching education.",
+        "Through Padel Smash Academy, we have already certified more than 400 coaches worldwide.",
+        "We travel to clubs across the United States to educate, train and certify coaches. What I see firsthand is the eagerness of people who want to become involved in the coaching side of padel.",
+        "Many come from tennis. Others come from different racquet sports. Some have simply discovered padel, fallen in love with it and decided they want to build a career around it.",
+        "This is extremely encouraging, because qualified coaches are exactly what American padel needs right now.",
+        "We can build thousands of courts. We can create spectacular clubs with incredible amenities. We can attract investors, celebrities and professional athletes.",
+        "But without a strong coaching structure and a solid foundation of coaching knowledge, the sport will take much longer to reach its full potential.",
+        "**You can build a thousand padel courts, but who is going to teach the next million Americans how to play?**",
+        "That is one of the most important questions our industry needs to answer.",
+        "A great coach doesn't simply teach someone how to hit a forehand, backhand or bandeja.",
+        "A great coach develops the player through three essential pillars:",
+        "But great coaching goes beyond those three pillars.",
+        "It is about making learning enjoyable, developing confidence, creating a sense of belonging and giving players a reason to come back.",
+        "When someone walks into a padel club for the first time, the quality of that initial experience can determine whether they become a lifelong player or never return.",
+        "A qualified coach can make all the difference.",
+        "For American padel to reach its full potential, we need qualified coaching professionals, junior academies, recreational leagues, collegiate programs and structured development pathways.",
+        "**Building courts creates infrastructure. Developing qualified coaches creates players. And developing players is what ultimately grows the sport.**"
+      ],
+      "list": {
+        "after": 13,
+        "items": [
+          "Technical development: Understanding how to execute the shots and movements of padel.",
+          "Physical development: Developing the movement, coordination, balance and athletic capabilities required by the sport.",
+          "Tactical development: Understanding positioning, decision-making, shot selection and how to play effectively with a partner."
+        ]
+      }
+    },
+    {
+      "heading": "8. What American Padel Must Get Right",
+      "paragraphs": [
+        "Having experienced Argentina's boom and bust, I believe the United States has an extraordinary opportunity to learn from the past.",
+        "We should not measure success simply by how many courts we build or how much capital enters the industry.",
+        "We should measure success by how many people we introduce to the sport, how many become regular players and how many continue playing for years.",
+        "For club owners, investors and industry leaders, I believe five priorities will determine whether this growth becomes sustainable:",
+        "The growth of padel cannot be built on infrastructure alone.",
+        "Ultimately, we are in the hospitality business, the education business and the community-building business.",
+        "The clubs that understand this will be the ones that help shape the future of American padel."
+      ],
+      "list": {
+        "after": 4,
+        "ordered": true,
+        "items": [
+          "Build financially sustainable clubs, with sound business models and consistent utilization.",
+          "Invest in qualified coaches, not just beautiful facilities.",
+          "Make the sport accessible, with affordable entry-level programming and opportunities for beginners.",
+          "Develop the next generation, through junior academies, schools, universities and competitive pathways.",
+          "Create communities, where people come not only to play but also to connect, socialize and belong."
+        ]
+      }
+    },
+    {
+      "heading": "9. We Are at the Beginning of Something Extraordinary",
+      "paragraphs": [
+        "I grew up playing padel and tennis in Argentina. I came to the United States through tennis, built my career in the racquet sports industry and have spent decades helping develop players, coaches and clubs.",
+        "Today, I have the privilege of seeing this industry from three different perspectives: as a club executive, as a coach educator and through a global padel media platform.",
+        "From every perspective, the signs are extraordinary.",
+        "More people are discovering the sport. More clubs are opening. Traditional country clubs are embracing padel. More coaches are seeking education and certification. More young players are stepping onto courts.",
+        "And I believe we are approaching an atomic explosion of padel in the United States.",
+        "But this time, unlike Argentina's first boom, we have an opportunity to combine decades of experience with global media exposure, international investment, professional competition and a growing understanding of how to build sustainable clubs.",
+        "Argentina taught us how quickly a sport can grow when people fall in love with it.",
+        "Spain taught us how deeply a sport can become embedded in a country's culture when it becomes part of everyday life.",
+        "Tennis taught us how a sport can evolve from private clubs into a national recreational institution.",
+        "And pickleball reminded us that even a sport invented in America can take decades to find its moment.",
+        "Now, it is padel's turn.",
+        "**America isn't late to padel. Its moment has finally arrived.**",
+        "And if what I am seeing every day is any indication, we haven't seen anything yet.",
+        "*Develop the player. Empower the person. Grow the sport.*"
+      ]
+    },
+    {
+      "heading": "About the Author",
+      "paragraphs": [
+        "Julian Wortelboer is a certified Padel Master Coach, Chief Padel Officer & Director of Operations at ICON Padel Club, and Co-Founder of Padel Smash TV and Padel Smash Academy. A former professional padel and tennis player with more than 25 years of experience in racquet sports management, coaching and club development, he is dedicated to elevating the sport through coach education, sustainable business strategies and player development."
+      ]
+    }
+  ],
+  "source": "Based on Julian Wortelboer’s personal experience in Argentina and the United States, his interview with Scott Matulis, and firsthand Padel Smash TV and Padel Smash Academy figures."
+},
+{
   "slug": "location-coaching-programming-padel-club-success",
   "title": "Location, Coaching, and Programming: The Real Formula Behind a Successful Padel Club",
   "description": "Explore Park Padel’s club strategy across three Northern California locations, from Embarcadero’s walkability to coach certification and programming.",
