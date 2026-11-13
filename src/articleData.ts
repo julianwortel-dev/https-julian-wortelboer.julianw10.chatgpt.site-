@@ -53,7 +53,7 @@ export const articles: Article[] = [
     {
       "heading": "What the founders built",
       "paragraphs": [
-        "I’m so proud of the work Jessica, Neil, and Katie have done. They came to padel as newcomers to the business and learned how to build and operate clubs along the way. Seeing them grow Park Padel into a three-location business has been especially rewarding."
+        "I’m so proud of the work Jessica, Neil, and Katie have done. They came to padel as newcomers to the business and learned how to build and operate clubs along the way. Seeing them grow Park Padel into a profitable padel business with three locations has been especially rewarding."
       ]
     },
     {
