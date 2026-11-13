@@ -13,7 +13,7 @@ export type Article = {
     paragraphs: string[];
     bullets?: string[];
     list?: { after: number; items: string[]; ordered?: boolean };
-    visual?: { src: string; alt: string; caption: string };
+    visual?: { src: string; alt: string; caption: string; sourceUrl?: string; width?: number; height?: number };
   }[];
   source: string;
   description?: string;
@@ -23,6 +23,8 @@ export type Article = {
   image?: string;
   imageAlt?: string;
   imageCaption?: string;
+  imageSourceUrl?: string;
+  imageDimensions?: { width: number; height: number };
 };
 
 export const articles: Article[] = [
@@ -52,8 +54,8 @@ export const articles: Article[] = [
     "three-pillars-of-padel-development",
     "padel-smash-tv-one-million-subscribers"
   ],
-  "image": "/assets/padel-story.webp",
-  "imageAlt": "Padel players sharing a club experience and building community",
+  "image": "/assets/insights/america-padel-boom/icon-rooftop.webp",
+  "imageAlt": "Architectural rendering of green padel courts on the ICON Padel Club rooftop in Aventura",
   "intro": [
     "*Why the world's padel revolution is accelerating, what Argentina and Spain taught us, and why the United States is entering its most exciting chapter yet.*",
     "I was recently interviewed by Scott Matulis for an article exploring a fascinating question: Why did it take so long for padel to catch on in the United States?",
@@ -115,7 +117,15 @@ export const articles: Article[] = [
         "There is an enormous lesson here for American real estate developers.",
         "Imagine padel courts becoming a standard amenity in condominium developments, apartment communities and residential neighborhoods across the United States.",
         "When that happens, padel will move from being a destination to becoming part of everyday American life."
-      ]
+      ],
+      "visual": {
+        "src": "/assets/insights/america-padel-boom/water-mill.webp",
+        "alt": "Aerial view of a fenced padel court beside a pool and landscaped grounds at 79 Osprey Way",
+        "caption": "79 Osprey Way in Water Mill, New York. Source: Susan Breitenbach’s property listing.",
+        "sourceUrl": "https://susanbreitenbach.com/properties/79-osprey-way",
+        "width": 1440,
+        "height": 960
+      }
     },
     {
       "heading": "4. Why America Took a Different Path",
@@ -133,7 +143,15 @@ export const articles: Article[] = [
         "They see players running outside the court, spectacular points, an exciting atmosphere and people having fun.",
         "And they think, \"I want to try that.\"",
         "**Social media did something that geography never could. It made padel visible to the entire world at the same time.**"
-      ]
+      ],
+      "visual": {
+        "src": "/assets/insights/america-padel-boom/park-padel-sf.webp",
+        "alt": "Aerial view of Park Padel’s Embarcadero courts with San Francisco’s Ferry Building and Bay Bridge beyond",
+        "caption": "Park Padel at Embarcadero Plaza, San Francisco. Source: Park Padel.",
+        "sourceUrl": "https://parkpadel.com/clubs/san-francisco",
+        "width": 1440,
+        "height": 960
+      }
     },
     {
       "heading": "5. What Our Global Media Audience Tells Us",
@@ -167,7 +185,15 @@ export const articles: Article[] = [
         "But what excites me even more is what is happening next.",
         "Traditional golf and tennis country clubs are beginning to introduce padel to their members. I personally know of dozens of country clubs that are adding or exploring the addition of padel courts.",
         "We are also beginning to see collegiate development, residential projects and public recreation opportunities."
-      ]
+      ],
+      "visual": {
+        "src": "/assets/insights/america-padel-boom/bridgehampton.webp",
+        "alt": "Aerial view of the glass-enclosed padel court beside the main house at 678 Halsey Lane",
+        "caption": "678 Halsey Lane in Bridgehampton, New York. Source: Bespoke Real Estate listing on MyStateMLS.",
+        "sourceUrl": "https://www.mystatemls.com/property/678-halsey-lane-bridgehampton-ny-11976/11670441/",
+        "width": 1440,
+        "height": 960
+      }
     },
     {
       "heading": "The five stages of American padel development",
@@ -186,6 +212,14 @@ export const articles: Article[] = [
           "Residential communities: Developers incorporate padel into the everyday lifestyle of their residents.",
           "Public and educational facilities: Municipal courts, schools and universities open the sport to a much larger population."
         ]
+      },
+      "visual": {
+        "src": "/assets/insights/america-padel-boom/ives-estates-park.webp",
+        "alt": "Blue outdoor padel courts behind fencing at Ives Estates Park",
+        "caption": "Cañas Padel at Ives Estates Park, Miami-Dade County. Source: PadelCourtsNearMe.",
+        "sourceUrl": "https://www.padelcourtsnearme.us/courts/canas-padel-ives-estate-miami-dade-county-florida",
+        "width": 1200,
+        "height": 584
       }
     },
     {
@@ -241,6 +275,14 @@ export const articles: Article[] = [
           "Develop the next generation, through junior academies, schools, universities and competitive pathways.",
           "Create communities, where people come not only to play but also to connect, socialize and belong."
         ]
+      },
+      "visual": {
+        "src": "/assets/insights/america-padel-boom/reserve-sole-mia.webp",
+        "alt": "Outdoor courts and palm trees in front of the Reserve at SoLé Mia clubhouse",
+        "caption": "Reserve at SoLé Mia, North Miami. Photo by Richard Bencosme, published by Resident Magazine.",
+        "sourceUrl": "https://resident.com/sports-and-entertainment/2025/02/06/miamis-luxury-padel-club-reserve-at-sol%C3%A9-mia-sets-new-standard-for-sports-and-wellness",
+        "width": 1200,
+        "height": 800
       }
     },
     {
@@ -269,7 +311,13 @@ export const articles: Article[] = [
       ]
     }
   ],
-  "source": "Based on Julian Wortelboer’s personal experience in Argentina and the United States, his interview with Scott Matulis, and firsthand Padel Smash TV and Padel Smash Academy figures."
+  "source": "Based on Julian Wortelboer’s personal experience in Argentina and the United States, his interview with Scott Matulis, and firsthand Padel Smash TV and Padel Smash Academy figures.",
+  "imageCaption": "ICON Padel Club, Aventura. Architectural rendering shared by Julian Wortelboer on LinkedIn.",
+  "imageSourceUrl": "https://www.linkedin.com/posts/julianwortelboer_were-excited-to-share-that-icon-padel-is-activity-7387912735273136128-ZW_P",
+  "imageDimensions": {
+    "width": 480,
+    "height": 270
+  }
 },
 {
   "slug": "location-coaching-programming-padel-club-success",
