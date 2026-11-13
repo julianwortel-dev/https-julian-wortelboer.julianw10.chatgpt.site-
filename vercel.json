@@ -22,6 +22,7 @@
     }
   ],
   "rewrites": [
+    {"source": "/insights/location-coaching-programming-padel-club-success", "destination": "/article-park-padel.html"},
     {
       "source": "/insights/the-coffee-and-beer-connection",
       "destination": "/article-coffee-and-beer.html"

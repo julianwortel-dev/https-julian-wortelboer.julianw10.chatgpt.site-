@@ -27,6 +27,88 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "location-coaching-programming-padel-club-success",
+  "title": "Location, Coaching, and Programming: The Real Formula Behind a Successful Padel Club",
+  "description": "A Park Padel case study on how walkable locations, coach development, and programming help build a club players return to.",
+  "category": "Club Strategy & Operations",
+  "date": "November 12, 2026",
+  "readTime": "4 min read",
+  "keywords": [
+    "Park Padel",
+    "padel club strategy",
+    "court utilization",
+    "padel programming",
+    "padel coach certification"
+  ],
+  "related": [
+    "real-business-model-behind-a-profitable-padel-club",
+    "people-process-service-padel-club-philosophy"
+  ],
+  "formatted": true,
+  "intro": [
+    "Recently, I had the pleasure of welcoming Jessica and Katie from Park Padel to ICON Padel Club in Miami for a friendly strategic session. We exchanged ideas, shared experiences, and explored opportunities to improve programming, streamline operations, and support the club’s next stage of growth.",
+    "I’ve consulted with Park Padel since its inception. I helped develop its first San Francisco facility and build the programming and operational infrastructure at Embarcadero and Oyster Point. I also trained and certified coaches at both locations through Padel Smash Academy.\n"
+  ],
+  "sections": [
+    {
+      "heading": "What the founders built",
+      "paragraphs": [
+        "I’m so proud of the work Jessica, Neil, and Katie have done. They came to padel as newcomers to the business and learned how to build and operate clubs along the way. Seeing them grow Park Padel into a three-location business has been especially rewarding."
+      ]
+    },
+    {
+      "heading": "Embarcadero and the advantage of walkability",
+      "paragraphs": [
+        "Embarcadero has three outdoor courts in a prime spot on the San Francisco waterfront, where nearby residents, office workers, and tourists give the club tremendous visibility. People can walk over from home, squeeze in a match at lunch, or discover padel on their way to the Ferry Building. The site has limited amenities, and players use restrooms in nearby 4 Embarcadero Center. For many players, the convenience of walking to the courts outweighs the limited amenities."
+      ],
+      "visual": {
+        "src": "https://parkpadel.com/assets/court-ferry-building-DPHH8bJ9.webp",
+        "alt": "Outdoor Park Padel court with the Ferry Building clock tower in the background",
+        "caption": "Park Padel at Embarcadero Plaza, steps from the Ferry Building. Photo from Park Padel."
+      }
+    },
+    {
+      "heading": "Oyster Point and the biotech workday",
+      "paragraphs": [
+        "Oyster Point has six indoor courts in the heart of South San Francisco’s biotech hub. Nearby employers can offer padel as a perk close to the office, whether through subsidized court time, beginner clinics, or team outings. That proximity makes it easier for employees to play during lunch or after work and gives the club a way to build repeat participation through employer partnerships."
+      ],
+      "visual": {
+        "src": "https://images.squarespace-cdn.com/content/v1/6561722f98ef06102e5fe3ca/3ca9d517-2f20-4b1e-991f-638e840319c1/Park%2BPadel%2BSSF_Studio%2BBBA%2B%2B%2812%29.jpg?format=1500w",
+        "alt": "Indoor padel courts and courtside seating at Park Padel Oyster Point",
+        "caption": "Indoor courts at Oyster Point in South San Francisco. Photo from Park Padel."
+      }
+    },
+    {
+      "heading": "Building demand in West Sacramento",
+      "paragraphs": [
+        "West Sacramento’s four outdoor courts sit along the riverfront in the Bridge District. In a market where more people may be discovering padel, introductory clinics and social sessions can give first-time players an easy way to start and a group to come back to.\n",
+        "The bottom line is simple. Location and convenience beat amenities."
+      ]
+    },
+    {
+      "heading": "How I evaluate a padel club location",
+      "paragraphs": [
+        "Before signing a lease, I look at how many people in the area already play, how easily they can reach the facility, and whether the local market can support the proposed pricing. I also consider competing court supply and the time it will take to develop a regular playing community.",
+        "A lower rent can be attractive on paper. The financial model should also account for the coaching hours, marketing, and introductory programs needed to build demand. In a higher-rent location, I want to see how convenience and repeat play could support the economics over time.\n"
+      ]
+    },
+    {
+      "heading": "Coaching gives players a reason to return",
+      "paragraphs": [
+        "A well-trained coach can help a beginner enjoy a first session, find players at a similar level, and understand what to work on next. Clubs can support that progression with introductory clinics, level-based groups, organized matches, and competitive training. When each program gives players a clear next step, the schedule helps build a community around the courts.\n"
+      ]
+    },
+    {
+      "heading": "What to measure alongside court utilization",
+      "paragraphs": [
+        "I track revenue per available court hour, program fill rates, repeat visits, membership renewals, and operating margin. Together, those measures help an operator decide where to add coaching hours, how to use quieter court time, and which programs create value after staffing and other operating costs.",
+        "Location creates the opportunity. Coaching develops the players. Programming builds the community. Disciplined operations help make the business profitable."
+      ]
+    }
+  ],
+  "source": "https://parkpadel.com/clubs"
+},
+{
   "slug": "the-coffee-and-beer-connection",
   "title": "The Coffee & Beer Connection: Why Great Padel Clubs Are Built Beyond the Court",
   "category": "Club Strategy & Operations",
