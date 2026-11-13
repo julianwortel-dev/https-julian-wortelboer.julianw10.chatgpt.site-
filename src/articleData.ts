@@ -29,14 +29,17 @@ export const articles: Article[] = [
 {
   "slug": "location-coaching-programming-padel-club-success",
   "title": "Location, Coaching, and Programming: The Real Formula Behind a Successful Padel Club",
-  "description": "A Park Padel case study on how walkable locations, coach development, and programming help build a club players return to.",
+  "description": "Explore Park Padel’s club strategy across three Northern California locations, from Embarcadero’s walkability to coach certification and programming.",
   "category": "Club Strategy & Operations",
   "date": "November 12, 2026",
   "readTime": "4 min read",
   "keywords": [
-    "Park Padel",
+    "Park Padel case study",
     "padel club strategy",
-    "court utilization",
+    "padel club site selection",
+    "Embarcadero San Francisco",
+    "Oyster Point South San Francisco",
+    "padel court utilization",
     "padel programming",
     "padel coach certification"
   ],
@@ -50,6 +53,12 @@ export const articles: Article[] = [
     "I’ve consulted with Park Padel since its inception. I helped develop its first San Francisco facility and build the programming and operational infrastructure at Embarcadero and Oyster Point. I also trained and certified coaches at both locations through Padel Smash Academy.\n"
   ],
   "sections": [
+    {
+      "heading": "Park Padel at a glance",
+      "paragraphs": [
+        "Park Padel operates three Northern California clubs. Embarcadero draws on walkable access for residents, office workers, and visitors. Oyster Point can serve employees in South San Francisco’s biotech hub, while West Sacramento illustrates how introductory clinics and social play can build demand. The common thread is matching each location’s programming to the people it serves."
+      ]
+    },
     {
       "heading": "What the founders built",
       "paragraphs": [
