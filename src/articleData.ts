@@ -59,7 +59,7 @@ export const articles: Article[] = [
     {
       "heading": "Embarcadero and the advantage of walkability",
       "paragraphs": [
-        "Embarcadero has three outdoor courts in a prime spot on the San Francisco waterfront, where nearby residents, office workers, and tourists give the club tremendous visibility. People can walk over from home, squeeze in a match at lunch, or discover padel on their way to the Ferry Building. The site has limited amenities, and players use restrooms in nearby 4 Embarcadero Center. For many players, the convenience of walking to the courts outweighs the limited amenities."
+        "Embarcadero has three outdoor courts in a prime spot on the San Francisco waterfront, where nearby residents, office workers, and tourists give the club tremendous visibility. People can walk over from home, squeeze in a match at lunch, or discover padel on their way to the Ferry Building. The site has limited amenities, and players use restrooms in nearby 4 Embarcadero Center. For many players, the convenience of walking to the courts outweighs the limited amenities. Court utilization rose in the latest quarter, with Embarcadero leading the way. Nearly 70% of its available court time was booked during peak hours, a strong result for any hospitality business."
       ],
       "visual": {
         "src": "https://parkpadel.com/assets/court-ferry-building-DPHH8bJ9.webp",
