@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/insights/million-dollar-mistake-padel-club-investors",
+      "destination": "/article-padel-club-investment.html"
+    },
+    {
       "source": "/insights/why-americas-padel-boom-is-just-beginning",
       "destination": "/article-america-padel-boom.html"
     },

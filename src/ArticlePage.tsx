@@ -26,7 +26,7 @@ function SectionText({ section, formatted }: { section: Article['sections'][numb
   const List = list.ordered ? 'ol' : 'ul';
   return <>
     {section.paragraphs.slice(0, list.after).map(renderParagraph)}
-    <List>{list.items.map((item) => <li key={item}>{item}</li>)}</List>
+    <List>{list.items.map((item) => <li key={item}>{formatted ? <ArticleText text={item} /> : item}</li>)}</List>
     {section.paragraphs.slice(list.after).map(renderParagraph)}
   </>;
 }

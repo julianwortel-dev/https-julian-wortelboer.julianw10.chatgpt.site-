@@ -29,6 +29,190 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "million-dollar-mistake-padel-club-investors",
+  "title": "The Million-Dollar Mistake Padel Club Investors Are Making",
+  "description": "Julian Wortelboer explains how investors can evaluate padel club leadership, operating plans, cash yield, and exit strategy before committing to construction.",
+  "category": "Club Strategy & Operations",
+  "date": "November 15, 2026",
+  "readTime": "6 min read",
+  "author": "Julian Wortelboer",
+  "formatted": true,
+  "keywords": [
+    "padel club investment",
+    "padel club operations",
+    "padel club general manager",
+    "padel club business plan",
+    "padel club profitability",
+    "padel club exit strategy"
+  ],
+  "related": [
+    "if-you-build-it-they-might-not-come",
+    "real-business-model-behind-a-profitable-padel-club",
+    "what-to-look-for-in-a-padel-club-general-manager"
+  ],
+  "image": "/assets/insights/padel-club-investment/outdoor-courts-at-dusk.jpg",
+  "imageAlt": "Aerial view of illuminated outdoor padel courts at dusk in Miami, Florida",
+  "imageCaption": "Three cities, three markets, one rule. Courts don't earn by themselves. Operators do.",
+  "imageDimensions": {
+    "width": 1180,
+    "height": 885
+  },
+  "intro": [
+    "*Building a padel club is a project. Running a profitable one is a science.*",
+    "**Julian Wortelboer, Padel Master Coach and Club Operations Strategist**"
+  ],
+  "sections": [
+    {
+      "heading": "Loving Padel Doesn't Make You a Padel Club Operator",
+      "paragraphs": [
+        "I love going to restaurants. I appreciate great food, excellent wine, beautiful facilities, and outstanding hospitality.",
+        "But just because I love restaurants doesn't mean I know how to operate one.",
+        "If I decided to open a restaurant tomorrow, I would need an experienced general manager, a qualified chef, professional servers, and a team that understands the restaurant business.",
+        "Padel is exactly the same.",
+        "Across the United States, I'm seeing successful entrepreneurs investing millions of dollars in developing beautiful padel clubs.",
+        "These individuals have built successful businesses in real estate, finance, technology, and other industries. Many are passionate about padel and genuinely believe in its future.",
+        "And I share that enthusiasm.",
+        "But being successful in another industry, loving padel, and having the capital to build a club doesn't automatically qualify someone to operate one.",
+        "That's where I believe one of the biggest challenges facing the American padel industry begins."
+      ]
+    },
+    {
+      "heading": "The Million-Dollar Mistake",
+      "paragraphs": [
+        "I've been involved in racquet sports management for more than 25 years, including the development, management, and strategic growth of padel clubs.",
+        "One lesson has become increasingly clear. Investors are often willing to spend millions developing a facility but hesitate to invest in experienced professionals to operate it.",
+        "They hire architects, construction companies, designers, and contractors. They purchase premium courts, invest in beautiful lounges, and create impressive facilities.",
+        "But when it comes to hiring a Club Director, Head of Padel, Operations Manager, or qualified coaching team, the same attention to expertise is sometimes missing.",
+        "And that's a serious mistake.",
+        "The people operating your facility will determine whether your investment becomes a sustainable business or an expensive liability.",
+        "You can build a five-star facility and still operate a one-star business."
+      ]
+    },
+    {
+      "heading": "Beautiful Clubs Are Not Always Successful Businesses",
+      "paragraphs": [
+        "I personally know of at least five padel clubs experiencing significant financial challenges, with some owners exploring possible exit strategies.",
+        "That observation is based on my direct industry experience, not a claim about the national percentage of struggling clubs.",
+        "These facilities are not necessarily failing because their courts are unattractive or their locations are poor.",
+        "In some cases, the missing ingredient is experienced operational leadership.",
+        "Owners may struggle to identify qualified managers, evaluate coaching professionals, establish effective programming, control expenses, or develop a strong customer community.",
+        "And these challenges can compound quickly.",
+        "A club without effective programming struggles to generate consistent demand.",
+        "A club without qualified coaches struggles to develop and retain players.",
+        "A club without experienced management struggles to control costs, build accountability, and deliver consistent service.",
+        "The facility creates the opportunity. The operational team determines how effectively that opportunity is converted into revenue and profit."
+      ]
+    },
+    {
+      "heading": "The Most Important Investment Isn't Always Another Court",
+      "paragraphs": [
+        "I believe the Head of Padel or Club Director is one of the most important positions in a padel business.",
+        "This person should understand much more than how to play or teach padel.",
+        "They need knowledge of club operations, financial performance, staff leadership, coaching development, programming, customer retention, and hospitality.",
+        "A great player is not automatically a great coach.",
+        "A great coach is not automatically a great manager.",
+        "And a great manager from another industry is not automatically qualified to operate a padel club.",
+        "These distinctions matter.",
+        "Hiring should involve structured interviews, practical evaluations, references, and clearly defined performance expectations.",
+        "Owners must be willing to invest in proven expertise, because the cost of hiring the wrong leadership team can substantially exceed the cost of hiring the right one."
+      ],
+      "visual": {
+        "src": "/assets/insights/padel-club-investment/outdoor-courts-san-diego.jpg",
+        "alt": "Aerial view of blue outdoor padel courts beside tennis courts in San Diego, California",
+        "caption": "Outdoor padel courts in San Diego, California.",
+        "width": 1400,
+        "height": 787
+      }
+    },
+    {
+      "heading": "The Question Investors Forget About Their Exit Strategy",
+      "paragraphs": [
+        "Here's another issue I believe deserves much more attention.",
+        "Many entrepreneurs begin developing a padel club without clearly defining what they ultimately want to achieve with their investment.",
+        "Are they building a business that will generate consistent annual profits?",
+        "Are they planning to develop multiple locations and create a recognizable brand?",
+        "Do they want to sell the club in five or ten years?",
+        "Are they hoping to recover two, three, or even ten times their original investment?",
+        "These are very different objectives.",
+        "And each requires a different business strategy.",
+        "An exit strategy should not be something an owner begins considering when the club is struggling financially. It should be part of the investment strategy before construction begins."
+      ]
+    },
+    {
+      "heading": "Three Possible Investment Strategies",
+      "paragraphs": [
+        "**First, build and operate for long-term profitability.**",
+        "The primary objective is to generate sustainable cash flow, maintain strong operating margins, and create a business that produces consistent financial returns.",
+        "Success depends on operational efficiency, customer retention, programming, and disciplined expense management.",
+        "**Second, build, scale, and expand.**",
+        "The objective is to establish a successful operating model that can be replicated across multiple locations.",
+        "This requires standardized procedures, consistent coaching development, reliable technology, strong financial controls, and a management structure capable of supporting expansion.",
+        "**Third, build, increase business value, and eventually sell.**",
+        "The objective is to create an attractive business for a potential buyer.",
+        "In this scenario, profitability is important, but so are documented financial performance, predictable cash flow, transferable systems, management stability, lease terms, and the business's ability to operate independently of its founder.",
+        "A beautiful facility alone does not guarantee a valuable business."
+      ]
+    },
+    {
+      "heading": "Profitability Is Not the Same as Return on Investment",
+      "paragraphs": [
+        "Let's imagine an investor spends four million dollars developing a padel club.",
+        "The club eventually generates two hundred thousand dollars in annual operating cash flow after recurring operating expenses and necessary maintenance capital expenditures, but before financing costs and taxes.",
+        "That represents a five percent annual unlevered cash yield on the initial investment, assuming no additional capital requirements.",
+        "The club may be operationally successful, but is that an attractive return considering the capital invested, the risks involved, and alternative investment opportunities?",
+        "That's a question every investor needs to answer.",
+        "And if the objective is to sell the business for two or three times the original investment, what level of sustainable earnings, growth potential, and buyer valuation would be necessary to justify that outcome?",
+        "These calculations should happen before investing millions, not after the facility opens.",
+        "A profitable padel club is not necessarily a successful investment if the initial development costs are disproportionate to its earning potential."
+      ]
+    },
+    {
+      "heading": "Build the Operational Plan Before Building the Facility",
+      "paragraphs": [
+        "If I were advising someone preparing to invest in a padel club, I would encourage them to answer five fundamental questions before committing to construction.",
+        "These questions should shape the investment.",
+        "Not the other way around."
+      ],
+      "list": {
+        "after": 1,
+        "items": [
+          "**Who will operate the business?** Identify qualified leadership and involve them in the development process.",
+          "**What is the financial model?** Establish realistic revenue assumptions, operating costs, break-even requirements, and expected returns.",
+          "**How will the club attract and retain players?** Develop programming, coaching, membership, and community-building strategies before opening.",
+          "**How will success be measured?** Define operational and financial performance indicators, with clear accountability.",
+          "**What is the long-term objective?** Determine whether the business is being developed for cash flow, expansion, eventual sale, or a combination of these goals."
+        ],
+        "ordered": true
+      },
+      "visual": {
+        "src": "/assets/insights/padel-club-investment/indoor-courts-fort-lauderdale.webp",
+        "alt": "Blue indoor padel courts with glass walls and overhead strip lighting in Fort Lauderdale, Florida",
+        "caption": "Indoor padel courts in Fort Lauderdale, Florida.",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "heading": "The Future of American Padel Depends on Professional Operators",
+      "paragraphs": [
+        "I remain extremely optimistic about the future of padel in the United States.",
+        "The opportunity is significant, and I believe we are still in the early stages of developing a mature padel industry.",
+        "But we must recognize that building more courts is only one part of the equation.",
+        "The long-term success of the sport will depend on developing professional coaches, experienced managers, effective operating systems, and financially sustainable clubs.",
+        "Investors should approach padel with the same discipline they would apply to any other serious business investment.",
+        "That means surrounding themselves with qualified professionals, understanding the financial realities, and establishing clear objectives.",
+        "After more than 25 years in racquet sports, my philosophy remains simple.",
+        "Develop the player. Empower the person. Grow the sport.",
+        "And for today's padel investors, I would add one more principle.",
+        "Build the club. But invest just as seriously in the people and systems required to run it.",
+        "Because building a beautiful padel club is an achievement.",
+        "Building a profitable, sustainable padel business is the real measure of success."
+      ]
+    }
+  ],
+  "source": "Julian Wortelboer"
+},
+{
   "slug": "why-americas-padel-boom-is-just-beginning",
   "title": "America Isn't Late to Padel. Its Moment Has Finally Arrived.",
   "description": "Padel Master Coach Julian Wortelboer explains why padel is booming in America, lessons from Spain and Argentina, and why coaching will determine its future.",
