@@ -89,6 +89,26 @@ export const articles: Article[] = [
       ]
     },
     {
+      "heading": "The Financial Cost of Poor Management",
+      "paragraphs": [
+        "Consider a hypothetical seven-court padel facility charging $120 per 90-minute court reservation.",
+        "If poor programming and weak management result in just two additional empty reservation slots per court each day, the potential revenue impact is significant.",
+        "That's more than $600,000 in potential annual court revenue—not because the facility was poorly constructed, but because its available capacity wasn't effectively managed.",
+        "These figures illustrate potential gross revenue, not guaranteed bookings or lost profit. Actual results depend on demand, pricing, operating hours, and achievable utilization.",
+        "This is why I believe investors should apply the same discipline to selecting their club leadership as they do to selecting architects, contractors, and construction partners.",
+        "**You can build a beautiful club with money. But you cannot operate a successful club without knowledge, experience, systems, and leadership.**",
+        "A great facility attracts attention. Great operations create loyalty, community, and long-term profitability."
+      ],
+      "list": {
+        "after": 2,
+        "items": [
+          "**$1,680** in lost revenue per day.",
+          "**$50,400** in lost revenue per 30-day month.",
+          "**$604,800** in lost revenue per year, assuming twelve 30-day months."
+        ]
+      }
+    },
+    {
       "heading": "Beautiful Clubs Are Not Always Successful Businesses",
       "paragraphs": [
         "I personally know of at least five padel clubs experiencing significant financial challenges, with some owners exploring possible exit strategies.",
