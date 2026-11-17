@@ -1160,6 +1160,10 @@ export const articles: Article[] = [
 },
   {
     slug: 'premium-vs-chinese-padel-courts',
+    image: '/assets/insights/court-selection/court-inspection.jpg',
+    imageAlt: 'AI illustration of an inspector checking the steel post and glass mounting of an outdoor padel court',
+    imageCaption: 'Look beyond the price tag: inspect the structure, finishes and installation specifications. AI-generated illustration; no manufacturer is depicted.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'Premium vs. Chinese Padel Courts: What Actually Makes the Difference (and What Doesn’t)',
     category: 'Club Strategy & Operations',
     date: 'September 17, 2026',
@@ -1174,7 +1178,12 @@ export const articles: Article[] = [
         'I can tell the difference. After 25 years on padel courts—and now building and consulting on them—I can spot it in the finishes, the structure, and even the bolts holding the panels together. Premium courts generally look and feel sturdier and more solid. That difference is real.',
         'Does it change the playing experience? Usually, no. That is the part many club owners misunderstand when deciding where to spend their budget.',
       ]},
-      { heading: 'The real difference is underneath your feet', paragraphs: [
+      { heading: 'The real difference is underneath your feet', visual: {
+        src: '/assets/insights/court-selection/turf-detail.jpg',
+        alt: 'AI illustration of two artificial turf samples being examined on a workbench',
+        caption: 'Ask about fiber construction, infill and playing characteristics. AI-generated conceptual illustration, not a technical comparison of specific products.',
+        width: 1536, height: 1024
+      }, paragraphs: [
         'The secret is not the frame. It is the turf. Turf quality is what actually determines whether players enjoy themselves on your courts, and it generally comes in two types:',
       ], bullets: [
         'Monofilament was the original padel turf, dating back to when the sport moved away from cement. You will still find it in Spain and Argentina. The silica sand underneath is visible, which can give the court a dirty, uneven appearance, and it must be brushed frequently to remain playable.',
@@ -1226,6 +1235,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'ai-operations-layer-icon-padel-club',
+    image: '/assets/insights/ai-operations/ai-front-desk.jpg',
+    imageAlt: 'AI illustration of a club receptionist using a digital task dashboard while welcoming a player',
+    imageCaption: 'Technology should help the team respond faster and give members more attention. AI-generated illustration of a fictional club, not a photograph of ICON or its systems.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'The AI Operations Layer: How We’re Running Every Department at Icon Padel Club',
     category: 'Club Strategy & Operations',
     date: 'September 14, 2026',
@@ -1256,7 +1269,12 @@ export const articles: Article[] = [
         'I mean genuinely surprised, not marketing-speak: once these systems are set up properly, the speed and accuracy of the response can change a member’s perception of the club before a human ever becomes involved.',
         'The objective is not to pretend a machine is a person. It is to answer routine questions clearly, acknowledge the member immediately, and move anything sensitive or unusual to the right team member without delay.',
       ]},
-      { heading: 'Where it goes next: the parts members never see', paragraphs: [
+      { heading: 'Where it goes next: the parts members never see', visual: {
+        src: '/assets/insights/ai-operations/ai-stockroom.jpg',
+        alt: 'AI illustration of club staff coordinating supply checks with a tablet in a stockroom',
+        caption: 'Behind the member experience are supply checks, timely reporting and clear handoffs. AI-generated illustration of a fictional operation.',
+        width: 1536, height: 1024
+      }, paragraphs: [
         'Member-facing channels are the obvious starting point. But the operational side is where AI compounds the most value over time because it can prevent problems before they ever become member complaints.',
       ], bullets: [
         'Supply and inventory ordering. The toilet-paper problem is not really about toilet paper. It is a reporting gap between staff and management. A system that tracks consumption and triggers timely reorders removes an entire category of “someone forgot to mention it” failures.',
@@ -1285,6 +1303,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'if-you-build-it-they-might-not-come',
+    image: '/assets/insights/building-demand/empty-courts.jpg',
+    imageAlt: 'AI illustration of immaculate but empty indoor padel courts inside an industrial-style facility',
+    imageCaption: 'A finished facility creates capacity. Building demand takes people, programming and operational discipline. AI-generated illustration of a fictional facility.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'If You Build It, They Might Not Come',
     category: 'Club Strategy & Operations',
     date: 'September 13, 2026',
@@ -1315,7 +1337,12 @@ export const articles: Article[] = [
         'Weak business models. Many operators treated padel as an industrial real-estate play—cheap suburban square footage with nets in it—instead of investing in real management, community, coaching, and local leagues.',
         'Heavy leverage. Rapid expansion funded with borrowed money looks fine until demand softens or costs rise. Then a slow season can become a bankruptcy filing.',
       ]},
-      { heading: 'You are in the hospitality business', paragraphs: [
+      { heading: 'You are in the hospitality business', visual: {
+        src: '/assets/insights/building-demand/club-planning.jpg',
+        alt: 'AI illustration of club leaders planning the member experience and programs around a meeting table',
+        caption: 'Invest in the operating plan and the people who will deliver it before the doors open. AI-generated illustration of a fictional team.',
+        width: 1536, height: 1024
+      }, paragraphs: [
         'Remember this, club owner: being successful in your core business and loving padel yourself does not mean you know how to run a padel club.',
         'My recommendation is always the same, and I say it as someone who has built these clubs from the ground up—not watched from the sidelines. Before you open a padel club, get advice from someone who has actually run one. Do it before opening, not six months later when you are already losing money.',
         'That is why club consulting exists: to be the call before the mistakes become expensive, not after. Invest first in learning how this business actually operates and which metrics you need to watch.',
