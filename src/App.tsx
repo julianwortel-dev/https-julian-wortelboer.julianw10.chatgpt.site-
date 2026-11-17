@@ -98,6 +98,7 @@ export default function Home() {
           <div className="section-label">Meet Julian</div><h2>Performance, with <em>purpose.</em></h2>
           <p className="lead">Julian Wortelboer is a padel club strategist, operator and Master Coach helping shape the professional future of the sport.</p>
           <p>His perspective combines decades in elite racquet sports with hands-on experience in club development, financial planning, programming, brand building and team leadership.</p>
+          <p>He is the author of <em>Mastering the Art of Coaching Padel</em> and <a href="https://www.amazon.com/dp/0578348446" target="_blank" rel="noopener noreferrer"><em>Good to Great Coaching: The Science and Philosophy Behind an Effective and Successful Coach</em></a>.</p>
           <p><a href="/about-julian-wortelboer">Read more about Julian’s experience and approach →</a></p>
           <blockquote>“Develop the club. Empower the coach. Grow padel.”</blockquote>
           <div className="checks">
