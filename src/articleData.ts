@@ -2170,8 +2170,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "anticipation-is-the-highest-form-of-service",
-    "image": "/assets/carousel/coaching-wide.webp",
-    "imageAlt": "Julian Wortelboer observing players during a padel session",
+    "image": "/assets/insights/anticipatory-service/member-welcome.jpg",
+    "imageAlt": "AI illustration of a padel club team member welcoming a player with a towel and water before his session",
+    "imageCaption": "Exceptional service prepares for the member’s needs before the question is asked. AI-generated illustration of a fictional club.",
+    "imageDimensions": { "width": 1536, "height": 1024 },
     "title": "Anticipation Is the Highest Form of Service",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2222,6 +2224,13 @@ export const articles: Article[] = [
       },
       {
         "heading": "Prepare the environment, not only the response",
+        "visual": {
+          "src": "/assets/insights/anticipatory-service/courtside-preparation.jpg",
+          "alt": "AI illustration of towels, water, padel rackets and balls prepared beside a court while a staff member checks the entrance",
+          "caption": "The details should be ready before the rush: equipment, towels, water and a court checked for the next group. AI-generated illustration of a fictional club.",
+          "width": 1536,
+          "height": 1024
+        },
         "paragraphs": [
           "Anticipation also appears in the condition of the club.",
           "Towels should be available before the rush. The booking system should be checked before opening. The front desk should reset the lobby before peak time rather than waiting for it to decline. Courts should be inspected at turnover, not after a member reports a problem.",
