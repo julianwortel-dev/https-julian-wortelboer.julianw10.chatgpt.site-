@@ -1568,6 +1568,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'small-habits-that-build-a-padel-club-community',
+    image: '/assets/insights/club-community/community-welcome.jpg',
+    imageAlt: 'AI illustration of a coach introducing two members at an outdoor padel club',
+    imageCaption: 'A personal introduction can turn a first visit into belonging. AI-generated illustration of a fictional club.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'The Small Habits That Build a Padel Club Community',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
@@ -1585,7 +1589,8 @@ export const articles: Article[] = [
         'These moments show that someone is paying attention. They also help coaches connect one session to the next, giving players a sense that their development has continuity.',
         'A brief lesson record can support that consistency. The purpose is simple: make it easier to remember what matters to the player.',
       ]},
-      { heading: 'Help people find their next game', paragraphs: [
+      { heading: 'Help people find their next game',
+        visual: { src: '/assets/insights/club-community/community-social.jpg', alt: 'AI illustration of four club members sharing coffee after padel', caption: 'Community grows in the conversations between games. AI-generated illustration of a fictional club.', width: 1536, height: 1024 }, paragraphs: [
         'A welcoming first lesson should lead somewhere.',
         'A new player may enjoy the sport and still be unsure whom to play with, which clinic to join, or whether an event suits their level. The coaching team can help make that next step clear.',
         'Introduce players with compatible levels and schedules. Explain the available activities. Create regular social opportunities where people can meet without having to organise everything themselves.',
@@ -1609,6 +1614,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'real-business-model-behind-a-profitable-padel-club',
+    image: '/assets/insights/club-business/business-overview.jpg',
+    imageAlt: 'AI illustration of padel courts alongside a pro shop and club café',
+    imageCaption: 'Courts, coaching, retail and hospitality work together as one business. AI-generated illustration of a fictional club.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'The Real Business Model Behind a Profitable Padel Club',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
@@ -1633,7 +1642,8 @@ export const articles: Article[] = [
         "Corporate events (premium margin). The highest revenue per head, with very low price sensitivity. A well-packaged corporate offering can generate outsized revenue per court-hour.",
         "Extra amenities: yoga, Pilates, fitness or workout areas, and personal training. These services can produce revenue independently from court utilization through classes, training packages, memberships and recovery-focused programs. More importantly, they give members additional reasons to visit, stay longer and build a deeper relationship with the club. When these amenities are thoughtfully integrated, the business is no longer just a padel club. It becomes a complete wellness destination where members can play, train, recover and connect in one place.",
       ]},
-      { heading: 'Five pricing rules that protect your brand and margin', paragraphs: [], bullets: [
+      { heading: 'Five pricing rules that protect your brand and margin',
+        visual: { src: '/assets/insights/club-business/business-review.jpg', alt: 'AI illustration of club operators reviewing revenue charts and operating costs', caption: 'Review each revenue stream against its costs and contribution. AI-generated illustration of a fictional club.', width: 1536, height: 1024 }, paragraphs: [], bullets: [
         "Price to the value you deliver, not to the club down the street. Racing to match a competitor's price destroys the brand you spent years building.",
         "Use peak and off-peak pricing with at least a 30% differential. This isn't a discount—it's demand management.",
         'Introduce dynamic pricing for high-demand weekend slots. Your busiest hours are your least price-sensitive hours.',
@@ -1649,6 +1659,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'what-to-look-for-in-a-padel-club-general-manager',
+    image: '/assets/insights/club-management/manager-observation.jpg',
+    imageAlt: 'AI illustration of a general manager and Head of Padel observing a coaching session',
+    imageCaption: 'Strong club leaders understand what quality coaching looks like on court. AI-generated illustration of a fictional club.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'Your Most Important Hire: What to Look for in a Padel Club General Manager',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
@@ -1689,7 +1703,8 @@ export const articles: Article[] = [
         'The important question is what the manager does with the result. Can they check the information, make a sound decision and turn it into better service? They must also know what member information belongs in an approved system and what should never be pasted into a public AI tool. Accountability stays with the manager.',
         'During an interview, ask for a practical example: show me how you would use AI to improve one part of our club this week, how you would check its work, and how you would measure the improvement. You will learn much more than you will from a résumé that simply lists AI as a skill.',
       ]},
-      { heading: 'You are running a hospitality business', paragraphs: [
+      { heading: 'You are running a hospitality business',
+        visual: { src: '/assets/insights/club-management/manager-mentoring.jpg', alt: 'AI illustration of a club director mentoring a coach in a staff room', caption: 'Leadership includes developing the people who deliver the member experience. AI-generated illustration of a fictional club.', width: 1536, height: 1024 }, paragraphs: [
         'A padel club is a hospitality business. People skills belong at the center of both the GM and Head of Padel roles. Both must know how to motivate their teams, listen to members, handle difficult conversations and make people feel that they belong.',
         'Motivating a team takes clear expectations, regular feedback, recognition and support. A manager should know when a coach needs development, when a front-desk employee needs help and when a standard needs to be enforced. The team watches what the leader does every day.',
         'Creating value for members takes the same attention. Help them find suitable playing partners, give them a clear path to improve, offer programs that fit their level and follow up when something goes wrong. A member should feel that someone at the club knows them and cares about their experience. That is what gives them a reason to return.',
@@ -1727,6 +1742,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'people-process-service-padel-club-philosophy',
+    image: '/assets/insights/club-service/pps-briefing.jpg',
+    imageAlt: 'AI illustration of a club supervisor briefing maintenance and hospitality colleagues',
+    imageCaption: 'Consistent service begins with people who share clear expectations. AI-generated illustration of a fictional club.',
+    imageDimensions: { width: 1536, height: 1024 },
     title: 'People + Process = Service: The Philosophy Behind Every Great Padel Club',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
@@ -1745,7 +1764,8 @@ export const articles: Article[] = [
         "Process. Documented operating procedures exist so service quality doesn't depend on who happens to be working that day. Consistency is a system, not a personality trait.",
         'Service. The non-negotiable result: every member greeted by name, every first-time visitor introduced, and every problem solved before the shift ends.',
       ]},
-      { heading: 'Borrowing from the Ritz-Carlton, adapted for the court', paragraphs: [
+      { heading: 'Borrowing from the Ritz-Carlton, adapted for the court',
+        visual: { src: '/assets/insights/club-service/pps-ready.jpg', alt: 'AI illustration of neatly prepared rental rackets, towels, balls and an opening checklist', caption: 'Small preparations make dependable service possible, shift after shift. AI-generated illustration of a fictional club.', width: 1536, height: 1024 }, paragraphs: [
         "The Ritz-Carlton built a worldwide reputation on one idea: staff aren't employees delivering a service; they're hosts creating an experience. That mindset transfers to padel almost perfectly.",
       ], bullets: [
         'A shared motto. Define a short phrase every staff member can recite and use it in onboarding, daily huddles, and performance reviews.',
@@ -2048,8 +2068,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "the-100-icon-rule",
-    "image": "/assets/julian-portrait.webp",
-    "imageAlt": "Julian Wortelboer coaching on a padel court",
+    "image": "/assets/insights/service-recovery/icon-rule-recovery.jpg",
+    "imageAlt": "AI illustration of a club host listening to a member and offering a replacement racket",
+    "imageCaption": "Give your team the authority to make things right while the member is still there. AI-generated illustration; not a photograph of ICON.",
+    "imageDimensions": { "width": 1536, "height": 1024 },
     "title": "The $100 ICON Rule: Empowering Employees to Create Exceptional Service",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2073,6 +2095,7 @@ export const articles: Article[] = [
       },
       {
         "heading": "The rule also creates celebrations",
+        "visual": { "src": "/assets/insights/service-recovery/icon-rule-gesture.jpg", "alt": "AI illustration of a matcha drink, fresh overgrip and personal note prepared for a member", "caption": "A thoughtful gesture can make an ordinary visit memorable. AI-generated illustration; not a photograph of ICON.", "width": 1536, "height": 1024 },
         "paragraphs": [
           "The rule does more than resolve complaints. Employees may recognize a birthday, celebrate a first tournament win, welcome a new member or thank someone for introducing a friend.",
           "Consider a player who has worked for months to win a first competitive match. A team member notices and offers a matcha and a fresh grip with a handwritten congratulations. The financial value may be $25. The emotional value can be far greater because the member feels seen.",
@@ -2570,8 +2593,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "the-front-desk-is-the-heart-of-a-padel-club",
-    "image": "/assets/carousel/backhand.webp",
-    "imageAlt": "Julian Wortelboer demonstrating focus and coordination on court",
+    "image": "/assets/insights/club-reception/frontdesk-welcome.jpg",
+    "imageAlt": "AI illustration of a receptionist welcoming a first-time visitor to a padel club",
+    "imageCaption": "The first welcome sets the tone for the entire club experience. AI-generated illustration of a fictional club.",
+    "imageDimensions": { "width": 1536, "height": 1024 },
     "title": "The Front Desk Is the Heart of a Padel Club",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2612,6 +2637,7 @@ export const articles: Article[] = [
       },
       {
         "heading": "The desk is the club’s operational memory",
+        "visual": { "src": "/assets/insights/club-reception/frontdesk-handoff.jpg", "alt": "AI illustration of two reception colleagues reviewing notes during a shift handover", "caption": "A good handover keeps member needs from falling between shifts. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024 },
         "paragraphs": [
           "Every shift receives information that the next shift needs.",
           "An effective handoff covers unresolved member issues, important arrivals, maintenance concerns, payment problems and any promised follow-up. The most important items should be spoken face to face and recorded in the proper system.",
@@ -2733,8 +2759,11 @@ export const articles: Article[] = [
 
   {
     "slug": "building-icon-padel-wellness-club-rooftop",
-    "image": "/assets/julian-hero.webp",
-    "imageAlt": "Julian Wortelboer at a padel club, representing the vision and development of ICON Padel & Wellness Club",
+    "image": "/assets/insights/icon-rooftop/icon-rooftop-design.jpg",
+    "imageAlt": "Official architectural rendering of ICON Padel Club rooftop courts and landscaping in Aventura",
+    "imageCaption": "The rooftop vision for ICON Padel Club in Aventura. Official architectural rendering, not a photograph of the completed club.",
+    "imageSourceUrl": "https://iconpadelclub.com/",
+    "imageDimensions": { "width": 1600, "height": 900 },
     "title": "Seven Floors Up: What It Took to Build ICON Padel & Wellness Club on a Rooftop",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2759,6 +2788,7 @@ export const articles: Article[] = [
       },
       {
         "heading": "Creating a rooftop oasis with 3,000 living plants",
+        "visual": { "src": "/assets/insights/icon-rooftop/icon-clubhouse-design.jpg", "alt": "Official architectural rendering of ICON Padel Club hospitality seating and landscaped courts", "caption": "ICON’s design connects courts, landscaping and hospitality. Official architectural rendering, not a photograph of the completed club.", "sourceUrl": "https://iconpadelclub.com/", "width": 1600, "height": 900 },
         "paragraphs": [
           "Our vision from the first day was not simply to build padel courts on a rooftop. We wanted to create a padel and wellness oasis surrounded by living plants, with the Miami skyline as its backdrop.",
           "That vision required more than 3,000 plants throughout the club. Bringing that amount of landscaping to the seventh floor was a major project. Keeping it alive became a daily operating responsibility.",
