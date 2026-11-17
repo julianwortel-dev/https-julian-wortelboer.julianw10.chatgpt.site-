@@ -799,6 +799,10 @@ export const articles: Article[] = [
 },
 {
   "slug": "the-team-is-the-padel-club",
+  "image": "/assets/insights/club-operations/team-is-the-club.jpg",
+  "imageAlt": "AI illustration of padel coaches, hospitality staff and management sharing a morning team briefing",
+  "imageCaption": "Every role shapes the member experience. Great service begins with a team that understands and supports one another. AI-generated illustration of a fictional club.",
+  "imageDimensions": { "width": 1536, "height": 1024 },
   "title": "The Team Is the Club: Why People Make a Padel Club Succeed",
   "category": "Club Strategy & Operations",
   "date": "October 13, 2026",
@@ -890,6 +894,10 @@ export const articles: Article[] = [
 },
 {
   "slug": "zig-and-zag-strategy",
+  "image": "/assets/insights/club-operations/zig-and-zag.jpg",
+  "imageAlt": "AI illustration of a padel club connecting courts with a social café terrace and fitness studio",
+  "imageCaption": "Padel anchors the experience; hospitality, fitness and wellness can create value beyond court hours. AI-generated concept illustration, not a depiction of a named club.",
+  "imageDimensions": { "width": 1536, "height": 1024 },
   "title": "What Happens When the Courts Are Full? The Zig & Zag Strategy",
   "category": "Club Strategy & Operations",
   "date": "September 24, 2026",
@@ -1036,6 +1044,10 @@ export const articles: Article[] = [
 },
 {
   "slug": "programming-excellence",
+  "image": "/assets/insights/club-operations/programming-excellence.jpg",
+  "imageAlt": "AI illustration of a coach leading an adult padel clinic with training markers, cones and engaged players",
+  "imageCaption": "Purposeful preparation helps players see the value of a program before the first ball is fed. AI-generated illustration of a fictional clinic.",
+  "imageDimensions": { "width": 1536, "height": 1024 },
   "title": "Programming Excellence: Why Your Best Programs Still Sit Half Empty",
   "category": "Club Strategy & Operations",
   "date": "September 24, 2026",
