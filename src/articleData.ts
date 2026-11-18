@@ -1367,6 +1367,10 @@ export const articles: Article[] = [
     date: 'September 7, 2026',
     readTime: '6 min read',
     academyUrl: 'https://padelsmashgroup.com/',
+    image: "/assets/insights/coaching-eye/observe.jpg",
+    imageAlt: "Coach observing a player’s volley preparation and positioning on an outdoor padel court",
+    imageCaption: "Watch the whole sequence before choosing a correction. AI-generated illustration; fictional coaching scene.",
+    imageDimensions: {"width": 1536, "height": 1024},
     intro: [
       'A player misses a volley and the correction comes immediately: “Keep the racket up.” The next ball goes into the net, so the coach changes the instruction. “Move your feet.”',
       'Both corrections may be useful. Neither may address what actually caused the mistake.',
@@ -1388,7 +1392,7 @@ export const articles: Article[] = [
         'Recovery. What happened immediately after contact? A good shot is not complete until the player recovers their position. In padel, players are continually moving between the defensive red zone behind the baseline and the offensive green zone at the net. The transition area—the yellow zone—is necessary to cross, but dangerous to occupy for too long. The player’s recovery should prepare them and their partner for the next ball.',
         'Decision. Was the volley the right choice in the first place? This may be the most important question. Every shot in padel sets up the next shot. A technically beautiful, aggressive volley played at the wrong moment is still the wrong shot. Technique and tactics cannot be coached as separate games.',
       ]},
-      { heading: 'Observe, diagnose, correct, apply', paragraphs: [
+      { heading: 'Observe, diagnose, correct, apply', visual: {"src": "/assets/insights/coaching-eye/review.jpg", "alt": "Coach and player reviewing a practice video together courtside", "caption": "Observation becomes useful when coach and player understand the same problem. AI-generated illustration; fictional coaching scene.", "width": 1536, "height": 1024}, paragraphs: [
         'The Padel Smash Academy coaching methodology—and the foundation of my book, Mastering the Art of Coaching Padel—follows a clear learning sequence: WHAT → WHY → WHEN → HOW → WATCH → DIAGNOSE → CORRECT → APPLY.',
         'The Coach’s Eye makes one step even more explicit: OBSERVE → DIAGNOSE → CORRECT → APPLY.',
         'In simple language: See it. Understand it. Fix it. Test it.',
@@ -1416,6 +1420,10 @@ export const articles: Article[] = [
     category: 'Coaching & Player Development',
     date: 'September 6, 2026',
     readTime: '5 min read',
+    image: "/assets/insights/coaching-eye/diagnose.jpg",
+    imageAlt: "Padel coach observing a player’s footwork and spacing before a volley",
+    imageCaption: "The cause of a missed shot may begin with movement and spacing. AI-generated illustration; fictional coaching scene.",
+    imageDimensions: {"width": 1536, "height": 1024},
     intro: [
       'A player sends another volley into the net. The coach responds immediately: “Push through the ball.” On the next attempt, the player pushes harder. The ball goes long.',
       'The instruction changed the swing. It may have missed the problem.',
@@ -1436,7 +1444,7 @@ export const articles: Article[] = [
         'Give the player one clear focus. Demonstrate it. Then create a manageable situation in which they can try it.',
         'The purpose of the next few repetitions is to test your diagnosis. If the correction does not help, observe again. A coach needs to be willing to revise an explanation as readily as a player needs to revise a movement.',
       ]},
-      { heading: "Include the player's perspective", paragraphs: [
+      { heading: "Include the player's perspective", visual: {"src": "/assets/insights/coaching-eye/feedback.jpg", "alt": "Padel coach listening to a player describe their experience after a shot", "caption": "Ask what the player felt before prescribing the next correction. AI-generated illustration; fictional coaching scene.", "width": 1536, "height": 1024}, paragraphs: [
         '“What did you feel on that shot?” can reveal something a technical instruction will miss.',
         'Perhaps the player felt crowded. Perhaps they were worried about the opponent at the net. Perhaps they were trying so hard to avoid another error that they stopped moving freely.',
         'Their answer gives you information. It also invites them to participate in solving the problem. Over time, that participation helps players recognise patterns for themselves during matches, when the coach is no longer standing beside them.',
@@ -1455,6 +1463,10 @@ export const articles: Article[] = [
     category: 'Coaching & Player Development',
     date: 'September 6, 2026',
     readTime: '5 min read',
+    image: "/assets/insights/coaching-eye/practice.jpg",
+    imageAlt: "Player practising overhead preparation during a controlled padel coaching drill",
+    imageCaption: "Controlled practice gives a movement a clear starting point. AI-generated illustration; fictional coaching scene.",
+    imageDimensions: {"width": 1536, "height": 1024},
     intro: [
       'You finish a lesson feeling confident about your bandeja. The feed was comfortable, the contact felt clean, and you found your target repeatedly. Then you play a match, an awkward lob goes up, and the shot feels unfamiliar again.',
       'That gap deserves attention in the way we practise.',
@@ -1472,7 +1484,7 @@ export const articles: Article[] = [
         'Now the player has to read the ball and organise their feet. Contact is followed by recovery and another shot. The movement begins to serve a rally.',
         'Keep the technical focus simple as the situation becomes more demanding. If the session is about preparation, continue watching preparation. Avoid adding a new list of corrections just because the ball is now live.',
       ]},
-      { heading: 'Make room for the decision', paragraphs: [
+      { heading: 'Make room for the decision', visual: {"src": "/assets/insights/coaching-eye/match.jpg", "alt": "Four padel players making positioning decisions during a doubles point", "caption": "A skill must work with a live ball, a partner and a decision. AI-generated illustration; fictional coaching scene.", "width": 1536, "height": 1024}, paragraphs: [
         'The next step is point play in which the player must choose a response.',
         'Some lobs may allow the intended overhead. Others may require a safer option. The player needs practice recognising that difference, because a well-executed shot can still be the wrong choice for the situation.',
         'This is where the coach can ask two separate questions: was the decision appropriate, and how well was the shot executed?',
