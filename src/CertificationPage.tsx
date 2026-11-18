@@ -12,7 +12,7 @@ export default function CertificationPage() {
   ]};
   return <main className="article-page certification-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} />
-    <header className="site-header"><a className="brand" href="/">Julian Wortelboer</a><nav aria-label="Primary navigation"><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification" aria-current="page">Coach Certification</a><a href="/insights">Insights</a><a href="/contact">Contact Julian</a></nav><a className="mobile-contact" href="/contact">Contact</a></header>
+    <header className="site-header"><a className="brand" href="/" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" width="190" height="70" /></a><nav aria-label="Primary navigation"><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification" aria-current="page">Coach Certification</a><a href="/insights">Insights</a><a href="/contact">Contact Julian</a></nav><a className="mobile-contact" href="/contact">Contact</a></header>
     <header className="article-header"><p className="eyebrow">Padel Smash Academy · Coach education</p><h1>Being a good player doesn’t automatically make you a great coach.</h1><p>Develop your ability to teach—not just demonstrate—with Padel Smash Academy’s Level 1 padel coach certification.</p><p><strong>400+ coaches certified worldwide.</strong></p><a className="button" href={course}>Become a Certified Padel Coach →</a></header>
     <article className="article-body certification-body">
       <nav aria-label="Breadcrumb"><a href="/">Home</a> / Padel Coach Certification</nav>
