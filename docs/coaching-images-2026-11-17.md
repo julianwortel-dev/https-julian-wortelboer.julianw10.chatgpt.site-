@@ -26,3 +26,6 @@ Wide elevated diagonal editorial view of a realistic enclosed padel doubles cour
 ## Revisions
 Observe and diagnose: both people equipped with racquets; balanced continental-grip volley preparation, racket head above wrist, coach observing with racket safely down. Practice: separate coach and player across net for safe feeding; player side-on in balanced bandeja preparation. Preserve distinct people, environments and colors.
 
+
+## User reference update
+User supplied two stock-photo screenshots as stylistic references. Created original scenes with distinct fictional people, closer instruction and separate racquets: observe-v2 (coach observes and demonstrates volley preparation), diagnose-v2 (coach and learner compare grips), practice-v2 (side-by-side overhead shadow preparation). No stock photo pixels used. These replace the original three opening images; other images remain.
