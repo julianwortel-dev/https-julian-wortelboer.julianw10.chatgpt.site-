@@ -29,6 +29,151 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "the-20-minute-rule-padel-club",
+  "title": "The 20-Minute Rule: Know Your Market Before You Build a Padel Club",
+  "description": "Before building a padel club, study the people and businesses within a 20-minute drive. Julian Wortelboer explains how demographics should shape club programming and local marketing.",
+  "category": "Club Strategy & Operations",
+  "date": "November 19, 2026",
+  "readTime": "8 min read",
+  "author": "Julian Wortelboer",
+  "formatted": true,
+  "keywords": [
+    "padel club demographic study",
+    "20-minute driving market",
+    "padel club feasibility",
+    "padel club location strategy",
+    "padel club marketing",
+    "corporate padel events",
+    "Park Padel Oyster Point",
+    "Park Padel Embarcadero",
+    "padel club programming"
+  ],
+  "related": [
+    "location-coaching-programming-padel-club-success",
+    "if-you-build-it-they-might-not-come"
+  ],
+  "intro": [
+    "After more than 25 years developing, managing, and advising racquet sports clubs, I've learned that the success of a facility begins long before the first court is built. It begins with understanding the community around it.",
+    "**I call this the 20-Minute Rule.**",
+    "Before investing millions of dollars in a new padel club, ask yourself: **Who lives or works within a 20-minute drive of this location, and why would they become regular customers?**",
+    "For many clubs, that surrounding area is the first and most dependable source of everyday demand. It is not a hard boundary—special events and destination clubs can attract players from farther away—but it is where I would start.",
+    "Building beautiful courts and waiting for players to show up is not a business strategy."
+  ],
+  "sections": [
+    {
+      "heading": "Your Market Comes Before Your Building",
+      "paragraphs": [
+        "I see developers spend enormous amounts of time selecting courts, finishes, lighting, and amenities without giving the same attention to the people who will ultimately pay for them.",
+        "Think about the parent taking a child to a junior clinic, the professional looking for an after-work game, or the player who comes three mornings a week. Convenience determines whether padel becomes part of their weekly routine.",
+        "**You are not only competing for their money. You are competing for their time.**"
+      ]
+    },
+    {
+      "heading": "What I Would Study Within 20 Minutes",
+      "paragraphs": [
+        "I would study actual drive-time areas at 10, 15, and 20 minutes—not draw a 20-mile circle on a map. Rush-hour traffic, access roads, parking, and local travel patterns can change your real market dramatically.",
+        "My pre-development demographic study would answer these seven questions:"
+      ],
+      "list": {
+        "after": 2,
+        "ordered": true,
+        "items": [
+          "**Population and density:** How many people live nearby, and is the area growing?",
+          "**Income and purchasing power:** Can the surrounding community support regular participation?",
+          "**Sports and wellness lifestyle:** Are residents active in tennis, pickleball, fitness, running, cycling, or other healthy activities?",
+          "**Families and age mix:** Is there a local foundation for junior programs, social play, and recurring clinics?",
+          "**Employment and industry:** Which major employers, offices, schools, universities, and business districts are within reach?",
+          "**Competition and alternatives:** Where can local residents already spend their recreational time?",
+          "**Practical accessibility:** How long does it take to arrive at the hours players would actually use the club?"
+        ]
+      }
+    },
+    {
+      "heading": "An Industrial Market Is Not a Residential Market",
+      "paragraphs": [
+        "You cannot copy a successful padel club's operating plan and automatically expect the same results at another address.",
+        "A location near large employers might thrive on corporate outings, employee wellness, private group events, and sponsorship relationships. A neighborhood full of families may need a junior academy and family-friendly schedules. Downtown, convenience and social access may matter most.",
+        "None of these markets is automatically better. **They are different, and your programming must reflect the difference.**"
+      ]
+    },
+    {
+      "heading": "Your Programming Has to Match Your Community",
+      "paragraphs": [
+        "Before setting a clinic schedule, I want to know what the surrounding community needs. Who has time to play in the morning? Who works nearby? Are there enough families for a junior program? Would local employers organize group events?",
+        "I would use those answers to determine the mix of clinics, leagues, lessons, social matches, introductory sessions, and corporate experiences.",
+        "**Your market should shape your programming. Your programming should shape your marketing. Not the other way around.**"
+      ]
+    },
+    {
+      "heading": "Market Locally, Not Generically",
+      "paragraphs": [
+        "A corporate district and a residential district should not receive identical marketing campaigns.",
+        "Near employers, I would build relationships with business leaders, human resources teams, and wellness coordinators. Around families, I would connect with schools, neighborhood groups, and local businesses. Downtown, I would highlight accessibility, convenience, and social connection.",
+        "The goal is not to reach everyone. It's to reach the right people consistently enough to build real habits and a community."
+      ]
+    },
+    {
+      "heading": "Validate Demand Before Opening",
+      "paragraphs": [
+        "Demographic data is the foundation, but it isn't proof that people will book.",
+        "Before opening, I would speak with residents and local companies, collect pre-opening interest, test introductory experiences, and track qualified inquiries for lessons, clinics, memberships, and events.",
+        "I would measure registrations, corporate leads, realistic expected playing frequency, and repeat-booking potential. Social media attention alone does not pay the bills.",
+        "**Start building your customer base before you finish building your courts.**"
+      ]
+    },
+    {
+      "heading": "A Real Example: Two Park Padel Clubs, Two Markets",
+      "paragraphs": [
+        "One of the clearest examples comes from my consulting work with Park Padel in the San Francisco Bay Area.",
+        "Consider Oyster Point in South San Francisco and Embarcadero in the heart of San Francisco. They belong to the same brand, but the neighborhoods and businesses around them create two different opportunities. That should change both programming and local marketing."
+      ]
+    },
+    {
+      "heading": "Oyster Point: The Corporate and Biotech Opportunity",
+      "paragraphs": [
+        "Park Padel's Oyster Point location is in the South San Francisco industrial and life-sciences corridor, surrounded by biotechnology companies and employees.",
+        "Someone evaluating the area might see industrial buildings and overlook the potential. But once you study the companies nearby, a different strategy becomes clear: corporate outings, company gatherings, employee wellness, team-building, and biotechnology sponsorship partnerships.",
+        "The companies surrounding the club can introduce groups of new players to padel. **An industrial location can become a competitive advantage when you understand the businesses around it.**"
+      ],
+      "visual": {
+        "src": "https://images.squarespace-cdn.com/content/v1/6561722f98ef06102e5fe3ca/812e2439-a66f-42e1-bbad-0d79de858af1/Park%2BPadel%2BSSF_Studio%2BBBA%2B%2B%2814%29.jpg?format=1500w",
+        "alt": "Indoor padel doubles match at Park Padel's South San Francisco Oyster Point facility",
+        "caption": "Oyster Point: Six indoor courts serving South San Francisco's surrounding community and business district. Photo: Park Padel.",
+        "sourceUrl": "https://parkpadel.com/clubs/south-san-francisco",
+        "width": 1500,
+        "height": 1000
+      }
+    },
+    {
+      "heading": "Embarcadero: The Downtown Community Opportunity",
+      "paragraphs": [
+        "Now look at Park Padel at Embarcadero, right in the heart of San Francisco.",
+        "Downtown workers, residents, pedestrian activity, transit access, and people looking for a convenient game create a different type of local opportunity.",
+        "Here, I'd focus on accessible recreational play, after-work sessions, introductory clinics, social programs, and a marketing message built around convenience and neighborhood community.",
+        "**Same sport. Same brand. Different markets. Different strategies.**"
+      ],
+      "visual": {
+        "src": "https://parkpadel.com/assets/court-ferry-building-DPHH8bJ9.webp",
+        "alt": "Park Padel Embarcadero outdoor court with the San Francisco Ferry Building in the background",
+        "caption": "Embarcadero: Outdoor courts in the heart of downtown San Francisco. Photo: Park Padel.",
+        "sourceUrl": "https://parkpadel.com/clubs/san-francisco",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "heading": "My Final Thought",
+      "paragraphs": [
+        "The 20-Minute Rule is a practical planning framework, not a guarantee of success or an absolute limit on how far people will travel.",
+        "Whether you're developing three courts or ten, in an industrial facility or in the middle of a city, the lesson is the same.",
+        "**Don't build a padel club and then look for your customers. Understand your customers first, and build the right club for them.**"
+      ]
+    }
+  ],
+  "source": "Drawing on my club development and consulting experience, including my work with Park Padel in the San Francisco Bay Area."
+},
+
+{
   "slug": "million-dollar-mistake-padel-club-investors",
   "title": "The Million-Dollar Mistake Padel Club Investors Are Making",
   "description": "Julian Wortelboer explains how investors can evaluate padel club leadership, operating plans, cash yield, and exit strategy before committing to construction.",
