@@ -393,3 +393,9 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .article-newsletter-invite{margin-top:25px}
 @media(max-width:900px){.newsletter-signup{grid-template-columns:1fr}.newsletter-signup-intro{max-width:760px}}
 @media(max-width:560px){.newsletter-fields,.newsletter-topic-grid{grid-template-columns:1fr}.newsletter-country{grid-column:auto}.newsletter-form .button{width:100%}.newsletter-intro h1{font-size:clamp(51px,15vw,72px)}}
+
+/* Kit-managed inline form: Kit handles the form markup and subscription consent. */
+.newsletter-kit-form { min-width: 0; align-self: start; background: #fff; padding: clamp(18px,3vw,36px); border-top: 5px solid var(--acid); }
+.newsletter-kit-form form { max-width: 100%; }
+.newsletter-kit-form iframe { max-width: 100%; }
+@media (max-width: 560px) { .newsletter-kit-form { padding: 14px; } }
