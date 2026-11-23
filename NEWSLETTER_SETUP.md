@@ -1,28 +1,38 @@
-# The Padel Playbook — Launch checklist
+# The Padel Playbook — Newsletter launch checklist
 
-Site branch: `feature/padel-playbook-newsletter`.
-URL after publish: https://www.julianwortelboer.com/newsletter
+## Site readiness
+Review PR: https://github.com/julianwortel-dev/https-julian-wortelboer.julianw10.chatgpt.site-/pull/1
+Preview branch: `feature/padel-playbook-newsletter`.
+Public route after merge and deployment: https://www.julianwortelboer.com/newsletter
 
-## Required Kit setup (owner access)
+The owner created and published a Kit inline form named **The Padel Playbook – Website Signup**.
+The public embed snippet supplied by the owner is:
+```html
+<script async data-uid="80d927b05e" src="https://julian-wortelboer.kit.com/80d927b05e/index.js"></script>
+```
+The newsletter React page uses this code through `src/NewsletterSignup.tsx`. The embed runs on the statically rendered newsletter page and Kit directly collects subscribers. No API key, separate backend, or form ID is required for this chosen embed implementation.
 
-1. Create the Kit account at https://app.kit.com.
-2. Under **Grow > Landing Pages & Forms**, create a form called **The Padel Playbook — Website Signup**.
-3. Keep the Kit **confirmation email / double opt-in enabled**. Customize its subject and copy for Julian.
-4. Create Kit custom fields with exact API keys: `full_name`, `city`, `state_province`, `country`, `interests`, and `source`. These fields must exist before using the Kit API. In Kit you can add them from a subscriber profile > Custom Fields or through the form builder.
-5. Under Kit Settings > Developer, create/locate an API key. In **Vercel project settings > Environment Variables** add `KIT_API_KEY` and `KIT_FORM_ID` (numeric form ID from Kit). **Never share secrets in ChatGPT, GitHub, screenshots, or public files.** The owner should enter them directly in Vercel.
-6. Redeploy Vercel after environment variables are configured.
-7. Before publishing the new signup page, submit a test subscriber, confirm the email, and verify all custom fields including multiple topic interests in Kit.
-8. Only then merge the newsletter branch into `main` and verify the public page is accessible and collecting emails.
+## Required before going live
+1. In Kit, open **The Padel Playbook – Website Signup**. Check that **Send confirmation email** is enabled and **Auto-confirm new subscribers** is disabled. The owner set the subject to **Confirm your subscription to The Padel Playbook**.
+2. Configure the Kit-hosted form to collect: **Full name** (required), **Email** (required), **City** (required), **State/Province** (optional), **Country** (required), and interest topics (multiple selections permitted). The default form template may not contain these fields; they must be added and verified in Kit. Kit's native form builder and plan may constrain multi-select behavior; verify before promising that all selections are captured. If necessary, build a custom form plus a secure backend in a separate reviewed change.
+3. Seven interests requested:
+   - Padel News & Community
+   - Padel Club Management
+   - Padel Club Development & Investment
+   - Padel Coaching Tips
+   - Padel Coach Education & Certification
+   - Player Improvement
+   - AI & Technology in Padel Clubs
+4. In Kit, Save & Publish the customized form.
+5. On a Vercel preview deployment, inspect desktop and mobile views. Submit a consented test subscription, check the Kit email confirmation link, verify the subscriber profile contains all required location and interest fields, and verify unsubscribe works.
+6. Review the GitHub pull request build checks; merge only once the form works as intended. Check `/newsletter`, the homepage, `/insights`, and article CTAs after deployment.
+7. Consider a clear privacy policy link and explicit consent wording before launch. Use Kit's own confirmed subscriber reporting.
 
-## Newsletter structure
-- Weekly: **The Padel Playbook**
-- Intended schedule: Tuesday at 8:00 AM Eastern, to be scheduled inside Kit after sender verification.
-- Segments: Padel News & Community; Padel Club Management; Padel Club Development & Investment; Padel Coaching Tips; Padel Coach Education & Certification; Player Improvement; AI & Technology in Padel Clubs.
-- Metrics: confirmed new subscribers/week, signup conversion, subscriber topic mix and location, click-through to Insights and consulting requests.
-- Send a welcome email after confirmation. Do not send any broadcast until sender domain and newsletter copy are approved.
-- Readers can choose multiple interests; topics are stored as a pipe-delimited custom field for reporting.
+## Weekly newsletter
+- Proposed name: **The Padel Playbook**.
+- Proposed timing: Tuesdays at 8 AM Eastern, once sender identity and first issue have been approved.
+- Structure: a featured Insight, one practical coaching/club operations tip, one additional resource, and a relevant invitation.
+- Metrics: newsletter sign-ups, confirmed subscribers, most popular subjects, location mix, clicked Insights, and qualified consulting inquiries.
 
-## Important limitations
-- GitHub/Vercel hold website code. **Kit** holds the subscriber list. No subscriber data goes to the frontend or GitHub.
-- Without `KIT_API_KEY` and `KIT_FORM_ID`, the form displays a service-not-ready message and does not save any data.
-- Custom field keys must be verified in Kit, and the endpoint should be tested in a Vercel preview environment before going live.
+## Important limitation
+The form is committed to a GitHub review branch, but has **not** been merged, deployed, or tested on the live site. The embedding code by itself does **not** guarantee the custom fields and interests exist in Kit. Do not imply full newsletter integration is operational until a real test subscription confirms it.
