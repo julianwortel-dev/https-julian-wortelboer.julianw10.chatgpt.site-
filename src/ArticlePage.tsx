@@ -193,11 +193,17 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
         </div>
       </article>
 
+      <section className="article-newsletter-invite" aria-label="The Padel Playbook weekly newsletter">
+        <p className="section-label">Free weekly newsletter</p>
+        <h2>Get more practical padel insights in your inbox.</h2>
+        <p>Join The Padel Playbook for coaching ideas, club management, industry perspectives, and lessons from my experience.</p>
+        <a className="button button-primary" href="/newsletter">Subscribe to The Padel Playbook <ArrowRight size={18} /></a>
+      </section>
       {related.length > 0 && <section className="related-insights"><div className="section-label">Continue reading</div>{related.map((item) => <a href={`/insights/${item.slug}`} key={item.slug}><span>{item.title}</span><ArrowRight size={20} /></a>)}</section>}
 
       <footer>
         <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
-        <div><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a></div>
+        <div><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="/insights">Insights</a><a href="/newsletter">Newsletter</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a></div>
       </footer>
     </main>
   );

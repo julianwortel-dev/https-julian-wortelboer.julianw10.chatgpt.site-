@@ -32,7 +32,7 @@ export default function Home() {
       <header className="site-header">
         <a href="#top" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Primary navigation">
-          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="#about">About</a><a href="/insights">Insights</a>
+          <a href="#expertise">Expertise</a><a href="#work">Work</a><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="#about">About</a><a href="/insights">Insights</a><a href="/newsletter">Newsletter</a>
           <a className="nav-cta" href="#contact">Work with Julian <ArrowDownRight size={16} /></a>
         </nav>
         <a className="mobile-contact" href="#contact" aria-label="Contact Julian"><Menu size={22} /></a>
@@ -168,6 +168,10 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="newsletter-promo section" aria-label="The Padel Playbook newsletter">
+        <div className="section-label">A free weekly newsletter</div>
+        <div className="section-heading"><h2>The Padel <em>Playbook.</em></h2><div><p>Join me for practical weekly insights into padel coaching, club development, management, and the future of our sport.</p><a className="button button-primary" href="/newsletter">Subscribe free <ArrowRight size={18} /></a></div></div>
+      </section>
       <section className="contact" id="contact">
         <p className="eyebrow"><span /> Miami · Available for select projects worldwide</p>
         <h2>Ready to build a club<br />people talk about?</h2>
@@ -177,7 +181,7 @@ export default function Home() {
 
       <footer>
         <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
-        <div><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="/insights">Insights</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
+        <div><a href="/padel-coaching-miami">Coaching</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a href="/insights">Insights</a><a href="/newsletter">Newsletter</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>
   );

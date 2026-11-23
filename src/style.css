@@ -352,3 +352,44 @@ footer>div:last-child { display:flex; gap:25px; justify-content:flex-end; font-s
 .article-consultation-cta h2 { color:white; margin:0 0 20px; }
 .article-consultation-cta>p:not(.article-consultation-eyebrow) { color:rgba(255,255,255,.85); font-size:17px; line-height:1.65; }
 .article-consultation-cta .button { margin-top:16px; font-size:14px; color:var(--ink); }
+
+/* The Padel Playbook: newsletter landing page and signup invitations */
+.newsletter-intro{padding:clamp(70px,9vw,120px) clamp(24px,7vw,110px);background:var(--ink);color:#fff}
+.newsletter-intro h1{font-size:clamp(64px,9vw,125px);margin:35px 0}
+.newsletter-intro>p:last-child{font-size:clamp(17px,2vw,22px);line-height:1.5;color:rgba(255,255,255,.78);max-width:760px}
+.newsletter-signup{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(30px,5vw,100px);padding:clamp(65px,9vw,125px) clamp(24px,7vw,110px)}
+.newsletter-signup-intro h2{font-size:clamp(36px,4vw,62px);line-height:1.06;letter-spacing:-.045em;margin:30px 0}
+.newsletter-signup-intro>p{font-size:17px;line-height:1.7;color:var(--muted)}
+.newsletter-signup-intro .newsletter-note{font-weight:700;color:var(--ink)}
+.newsletter-form{background:white;border-top:5px solid var(--acid);padding:clamp(20px,3vw,42px);display:flex;flex-direction:column;gap:24px}
+.newsletter-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px}
+.newsletter-fields label{font-weight:700;font-size:13px;display:flex;flex-direction:column;gap:8px}
+.newsletter-fields input{border:1px solid #bcb5aa;background:white;color:var(--ink);font-size:15px;padding:13px 14px;min-width:0;width:100%;border-radius:0}
+.newsletter-country{grid-column:1/-1}
+.newsletter-optional{font-weight:400;color:var(--muted)}
+.newsletter-interests{border:0;margin:0;padding:0}
+.newsletter-interests legend{font-size:15px;font-weight:700;margin-bottom:18px}
+.newsletter-interests legend span{font-weight:400;color:var(--muted);font-size:13px}
+.newsletter-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.newsletter-topic-grid label{display:flex;align-items:flex-start;gap:9px;font-size:13px;line-height:1.4;cursor:pointer}
+.newsletter-topic-grid input,.newsletter-consent input{width:17px;height:17px;flex-shrink:0;accent-color:var(--ink)}
+.newsletter-topic-grid input{margin:1px 0 0}
+.newsletter-consent{display:flex;align-items:flex-start;gap:12px;font-size:13px;line-height:1.55;cursor:pointer}
+.newsletter-consent input{margin:2px 0 0}
+.newsletter-form .button{border:0;cursor:pointer;align-self:flex-start}
+.newsletter-privacy{font-size:12px;color:var(--muted);line-height:1.6;margin:0}
+.newsletter-honeypot{position:absolute;left:-99999px;width:1px;height:1px;overflow:hidden}
+.newsletter-bottom{padding:clamp(65px,8vw,105px) clamp(24px,7vw,110px);background:#e6e2d8}
+.newsletter-bottom h2{font-size:clamp(34px,4vw,58px);letter-spacing:-.05em}
+.newsletter-bottom p{max-width:680px;line-height:1.65;color:var(--muted)}
+.newsletter-bottom a{font-weight:700;border-bottom:1px solid}
+.newsletter-promo{background:#e8e3da}
+.newsletter-promo .section-heading{margin-top:27px}
+.newsletter-promo .section-heading>div p{font-size:17px;line-height:1.6;color:var(--muted)}
+.newsletter-promo .section-heading .button{margin-top:22px}
+.insights-newsletter-invite,.article-newsletter-invite{background:#e6e2d8;padding:clamp(50px,7vw,95px) clamp(24px,7vw,110px)}
+.insights-newsletter-invite h2,.article-newsletter-invite h2{font-size:clamp(34px,4vw,62px);line-height:1.08;letter-spacing:-.05em;max-width:950px;margin:25px 0}
+.insights-newsletter-invite p:not(.section-label),.article-newsletter-invite p:not(.section-label){font-size:17px;line-height:1.6;color:var(--muted);max-width:650px}
+.article-newsletter-invite{margin-top:25px}
+@media(max-width:900px){.newsletter-signup{grid-template-columns:1fr}.newsletter-signup-intro{max-width:760px}}
+@media(max-width:560px){.newsletter-fields,.newsletter-topic-grid{grid-template-columns:1fr}.newsletter-country{grid-column:auto}.newsletter-form .button{width:100%}.newsletter-intro h1{font-size:clamp(51px,15vw,72px)}}

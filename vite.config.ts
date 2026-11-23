@@ -12,6 +12,7 @@ export default defineConfig({
         contact: resolve(__dirname, 'contact.html'),
         coaching: resolve(__dirname, 'coaching.html'),
         insights: resolve(__dirname, 'insights.html'),
+        newsletter: resolve(__dirname, 'newsletter.html'),
         growthRoadmap: resolve(__dirname, 'growth-roadmap.html'),
         growthRoadmapAssessment: resolve(__dirname, 'growth-roadmap-assessment.html'),
         articleCourts: resolve(__dirname, 'article-courts.html'),

@@ -52,7 +52,7 @@ export default function InsightsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
-        <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
+        <nav aria-label="Insights navigation"><a href="/">Home</a><a href="/#expertise">Expertise</a><a href="/#work">Work</a><a href="/padel-coach-certification">Coach Certification</a><a href="/padel-club-growth-roadmap">Club Roadmap</a><a href="/newsletter">Newsletter</a><a href="https://ai360.julianwortelboer.com/" target="_blank" rel="noopener noreferrer">Padel AI 360</a><a className="nav-cta" href="/contact">Work with Julian <ArrowRight size={16} /></a></nav>
         <a className="mobile-contact contact-back" href="/" aria-label="Back to homepage"><ArrowLeft size={22} /></a>
       </header>
 
@@ -83,6 +83,12 @@ export default function InsightsPage() {
         ))}
       </section>
 
+      <section className="insights-newsletter-invite">
+        <p className="section-label">The Padel Playbook</p>
+        <h2>Enjoying these insights?<br /><em>Get one every week.</em></h2>
+        <p>Join my free newsletter for coaching tips, padel management, club development, and the ideas shaping our sport.</p>
+        <a className="button button-primary" href="/newsletter">Join the newsletter <ArrowRight size={18} /></a>
+      </section>
       <section className="insights-cta">
         <h2>Have a topic you’d like<br />Julian to explore?</h2>
         <a className="button button-light" href="mailto:julianwortel@gmail.com?subject=Insights%20topic%20suggestion">Suggest a topic <ArrowRight size={18} /></a>
@@ -90,7 +96,7 @@ export default function InsightsPage() {
 
       <footer>
         <div className="brand footer-wordmark"><img className="wordmark" src="/assets/julian-wordmark-transparent.webp" alt="Julian Wortelboer" /></div><p>Padel strategy · Operations · Leadership</p>
-        <div><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="/">Homepage</a></div>
+        <div><a href="/newsletter">Newsletter</a><a href="https://www.linkedin.com/in/julianwortelboer" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/julianwortelboer/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@padelsmashtv" target="_blank" rel="noreferrer">YouTube</a><a href="/">Homepage</a></div>
       </footer>
     </main>
   );

@@ -119,6 +119,10 @@
       "destination": "/insights.html"
     },
     {
+      "source": "/newsletter",
+      "destination": "/newsletter.html"
+    },
+    {
       "source": "/insights/premium-vs-chinese-padel-courts",
       "destination": "/article-courts.html"
     },
