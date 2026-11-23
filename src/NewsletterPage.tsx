@@ -3,6 +3,13 @@ import NewsletterSignup from './NewsletterSignup';
 export default function NewsletterPage() {
   return (
     <main className="newsletter-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org', '@type':'WebPage',
+        name:'The Padel Playbook Newsletter',
+        url:'https://www.julianwortelboer.com/newsletter',
+        description:'Free weekly padel newsletter by Julian Wortelboer',
+        isPartOf:{'@id':'https://www.julianwortelboer.com/#website'}
+      }) }} />
       <header className="site-header">
         <a href="/" className="brand" aria-label="Julian Wortelboer home"><img className="wordmark" src="/assets/julian-wordmark.webp" alt="Julian Wortelboer" /></a>
         <nav aria-label="Newsletter navigation"><a href="/">Home</a><a href="/insights">Insights</a><a href="/padel-coaching-miami">Coaching</a><a className="nav-cta" href="/contact">Work with Julian</a></nav>
