@@ -29,6 +29,181 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "adults-built-padel-kids-will-build-its-future",
+  "title": "Adults Built Padel. Kids Will Build Its Future.",
+  "description": "Why junior development, qualified coaches and the rise of country club padel could unlock the sport’s next wave of global growth.",
+  "category": "Padel Industry & Leadership",
+  "date": "November 24, 2026",
+  "readTime": "10 min read",
+  "author": "Julian Wortelboer",
+  "formatted": true,
+  "keywords": [
+    "junior padel development",
+    "junior padel coaches",
+    "country club padel",
+    "collegiate padel",
+    "USA Padel",
+    "FISU World University Padel Championship"
+  ],
+  "intro": [
+    "Why junior development, qualified coaches and the rise of country club padel could unlock the sport’s next wave of global growth.",
+    "What if the next great American padel champion is a four-year-old child who hasn't picked up a padel racket yet?",
+    "Today, the padel industry is focused on building courts, opening clubs, attracting investors and introducing new players to the sport.",
+    "But are we investing enough in the generation that will ultimately determine its future?"
+  ],
+  "sections": [
+    {
+      "heading": "1. Understanding the Evolution of Padel",
+      "paragraphs": [
+        "Every sport begins with people discovering it, playing it and eventually falling in love with it.",
+        "Padel is no different.",
+        "In my experience, the first wave of players in emerging padel markets is largely made up of adults between the ages of 25 and 50. They are physically active, curious about new sports and, in many cases, come from a tennis or racquet sports background.",
+        "This is what we are experiencing today in the United States and many countries around the world.",
+        "Spain and Argentina, with decades of established padel culture, are at a much more mature stage of development.",
+        "But something very exciting is beginning to happen.",
+        "The adults who discovered padel over the past few years are now bringing their children onto the court.",
+        "**This is where the next chapter of padel begins.**"
+      ]
+    },
+    {
+      "heading": "2. Junior Development: The Next Stage of Global Growth",
+      "paragraphs": [
+        "Adults have professional responsibilities, family commitments, limited training time and already-established athletic skills.",
+        "Children represent an entirely different opportunity.",
+        "They have years ahead of them to develop technically, tactically, physically and mentally.",
+        "In my opinion, every padel club should have a structured junior development pathway, beginning as early as four years old.",
+        "**Ages 4–7 | Discovery and Fun**",
+        "Hand-eye coordination, balance, movement and agility; fun games and fundamental athletic skills; developing a positive relationship with the sport.",
+        "**Ages 8–12 | Skill Development**",
+        "Technical fundamentals, court positioning, coordination and racquet skills, introduction to tactical concepts and friendly competition.",
+        "**Ages 13–17 | Development and Performance**",
+        "Advanced technical and tactical development, age-appropriate physical preparation, mental and emotional development, structured competition and high-performance pathways for motivated players.",
+        "Not every child needs to become a professional player. But every child should have the opportunity to develop a lifelong love for the sport."
+      ]
+    },
+    {
+      "heading": "3. The Missing Ingredient: Qualified Junior Coaches",
+      "paragraphs": [
+        "Before we can develop the next generation of padel players, we must develop the next generation of padel coaches.",
+        "This is one of the most important challenges facing the United States and the global padel industry.",
+        "Knowing how to play padel and knowing how to teach a four-year-old are two completely different skill sets.",
+        "Junior coaches must understand child development and age-appropriate teaching methodologies, fundamental motor skills and athletic development, communication and motivation, emotional intelligence and positive reinforcement, creative games and engaging activities, progressive technical and tactical development, child safety and safeguarding, and managing parental expectations.",
+        "We need specialized junior coaching education and certification programs that prepare coaches specifically for working with children.",
+        "Simply adapting an adult padel lesson for a younger player is not junior development.",
+        "**Children are not miniature adults. They require a completely different coaching approach.**",
+        "National federations, coaching organizations and padel academies worldwide must recognize this responsibility.",
+        "Building more courts without developing qualified coaches will not solve the problem."
+      ]
+    },
+    {
+      "heading": "4. The Three Rules of Coaching Juniors",
+      "paragraphs": [
+        "Throughout my coaching career, I have observed a fundamental difference between teaching adults and teaching children.",
+        "When adults step onto a padel court, they generally want three things:",
+        "1. To exercise. 2. To have a good time. 3. To learn something.",
+        "Children have three completely different priorities:",
+        "1. To have a good time. 2. To have a GREAT time. 3. They might learn something along the way.",
+        "The objective is not simply to teach a child how to hit a forehand, a volley or a bandeja.",
+        "The objective is to make that child want to come back.",
+        "When a six-year-old finishes a lesson, runs toward their parents and says:",
+        "*Mom, I had the best time today! When can I come back?*",
+        "That is when you know you have succeeded as a coach.",
+        "Once children fall in love with the sport, the learning process becomes much easier.",
+        "**A great padel player is not necessarily a great junior coach.**"
+      ]
+    },
+    {
+      "heading": "5. Are Club Owners Willing to Invest in the Future?",
+      "paragraphs": [
+        "Here comes one of the biggest challenges, particularly in the United States.",
+        "Many padel clubs are privately owned businesses with significant investments, operational expenses and revenue expectations.",
+        "A court dedicated to junior programming may not generate the same immediate revenue as an adult court reservation during prime time.",
+        "So, the question becomes:",
+        "**Are club owners willing to sacrifice some short-term revenue to create long-term growth?**",
+        "I believe they should.",
+        "There are several ways to make junior development financially sustainable: introduce affordable junior memberships, create structured after-school programs, utilize underperforming court hours, develop seasonal camps and junior leagues, organize parent-and-child events, create partnerships with local schools, develop progressive junior academies and establish sponsored junior development programs.",
+        "Junior programming should not be viewed simply as another revenue stream.",
+        "It should be viewed as an investment in future members, future families, future competitors and the long-term sustainability of the club.",
+        "Today's eight-year-old could become tomorrow's lifelong member."
+      ]
+    },
+    {
+      "heading": "6. Country Clubs: The Missing Link in American Padel",
+      "paragraphs": [
+        "One of the most exciting developments I am observing in the United States is the growing adoption of padel within traditional country clubs.",
+        "For decades, these institutions have built their sporting cultures around golf, tennis, swimming and family activities.",
+        "Now, more and more country clubs are introducing padel.",
+        "Unlike many standalone commercial padel clubs, country clubs already have an established membership base, often consisting of multiple generations of the same family.",
+        "They already have established communities, junior sports programs, families visiting regularly, experienced racquet sports departments, summer camps and holiday programming, and a membership culture built around participation and belonging.",
+        "These clubs do not necessarily need to find an entirely new audience for padel.",
+        "**Their next generation of padel players is already there.**",
+        "Having spent more than two decades working within the private club and racquet sports industry, I understand the tremendous potential of this environment.",
+        "I believe country clubs could become one of the most important engines of junior padel development in the United States."
+      ]
+    },
+    {
+      "heading": "7. From the Playground to the University Campus",
+      "paragraphs": [
+        "If we truly want padel to become an established sport in the United States, junior development cannot end at the club level.",
+        "It must extend into the educational system.",
+        "For decades, sports such as tennis, basketball, golf and soccer have benefited from the American educational and collegiate sports ecosystem.",
+        "Padel has an opportunity to build a similar pathway.",
+        "And we are already seeing the foundations being established through several important initiatives: USA Padel’s Collegiate Padel program, the American College Padel League and the College Padel League.",
+        "These initiatives are creating opportunities for university students to discover padel, establish teams, compete and represent their institutions.",
+        "But we cannot wait until young athletes reach university to introduce them to the sport.",
+        "We must start much earlier.",
+        "Elementary schools, middle schools and high schools should become part of the long-term development strategy.",
+        "Partnerships between schools, municipalities, universities and local padel clubs could help make the sport accessible without requiring every educational institution to immediately build its own courts.",
+        "Imagine a future in which talented young padel players could earn university scholarships through the sport, just as tennis and golf players do today.",
+        "We are not there yet, but that is the kind of long-term vision the industry needs.",
+        "**Padel must become a sport that children can grow up with, not simply a sport that adults discover.**"
+      ]
+    },
+    {
+      "heading": "8. From the University Campus to the World Stage",
+      "paragraphs": [
+        "From July 7 to 11, 2026, Málaga, Spain, hosted the inaugural FISU World University Padel Championship.",
+        "The United States participated in this historic international competition, representing another significant milestone in the development of collegiate padel.",
+        "USA Padel's involvement with two important organizations further strengthens this opportunity: NIRSA: Leaders in Collegiate Recreation, supporting university recreation, sports participation and student wellness; and UniUSA, the official United States affiliate of the International University Sports Federation (FISU).",
+        "These relationships can help connect campus recreation, national collegiate competition and international representation.",
+        "Now imagine the possibilities.",
+        "A child discovers padel at four years old, joins a junior academy at eight, starts competing at twelve, represents their high school at sixteen, competes for their university at eighteen and eventually represents their country on the international stage.",
+        "This pathway is beginning to take shape.",
+        "But none of it can happen on a sustainable scale without investing in junior development and qualified coaches today."
+      ]
+    },
+    {
+      "heading": "9. The Responsibility of National Federations",
+      "paragraphs": [
+        "Junior development cannot be accomplished by individual clubs alone.",
+        "It requires collaboration between national federations, club owners, coaches, schools, universities and families.",
+        "In the United States, USA Padel has been making tremendous efforts to move the sport forward.",
+        "The next opportunity is to continue strengthening a nationwide junior development ecosystem that includes national junior development frameworks, specialized junior coaching certifications, local, regional and national junior competitions, age-appropriate training and competition formats, school and university partnerships, talent identification, national junior training and performance programs, and greater access to international competition.",
+        "**Clubs develop players. Coaches inspire them. Schools expand access. Universities create opportunities. Federations connect the pathway.**",
+        "They must all work together.",
+        "This applies not only to the United States but to every emerging padel market around the world."
+      ]
+    },
+    {
+      "heading": "10. From a Padel Boom to a Padel Culture",
+      "paragraphs": [
+        "There is a fundamental difference between a sport experiencing rapid commercial growth and a sport becoming part of a country's culture.",
+        "We can build thousands of courts, open hundreds of clubs and attract millions of dollars in investment.",
+        "But if we fail to introduce the next generation to padel, we risk building an industry without developing a lasting sporting culture.",
+        "The next great opportunity in padel is not simply geographical expansion.",
+        "**It is generational expansion.**",
+        "If we want padel to become an established global sport, we must begin investing in children and the coaches who will educate them today.",
+        "As club owners, coaches, directors, investors, educators and federations, we have a responsibility that goes beyond the immediate success of our businesses.",
+        "We have a responsibility to grow the sport itself.",
+        "**The success of padel will ultimately be measured not by how many courts we build, but by how many generations we inspire to play.**",
+        "*Develop the player. Empower the person. Grow the sport.*",
+        "Want more insights on padel coaching, club operations, business strategy and the future of our industry? Subscribe to my newsletter and be part of the conversation shaping the future of padel."
+      ]
+    }
+  ],
+  "source": ""
+},
+{
   "slug": "the-20-minute-rule-padel-club",
   "image": "/assets/insights/twenty-minute-rule/drive-time-market.jpg",
   "imageAlt": "Club planners studying neighborhood access and a road-based catchment area on a map",

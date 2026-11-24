@@ -169,6 +169,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
                 <a className="button button-light" href="https://wa.me/13054311700" target="_blank" rel="noopener noreferrer">Let’s Talk About Your Club <ArrowRight size={18} /></a>
               </section>
             )}
+            {article.slug === 'adults-built-padel-kids-will-build-its-future' && <section aria-label="Further reading"><h2>Official resources</h2><p><a href="https://padelusa.org/collegiate-padel/">USA Padel — Collegiate Padel</a> · <a href="https://joinacpl.com/">American College Padel League</a> · <a href="https://collegepadelleague.com/">College Padel League</a> · <a href="https://padel2026.fisu.net/">FISU World University Padel Championship</a> · <a href="https://nirsa.net/">NIRSA</a> · <a href="https://www.uni-usa.org/">UniUSA</a></p><a href="/newsletter">Subscribe to my newsletter <ArrowRight size={16} /></a></section>}
             {article.source && <p className="article-source"><em><BookLinkedText text={article.source} /></em></p>}
             {article.slug === 'how-to-hire-a-padel-coach'
               ? <a className="text-link article-academy-link" href="https://padelsmashgroup.com/" target="_blank" rel="noreferrer">Visit Padel Smash Group <ArrowRight size={17} /></a>

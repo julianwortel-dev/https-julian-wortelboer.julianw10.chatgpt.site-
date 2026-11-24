@@ -25,6 +25,7 @@ export default defineConfig({
         articleTeam: resolve(__dirname, 'article-team.html'),
         articleAiOperations: resolve(__dirname, 'article-ai-operations.html'),
         articleBuildIt: resolve(__dirname, 'article-build-it.html'),
+        articleJuniorFuture: resolve(__dirname, 'article-junior-future.html'),
         articleTwentyMinuteRule: resolve(__dirname, 'article-20-minute-rule.html'),
         articleCoachsEye: resolve(__dirname, 'article-coachs-eye.html'),
         articleDiagnosis: resolve(__dirname, 'article-diagnosis.html'),
