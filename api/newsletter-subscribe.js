@@ -29,12 +29,19 @@ export default async function handler(req, res) {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.setHeader('X-Content-Type-Options', 'nosniff');
   if (req.method !== 'POST') return res.status(405).send(resultPage('Use the signup form', 'Please sign up through our newsletter page.'));
-  // Require browser submissions from this website. An Origin header is not a substitute for rate limiting.
+  // Only accept same-site browser posts. Dynamic Vercel preview hosts change with
+  // each redeployment, so compare Origin to the exact Host actually serving this
+  // request. The host must also belong to this project's known Vercel hostname
+  // prefix, never an arbitrary third-party *.vercel.app deployment.
   const origin = clean(req.headers.origin);
-  const allowed = new Set(['https://www.julianwortelboer.com', 'https://julianwortelboer.com']);
-  // Preview origins may be explicitly configured in Vercel; do not allow arbitrary origins.
-  if (process.env.NEWSLETTER_PREVIEW_ORIGIN) allowed.add(process.env.NEWSLETTER_PREVIEW_ORIGIN);
-  if (origin && !allowed.has(origin)) return res.status(403).send(resultPage('Unable to subscribe', 'Please use the newsletter page on our website.'));
+  const host = clean(req.headers.host).toLowerCase();
+  const canonicalHosts = new Set(['www.julianwortelboer.com', 'julianwortelboer.com']);
+  const projectPreview = /^https-julian-wortelboer-julianw10-[a-z0-9-]+\.vercel\.app$/.test(host);
+  const validHost = canonicalHosts.has(host) || (process.env.VERCEL_ENV !== 'production' && projectPreview);
+  const expectedOrigin = 'https://' + host;
+  if (!validHost || origin !== expectedOrigin) {
+    return res.status(403).send(resultPage('Unable to subscribe', 'Please use the newsletter page on our website.'));
+  }
   let body = req.body;
   if (typeof body === 'string') body = Object.fromEntries(new URLSearchParams(body));
   if (!body || typeof body !== 'object' || Array.isArray(body)) body = {};
