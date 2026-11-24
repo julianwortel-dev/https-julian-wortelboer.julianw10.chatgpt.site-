@@ -1645,6 +1645,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'what-should-you-get-from-a-padel-lesson',
+    "image": "/assets/insights/member-experience/lesson-demonstrate.jpg",
+    "imageAlt": "Coach demonstrating volley preparation alongside an adult padel learner",
+    "imageCaption": "A purposeful lesson makes the next step clear. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     title: 'What Should You Get from a Padel Lesson?',
     category: 'Coaching & Player Development',
     date: 'September 6, 2026',
@@ -1675,7 +1679,7 @@ export const articles: Article[] = [
         "Throughout that progression, feedback should stay connected to the session's priority. Enough challenge to stretch you; enough successful repetitions to understand what is working.",
         'Live play matters because it reveals whether you can use the adjustment while reading the ball and making decisions.',
       ]},
-      { heading: 'Lock In: leave with a next step', paragraphs: [
+      { heading: 'Lock In: leave with a next step', "visual": {"src": "/assets/insights/member-experience/lesson-recap.jpg", "alt": "Coach and player discussing a practice plan after a lesson", "caption": "Leave with one focus you can take into your next match. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024}, paragraphs: [
         'The final minutes deserve attention. A brief conversation helps you put the experience into words: what felt different, what worked, and what still needs practice?',
         'Leave with one specific task. “Improve your volley” is difficult to act on. A defined practice activity, agreed with your coach and connected to today’s focus, gives the next session somewhere to begin.',
         'Before you leave your next lesson, try finishing this sentence: “The one thing I want to take into my next match is…”',
@@ -1686,6 +1690,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'give-young-padel-players-a-reason-to-come-back',
+    "image": "/assets/insights/member-experience/junior-games.jpg",
+    "imageAlt": "Children enjoying supervised padel coordination games with foam balls and targets",
+    "imageCaption": "Playful challenges give young players a reason to return. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     title: 'Give Young Padel Players a Reason to Come Back',
     category: 'Coaching & Player Development',
     date: 'September 6, 2026',
@@ -1708,7 +1716,7 @@ export const articles: Article[] = [
         'Use short activities and simple instructions. Where the space and supervision allow, organise tasks so players have more opportunities to participate. If attention disappears, examine the activity before assuming the children are the problem.',
         'Good session design makes it easier for them to stay engaged.',
       ]},
-      { heading: 'Make mistakes safe to learn from', paragraphs: [
+      { heading: 'Make mistakes safe to learn from', "visual": {"src": "/assets/insights/member-experience/junior-rewards.jpg", "alt": "Coach rewarding children’s effort with small prizes and wrapped treats after a padel lesson", "caption": "Celebrate effort, progress and the enjoyment of learning. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024}, paragraphs: [
         "A missed ball is already visible. The coach's response determines what happens next.",
         'A child who feels embarrassed may become reluctant to try. A calm, specific adjustment gives them something useful to do. Recognising effort, persistence, or a better decision helps them see progress beyond the score.',
         "Keep comparisons focused on the child's own development. Notice what they can do today that was difficult a few weeks ago. Give that progress a name.",
@@ -1940,6 +1948,10 @@ export const articles: Article[] = [
   },
   {
     slug: 'when-to-open-your-second-padel-club',
+    "image": "/assets/insights/member-experience/expansion-readiness.jpg",
+    "imageAlt": "Padel club leaders reviewing operating performance and expansion readiness",
+    "imageCaption": "Expansion begins with an honest assessment of the first club. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     title: 'When to Open Your Second Padel Club (and When Not To)',
     category: 'Club Strategy & Operations',
     date: 'September 6, 2026',
@@ -1964,7 +1976,7 @@ export const articles: Article[] = [
       { heading: 'Ambition is not a substitute for readiness', paragraphs: [
         'Expanding before these six conditions are met is, by a wide margin, the most common way a successful single-location club becomes two struggling ones.',
       ]},
-      { heading: 'Building the second-location framework', paragraphs: [
+      { heading: 'Building the second-location framework', visual: {"src": "/assets/insights/member-experience/expansion-planning.jpg", "alt": "Club operator and architect reviewing plans inside a potential second padel club location", "caption": "Treat the next location as a fresh evaluation. AI-generated illustration of a fictional project.", "width": 1536, "height": 1024}, paragraphs: [
         'Once the conditions are met, treat location two as a fresh evaluation, not a victory lap:',
       ], bullets: [
         "Market selection. Use the same demographic criteria you used for location one. Do not assume your first market's success transfers automatically—a market that looks similar on paper can behave differently in practice.",
@@ -2580,8 +2592,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "service-recovery",
-    "image": "/assets/carousel/action-volley.webp",
-    "imageAlt": "Julian Wortelboer responding decisively during padel coaching",
+    "image": "/assets/insights/member-experience/recovery-listen.jpg",
+    "imageAlt": "Club manager listening to a member explain a booking issue",
+    "imageCaption": "Listen first, then take ownership of the next step. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     "title": "Service Recovery: The Moment That Can Create a Member for Life",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2640,7 +2654,7 @@ export const articles: Article[] = [
         ]
       },
       {
-        "heading": "Follow up after the emotion has passed",
+        "heading": "Follow up after the emotion has passed", "visual": {"src": "/assets/insights/member-experience/recovery-followup.jpg", "alt": "Club employee confirming a resolution with a member", "caption": "Follow-through turns a remedy into reassurance. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024},
         "paragraphs": [
           "A quick message later that day or the next morning can complete the experience:",
           "“I wanted to make sure everything was resolved and thank you again for bringing it to our attention.”",
@@ -2669,8 +2683,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "belonging-by-design",
-    "image": "/assets/padel-story.webp",
-    "imageAlt": "Padel players sharing a club experience and building community",
+    "image": "/assets/insights/member-experience/belonging-welcome.jpg",
+    "imageAlt": "Host introducing a new padel player to regular members",
+    "imageCaption": "A personal introduction is the beginning of belonging. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     "title": "Belonging by Design: The Small Rituals That Turn a Club Into a Community",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2691,7 +2707,7 @@ export const articles: Article[] = [
         ]
       },
       {
-        "heading": "Mark the milestones that matter",
+        "heading": "Mark the milestones that matter", "visual": {"src": "/assets/insights/member-experience/belonging-milestone.jpg", "alt": "Coach and players celebrating a member’s first clinic", "caption": "Recognize the milestones that matter to the person. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024},
         "paragraphs": [
           "Clubs often celebrate tournament winners but overlook the smaller achievements that carry more emotional meaning for most members.",
           "A first clinic matters. So does the first competitive win, a level advancement, a return after an injury or the courage to enter a tournament for the first time.",
