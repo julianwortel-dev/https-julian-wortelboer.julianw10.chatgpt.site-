@@ -7,7 +7,10 @@ export default function NewsletterPage() {
         '@context':'https://schema.org', '@type':'WebPage',
         name:'The Padel Playbook Newsletter',
         url:'https://www.julianwortelboer.com/newsletter',
-        description:'Free weekly padel newsletter by Julian Wortelboer',
+        description:'Free weekly padel coaching, player development and padel club management newsletter by Julian Wortelboer',
+        inLanguage:'en-US',
+        mainEntity:{'@type':'SubscribeAction',name:'Subscribe to The Padel Playbook',target:'https://www.julianwortelboer.com/newsletter'},
+        author:{'@type':'Person','@id':'https://www.julianwortelboer.com/#julian-wortelboer',name:'Julian Wortelboer',url:'https://www.julianwortelboer.com/about-julian-wortelboer'},
         isPartOf:{'@id':'https://www.julianwortelboer.com/#website'}
       }) }} />
       <header className="site-header">
