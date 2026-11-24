@@ -2486,8 +2486,10 @@ export const articles: Article[] = [
   },
   {
     "slug": "the-five-sense-standard",
-    "image": "/assets/carousel/ball-on-racket.webp",
-    "imageAlt": "A padel ball and racket representing attention to club details",
+    "image": "/assets/insights/five-sense-standard/member-ready-lounge.jpg",
+    "imageAlt": "A hospitality manager prepares a bright, uncluttered padel clubhouse lounge for members",
+    "imageCaption": "A welcoming environment starts with details maintained throughout the day. AI-generated illustration of a fictional club.",
+    "imageDimensions": {"width": 1536, "height": 1024},
     "title": "The Five-Sense Standard: What Members Notice Before They Start Playing",
     "category": "Club Strategy & Operations",
     "date": "October 29, 2026",
@@ -2509,6 +2511,7 @@ export const articles: Article[] = [
       },
       {
         "heading": "Smell: fresh and neutral",
+        "visual": {"src": "/assets/insights/five-sense-standard/fresh-air.jpg", "alt": "Staff replenishing clean towels in a bright, ventilated club changing room", "caption": "Freshness comes from hygiene, airflow and maintenance. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024},
         "paragraphs": [
           "Members should not smell drains, food waste, sweat or an aggressive cleaning product.",
           "Heavy fragrance can also create a problem. Spraying perfume over a sanitation issue hides the symptom without correcting the cause.",
@@ -2525,6 +2528,7 @@ export const articles: Article[] = [
       },
       {
         "heading": "Touch: the detail members discover immediately",
+        "visual": {"src": "/assets/insights/five-sense-standard/rental-equipment-care.jpg", "alt": "Attendant cleaning and inspecting padel rental racquets with wrist straps at a clean counter", "caption": "Clean, dry and inspected: ready for the next player. AI-generated illustration of a fictional club.", "width": 1536, "height": 1024},
         "paragraphs": [
           "Members touch door handles, counters, tables, rental rackets, lockers and bathroom fixtures.",
           "A single sticky or damp surface can undermine the impression created by an otherwise beautiful space. High-touch areas require attention throughout the day, not only during opening and closing.",
