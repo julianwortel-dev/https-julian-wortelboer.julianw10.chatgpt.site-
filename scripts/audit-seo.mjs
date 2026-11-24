@@ -28,6 +28,22 @@ for (const [path, file] of routes) {
   const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
   if (!noindex && !schemas.length) issues.push('No structured data');
   for (const [,json] of schemas) { try { JSON.parse(json); } catch { issues.push('Invalid JSON-LD'); } }
+  if (path.startsWith('/insights/')) {
+    const parsedSchemas = schemas.flatMap(([, json]) => { try { const data = JSON.parse(json); return data['@graph'] || [data]; } catch { return []; } });
+    const article = parsedSchemas.find(data => data['@type'] === 'BlogPosting' || data['@type'] === 'Article');
+    if (!article) issues.push('Missing article structured data');
+    else {
+      for (const key of ['headline', 'description', 'author', 'datePublished', 'dateModified', 'image', 'mainEntityOfPage', 'inLanguage']) {
+        if (!article[key]) issues.push(`Article schema missing ${key}`);
+      }
+      if (article.mainEntityOfPage !== origin + path) issues.push('Article schema URL mismatch');
+      for (const date of ['datePublished', 'dateModified']) if (!Number.isFinite(Date.parse(article[date]))) issues.push(`Invalid article ${date}`);
+    }
+    if (!/<h2[ >]/.test(html)) issues.push('Missing article section headings');
+    if (!html.includes('/about-julian-wortelboer')) issues.push('Missing author profile reference');
+    if (!html.includes('src="/clean-referral.js"')) issues.push('Missing referral URL cleanup');
+  }
+
   for (const img of html.matchAll(/<img\b[^>]*>/g)) if (!/\balt="[^"]*"/.test(img[0])) issues.push('Image missing alt');
   for (const [,src] of html.matchAll(/(?:src|content)="((?:https:\/\/www\.julianwortelboer\.com)?\/assets\/[^" ]+)"/g)) {
     try { await access('dist' + src.replace(origin, '')); } catch { issues.push(`Missing image ${src}`); }

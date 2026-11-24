@@ -115,7 +115,7 @@ export default function ArticlePage({ pathname = typeof window === 'undefined' ?
         { '@type': 'Thing', name: 'Member experience' },
       ];
   const sectionImages = article.sections.flatMap(({ visual }) => visual ? [new URL(visual.src, articleUrl).href] : []);
-  const articleImages = article.image && sectionImages.length ? [new URL(article.image, articleUrl).href, ...sectionImages] : sectionImages;
+  const articleImages = [...(article.image ? [new URL(article.image, articleUrl).href] : []), ...sectionImages];
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
