@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/newsletter/welcome",
+      "destination": "/newsletter-welcome.html"
+    },
+    {
       "source": "/insights/the-20-minute-rule-padel-club",
       "destination": "/article-20-minute-rule.html"
     },
@@ -117,6 +121,10 @@
     {
       "source": "/insights",
       "destination": "/insights.html"
+    },
+    {
+      "source": "/newsletter",
+      "destination": "/newsletter.html"
     },
     {
       "source": "/insights/premium-vs-chinese-padel-courts",
