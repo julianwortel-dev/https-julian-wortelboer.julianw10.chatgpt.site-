@@ -30,6 +30,10 @@ export type Article = {
 export const articles: Article[] = [
 {
   "slug": "the-20-minute-rule-padel-club",
+  "image": "/assets/insights/twenty-minute-rule/drive-time-market.jpg",
+  "imageAlt": "Club planners studying neighborhood access and a road-based catchment area on a map",
+  "imageCaption": "Study the community and practical travel routes before choosing a club location. AI-generated illustration of a fictional market.",
+  "imageDimensions": {"width": 1536, "height": 1024},
   "title": "The 20-Minute Rule: Know Your Market Before You Build a Padel Club",
   "description": "Before building a padel club, study the people and businesses within a 20-minute drive. Julian Wortelboer explains how demographics should shape club programming and local marketing.",
   "category": "Club Strategy & Operations",
@@ -114,6 +118,7 @@ export const articles: Article[] = [
     },
     {
       "heading": "Validate Demand Before Opening",
+      "visual": {"src": "/assets/insights/twenty-minute-rule/local-community.jpg", "alt": "Padel club organizer speaking with residents and a business representative at a neighborhood introductory event", "caption": "Validate local interest through conversations and introductory experiences. AI-generated illustration of a fictional community event.", "width": 1536, "height": 1024},
       "paragraphs": [
         "Demographic data is the foundation, but it isn't proof that people will book.",
         "Before opening, I would speak with residents and local companies, collect pre-opening interest, test introductory experiences, and track qualified inquiries for lessons, clinics, memberships, and events.",
