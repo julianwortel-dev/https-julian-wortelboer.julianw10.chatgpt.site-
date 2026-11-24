@@ -23,6 +23,10 @@
   ],
   "rewrites": [
     {
+      "source": "/insights/adults-built-padel-kids-will-build-its-future",
+      "destination": "/article-junior-future.html"
+    },
+    {
       "source": "/newsletter/welcome",
       "destination": "/newsletter-welcome.html"
     },
