@@ -69,6 +69,9 @@ export default async function handler(req, res) {
     const created = await kitRequest('/subscribers', key, {
       email_address: email,
       first_name: fullName.split(/\s+/)[0],
+      // Kit defaults new API subscribers to active. Keep them inactive until
+      // the form's double-opt-in confirmation link is clicked.
+      state: 'inactive',
       fields: {
         full_name: fullName, city, state_province: region, country,
         interests: selected.map(([, label]) => label).join(' | '),
