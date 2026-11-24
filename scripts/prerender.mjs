@@ -13,7 +13,8 @@ try {
   const config = JSON.parse(await readFile('vercel.json', 'utf8'));
   for (const route of config.rewrites) routes.set(route.source, route.destination.slice(1));
   for (const [path, file] of routes) {
-    if (path === '/about-julian-wortelboer') continue;
+    // Dedicated static welcome page is copied from public/ by Vite and needs no React prerender.
+    if (path === '/about-julian-wortelboer' || path === '/newsletter/welcome') continue;
     let html = await readFile(`dist/${file}`, 'utf8');
     if (path.startsWith('/padel-club-growth-roadmap')) {
       html = html.replace('</head>', `${rssLink}</head>`);
